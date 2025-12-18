@@ -1,0 +1,33 @@
+<header class="top-bar">
+  <!-- Hamburger Menu Button (hidden on home page) -->
+  <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
+
+  <!-- Page/League Title -->
+  <h1 class="top-bar-title" id="top-bar-title">Fantasy HQ</h1>
+
+  <!-- Spacer for balance (same width as hamburger) -->
+  <div class="top-bar-spacer"></div>
+</header>
+
+<!-- Hamburger Menu Overlay -->
+<div class="hamburger-overlay" id="hamburger-overlay">
+  <div class="hamburger-menu" id="hamburger-menu">
+    <!-- Close button -->
+    <button
+      class="hamburger-close"
+      id="hamburger-close"
+      aria-label="Close menu">
+      <span class="close-line"></span>
+      <span class="close-line"></span>
+    </button>
+
+    <!-- Menu content loaded dynamically based on current page -->
+    <div class="menu-content" id="menu-content">
+      <!-- Content injected by navigation.js based on league -->
+    </div>
+  </div>
+</div>
