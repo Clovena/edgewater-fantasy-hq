@@ -1,0 +1,139 @@
+/* ========================================
+   SURVIVOR.CSS - Survivor Theme
+   ======================================== */
+
+/* ========================================
+   SURVIVOR THEME - Applied to body.survivor-theme
+   ======================================== */
+
+/* Headers - Rubik Dirt font */
+.survivor-theme h1,
+.survivor-theme h2,
+.survivor-theme h3,
+.survivor-theme h4,
+.survivor-theme h5,
+.survivor-theme h6 {
+    font-family: var(--font-survivor);
+    color: var(--gold);
+}
+
+/* Top Bar - Survivor styling */
+.survivor-theme .top-bar {
+    border-bottom-color: var(--gold);
+}
+
+.survivor-theme .top-bar-title {
+    color: var(--gold);
+    font-family: var(--font-survivor);
+}
+
+/* Menu Header - Survivor styling */
+.survivor-menu-header {
+    border-bottom-color: var(--gold);
+}
+
+.survivor-menu-header h2 {
+    color: var(--gold);
+    font-family: var(--font-survivor);
+}
+
+/* Active Bottom Nav - Survivor accent */
+.survivor-theme .nav-item.active {
+    color: var(--gold);
+}
+
+/* Menu Items - Hover/Active states */
+.survivor-theme .menu-item:hover {
+    background-color: rgba(242, 178, 46, 0.1); /* Gold with 10% opacity */
+}
+
+.survivor-theme .menu-item:active {
+    background-color: rgba(242, 178, 46, 0.2); /* Gold with 20% opacity */
+}
+
+/* Featured Menu Item - Survivor styling */
+.survivor-theme .menu-item-featured {
+    background-color: var(--gold);
+    color: var(--blue);
+}
+
+.survivor-theme .menu-item-featured:hover {
+    background-color: #d9a028; /* Slightly darker gold */
+}
+
+.survivor-theme .menu-item-featured:active {
+    background-color: #c08e24; /* Even darker gold */
+}
+
+/* Links - Survivor accent color */
+.survivor-theme a:not(.nav-item):not(.menu-item) {
+    color: var(--gold);
+}
+
+.survivor-theme a:not(.nav-item):not(.menu-item):hover {
+    text-decoration: underline;
+}
+
+/* Page Header - Survivor styling */
+.survivor-theme .page-header h1 {
+    font-family: var(--font-survivor);
+    color: var(--gold);
+}
+
+/* Accent Elements - borders, dividers, etc. */
+.survivor-theme .menu-divider {
+    background-color: var(--gold);
+}
+
+/* Optional: Blue accents for special elements */
+.survivor-theme .highlight,
+.survivor-theme .badge {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+/* Optional: Cards, boxes, or other content elements */
+.survivor-theme .card,
+.survivor-theme .info-box {
+    border-left: 4px solid var(--gold);
+}
+
+/* Optional: Buttons */
+.survivor-theme .btn-primary {
+    background-color: var(--gold);
+    color: var(--blue);
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color var(--transition-fast);
+}
+
+.survivor-theme .btn-primary:hover {
+    background-color: #d9a028;
+}
+
+.survivor-theme .btn-primary:active {
+    background-color: #c08e24;
+}
+
+/* Secondary button with blue accent */
+.survivor-theme .btn-secondary {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color var(--transition-fast);
+}
+
+.survivor-theme .btn-secondary:hover {
+    background-color: #1a1f2e; /* Slightly darker blue */
+}
+
+.survivor-theme .btn-secondary:active {
+    background-color: #151923; /* Even darker blue */
+}
