@@ -452,15 +452,15 @@ a {
 }
 
 .featured-card .card-icon {
-  color: var(--gold);
+  color: var(--red);
 }
 
 .featured-card h2 {
-  color: var(--black);
+  color: var(--blue);
 }
 
 .featured-card .card-link {
-  color: var(--gold);
+  color: var(--blue);
 }
 
 /* League Cards */
