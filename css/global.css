@@ -404,6 +404,9 @@ a {
   padding: var(--spacing-lg);
   margin-bottom: var(--spacing-md);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .home-card:active {
