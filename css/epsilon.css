@@ -246,7 +246,7 @@
 }
 
 .epsilon-theme .trophy-icon {
-  font-size: 48px;
+  font-size: 64px;
   color: var(--red);
 }
 
@@ -261,6 +261,13 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--red);
+  font-family: var(--font-epsilon);
+}
+
+.epsilon-theme .champion-manager {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gray-dark);
   font-family: var(--font-epsilon);
 }
 
