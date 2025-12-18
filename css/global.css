@@ -340,14 +340,16 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  height: var(--bottom-nav-height);
+  min-height: var(--bottom-nav-height);
   background-color: var(--white);
   border-top: 2px solid var(--neutral);
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: env(safe-area-inset-bottom);
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: var(--spacing-xs) 0;
+  padding-bottom: calc(var(--spacing-xs) + env(safe-area-inset-bottom, 0px));
   z-index: 100;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .nav-item {
@@ -355,11 +357,14 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1;
-  height: 100%;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: var(--spacing-xs);
   color: var(--gray-dark);
-  transition: color var(--transition-fast);
+  transition: all var(--transition-fast);
   cursor: pointer;
+  text-decoration: none;
+  gap: 4px;
 }
 
 .nav-item:active {
@@ -368,16 +373,155 @@ a {
 
 .nav-item.active {
   color: var(--black);
+  font-weight: 700;
 }
 
 .nav-icon {
-  font-size: 24px;
-  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 1;
+  flex-shrink: 0;
 }
 
 .nav-label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 400;
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.nav-item.active .nav-label {
+  font-weight: 600;
+}
+
+/* ========================================
+   HOME PAGE CARDS
+   ======================================== */
+.home-card {
+  background-color: var(--white);
+  border: 2px solid var(--neutral);
+  border-radius: 12px;
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.home-card:active {
+  transform: translateY(2px);
+}
+
+.card-icon {
+  font-size: 48px;
+  margin-bottom: var(--spacing-sm);
+  display: block;
+}
+
+.home-card h2 {
+  margin-bottom: var(--spacing-xs);
+  font-size: 1.5rem;
+}
+
+.home-card p {
+  color: var(--gray-dark);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.5;
+}
+
+.card-link {
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Featured Card - Weekly Hub */
+.featured-card {
+  background-color: var(--neutral);
+  border-color: var(--gold);
+  border-width: 3px;
+}
+
+.featured-card .card-icon {
+  color: var(--gold);
+}
+
+.featured-card h2 {
+  color: var(--black);
+}
+
+.featured-card .card-link {
+  color: var(--gold);
+}
+
+/* League Cards */
+.league-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.league-card {
+  cursor: pointer;
+}
+
+/* Epsilon Card */
+.epsilon-card .card-icon {
+  color: var(--red);
+}
+
+.epsilon-card h2 {
+  color: var(--red);
+  font-family: var(--font-epsilon);
+}
+
+.epsilon-card .card-link {
+  color: var(--red);
+}
+
+/* Sixth City Card */
+.sixth-city-card .card-icon {
+  color: var(--blue);
+}
+
+.sixth-city-card h2 {
+  color: var(--blue);
+  font-family: var(--font-sixth-city);
+}
+
+.sixth-city-card .card-link {
+  color: var(--blue);
+}
+
+/* Survivor Card */
+.survivor-card .card-icon {
+  color: var(--gold);
+}
+
+.survivor-card h2 {
+  color: var(--gold);
+  font-family: var(--font-survivor);
+}
+
+.survivor-card .card-link {
+  color: var(--gold);
+}
+
+/* Secondary Card - Manager Directory */
+.secondary-card .card-icon {
+  color: var(--gray-dark);
+}
+
+.secondary-card h2 {
+  color: var(--black);
+}
+
+.secondary-card .card-link {
+  color: var(--black);
 }
 
 /* ========================================
@@ -396,6 +540,18 @@ a {
   .nav-label {
     font-size: 0.875rem;
   }
+
+  /* Grid layout for league cards on tablet */
+  .league-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+
+  /* Make third card span both columns */
+  .league-cards .league-card:nth-child(3) {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -406,5 +562,25 @@ a {
 
   .page-header h1 {
     font-size: 3rem;
+  }
+
+  /* Three column grid for league cards on desktop */
+  .league-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Reset third card span on desktop */
+  .league-cards .league-card:nth-child(3) {
+    grid-column: auto;
+  }
+
+  /* Hover effect on desktop */
+  .home-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .home-card:active {
+    transform: translateY(-2px);
   }
 }
