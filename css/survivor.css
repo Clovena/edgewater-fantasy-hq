@@ -14,7 +14,7 @@
 .survivor-theme h5,
 .survivor-theme h6 {
     font-family: var(--font-survivor);
-    color: var(--gold);
+    color: var(--blue);
 }
 
 /* Top Bar - Survivor styling */
@@ -23,7 +23,7 @@
 }
 
 .survivor-theme .top-bar-title {
-    color: var(--gold);
+    color: var(--blue);
     font-family: var(--font-survivor);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .survivor-menu-header h2 {
-    color: var(--gold);
+    color: var(--blue);
     font-family: var(--font-survivor);
 }
 
@@ -67,7 +67,7 @@
 
 /* Links - Survivor accent color */
 .survivor-theme a:not(.nav-item):not(.menu-item) {
-    color: var(--gold);
+    color: #c28400;
 }
 
 .survivor-theme a:not(.nav-item):not(.menu-item):hover {
@@ -77,7 +77,7 @@
 /* Page Header - Survivor styling */
 .survivor-theme .page-header h1 {
     font-family: var(--font-survivor);
-    color: var(--gold);
+    color: var(--blue);
 }
 
 /* Accent Elements - borders, dividers, etc. */
@@ -85,8 +85,12 @@
     background-color: var(--gold);
 }
 
-/* Optional: Blue accents for special elements */
-.survivor-theme .highlight,
+/* Optional: Gold accents for special elements */
+.survivor-theme .highlight {
+    color: var(--gold);
+    font-weight: 700;
+}
+
 .survivor-theme .badge {
     color: var(--blue);
     font-weight: 700;
@@ -136,4 +140,146 @@
 
 .survivor-theme .btn-secondary:active {
     background-color: #151923; /* Even darker blue */
+}
+
+/* ========================================
+   SURVIVOR LANDING PAGE COMPONENTS
+   ======================================== */
+
+/* Section Cards Grid */
+.survivor-theme .section-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.survivor-theme .section-card {
+    background-color: var(--white);
+    border: 2px solid var(--neutral);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: all var(--transition-fast);
+    display: block;
+}
+
+.survivor-theme .section-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(242, 178, 46, 0.15);
+}
+
+.survivor-theme .section-card:active {
+    transform: translateY(0);
+}
+
+.survivor-theme .section-card .card-icon {
+    font-size: 36px;
+    color: var(--gold);
+    display: block;
+    margin-bottom: var(--spacing-sm);
+}
+
+.survivor-theme .section-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-xs);
+    color: var(--blue);
+}
+
+.survivor-theme .section-card p {
+    color: var(--gray-dark);
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Featured Section Card - Weekly Hub */
+.survivor-theme .featured-section-card {
+    background-color: var(--gold);
+    border-color: var(--gold);
+    color: var(--blue);
+}
+
+.survivor-theme .featured-section-card .card-icon {
+    color: var(--blue);
+}
+
+.survivor-theme .featured-section-card h3 {
+    color: var(--blue);
+}
+
+.survivor-theme .featured-section-card p {
+    color: rgba(34, 40, 58, 0.9);
+}
+
+.survivor-theme .featured-section-card:hover {
+    background-color: #d9a028;
+    border-color: #d9a028;
+}
+
+/* Champion Spotlight */
+.survivor-theme .champion-spotlight {
+    background-color: var(--neutral);
+    border: 2px solid var(--gold);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+.survivor-theme .champion-spotlight h2 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--blue);
+}
+
+.survivor-theme .spotlight-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+}
+
+.survivor-theme .trophy-icon {
+    font-size: 48px;
+    color: var(--gold);
+}
+
+.survivor-theme .champion-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+}
+
+.survivor-theme .champion-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--blue);
+    font-family: var(--font-survivor);
+}
+
+.survivor-theme .champion-manager {
+    font-size: 1rem;
+    color: var(--gray-dark);
+}
+
+.survivor-theme .champion-record {
+    font-size: 0.9rem;
+    color: var(--gray-dark);
+}
+
+/* Responsive - Tablet */
+@media (min-width: 768px) {
+    .survivor-theme .section-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Responsive - Desktop */
+@media (min-width: 1024px) {
+    .survivor-theme .section-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

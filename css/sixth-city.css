@@ -137,3 +137,145 @@
 .sixth-city-theme .btn-secondary:active {
     background-color: #c08e24; /* Even darker gold */
 }
+
+/* ========================================
+   SIXTH CITY LANDING PAGE COMPONENTS
+   ======================================== */
+
+/* Section Cards Grid */
+.sixth-city-theme .section-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.sixth-city-theme .section-card {
+    background-color: var(--white);
+    border: 2px solid var(--neutral);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: all var(--transition-fast);
+    display: block;
+}
+
+.sixth-city-theme .section-card:hover {
+    border-color: var(--blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(34, 40, 58, 0.15);
+}
+
+.sixth-city-theme .section-card:active {
+    transform: translateY(0);
+}
+
+.sixth-city-theme .section-card .card-icon {
+    font-size: 36px;
+    color: var(--blue);
+    display: block;
+    margin-bottom: var(--spacing-sm);
+}
+
+.sixth-city-theme .section-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-xs);
+    color: var(--blue);
+}
+
+.sixth-city-theme .section-card p {
+    color: var(--gray-dark);
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Featured Section Card - Weekly Hub */
+.sixth-city-theme .featured-section-card {
+    background-color: var(--blue);
+    border-color: var(--blue);
+    color: var(--white);
+}
+
+.sixth-city-theme .featured-section-card .card-icon {
+    color: var(--gold);
+}
+
+.sixth-city-theme .featured-section-card h3 {
+    color: var(--white);
+}
+
+.sixth-city-theme .featured-section-card p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sixth-city-theme .featured-section-card:hover {
+    background-color: #1a1f2e;
+    border-color: #1a1f2e;
+}
+
+/* Champion Spotlight */
+.sixth-city-theme .champion-spotlight {
+    background-color: var(--neutral);
+    border: 2px solid var(--blue);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+.sixth-city-theme .champion-spotlight h2 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--blue);
+}
+
+.sixth-city-theme .spotlight-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+}
+
+.sixth-city-theme .trophy-icon {
+    font-size: 48px;
+    color: var(--gold);
+}
+
+.sixth-city-theme .champion-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+}
+
+.sixth-city-theme .champion-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--blue);
+    font-family: var(--font-sixth-city);
+}
+
+.sixth-city-theme .champion-manager {
+    font-size: 1rem;
+    color: var(--gray-dark);
+}
+
+.sixth-city-theme .champion-record {
+    font-size: 0.9rem;
+    color: var(--gray-dark);
+}
+
+/* Responsive - Tablet */
+@media (min-width: 768px) {
+    .sixth-city-theme .section-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Responsive - Desktop */
+@media (min-width: 1024px) {
+    .sixth-city-theme .section-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
