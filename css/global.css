@@ -1,0 +1,410 @@
+/* ========================================
+   GLOBAL.CSS - Foundation styles for Fantasy HQ
+   ======================================== */
+
+/* ========================================
+   CSS VARIABLES
+   ======================================== */
+:root {
+  /* Colors */
+  --red: #f22e3d;
+  --blue: #22283a;
+  --gold: #f2b22e;
+  --neutral: #e2d7ce;
+
+  /* Neutral shades */
+  --white: #ffffff;
+  --black: #000000;
+  --gray-light: #f5f5f5;
+  --gray-medium: #cccccc;
+  --gray-dark: #666666;
+
+  /* Typography */
+  --font-body: 'Lato', sans-serif;
+  --font-epsilon: 'Permanent Marker', cursive;
+  --font-sixth-city: 'Bungee', display;
+  --font-survivor: 'Rubik Dirt', display;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem; /* 8px */
+  --spacing-sm: 1rem; /* 16px */
+  --spacing-md: 1.5rem; /* 24px */
+  --spacing-lg: 2rem; /* 32px */
+  --spacing-xl: 3rem; /* 48px */
+
+  /* Layout */
+  --max-width: 1200px;
+  --bottom-nav-height: 70px;
+  --top-bar-height: 60px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
+
+/* ========================================
+   RESET & BASE STYLES
+   ======================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--black);
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+
+/* ========================================
+   TYPOGRAPHY
+   ======================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-sm);
+}
+
+h1 {
+  font-size: 2rem; /* 32px */
+}
+
+h2 {
+  font-size: 1.5rem; /* 24px */
+}
+
+h3 {
+  font-size: 1.25rem; /* 20px */
+}
+
+h4 {
+  font-size: 1.125rem; /* 18px */
+}
+
+p {
+  margin-bottom: var(--spacing-sm);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ========================================
+   LAYOUT
+   ======================================== */
+.main-content {
+  min-height: 100vh;
+  padding-top: var(--top-bar-height);
+  padding-bottom: calc(var(--bottom-nav-height) + var(--spacing-lg));
+  padding-left: var(--spacing-sm);
+  padding-right: var(--spacing-sm);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.page-header {
+  padding: var(--spacing-lg) 0;
+  text-align: center;
+}
+
+.page-header h1 {
+  margin-bottom: var(--spacing-xs);
+}
+
+.page-description {
+  color: var(--gray-dark);
+  font-size: 1rem;
+}
+
+.content-section {
+  padding: var(--spacing-md) 0;
+}
+
+/* ========================================
+   TOP BAR
+   ======================================== */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--top-bar-height);
+  background-color: var(--white);
+  border-bottom: 2px solid var(--neutral);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-sm);
+  z-index: 100;
+}
+
+.top-bar-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.top-bar-spacer {
+  width: 40px; /* Same as hamburger button */
+}
+
+/* Hamburger Button */
+.hamburger-btn {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+}
+
+.hamburger-line {
+  width: 24px;
+  height: 2px;
+  background-color: var(--black);
+  transition: var(--transition-fast);
+}
+
+.hamburger-btn:active .hamburger-line {
+  background-color: var(--gray-dark);
+}
+
+/* ========================================
+   HAMBURGER MENU OVERLAY
+   ======================================== */
+.hamburger-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  display: none;
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.hamburger-overlay.active {
+  display: block;
+  opacity: 1;
+}
+
+.hamburger-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  max-width: 85vw;
+  background-color: var(--white);
+  padding: var(--spacing-lg) var(--spacing-md);
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform var(--transition-normal);
+}
+
+.hamburger-overlay.active .hamburger-menu {
+  transform: translateX(0);
+}
+
+/* Close Button */
+.hamburger-close {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: var(--spacing-md);
+  padding: 0;
+}
+
+.close-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 2px;
+  background-color: var(--black);
+}
+
+.close-line:first-child {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.close-line:last-child {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Menu Header */
+.menu-header {
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--neutral);
+}
+
+.menu-header h2 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+/* Menu Items */
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  border-radius: 8px;
+  transition: background-color var(--transition-fast);
+  cursor: pointer;
+}
+
+.menu-item:active {
+  background-color: var(--gray-light);
+}
+
+.menu-item span:not(.menu-icon) {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.menu-icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+/* Featured Menu Item (Weekly Hub) */
+.menu-item-featured {
+  background-color: var(--neutral);
+  font-weight: 700;
+}
+
+.menu-item-featured:active {
+  background-color: var(--gray-medium);
+}
+
+/* Menu Divider */
+.menu-divider {
+  height: 1px;
+  background-color: var(--neutral);
+  margin: var(--spacing-sm) 0;
+}
+
+/* Menu Section Label */
+.menu-section-label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--gray-dark);
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-sm);
+  padding: 0 var(--spacing-sm);
+}
+
+/* ========================================
+   BOTTOM NAVIGATION
+   ======================================== */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--bottom-nav-height);
+  background-color: var(--white);
+  border-top: 2px solid var(--neutral);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 100;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  color: var(--gray-dark);
+  transition: color var(--transition-fast);
+  cursor: pointer;
+}
+
+.nav-item:active {
+  background-color: var(--gray-light);
+}
+
+.nav-item.active {
+  color: var(--black);
+}
+
+.nav-icon {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.nav-label {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+/* ========================================
+   RESPONSIVE - TABLET & DESKTOP
+   ======================================== */
+@media (min-width: 768px) {
+  .main-content {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+
+  .page-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .nav-label {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    padding-left: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
+  }
+
+  .page-header h1 {
+    font-size: 3rem;
+  }
+}
