@@ -1,0 +1,139 @@
+/* ========================================
+   SIXTH-CITY.CSS - Sixth City Dynasty Theme
+   ======================================== */
+
+/* ========================================
+   SIXTH CITY THEME - Applied to body.sixth-city-theme
+   ======================================== */
+
+/* Headers - Bungee font */
+.sixth-city-theme h1,
+.sixth-city-theme h2,
+.sixth-city-theme h3,
+.sixth-city-theme h4,
+.sixth-city-theme h5,
+.sixth-city-theme h6 {
+    font-family: var(--font-sixth-city);
+    color: var(--blue);
+}
+
+/* Top Bar - Sixth City styling */
+.sixth-city-theme .top-bar {
+    border-bottom-color: var(--blue);
+}
+
+.sixth-city-theme .top-bar-title {
+    color: var(--blue);
+    font-family: var(--font-sixth-city);
+}
+
+/* Menu Header - Sixth City styling */
+.sixth-city-menu-header {
+    border-bottom-color: var(--blue);
+}
+
+.sixth-city-menu-header h2 {
+    color: var(--blue);
+    font-family: var(--font-sixth-city);
+}
+
+/* Active Bottom Nav - Sixth City accent */
+.sixth-city-theme .nav-item.active {
+    color: var(--blue);
+}
+
+/* Menu Items - Hover/Active states */
+.sixth-city-theme .menu-item:hover {
+    background-color: rgba(34, 40, 58, 0.1); /* Blue with 10% opacity */
+}
+
+.sixth-city-theme .menu-item:active {
+    background-color: rgba(34, 40, 58, 0.2); /* Blue with 20% opacity */
+}
+
+/* Featured Menu Item - Sixth City styling */
+.sixth-city-theme .menu-item-featured {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.sixth-city-theme .menu-item-featured:hover {
+    background-color: #1a1f2e; /* Slightly darker blue */
+}
+
+.sixth-city-theme .menu-item-featured:active {
+    background-color: #151923; /* Even darker blue */
+}
+
+/* Links - Sixth City accent color */
+.sixth-city-theme a:not(.nav-item):not(.menu-item) {
+    color: var(--blue);
+}
+
+.sixth-city-theme a:not(.nav-item):not(.menu-item):hover {
+    text-decoration: underline;
+}
+
+/* Page Header - Sixth City styling */
+.sixth-city-theme .page-header h1 {
+    font-family: var(--font-sixth-city);
+    color: var(--blue);
+}
+
+/* Accent Elements - borders, dividers, etc. */
+.sixth-city-theme .menu-divider {
+    background-color: var(--blue);
+}
+
+/* Optional: Gold accents for special elements */
+.sixth-city-theme .highlight,
+.sixth-city-theme .badge {
+    color: var(--gold);
+    font-weight: 700;
+}
+
+/* Optional: Cards, boxes, or other content elements */
+.sixth-city-theme .card,
+.sixth-city-theme .info-box {
+    border-left: 4px solid var(--blue);
+}
+
+/* Optional: Buttons */
+.sixth-city-theme .btn-primary {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color var(--transition-fast);
+}
+
+.sixth-city-theme .btn-primary:hover {
+    background-color: #1a1f2e;
+}
+
+.sixth-city-theme .btn-primary:active {
+    background-color: #151923;
+}
+
+/* Secondary button with gold accent */
+.sixth-city-theme .btn-secondary {
+    background-color: var(--gold);
+    color: var(--blue);
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color var(--transition-fast);
+}
+
+.sixth-city-theme .btn-secondary:hover {
+    background-color: #d9a028; /* Slightly darker gold */
+}
+
+.sixth-city-theme .btn-secondary:active {
+    background-color: #c08e24; /* Even darker gold */
+}
