@@ -1,0 +1,73 @@
+# ========================================
+# OS Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# ========================================
+# Editor & IDE
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================================
+# R & RStudio
+# ========================================
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# R Environment Variables (API keys, etc.)
+.Renviron
+.Rprofile
+
+# ========================================
+# Node & JavaScript (if added later)
+# ========================================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ========================================
+# Secrets & Environment Variables
+# ========================================
+.env
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
+
+# ========================================
+# Build & Generated Files
+# ========================================
+dist/
+build/
+*.log
+
+# ========================================
+# Temporary Files
+# ========================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# ========================================
+# Development Files
+# ========================================
+dev/
