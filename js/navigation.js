@@ -20,7 +20,7 @@ function detectPageContext(path) {
   if (path.includes('/sixth-city/')) return 'sixth-city';
   if (path.includes('/survivor/')) return 'survivor';
   if (path.includes('weekly-hub')) return 'weekly';
-  if (path.includes('manager-directory')) return 'global';
+  if (path.includes('/global/')) return 'global'; // not sure about this line yet; TODO later
   return 'home';
 }
 
