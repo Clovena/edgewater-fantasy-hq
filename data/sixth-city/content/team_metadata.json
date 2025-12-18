@@ -1,0 +1,58 @@
+{
+  "Bikini Bottom Stars": {
+    "abbrev": "BKB",
+    "primary": "#b580ff"
+  },
+  "Thunder Bay Mustangs": {
+    "abbrev": "TBY",
+    "primary": "#347aa0"
+  },
+  "Sarnia SeaSnakes": {
+    "abbrev": "SAR",
+    "primary": "#6c8d43"
+  },
+  "Toronto Hogs": {
+    "abbrev": "TOR",
+    "primary": "#4f4471"
+  },
+  "Prince Edward Islanders": {
+    "abbrev": "PEI",
+    "primary": "#009ca7"
+  },
+  "Winnipeg Wranglers": {
+    "abbrev": "WPG",
+    "primary": "#d42f31"
+  },
+  "Mississauga Mastodons": {
+    "abbrev": "MIS",
+    "primary": "#3d5b99"
+  },
+  "Lower City Lasercats": {
+    "abbrev": "LOW",
+    "primary": "#ff6b35"
+  },
+  "Newfoundland Blowers": {
+    "abbrev": "NFD",
+    "primary": "#1b5e20"
+  },
+  "Gold Coast Sharks": {
+    "abbrev": "GLD",
+    "primary": "#546e7a"
+  },
+  "Iqaluit Trout": {
+    "abbrev": "IQT",
+    "primary": "#00838f"
+  },
+  "Choccolocco Railfans": {
+    "abbrev": "CHC",
+    "primary": "#5d4037"
+  },
+  "Vancouver Mounties": {
+    "abbrev": "VAN",
+    "primary": "#c62828"
+  },
+  "New New York Benders": {
+    "abbrev": "NNY",
+    "primary": "#4a148c"
+  }
+}

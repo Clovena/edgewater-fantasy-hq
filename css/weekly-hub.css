@@ -15,79 +15,160 @@
 .print-pages {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-lg);
-  padding: var(--spacing-md) 0;
+  gap: 20px;
+  padding: 20px 0;
+  margin: 0 auto;
 }
 
-/* Individual 8.5x11 page */
+/* Individual 8.5x11 page - exact dimensions */
 .print-page {
-  width: 100%;
-  max-width: 8.5in;
-  min-height: 11in;
-  margin: 0 auto;
+  width: 8.5in;
+  height: 11in;
   background-color: var(--neutral);
-  padding: 0.75in;
+  margin: 20px auto;
+  padding: 0.25in;
   box-sizing: border-box;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
   page-break-after: always;
+}
+
+.print-page:last-child {
+  page-break-after: auto;
+}
+
+/* Inner container with decorative dashed border */
+.page-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 3px dashed var(--gray-dark);
+  border-radius: 20px;
+  padding: 0.25in;
 }
 
 /* Page Header */
 .print-page-header {
-  margin-bottom: var(--spacing-lg);
-  padding-bottom: var(--spacing-md);
-  border-bottom: 3px solid var(--black);
+  text-align: center;
+  padding-bottom: 0.4in;
+  border-bottom: 2px solid var(--black);
+  margin-bottom: 0.4in;
 }
 
 .print-page-header h1 {
-  margin-bottom: var(--spacing-xs);
+  margin-bottom: 10px;
   line-height: 1.1;
+  font-size: 28pt;
 }
 
-.week-label {
-  font-size: 0.9rem;
+.subtitle {
+  font-size: 14pt;
   color: var(--gray-dark);
-  font-weight: 600;
-  margin: 0;
+  font-style: italic;
+  margin-bottom: 0.2in;
+}
+
+.intro-text {
+  font-size: 12pt;
+  color: var(--gray-dark);
+  line-height: 1.5;
+  max-width: 80%;
+  margin: 0.2in auto 0;
 }
 
 /* Page Content */
 .print-page-content {
-  font-size: 0.95rem;
-  line-height: 1.6;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Power Rankings Section */
+.ranking-section {
+  flex: 1;
+  position: relative;
+  padding: 0.2in 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.ranking-section h2 {
+  font-size: 30pt;
+  color: white;
+  margin-bottom: 0.15in;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-color: var(--gold);
+  padding: 0.15in;
+  position: relative;
+  clip-path: polygon(
+    0.2in 0%, 
+    calc(100% - 0.2in) 0%, 
+    100% 50%, 
+    calc(100% - 0.2in) 100%, 
+    0.2in 100%, 
+    0% 50%
+  );
+  text-align: center;
+}
+
+.ranking-section p {
+  font-size: 18pt;
+  text-align: justify;
+  line-height: 1.5;
+  color: var(--black);
+  flex: 1;
+  padding: 0 0.25in;
 }
 
 /* ========================================
-   LEAGUE-SPECIFIC HEADER STYLING
+   LEAGUE-SPECIFIC STYLING
    ======================================== */
 
-/* Epsilon Header */
-.epsilon-header h1 {
+/* Epsilon */
+.epsilon-page .print-page-header h1 {
   color: var(--red);
   font-family: var(--font-epsilon);
 }
 
-.epsilon-header {
+.epsilon-page .page-inner {
+  border-color: var(--red);
+}
+
+.epsilon-page .print-page-header {
   border-bottom-color: var(--red);
 }
 
-/* Sixth City Header */
-.sixth-city-header h1 {
+/* Sixth City */
+.sixth-city-page .print-page-header h1 {
   color: var(--blue);
   font-family: var(--font-sixth-city);
 }
 
-.sixth-city-header {
+.sixth-city-page .page-inner {
+  border-color: var(--blue);
+}
+
+.sixth-city-page .print-page-header {
   border-bottom-color: var(--blue);
 }
 
-/* Survivor Header */
-.survivor-header h1 {
+/* Survivor */
+.survivor-page .print-page-header h1 {
   color: var(--blue);
   font-family: var(--font-survivor);
 }
 
-.survivor-header {
+.survivor-page .page-inner {
+  border-color: var(--gold);
+}
+
+.survivor-page .print-page-header {
   border-bottom-color: var(--gold);
 }
 
@@ -103,7 +184,9 @@
 
   /* Reset page for printing */
   body {
-    background-color: var(--neutral);
+    background-color: white;
+    margin: 0;
+    padding: 0;
   }
 
   .main-content {
@@ -115,9 +198,8 @@
   .print-page {
     width: 8.5in;
     height: 11in;
-    max-width: none;
     margin: 0;
-    padding: 0.75in;
+    padding: 0.25in;
     box-shadow: none;
     page-break-after: always;
   }
@@ -131,20 +213,96 @@
     gap: 0;
     padding: 0;
   }
+
+  /* Ensure colors print correctly */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+/* Print page setup */
+@page {
+  size: letter;
+  margin: 0;
 }
 
 /* ========================================
    RESPONSIVE - MOBILE
    ======================================== */
 @media (max-width: 767px) {
+  /* Remove fixed dimensions on mobile */
   .print-page {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     min-height: auto;
+    max-width: 100%;
     padding: var(--spacing-md);
     box-shadow: none;
+    margin: 0;
+    page-break-after: auto;
   }
-
+  
+  /* Hide the decorative border on mobile for cleaner look */
+  .page-inner {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+  
+  /* Adjust header for mobile */
   .print-page-header {
     margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    text-align: left;
+  }
+  
+  .print-page-header h1 {
+    font-size: 24pt;
+  }
+  
+  .subtitle {
+    font-size: 12pt;
+  }
+  
+  .intro-text {
+    font-size: 11pt;
+    max-width: 100%;
+  }
+  
+  /* Adjust ranking sections for mobile */
+  .ranking-section {
+    padding: var(--spacing-sm) 0;
+  }
+  
+  .ranking-section h2 {
+    font-size: 20pt;
+    padding: var(--spacing-sm);
+    clip-path: none;
+    border-radius: 8px;
+  }
+  
+  .ranking-section p {
+    font-size: 14pt;
+    padding: var(--spacing-sm) 0;
+  }
+  
+  /* League separation - visible break between leagues */
+  .epsilon-page,
+  .sixth-city-page,
+  .survivor-page {
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+    border-bottom: 3px solid var(--gray-dark);
+  }
+  
+  .survivor-page {
+    border-bottom: none;
+  }
+  
+  /* Condense spacing between print pages within same league */
+  .print-pages {
+    gap: 0;
+    padding: var(--spacing-sm) 0;
   }
 }

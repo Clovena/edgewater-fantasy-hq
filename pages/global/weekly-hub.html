@@ -18,6 +18,9 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/weekly-hub.css">
+    
+    <!-- YAML Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 </head>
 <body class="weekly-hub-theme">
     
@@ -29,36 +32,24 @@
         <!-- Page container for print layout -->
         <div class="print-pages">
             
-            <!-- Epsilon Fantasy Page -->
-            <article class="print-page" id="epsilon-section">
-                <header class="print-page-header epsilon-header">
-                    <h1>Epsilon Fantasy</h1>
-                    <p class="week-label">Week 15 - 2024 Season</p>
-                </header>
-                <div class="print-page-content">
-                    <p>Power rankings, matchup previews, and analysis coming soon...</p>
+            <!-- Epsilon Fantasy Power Rankings -->
+            <article class="epsilon-page" id="epsilon-prs">
+                <div class="print-page">
+                    <!-- Content will be dynamically generated -->
                 </div>
             </article>
             
-            <!-- Sixth City Dynasty Page -->
-            <article class="print-page" id="sixth-city-section">
-                <header class="print-page-header sixth-city-header">
-                    <h1>Sixth City Dynasty</h1>
-                    <p class="week-label">Week 15 - 2024 Season</p>
-                </header>
-                <div class="print-page-content">
-                    <p>Power rankings, matchup previews, and analysis coming soon...</p>
+            <!-- Sixth City Dynasty Power Rankings -->
+            <article class="sixth-city-page" id="sixth-city-prs">
+                <div class="print-page">
+                    <!-- Content will be dynamically generated -->
                 </div>
             </article>
             
-            <!-- Survivor Page -->
-            <article class="print-page" id="survivor-section">
-                <header class="print-page-header survivor-header">
-                    <h1>Survivor</h1>
-                    <p class="week-label">Week 15 - 2024 Season</p>
-                </header>
-                <div class="print-page-content">
-                    <p>Power rankings, matchup previews, and analysis coming soon...</p>
+            <!-- Survivor Power Rankings -->
+            <article class="survivor-page" id="survivor-prs">
+                <div class="print-page">
+                    <!-- Content will be dynamically generated -->
                 </div>
             </article>
             
@@ -70,5 +61,6 @@
     
     <!-- Scripts -->
     <script src="/scripts/js/navigation.js"></script>
+    <script src="/scripts/js/weekly-hub.js"></script>
 </body>
 </html>
