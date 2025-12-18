@@ -48,7 +48,7 @@
 }
 
 .epsilon-theme .menu-item:active {
-  background-color: rgba(242, 46, 61, 0.2); /* Red with 20% opacity */
+  background-color: rgba(242, 46, 61, 0.25); /* Red with 25% opacity */
 }
 
 /* Featured Menu Item - Epsilon styling */
