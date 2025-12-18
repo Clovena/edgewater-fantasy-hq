@@ -12,8 +12,7 @@ This is the top bar which contains an adaptable hamburger menu with contents bas
   - Hamburger button: three-line icon which opens the menu
   - Title: displays page/league name
   - Spacer: balances the layout
-
-2. Hamburger Menu Overlay
+1. Hamburger Menu Overlay
   - Overlay: full-screen dark background
   - Menu: Slides in from the left
   - Close button: X icon to close menu
@@ -44,15 +43,13 @@ This is the fixed bottom navigation bar with 5 tabs.
   - **Sixth City (6)**: numeral 6 in Bungee font
   - **Survivor (S)**: letter S in Rubik Dirt font
   - **Weekly**: calendar icon
-
-2. Data Attributes
+1. Data Attributes
 ```html
 data-page="home"
 ```
   - JavaScript will use these to highlight the active tab
   - Matches against current page url
-
-3. Structure
+1. Structure
   - Each nav item has:
     - svg icon, styled via CSS
     - Text label; can be hidden on mobile if needed
