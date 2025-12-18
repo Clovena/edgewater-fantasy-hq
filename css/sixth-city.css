@@ -238,8 +238,8 @@
 }
 
 .sixth-city-theme .trophy-icon {
-    font-size: 48px;
-    color: var(--gold);
+    font-size: 64px;
+    color: var(--blue);
 }
 
 .sixth-city-theme .champion-info {
@@ -259,6 +259,7 @@
 .sixth-city-theme .champion-manager {
     font-size: 1rem;
     color: var(--gray-dark);
+    font-family: var(--font-sixth-city);
 }
 
 .sixth-city-theme .champion-record {
