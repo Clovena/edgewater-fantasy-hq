@@ -39,7 +39,7 @@ This is the fixed bottom navigation bar with 5 tabs.
 
 1. Icon Design
   - **Home**: house icon 
-  - **Epsilon (Ɛ)**: epsilon symbol in Permanent Marker font
+  - **Epsilon (Ɛ)**: epsilon symbol in Knewave font
   - **Sixth City (6)**: numeral 6 in Bungee font
   - **Survivor (S)**: letter S in Rubik Dirt font
   - **Weekly**: calendar icon
