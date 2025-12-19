@@ -417,6 +417,30 @@
     text-align: left;
     font-weight: 700;
     white-space: nowrap;
+    background-color: var(--blue);
+}
+
+.data-table th.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: background-color var(--transition-speed);
+    position: relative;
+}
+
+.data-table th.sortable:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.data-table th.sortable .sort-icon {
+    font-size: 18px;
+    vertical-align: middle;
+    margin-left: 4px;
+    opacity: 0.3;
+    transition: opacity var(--transition-speed);
+}
+
+.data-table th.sortable.sorted .sort-icon {
+    opacity: 1;
 }
 
 .data-table th:first-child {

@@ -176,23 +176,23 @@ function aggregateStandings() {
         franchise_name: franchiseName,
         h2h_wins: 0,
         h2h_losses: 0,
-        h2h_ties: 0,
         points_for: 0,
-        points_against: 0
+        points_against: 0,
+        potential_points: 0
       });
     }
     
     const franchise = franchiseMap.get(franchiseName);
     franchise.h2h_wins += parseFloat(row.h2h_wins) || 0;
     franchise.h2h_losses += parseFloat(row.h2h_losses) || 0;
-    franchise.h2h_ties += parseFloat(row.h2h_ties) || 0;
     franchise.points_for += parseFloat(row.points_for) || 0;
     franchise.points_against += parseFloat(row.points_against) || 0;
+    franchise.potential_points += parseFloat(row.potential_points) || 0;
   });
   
   // Calculate win percentage and sort
   const aggregated = Array.from(franchiseMap.values()).map(franchise => {
-    const totalGames = franchise.h2h_wins + franchise.h2h_losses + franchise.h2h_ties;
+    const totalGames = franchise.h2h_wins + franchise.h2h_losses;
     franchise.h2h_winpct = totalGames > 0 ? franchise.h2h_wins / totalGames : 0;
     return franchise;
   });
@@ -209,17 +209,96 @@ function aggregateStandings() {
 }
 
 // ========================================
+// SORTING
+// ========================================
+
+let currentSortColumn = 'h2h_winpct';
+let currentSortDirection = 'desc';
+
+function setupTableSorting() {
+  const headers = document.querySelectorAll('.data-table th[data-sort]');
+  
+  headers.forEach(header => {
+    header.addEventListener('click', () => {
+      const sortKey = header.dataset.sort;
+      
+      // Toggle direction if clicking same column
+      if (currentSortColumn === sortKey) {
+        currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+      } else {
+        currentSortColumn = sortKey;
+        currentSortDirection = 'desc'; // Default to descending for new column
+      }
+      
+      // Update visual indicators
+      updateSortIndicators();
+      
+      // Re-render table with new sort
+      renderStandingsTable();
+    });
+  });
+}
+
+function updateSortIndicators() {
+  const headers = document.querySelectorAll('.data-table th[data-sort]');
+  
+  headers.forEach(header => {
+    const icon = header.querySelector('.sort-icon');
+    const sortKey = header.dataset.sort;
+    
+    if (sortKey === currentSortColumn) {
+      header.classList.add('sorted');
+      icon.textContent = currentSortDirection === 'asc' ? 'arrow_upward' : 'arrow_downward';
+      icon.style.opacity = '1';
+    } else {
+      header.classList.remove('sorted');
+      icon.textContent = 'unfold_more';
+      icon.style.opacity = '0.3';
+    }
+  });
+}
+
+function sortData(data) {
+  return data.sort((a, b) => {
+    let aVal = a[currentSortColumn];
+    let bVal = b[currentSortColumn];
+    
+    // Handle string comparisons (franchise name)
+    if (typeof aVal === 'string') {
+      aVal = aVal.toLowerCase();
+      bVal = bVal.toLowerCase();
+      
+      if (currentSortDirection === 'asc') {
+        return aVal.localeCompare(bVal);
+      } else {
+        return bVal.localeCompare(aVal);
+      }
+    }
+    
+    // Handle numeric comparisons
+    if (currentSortDirection === 'asc') {
+      return aVal - bVal;
+    } else {
+      return bVal - aVal;
+    }
+  });
+}
+
+// ========================================
 // TABLE RENDERING
 // ========================================
 
 function renderStandingsTable() {
   const tbody = document.getElementById('standings-body');
-  const aggregated = aggregateStandings();
+  let aggregated = aggregateStandings();
   
   if (aggregated.length === 0) {
     tbody.innerHTML = '<tr><td colspan="8" class="empty-message">No data for selected seasons</td></tr>';
     return;
   }
+  
+  // Apply sorting
+  aggregated = sortData(aggregated);
   
   tbody.innerHTML = '';
   
@@ -247,11 +326,6 @@ function renderStandingsTable() {
     lossesCell.textContent = Math.round(franchise.h2h_losses);
     row.appendChild(lossesCell);
     
-    // Ties
-    const tiesCell = document.createElement('td');
-    tiesCell.textContent = Math.round(franchise.h2h_ties);
-    row.appendChild(tiesCell);
-    
     // Win %
     const winPctCell = document.createElement('td');
     winPctCell.textContent = franchise.h2h_winpct.toFixed(3);
@@ -261,6 +335,11 @@ function renderStandingsTable() {
     const pfCell = document.createElement('td');
     pfCell.textContent = franchise.points_for.toFixed(2);
     row.appendChild(pfCell);
+    
+    // Max Points For (Potential Points)
+    const maxPfCell = document.createElement('td');
+    maxPfCell.textContent = franchise.potential_points.toFixed(2);
+    row.appendChild(maxPfCell);
     
     // Points Against
     const paCell = document.createElement('td');
@@ -306,5 +385,6 @@ function setupDropdownToggle() {
 
 document.addEventListener('DOMContentLoaded', () => {
   setupDropdownToggle();
+  setupTableSorting();
   loadStandingsData();
 });
