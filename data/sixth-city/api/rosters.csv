@@ -1,0 +1,637 @@
+"franchise_id","franchise_name","player_id","player_name","pos","team","age","season"
+"1","Toronto Hogs","7588","Javonte Williams","RB","DAL",25.6,2025
+"1","Toronto Hogs","11575","Ray Davis","RB","BUF",26.1,2025
+"1","Toronto Hogs","9756","Jordan Addison","WR","MIN",23.9,2025
+"1","Toronto Hogs","7527","Mac Jones","QB","SF",27.3,2025
+"1","Toronto Hogs","8210","Chig Okonkwo","TE","TEN",26.3,2025
+"1","Toronto Hogs","5230","Michael Badgley","K","BUF",30.4,2025
+"1","Toronto Hogs","11783","Ryan Flournoy","WR","DAL",26.1,2025
+"1","Toronto Hogs","8162","Sam Howell","QB","PHI",25.3,2025
+"1","Toronto Hogs","11748","Bub Means","WR","NO",24.9,2025
+"1","Toronto Hogs","4968","Tremaine Edmunds","LB","CHI",27.6,2025
+"1","Toronto Hogs","7537","Jaret Patterson","RB","LAC",26,2025
+"1","Toronto Hogs","11705","Tykee Smith","DB","TB",24.8,2025
+"1","Toronto Hogs","11377","Tyrell Shavers","WR","BUF",26.3,2025
+"1","Toronto Hogs","12520","Xavier Restrepo","WR","TEN",23.7,2025
+"1","Toronto Hogs","6784","Derrick Brown","DT","CAR",27.7,2025
+"1","Toronto Hogs","7611","Rhamondre Stevenson","RB","NE",27.8,2025
+"1","Toronto Hogs","11603","AJ Barner","TE","SEA",23.6,2025
+"1","Toronto Hogs","11646","Jalen Coker","WR","CAR",24.1,2025
+"1","Toronto Hogs","10980","SirVocea Dennis","LB","TB",25.8,2025
+"1","Toronto Hogs","6131","Mack Wilson","LB","ARI",27.8,2025
+"1","Toronto Hogs","7547","Amon-Ra St. Brown","WR","DET",26.2,2025
+"1","Toronto Hogs","5041","Fred Warner","LB","SF",29.1,2025
+"1","Toronto Hogs","8148","Jameson Williams","WR","DET",24.7,2025
+"1","Toronto Hogs","3163","Jared Goff","QB","DET",31.2,2025
+"1","Toronto Hogs","12527","Ashton Jeanty","RB","LV",22,2025
+"1","Toronto Hogs","4066","Evan Engram","TE","DEN",31.3,2025
+"1","Toronto Hogs","11661","Terrion Arnold","DB","DET",22.7,2025
+"1","Toronto Hogs","12540","Chimere Dike","WR","TEN",24,2025
+"1","Toronto Hogs","5991","Maxx Crosby","DE","LV",28.3,2025
+"1","Toronto Hogs","7687","Nahshon Wright","CB","CHI",27.2,2025
+"1","Toronto Hogs","5346","Zaire Franklin","LB","IND",29.5,2025
+"1","Toronto Hogs","8254","Julius Chestnut","RB","TEN",25.1,2025
+"1","Toronto Hogs","8225","Daniel Bellinger","TE","NYG",25.2,2025
+"1","Toronto Hogs","9511","Keaton Mitchell","RB","BAL",23.9,2025
+"1","Toronto Hogs","11630","Roman Wilson","WR","PIT",24.5,2025
+"1","Toronto Hogs","5871","Zach Allen","DE","DEN",28.3,2025
+"1","Toronto Hogs","11651","Isaac Guerendo","RB","SF",25.5,2025
+"1","Toronto Hogs","8359","Marcus Jones","DB","NE",27.2,2025
+"1","Toronto Hogs","6650","Chase McLaughlin","K","TB",29.7,2025
+"1","Toronto Hogs","4219","Jeremy McNichols","RB","WAS",30,2025
+"1","Toronto Hogs","6797","Justin Herbert","QB","LAC",27.8,2025
+"1","Toronto Hogs","7587","Dyami Brown","WR","JAX",26.1,2025
+"1","Toronto Hogs","8131","Isaiah Likely","TE","BAL",25.7,2025
+"1","Toronto Hogs","10867","Jake Bobo","WR","SEA",27.4,2025
+"1","Toronto Hogs","10905","Brian Branch","DB","DET",24.2,2025
+"1","Toronto Hogs","7585","Davis Mills","QB","HOU",27.2,2025
+"1","Toronto Hogs","6786","CeeDee Lamb","WR","DAL",26.7,2025
+"2","Bikini Bottom Stars","6865","Colby Parkinson","TE","LAR",26.9,2025
+"2","Bikini Bottom Stars","6813","Jonathan Taylor","RB","IND",26.9,2025
+"2","Bikini Bottom Stars","6124","Montez Sweat","DE","CHI",29.3,2025
+"2","Bikini Bottom Stars","5849","Kyler Murray","QB","ARI",28.4,2025
+"2","Bikini Bottom Stars","11604","Brock Bowers","TE","LV",23,2025
+"2","Bikini Bottom Stars","11256","Tyson Bagent","QB","CHI",25.5,2025
+"2","Bikini Bottom Stars","11539","Jake Bates","K","DET",26.8,2025
+"2","Bikini Bottom Stars","2747","Jason Myers","K","SEA",34.6,2025
+"2","Bikini Bottom Stars","11569","Jarquez Hunter","RB","LAR",23,2025
+"2","Bikini Bottom Stars","7528","Najee Harris","RB","LAC",27.8,2025
+"2","Bikini Bottom Stars","5816","Nick Bosa","DE","SF",28.2,2025
+"2","Bikini Bottom Stars","6039","Ty Johnson","RB","BUF",28.3,2025
+"2","Bikini Bottom Stars","3161","Carson Wentz","QB","MIN",33,2025
+"2","Bikini Bottom Stars","8121","Romeo Doubs","WR","GB",25.7,2025
+"2","Bikini Bottom Stars","8150","Kyren Williams","RB","LAR",25.3,2025
+"2","Bikini Bottom Stars","11623","Jordan Whittington","WR","LAR",25.2,2025
+"2","Bikini Bottom Stars","8314","Jalen Pitre","DB","HOU",26.5,2025
+"2","Bikini Bottom Stars","11631","Brian Thomas","WR","JAX",23.2,2025
+"2","Bikini Bottom Stars","2449","Stefon Diggs","WR","NE",32.1,2025
+"2","Bikini Bottom Stars","6807","Patrick Queen","LB","PIT",26.3,2025
+"2","Bikini Bottom Stars","12526","Tetairoa McMillan","WR","CAR",22.7,2025
+"2","Bikini Bottom Stars","8280","Nik Bonitto","LB","DEN",26.2,2025
+"2","Bikini Bottom Stars","5017","Jessie Bates","DB","ATL",28.8,2025
+"2","Bikini Bottom Stars","8151","Kenneth Walker","RB","SEA",25.2,2025
+"2","Bikini Bottom Stars","8183","Brock Purdy","QB","SF",26,2025
+"2","Bikini Bottom Stars","12483","Jack Bech","WR","LV",23,2025
+"2","Bikini Bottom Stars","11678","Cooper DeJean","DB","PHI",22.9,2025
+"2","Bikini Bottom Stars","9493","Puka Nacua","WR","LAR",24.6,2025
+"2","Bikini Bottom Stars","8208","Tyler Badie","RB","DEN",25.9,2025
+"2","Bikini Bottom Stars","5944","Bobby Okereke","LB","NYG",29.4,2025
+"2","Bikini Bottom Stars","9228","Bryce Young","QB","CAR",24.4,2025
+"2","Bikini Bottom Stars","7765","Jonathon Cooper","DL","DEN",27.9,2025
+"2","Bikini Bottom Stars","7841","Jamien Sherwood","LB","NYJ",25.9,2025
+"2","Bikini Bottom Stars","8180","Jalen Nailor","WR","MIN",26.8,2025
+"2","Bikini Bottom Stars","9501","DeMario Douglas","WR","NE",25,2025
+"2","Bikini Bottom Stars","10949","Chamarri Conner","DB","KC",25.4,2025
+"2","Bikini Bottom Stars","6790","D'Andre Swift","RB","CHI",26.9,2025
+"2","Bikini Bottom Stars","9488","Jaxon Smith-Njigba","WR","SEA",23.8,2025
+"2","Bikini Bottom Stars","829","Andy Dalton","QB","CAR",38.1,2025
+"2","Bikini Bottom Stars","8119","Jahan Dotson","WR","PHI",25.7,2025
+"2","Bikini Bottom Stars","12517","Colston Loveland","TE","CHI",21.7,2025
+"2","Bikini Bottom Stars","6125","Jeffery Simmons","DT","TEN",28.4,2025
+"2","Bikini Bottom Stars","12640","Teddye Buchanan","LB","BAL",23.2,2025
+"2","Bikini Bottom Stars","11616","Jacob Cowing","WR","SF",24.9,2025
+"3","Newfoundland Blowers","12562","Nic Scourton","DL","CAR",21.3,2025
+"3","Newfoundland Blowers","12485","Tez Johnson","WR","TB",23.6,2025
+"3","Newfoundland Blowers","7002","Juwan Johnson","TE","NO",29.3,2025
+"3","Newfoundland Blowers","6819","Michael Pittman","WR","IND",28.2,2025
+"3","Newfoundland Blowers","7648","Nick Bolton","LB","KC",25.8,2025
+"3","Newfoundland Blowers","10891","Devon Witherspoon","DB","SEA",25,2025
+"3","Newfoundland Blowers","12617","Demetrius Knight","LB","CIN",25.4,2025
+"3","Newfoundland Blowers","11643","Jaylen Wright","RB","MIA",22.7,2025
+"3","Newfoundland Blowers","11656","Nate Wiggins","CB","BAL",22.3,2025
+"3","Newfoundland Blowers","12185","Spencer Shrader","K","IND",26.6,2025
+"3","Newfoundland Blowers","4971","Derwin James","DB","LAC",29.4,2025
+"3","Newfoundland Blowers","12670","KeAndre Lambert-Smith","WR","LAC",24.2,2025
+"3","Newfoundland Blowers","3257","Jacoby Brissett","QB","ARI",33,2025
+"3","Newfoundland Blowers","3451","Ka'imi Fairbairn","K","HOU",31.9,2025
+"3","Newfoundland Blowers","11562","Spencer Rattler","QB","NO",25.2,2025
+"3","Newfoundland Blowers","7600","Pat Freiermuth","TE","PIT",27.1,2025
+"3","Newfoundland Blowers","10218","Xavier Hutchinson","WR","HOU",25.5,2025
+"3","Newfoundland Blowers","12498","Mason Taylor","TE","NYJ",21.6,2025
+"3","Newfoundland Blowers","4199","Aaron Jones","RB","MIN",31,2025
+"3","Newfoundland Blowers","5960","T.J. Edwards","LB","CHI",29.3,2025
+"3","Newfoundland Blowers","12497","Tory Horton","WR","SEA",23.1,2025
+"3","Newfoundland Blowers","5189","Eddy Pineiro","K","SF",30.3,2025
+"3","Newfoundland Blowers","7543","Travis Etienne","RB","JAX",26.9,2025
+"3","Newfoundland Blowers","12561","Derrick Harmon","DL","PIT",22.4,2025
+"3","Newfoundland Blowers","11593","Brevyn Spann-Ford","TE","DAL",26,2025
+"3","Newfoundland Blowers","10898","Tuli Tuipulotu","DL","LAC",23.3,2025
+"3","Newfoundland Blowers","4071","Marlon Humphrey","CB","BAL",29.4,2025
+"3","Newfoundland Blowers","11742","Cedric Gray","LB","TEN",23.1,2025
+"3","Newfoundland Blowers","12614","Shemar James","LB","DAL",21.5,2025
+"3","Newfoundland Blowers","12641","Jaylin Lane","WR","WAS",23.6,2025
+"3","Newfoundland Blowers","5859","A.J. Brown","WR","PHI",28.5,2025
+"3","Newfoundland Blowers","9479","Darnell Washington","TE","PIT",24.3,2025
+"3","Newfoundland Blowers","4171","Josh Reynolds","WR","NYJ",30.8,2025
+"3","Newfoundland Blowers","12496","Tai Felton","WR","MIN",22.8,2025
+"3","Newfoundland Blowers","12523","Jimmy Horn","WR","CAR",23.3,2025
+"3","Newfoundland Blowers","2216","Mike Evans","WR","TB",32.3,2025
+"3","Newfoundland Blowers","7021","Rico Dowdle","RB","CAR",27.5,2025
+"3","Newfoundland Blowers","8408","Jordan Mason","RB","MIN",26.6,2025
+"3","Newfoundland Blowers","12514","Emeka Egbuka","WR","TB",23.2,2025
+"3","Newfoundland Blowers","4137","James Conner","RB","ARI",30.6,2025
+"3","Newfoundland Blowers","4892","Baker Mayfield","QB","TB",30.7,2025
+"3","Newfoundland Blowers","5872","Deebo Samuel","WR","WAS",29.9,2025
+"3","Newfoundland Blowers","9486","Dontayvion Wicks","WR","GB",24.5,2025
+"3","Newfoundland Blowers","10859","Sam LaPorta","TE","DET",24.9,2025
+"3","Newfoundland Blowers","6130","Devin Singletary","RB","NYG",28.3,2025
+"3","Newfoundland Blowers","10222","Jayden Reed","WR","GB",25.6,2025
+"4","Thunder Bay Mustangs","11564","Drake Maye","QB","NE",23.3,2025
+"4","Thunder Bay Mustangs","12889","Beaux Collins","WR","NYG",23,2025
+"4","Thunder Bay Mustangs","7672","Ernest Jones","LB","SEA",26.1,2025
+"4","Thunder Bay Mustangs","12510","Jalen Milroe","QB","SEA",23,2025
+"4","Thunder Bay Mustangs","4972","Mason Rudolph","QB","PIT",30.4,2025
+"4","Thunder Bay Mustangs","7016","Jeremy Chinn","DB","LV",27.8,2025
+"4","Thunder Bay Mustangs","12412","Terrell Jennings","RB","NE",24.8,2025
+"4","Thunder Bay Mustangs","3200","Sterling Shepard","WR","TB",32.9,2025
+"4","Thunder Bay Mustangs","7669","Paulson Adebo","CB","NYG",26.5,2025
+"4","Thunder Bay Mustangs","4963","Minkah Fitzpatrick","DB","MIA",29.1,2025
+"4","Thunder Bay Mustangs","11600","Ja'Tavion Sanders","TE","CAR",22.7,2025
+"4","Thunder Bay Mustangs","12486","Dillon Gabriel","QB","CLE",25,2025
+"4","Thunder Bay Mustangs","12547","Kyle Williams","WR","NE",23.1,2025
+"4","Thunder Bay Mustangs","12472","Raheim Sanders","RB","CLE",23.5,2025
+"4","Thunder Bay Mustangs","12538","Brady Cook","QB","NYJ",24.2,2025
+"4","Thunder Bay Mustangs","3256","Javon Hargrave","DT","MIN",32.9,2025
+"4","Thunder Bay Mustangs","2393","Danielle Hunter","DE","HOU",31.1,2025
+"4","Thunder Bay Mustangs","11994","Kameron Johnson","WR","TB",23.8,2025
+"4","Thunder Bay Mustangs","9509","Bijan Robinson","RB","ATL",23.9,2025
+"4","Thunder Bay Mustangs","6315","Tyrel Dodson","LB","MIA",27.5,2025
+"4","Thunder Bay Mustangs","4983","DJ Moore","WR","CHI",28.7,2025
+"4","Thunder Bay Mustangs","10933","DeMarvion Overshown","LB","DAL",25.3,2025
+"4","Thunder Bay Mustangs","10219","Chris Rodriguez","RB","WAS",26.2,2025
+"4","Thunder Bay Mustangs","12473","Mitchell Evans","TE","CAR",22.8,2025
+"4","Thunder Bay Mustangs","6945","Antonio Gibson","RB","NE",27.5,2025
+"4","Thunder Bay Mustangs","10917","Byron Young","LB","LAR",27.8,2025
+"4","Thunder Bay Mustangs","7591","Justin Fields","QB","NYJ",26.8,2025
+"4","Thunder Bay Mustangs","4034","Christian McCaffrey","RB","SF",29.5,2025
+"4","Thunder Bay Mustangs","8160","Kenny Pickett","QB","LV",27.5,2025
+"4","Thunder Bay Mustangs","3321","Tyreek Hill","WR","MIA",31.8,2025
+"4","Thunder Bay Mustangs","8137","George Pickens","WR","DAL",24.8,2025
+"4","Thunder Bay Mustangs","11650","Luke McCaffrey","WR","WAS",24.7,2025
+"4","Thunder Bay Mustangs","7569","Nico Collins","WR","HOU",26.8,2025
+"4","Thunder Bay Mustangs","11261","Andre Szmyt","K","CLE",27.2,2025
+"4","Thunder Bay Mustangs","8117","Jalen Tolbert","WR","DAL",26.8,2025
+"4","Thunder Bay Mustangs","1339","Zach Ertz","TE","WAS",35.1,2025
+"4","Thunder Bay Mustangs","8110","Jake Ferguson","TE","DAL",26.9,2025
+"4","Thunder Bay Mustangs","1166","Kirk Cousins","QB","ATL",37.3,2025
+"4","Thunder Bay Mustangs","8259","Cameron Dicker","K","LAC",25.6,2025
+"4","Thunder Bay Mustangs","7496","Nick Westbrook-Ikhine","WR","MIA",28.7,2025
+"4","Thunder Bay Mustangs","11592","Erick All","TE","CIN",25.3,2025
+"4","Thunder Bay Mustangs","8147","John Metchie","WR","NYJ",25.4,2025
+"4","Thunder Bay Mustangs","8385","George Karlaftis","DL","KC",24.7,2025
+"4","Thunder Bay Mustangs","8136","Rachaad White","RB","TB",26.9,2025
+"4","Thunder Bay Mustangs","12493","Oronde Gadsden","TE","LAC",22.5,2025
+"4","Thunder Bay Mustangs","11584","Bucky Irving","RB","TB",23.3,2025
+"5","Winnipeg Wranglers","6788","Xavier McKinney","DB","GB",27.4,2025
+"5","Winnipeg Wranglers","8188","Tyquan Thornton","WR","KC",25.4,2025
+"5","Winnipeg Wranglers","11599","Cade Stover","TE","HOU",25.5,2025
+"5","Winnipeg Wranglers","8364","Trent McDuffie","DB","KC",25.3,2025
+"5","Winnipeg Wranglers","2505","Darren Waller","TE","MIA",33.3,2025
+"5","Winnipeg Wranglers","10231","Elijah Higgins","TE","ARI",25.1,2025
+"5","Winnipeg Wranglers","12506","Harold Fannin","TE","CLE",21.4,2025
+"5","Winnipeg Wranglers","12578","Carson Schwesinger","LB","CLE",22.8,2025
+"5","Winnipeg Wranglers","6794","Justin Jefferson","WR","MIN",26.5,2025
+"5","Winnipeg Wranglers","12500","Quinn Ewers","QB","MIA",22.8,2025
+"5","Winnipeg Wranglers","6011","Gardner Minshew","QB","KC",29.6,2025
+"5","Winnipeg Wranglers","8289","Aidan Hutchinson","DL","DET",25.4,2025
+"5","Winnipeg Wranglers","4999","Josh Sweat","DE","ARI",28.7,2025
+"5","Winnipeg Wranglers","5840","Josh Hines-Allen","DE","JAX",28.4,2025
+"5","Winnipeg Wranglers","6943","Gabe Davis","WR","BUF",26.7,2025
+"5","Winnipeg Wranglers","12512","Quinshon Judkins","RB","CLE",22.1,2025
+"5","Winnipeg Wranglers","7891","Brock Wright","TE","DET",27.1,2025
+"5","Winnipeg Wranglers","4381","Taysom Hill","TE","NO",35.3,2025
+"5","Winnipeg Wranglers","11628","Marvin Harrison","WR","ARI",23.4,2025
+"5","Winnipeg Wranglers","9221","Jahmyr Gibbs","RB","DET",23.7,2025
+"5","Winnipeg Wranglers","7659","Tre'von Moehrig","DB","CAR",26.5,2025
+"5","Winnipeg Wranglers","1945","Chris Boswell","K","PIT",34.8,2025
+"5","Winnipeg Wranglers","10229","Rashee Rice","WR","KC",25.7,2025
+"5","Winnipeg Wranglers","1689","Adam Thielen","WR","PIT",35.3,2025
+"5","Winnipeg Wranglers","12470","Riley Leonard","QB","IND",23.3,2025
+"5","Winnipeg Wranglers","12533","Jacory Croskey-Merritt","RB","WAS",24.7,2025
+"5","Winnipeg Wranglers","12508","Jaxson Dart","QB","NYG",22.6,2025
+"5","Winnipeg Wranglers","8143","Jerome Ford","RB","CLE",26.3,2025
+"5","Winnipeg Wranglers","12522","Cam Ward","QB","TEN",23.6,2025
+"5","Winnipeg Wranglers","8390","Martin Emerson","DB","CLE",25.2,2025
+"5","Winnipeg Wranglers","1233","Bobby Wagner","LB","WAS",35.5,2025
+"5","Winnipeg Wranglers","7694","Tommy Tremble","TE","CAR",25.5,2025
+"5","Winnipeg Wranglers","4195","Jake Elliott","K","PHI",30.9,2025
+"5","Winnipeg Wranglers","5973","Josh Oliver","TE","MIN",28.7,2025
+"5","Winnipeg Wranglers","12487","Terrance Ferguson","TE","LAR",22.8,2025
+"5","Winnipeg Wranglers","9999","Will Levis","QB","TEN",26.5,2025
+"5","Winnipeg Wranglers","7607","Michael Carter","RB","ARI",26.6,2025
+"5","Winnipeg Wranglers","12455","Brashard Smith","RB","KC",22.7,2025
+"5","Winnipeg Wranglers","7564","Ja'Marr Chase","WR","CIN",25.8,2025
+"5","Winnipeg Wranglers","12524","Shedeur Sanders","QB","CLE",23.9,2025
+"5","Winnipeg Wranglers","5906","Dawson Knox","TE","BUF",29.1,2025
+"5","Winnipeg Wranglers","1373","Geno Smith","QB","LV",35.2,2025
+"5","Winnipeg Wranglers","2197","Brandin Cooks","WR","BUF",32.2,2025
+"5","Winnipeg Wranglers","4967","Bradley Chubb","LB","MIA",29.5,2025
+"5","Winnipeg Wranglers","5876","Julian Love","DB","SEA",27.8,2025
+"5","Winnipeg Wranglers","11557","Joe Milton","QB","DAL",25.8,2025
+"6","Choccolocco Railfans","4234","Noah Brown","WR","WAS",29.9,2025
+"6","Choccolocco Railfans","6814","Laviska Shenault","WR",NA,27.2,2025
+"6","Choccolocco Railfans","5846","DK Metcalf","WR","PIT",28,2025
+"6","Choccolocco Railfans","4029","Dalvin Cook","RB",NA,30.4,2025
+"6","Choccolocco Railfans","8311","Terrel Bernard","LB","BUF",26.6,2025
+"6","Choccolocco Railfans","1426","DeAndre Hopkins","WR","BAL",33.5,2025
+"6","Choccolocco Railfans","11435","Emanuel Wilson","RB","GB",26.6,2025
+"6","Choccolocco Railfans","2027","Denico Autry","DE","HOU",35.4,2025
+"6","Choccolocco Railfans","12711","Tyler Loop","K","BAL",24.4,2025
+"6","Choccolocco Railfans","8127","Charlie Kolar","TE","BAL",26.9,2025
+"6","Choccolocco Railfans","9497","Jalin Hyatt","WR","NYG",24.2,2025
+"6","Choccolocco Railfans","7715","Cam Bynum","DB","IND",27.4,2025
+"6","Choccolocco Railfans","8330","Quentin Lake","DB","LAR",26.9,2025
+"6","Choccolocco Railfans","6938","Cam Akers","RB","SEA",26.5,2025
+"6","Choccolocco Railfans","9754","Quentin Johnston","WR","LAC",24.3,2025
+"6","Choccolocco Railfans","5012","Mark Andrews","TE","BAL",30.3,2025
+"6","Choccolocco Railfans","12521","Elijah Arroyo","TE","SEA",22.7,2025
+"6","Choccolocco Railfans","9224","Chase Brown","RB","CIN",25.7,2025
+"6","Choccolocco Railfans","11626","Xavier Legette","WR","CAR",24.9,2025
+"6","Choccolocco Railfans","10914","Daiyan Henley","LB","LAC",26.1,2025
+"6","Choccolocco Railfans","11583","Jonathon Brooks","RB","CAR",22.4,2025
+"6","Choccolocco Railfans","7921","Christian Elliss","LB","NE",27,2025
+"6","Choccolocco Railfans","11624","Xavier Worthy","WR","KC",22.6,2025
+"6","Choccolocco Railfans","4960","Roquan Smith","LB","BAL",28.7,2025
+"6","Choccolocco Railfans","8355","Kayvon Thibodeaux","DL","NYG",25,2025
+"6","Choccolocco Railfans","6869","Adam Trautman","TE","DEN",28.9,2025
+"6","Choccolocco Railfans","11627","Troy Franklin","WR","DEN",22.9,2025
+"6","Choccolocco Railfans","11559","Michael Penix","QB","ATL",25.6,2025
+"6","Choccolocco Railfans","4602","Robert Tonyan","TE","KC",31.6,2025
+"6","Choccolocco Railfans","11565","J.J. McCarthy","QB","MIN",22.9,2025
+"6","Choccolocco Railfans","7523","Trevor Lawrence","QB","JAX",26.2,2025
+"6","Choccolocco Railfans","7045","Joshua Kelley","RB",NA,28.1,2025
+"6","Choccolocco Railfans","7069","Alohi Gilman","DB","BAL",28.3,2025
+"6","Choccolocco Railfans","11586","Blake Corum","RB","LAR",25.1,2025
+"6","Choccolocco Railfans","7605","Kyle Trask","QB","ATL",27.8,2025
+"6","Choccolocco Railfans","96","Aaron Rodgers","QB","PIT",42,2025
+"6","Choccolocco Railfans","5185","Allen Lazard","WR",NA,30,2025
+"6","Choccolocco Railfans","9998","Hendon Hooker","QB","NYJ",27.9,2025
+"6","Choccolocco Railfans","6083","Matt Gay","K",NA,31.8,2025
+"6","Choccolocco Railfans","6782","Chase Young","DE","NO",26.7,2025
+"6","Choccolocco Railfans","6927","Quez Watkins","WR","PHI",27.5,2025
+"6","Choccolocco Railfans","4118","Alex Anzalone","LB","DET",31.2,2025
+"6","Choccolocco Railfans","12507","Omarion Hampton","RB","LAC",22.8,2025
+"7","Prince Edward Islanders","8155","Breece Hall","RB","NYJ",24.6,2025
+"7","Prince Edward Islanders","5850","Josh Jacobs","RB","GB",27.8,2025
+"7","Prince Edward Islanders","9758","C.J. Stroud","QB","HOU",24.2,2025
+"7","Prince Edward Islanders","10871","Luke Schoonmaker","TE","DAL",27.2,2025
+"7","Prince Edward Islanders","11560","Caleb Williams","QB","CHI",24.1,2025
+"7","Prince Edward Islanders","10235","Roschon Johnson","RB","CHI",24.9,2025
+"7","Prince Edward Islanders","2020","Cairo Santos","K","CHI",34.1,2025
+"7","Prince Edward Islanders","5847","Dexter Lawrence","DT","NYG",28.1,2025
+"7","Prince Edward Islanders","7594","Chuba Hubbard","RB","CAR",26.5,2025
+"7","Prince Edward Islanders","7602","Kylen Granson","TE","PHI",27.7,2025
+"7","Prince Edward Islanders","650","Nick Folk","K","NYJ",41.1,2025
+"7","Prince Edward Islanders","8144","Chris Olave","WR","NO",25.5,2025
+"7","Prince Edward Islanders","11821","Tahj Washington","WR","MIA",24.6,2025
+"7","Prince Edward Islanders","11625","Adonai Mitchell","WR","NYJ",23.2,2025
+"7","Prince Edward Islanders","10881","Christian Gonzalez","DB","NE",23.5,2025
+"7","Prince Edward Islanders","5862","Brian Burns","DE","NYG",27.7,2025
+"7","Prince Edward Islanders","11726","Kamren Kinchens","DB","LAR",23.2,2025
+"7","Prince Edward Islanders","7571","Rashod Bateman","WR","BAL",26.1,2025
+"7","Prince Edward Islanders","12534","Kyle Monangai","RB","CHI",23.5,2025
+"7","Prince Edward Islanders","12492","Pat Bryant","WR","DEN",23,2025
+"7","Prince Edward Islanders","12536","Jaylin Noel","WR","HOU",23.3,2025
+"7","Prince Edward Islanders","12539","Arian Smith","WR","NYJ",24.2,2025
+"7","Prince Edward Islanders","10866","Aidan O'Connell","QB","LV",27.3,2025
+"7","Prince Edward Islanders","11632","Malik Nabers","WR","NYG",22.4,2025
+"7","Prince Edward Islanders","7525","DeVonta Smith","WR","PHI",27.1,2025
+"7","Prince Edward Islanders","12495","Ollie Gordon","RB","MIA",21.9,2025
+"7","Prince Edward Islanders","8266","Quay Walker","LB","GB",25.6,2025
+"7","Prince Edward Islanders","11663","Chop Robinson","DE","MIA",23,2025
+"7","Prince Edward Islanders","11617","Malachi Corley","WR","CLE",23.7,2025
+"7","Prince Edward Islanders","12585","James Pearce","DL","ATL",22.2,2025
+"7","Prince Edward Islanders","12504","Kaleb Johnson","RB","PIT",22.3,2025
+"7","Prince Edward Islanders","11576","Braelon Allen","RB","NYJ",21.9,2025
+"7","Prince Edward Islanders","8135","Treylon Burks","WR","WAS",25.7,2025
+"7","Prince Edward Islanders","9506","Sean Tucker","RB","TB",24.1,2025
+"7","Prince Edward Islanders","8145","Jeremy Ruckert","TE","NYJ",25.4,2025
+"7","Prince Edward Islanders","12519","Luther Burden","WR","CHI",22,2025
+"7","Prince Edward Islanders","8329","Devin Lloyd","LB","JAX",27.2,2025
+"7","Prince Edward Islanders","10883","Will McDonald","DE","NYJ",26.5,2025
+"7","Prince Edward Islanders","4037","Chris Godwin","WR","TB",29.8,2025
+"7","Prince Edward Islanders","7642","Jaycee Horn","CB","CAR",26.1,2025
+"7","Prince Edward Islanders","6119","Devin White","LB","LV",27.8,2025
+"7","Prince Edward Islanders","11571","Isaiah Davis","RB","NYJ",23.8,2025
+"7","Prince Edward Islanders","7608","Khalil Herbert","RB","NYJ",27.7,2025
+"7","Prince Edward Islanders","11636","Johnny Wilson","WR","PHI",24.7,2025
+"7","Prince Edward Islanders","7553","Kyle Pitts","TE","ATL",25.2,2025
+"7","Prince Edward Islanders","12602","Mykel Williams","DL","SF",21.5,2025
+"8","Iqaluit Trout","6806","J.K. Dobbins","RB","DEN",27,2025
+"8","Iqaluit Trout","12738","Phil Mafah","RB","DAL",23.2,2025
+"8","Iqaluit Trout","11640","Jermaine Burton","WR",NA,24.5,2025
+"8","Iqaluit Trout","11068","Mitch Tinsley","WR","CIN",26.3,2025
+"8","Iqaluit Trout","6118","Quinnen Williams","DT","DAL",28,2025
+"8","Iqaluit Trout","6888","Antoine Winfield","DB","TB",27.3,2025
+"8","Iqaluit Trout","1466","Travis Kelce","TE","KC",36.2,2025
+"8","Iqaluit Trout","8293","Coby Bryant","DB","SEA",26.7,2025
+"8","Iqaluit Trout","6803","Brandon Aiyuk","WR","SF",27.8,2025
+"8","Iqaluit Trout","5010","Will Dissly","TE","LAC",29.4,2025
+"8","Iqaluit Trout","9500","Josh Downs","WR","IND",24.4,2025
+"8","Iqaluit Trout","12484","Jayden Higgins","WR","HOU",23,2025
+"8","Iqaluit Trout","6302","Kaden Elliss","LB","ATL",30.4,2025
+"8","Iqaluit Trout","11582","Carson Steele","RB","KC",23.2,2025
+"8","Iqaluit Trout","10212","Josh Whyle","TE","GB",26.3,2025
+"8","Iqaluit Trout","331","Philip Rivers","QB","IND",44,2025
+"8","Iqaluit Trout","8123","Hassan Haskins","RB","LAC",26.1,2025
+"8","Iqaluit Trout","4018","Joe Mixon","RB","HOU",29.4,2025
+"8","Iqaluit Trout","5580","Frankie Luvu","LB","WAS",29.2,2025
+"8","Iqaluit Trout","13150","Darius Cooper","WR","PHI",24.1,2025
+"8","Iqaluit Trout","9508","Tyjae Spears","RB","TEN",24.5,2025
+"8","Iqaluit Trout","7635","Jaelan Phillips","LB","PHI",26.6,2025
+"8","Iqaluit Trout","6949","Jordyn Brooks","LB","MIA",28.2,2025
+"8","Iqaluit Trout","7090","Darnell Mooney","WR","ATL",28.1,2025
+"8","Iqaluit Trout","11299","Zavier Scott","RB","MIN",26.4,2025
+"8","Iqaluit Trout","6770","Joe Burrow","QB","CIN",29,2025
+"8","Iqaluit Trout","9229","Anthony Richardson","QB","IND",23.6,2025
+"8","Iqaluit Trout","12490","Bhayshul Tuten","RB","JAX",23.8,2025
+"8","Iqaluit Trout","12568","Jalon Walker","DL","ATL",21.8,2025
+"8","Iqaluit Trout","6920","Isaiah Hodgins","WR","NYG",27.2,2025
+"8","Iqaluit Trout","8676","Rashid Shaheed","WR","SEA",27.3,2025
+"8","Iqaluit Trout","17","Matt Prater","K","BUF",41.4,2025
+"8","Iqaluit Trout","8142","Alec Pierce","WR","IND",25.6,2025
+"8","Iqaluit Trout","4866","Saquon Barkley","RB","PHI",28.9,2025
+"8","Iqaluit Trout","4981","Calvin Ridley","WR","TEN",31,2025
+"8","Iqaluit Trout","12543","Tahj Brooks","RB","CIN",23.6,2025
+"8","Iqaluit Trout","7596","Elijah Moore","WR","DEN",25.7,2025
+"8","Iqaluit Trout","11597","Theo Johnson","TE","NYG",24.8,2025
+"8","Iqaluit Trout","12509","Tre' Harris","WR","LAC",23.8,2025
+"8","Iqaluit Trout","12545","Tyler Shough","QB","NO",26.2,2025
+"8","Iqaluit Trout","4135","Trey Hendrickson","DE","CIN",31,2025
+"8","Iqaluit Trout","8392","Nick Cross","DB","IND",24.3,2025
+"8","Iqaluit Trout","11589","Trey Benson","RB","ARI",23.4,2025
+"8","Iqaluit Trout","4082","Curtis Samuel","WR","BUF",29.4,2025
+"8","Iqaluit Trout","7049","Jauan Jennings","WR","SF",28.4,2025
+"8","Iqaluit Trout","6880","Logan Wilson","LB","DAL",29.4,2025
+"8","Iqaluit Trout","19","Joe Flacco","QB","CIN",40.9,2025
+"9","New New York Benders ","12505","Jalen Royals","WR","KC",22.8,2025
+"9","New New York Benders ","8396","Micah McFadden","LB","NYG",26,2025
+"9","New New York Benders ","7044","Julian Blackmon","DB","NO",27.3,2025
+"9","New New York Benders ","1213","Harrison Smith","DB","MIN",36.9,2025
+"9","New New York Benders ","6149","Darius Slayton","WR","NYG",28.9,2025
+"9","New New York Benders ","9502","Tank Dell","WR","HOU",26.1,2025
+"9","New New York Benders ","5341","Taron Johnson","CB","BUF",29.4,2025
+"9","New New York Benders ","1379","Kyle Juszczyk","FB","SF",34.7,2025
+"9","New New York Benders ","6853","Van Jefferson","WR","TEN",29.4,2025
+"9","New New York Benders ","4144","Jonnu Smith","TE","PIT",30.3,2025
+"9","New New York Benders ","12503","Isaiah Bond","WR","CLE",21.8,2025
+"9","New New York Benders ","5056","Jerome Baker","LB","CLE",29,2025
+"9","New New York Benders ","4976","Daron Payne","DT","WAS",28.6,2025
+"9","New New York Benders ","7641","Pat Surtain","CB","DEN",25.7,2025
+"9","New New York Benders ","12502","Gunnar Helm","TE","TEN",23.3,2025
+"9","New New York Benders ","3160","Jalen Ramsey","CB","PIT",31.2,2025
+"9","New New York Benders ","11699","Jer'Zhan Newton","DL","WAS",23.3,2025
+"9","New New York Benders ","2152","Teddy Bridgewater","QB","TB",33.1,2025
+"9","New New York Benders ","11570","Rasheen Ali","RB","BAL",24.8,2025
+"9","New New York Benders ","3678","Wil Lutz","K","DEN",31.4,2025
+"9","New New York Benders ","8267","Nakobe Dean","LB","PHI",25,2025
+"9","New New York Benders ","8129","Dameon Pierce","RB","KC",25.8,2025
+"9","New New York Benders ","8323","Jaquan Brisker","DB","CHI",26.7,2025
+"9","New New York Benders ","6963","Patrick Taylor","RB","SF",27.6,2025
+"9","New New York Benders ","2749","Raheem Mostert","RB","LV",33.7,2025
+"9","New New York Benders ","12775","Max Brosmer","QB","MIN",24.7,2025
+"9","New New York Benders ","11792","Will Reichard","K","MIN",24.9,2025
+"9","New New York Benders ","8130","Trey McBride","TE","ARI",26.1,2025
+"9","New New York Benders ","10213","Tre Tucker","WR","LV",24.8,2025
+"9","New New York Benders ","6141","Drue Tranquill","LB","KC",30.3,2025
+"9","New New York Benders ","3271","Tyler Higbee","TE","LAR",33,2025
+"9","New New York Benders ","4881","Lamar Jackson","QB","BAL",28.9,2025
+"9","New New York Benders ","6801","Tee Higgins","WR","CIN",26.9,2025
+"9","New New York Benders ","4046","Patrick Mahomes","QB","KC",30.3,2025
+"9","New New York Benders ","5882","Taylor Rapp","DB","BUF",28,2025
+"9","New New York Benders ","1052","Demario Davis","LB","NO",36.9,2025
+"9","New New York Benders ","5773","KhaDarel Hodge","WR","ATL",31,2025
+"9","New New York Benders ","3156","Joey Bosa","LB","BUF",30.4,2025
+"9","New New York Benders ","8154","Brian Robinson","RB","SF",26.7,2025
+"9","New New York Benders ","11635","Ladd McConkey","WR","LAC",24.1,2025
+"9","New New York Benders ","7561","Elijah Mitchell","RB","KC",27.6,2025
+"9","New New York Benders ","6768","Tua Tagovailoa","QB","MIA",27.8,2025
+"9","New New York Benders ","8476","DaRon Bland","DB","DAL",26.4,2025
+"9","New New York Benders ","2311","Leonard Williams","DE","SEA",31.5,2025
+"9","New New York Benders ","10970","Henry To'oTo'o","LB","HOU",25,2025
+"9","New New York Benders ","11629","Devontez Walker","WR","BAL",24.5,2025
+"10","Lower City Lasercats","5297","Zach Sieler","DT","MIA",30.3,2025
+"10","Lower City Lasercats","5086","Marquez Valdes-Scantling","WR","PIT",31.2,2025
+"10","Lower City Lasercats","10880","Jack Campbell","LB","DET",25.3,2025
+"10","Lower City Lasercats","4035","Alvin Kamara","RB","NO",30.4,2025
+"10","Lower City Lasercats","7042","Tyler Bass","K","BUF",28.8,2025
+"10","Lower City Lasercats","4098","Kareem Hunt","RB","KC",30.4,2025
+"10","Lower City Lasercats","11727","Payton Wilson","LB","PIT",25.7,2025
+"10","Lower City Lasercats","6528","Joey Slye","K","TEN",29.7,2025
+"10","Lower City Lasercats","3202","Austin Hooper","TE","NE",31.1,2025
+"10","Lower City Lasercats","8161","Malik Willis","QB","GB",26.6,2025
+"10","Lower City Lasercats","10913","Joey Porter","DB","PIT",25.4,2025
+"10","Lower City Lasercats","4950","Christian Kirk","WR","HOU",29.1,2025
+"10","Lower City Lasercats","5927","Terry McLaurin","WR","WAS",30.3,2025
+"10","Lower City Lasercats","5892","David Montgomery","RB","DET",28.5,2025
+"10","Lower City Lasercats","7757","Ben Skowronek","WR","PIT",28.5,2025
+"10","Lower City Lasercats","11563","Bo Nix","QB","DEN",25.8,2025
+"10","Lower City Lasercats","3233","Kevin Byard","DB","CHI",32.3,2025
+"10","Lower City Lasercats","1479","Keenan Allen","WR","LAC",33.6,2025
+"10","Lower City Lasercats","4217","George Kittle","TE","SF",32.2,2025
+"10","Lower City Lasercats","4039","Cooper Kupp","WR","SEA",32.5,2025
+"10","Lower City Lasercats","12511","Will Howard","QB","PIT",24.2,2025
+"10","Lower City Lasercats","12476","Devin Neal","RB","NO",22.4,2025
+"10","Lower City Lasercats","11292","Tommy DeVito","QB","NE",27.4,2025
+"10","Lower City Lasercats","1192","Lavonte David","LB","TB",35.9,2025
+"10","Lower City Lasercats","4993","Mike Gesicki","TE","CIN",30.2,2025
+"10","Lower City Lasercats","9494","Marvin Mims","WR","DEN",23.8,2025
+"10","Lower City Lasercats","9226","De'Von Achane","RB","MIA",24.2,2025
+"10","Lower City Lasercats","8917","KaVontae Turpin","WR","DAL",29.4,2025
+"10","Lower City Lasercats","5022","Dallas Goedert","TE","PHI",31,2025
+"10","Lower City Lasercats","11674","Tyler Nubin","DB","NYG",24.5,2025
+"10","Lower City Lasercats","843","Cameron Heyward","DT","PIT",36.6,2025
+"10","Lower City Lasercats","4070","T.J. Watt","LB","PIT",31.2,2025
+"10","Lower City Lasercats","5947","Jakobi Meyers","WR","JAX",29.1,2025
+"10","Lower City Lasercats","7113","Alex Highsmith","LB","PIT",28.4,2025
+"10","Lower City Lasercats","6911","Brandon Jones","DB","DEN",27.7,2025
+"10","Lower City Lasercats","2133","Davante Adams","WR","LAR",33,2025
+"10","Lower City Lasercats","8125","Calvin Austin","WR","PIT",26.7,2025
+"10","Lower City Lasercats","8205","Isiah Pacheco","RB","KC",26.8,2025
+"10","Lower City Lasercats","1837","Jimmy Garoppolo","QB","LAR",34.1,2025
+"10","Lower City Lasercats","10955","Chad Ryland","K","ARI",26.2,2025
+"10","Lower City Lasercats","8134","Khalil Shakir","WR","BUF",25.9,2025
+"10","Lower City Lasercats","421","Matthew Stafford","QB","LAR",37.9,2025
+"10","Lower City Lasercats","10940","Nick Herbig","LB","PIT",24.1,2025
+"11","Sarnia Seasnakes","12501","Matthew Golden","WR","GB",22.4,2025
+"11","Sarnia Seasnakes","8265","Travon Walker","LB","JAX",25,2025
+"11","Sarnia Seasnakes","11687","Edgerrin Cooper","LB","GB",24.1,2025
+"11","Sarnia Seasnakes","11834","Devaughn Vele","WR","NO",28,2025
+"11","Sarnia Seasnakes","8126","Wan'Dale Robinson","WR","NYG",25,2025
+"11","Sarnia Seasnakes","12544","LeQuint Allen","RB","JAX",21.4,2025
+"11","Sarnia Seasnakes","4984","Josh Allen","QB","BUF",29.6,2025
+"11","Sarnia Seasnakes","12467","Jordan James","RB","SF",21.7,2025
+"11","Sarnia Seasnakes","6815","Zack Baun","LB","PHI",29,2025
+"11","Sarnia Seasnakes","6217","Blake Cashman","LB","MIN",29.6,2025
+"11","Sarnia Seasnakes","8228","Jaylen Warren","RB","PIT",27.1,2025
+"11","Sarnia Seasnakes","12591","Xavier Watts","DB","ATL",24.1,2025
+"11","Sarnia Seasnakes","9225","Tank Bigsby","RB","PHI",23.3,2025
+"11","Sarnia Seasnakes","12481","Cam Skattebo","RB","NYG",23.9,2025
+"11","Sarnia Seasnakes","5726","Robert Spillane","LB","NE",30,2025
+"11","Sarnia Seasnakes","6901","Joshua Metellus","DB","MIN",27.9,2025
+"11","Sarnia Seasnakes","6826","Cole Kmet","TE","CHI",26.8,2025
+"11","Sarnia Seasnakes","12634","Jordan Watkins","WR","SF",23.8,2025
+"11","Sarnia Seasnakes","12969","Lan Larison","RB","NE",24.2,2025
+"11","Sarnia Seasnakes","12531","Trevor Etienne","RB","CAR",21.4,2025
+"11","Sarnia Seasnakes","10444","Cedric Tillman","WR","CLE",25.7,2025
+"11","Sarnia Seasnakes","5848","Marquise Brown","WR","KC",28.5,2025
+"11","Sarnia Seasnakes","8112","Drake London","WR","ATL",24.4,2025
+"11","Sarnia Seasnakes","2374","Tyler Lockett","WR","LV",33.2,2025
+"11","Sarnia Seasnakes","10225","Jonathan Mingo","WR","DAL",24.7,2025
+"11","Sarnia Seasnakes","11577","Will Shipley","RB","PHI",23.3,2025
+"11","Sarnia Seasnakes","10927","Jordan Battle","DB","CIN",25,2025
+"11","Sarnia Seasnakes","12552","Walter Nolen","DL","ARI",22.2,2025
+"11","Sarnia Seasnakes","12489","RJ Harvey","RB","DEN",24.9,2025
+"11","Sarnia Seasnakes","8132","Tyler Allgeier","RB","ATL",25.7,2025
+"11","Sarnia Seasnakes","12474","Woody Marks","RB","HOU",25,2025
+"11","Sarnia Seasnakes","9484","Tucker Kraft","TE","GB",25.1,2025
+"11","Sarnia Seasnakes","11638","Ricky Pearsall","WR","SF",25.3,2025
+"11","Sarnia Seasnakes","4988","Nick Chubb","RB","HOU",30,2025
+"11","Sarnia Seasnakes","11669","Laiatu Latu","DL","IND",25,2025
+"11","Sarnia Seasnakes","12518","Tyler Warren","TE","IND",23.6,2025
+"11","Sarnia Seasnakes","9480","Brenton Strange","TE","JAX",25,2025
+"11","Sarnia Seasnakes","11618","Jalen McMillan","WR","TB",24,2025
+"11","Sarnia Seasnakes","3172","DeForest Buckner","DT","IND",31.8,2025
+"11","Sarnia Seasnakes","10921","Yaya Diaby","DL","TB",26.6,2025
+"11","Sarnia Seasnakes","12597","Nick Emmanwori","DB","SEA",21.9,2025
+"11","Sarnia Seasnakes","11620","Rome Odunze","WR","CHI",23.5,2025
+"11","Sarnia Seasnakes","6904","Jalen Hurts","QB","PHI",27.4,2025
+"11","Sarnia Seasnakes","12535","Isaac TeSlaa","WR","DET",23.8,2025
+"11","Sarnia Seasnakes","12542","Efton Chism","WR","NE",24.1,2025
+"11","Sarnia Seasnakes","12571","Mike Green","DL","BAL",22.4,2025
+"11","Sarnia Seasnakes","11533","Brandon Aubrey","K","DAL",30.8,2025
+"12","Mississauga Mastodons","4033","David Njoku","TE","CLE",29.4,2025
+"12","Mississauga Mastodons","11566","Jayden Daniels","QB","WAS",25,2025
+"12","Mississauga Mastodons","6151","Miles Sanders","RB","DAL",28.6,2025
+"12","Mississauga Mastodons","5095","Daniel Carlson","K","LV",30.9,2025
+"12","Mississauga Mastodons","4017","Deshaun Watson","QB","CLE",30.3,2025
+"12","Mississauga Mastodons","2307","Marcus Mariota","QB","WAS",32.1,2025
+"12","Mississauga Mastodons","9482","Michael Mayer","TE","LV",24.5,2025
+"12","Mississauga Mastodons","4089","Gerald Everett","TE",NA,31.5,2025
+"12","Mississauga Mastodons","8168","Skyy Moore","WR","SF",25.3,2025
+"12","Mississauga Mastodons","8670","Parker Romo","K",NA,28.3,2025
+"12","Mississauga Mastodons","5857","Noah Fant","TE","CIN",28.1,2025
+"12","Mississauga Mastodons","11637","Keon Coleman","WR","BUF",22.6,2025
+"12","Mississauga Mastodons","7670","Joshua Palmer","WR","BUF",26.2,2025
+"12","Mississauga Mastodons","2319","DeVante Parker","WR",NA,32.9,2025
+"12","Mississauga Mastodons","4077","Jamal Adams","SS","LV",30.2,2025
+"12","Mississauga Mastodons","7567","Kenneth Gainwell","RB","PIT",26.8,2025
+"12","Mississauga Mastodons","10892","Will Anderson","DL","HOU",24.3,2025
+"12","Mississauga Mastodons","9481","Luke Musgrave","TE","GB",25.3,2025
+"12","Mississauga Mastodons","12541","Dont'e Thornton","WR","LV",23,2025
+"12","Mississauga Mastodons","3558","Chris Jones","DT","KC",31.5,2025
+"12","Mississauga Mastodons","4059","Marshon Lattimore","CB","WAS",29.6,2025
+"12","Mississauga Mastodons","2306","Jameis Winston","QB","NYG",31.9,2025
+"12","Mississauga Mastodons","7640","Micah Parsons","LB","GB",26.6,2025
+"12","Mississauga Mastodons","6799","Grant Delpit","DB","CLE",27.2,2025
+"12","Mississauga Mastodons","8339","Kyle Hamilton","DB","BAL",24.8,2025
+"12","Mississauga Mastodons","10888","Jalen Carter","DL","PHI",24.7,2025
+"12","Mississauga Mastodons","3214","Hunter Henry","TE","NE",31,2025
+"12","Mississauga Mastodons","5967","Tony Pollard","RB","TEN",28.6,2025
+"12","Mississauga Mastodons","5119","Jason Sanders","K","MIA",30.1,2025
+"12","Mississauga Mastodons","3973","Myles Garrett","DE","CLE",30,2025
+"12","Mississauga Mastodons","3198","Derrick Henry","RB","BAL",32,2025
+"12","Mississauga Mastodons","6421","Jalen Guyton","WR",NA,28.5,2025
+"12","Mississauga Mastodons","8146","Garrett Wilson","WR","NYJ",25.4,2025
+"12","Mississauga Mastodons","8167","Christian Watson","WR","GB",26.6,2025
+"12","Mississauga Mastodons","4574","Cooper Rush","QB","BAL",32.1,2025
+"12","Mississauga Mastodons","10232","Michael Wilson","WR","ARI",25.8,2025
+"12","Mississauga Mastodons","7601","Rondale Moore","WR","MIN",25.5,2025
+"12","Mississauga Mastodons","7526","Jaylen Waddle","WR","MIA",27.1,2025
+"12","Mississauga Mastodons","8111","Cade Otton","TE","TB",26.7,2025
+"12","Mississauga Mastodons","4943","Sam Darnold","QB","SEA",28.5,2025
+"12","Mississauga Mastodons","11610","Malik Washington","WR","MIA",25,2025
+"12","Mississauga Mastodons","8138","James Cook","RB","BUF",26.2,2025
+"12","Mississauga Mastodons","11667","Dallas Turner","LB","MIN",22.9,2025
+"12","Mississauga Mastodons","7828","Noah Gray","TE","KC",26.6,2025
+"12","Mississauga Mastodons","5854","Drew Lock","QB","SEA",29.1,2025
+"12","Mississauga Mastodons","4054","Mo Alie-Cox","TE","IND",32.2,2025
+"13","Vancouver Mounties","5843","Devin Bush","LB","CLE",27.4,2025
+"13","Vancouver Mounties","6960","Tyler Johnson","WR","NYJ",27.3,2025
+"13","Vancouver Mounties","11619","Ja'Lynn Polk","WR","NO",23.7,2025
+"13","Vancouver Mounties","5001","Dalton Schultz","TE","HOU",29.4,2025
+"13","Vancouver Mounties","9505","Deuce Vaughn","RB","DEN",24.1,2025
+"13","Vancouver Mounties","4314","Johnny Mundt","TE","JAX",31.1,2025
+"13","Vancouver Mounties","9753","Zach Charbonnet","RB","SEA",24.9,2025
+"13","Vancouver Mounties","8139","Zamir White","RB","LV",26.3,2025
+"13","Vancouver Mounties","7811","Talanoa Hufanga","DB","DEN",25.9,2025
+"13","Vancouver Mounties","12471","DJ Giddens","RB","IND",22.3,2025
+"13","Vancouver Mounties","7651","Jeremiah Owusu-Koramoah","LB","CLE",26.1,2025
+"13","Vancouver Mounties","11199","Emari Demercado","RB","ARI",26.9,2025
+"13","Vancouver Mounties","4454","Kendrick Bourne","WR","SF",30.4,2025
+"13","Vancouver Mounties","5030","Harold Landry","LB","NE",29.5,2025
+"13","Vancouver Mounties","12574","Abdul Carter","DL","NYG",22,2025
+"13","Vancouver Mounties","12469","Dylan Sampson","RB","CLE",21.3,2025
+"13","Vancouver Mounties","11685","Kamari Lassiter","DB","HOU",22.9,2025
+"13","Vancouver Mounties","1234","Russell Wilson","QB","NYG",37.1,2025
+"13","Vancouver Mounties","4413","Eric Wilson","LB","MIN",31.2,2025
+"13","Vancouver Mounties","11786","Cam Little","K","JAX",22.3,2025
+"13","Vancouver Mounties","12573","Mason Graham","DL","CLE",22.3,2025
+"13","Vancouver Mounties","12499","Elic Ayomanor","WR","TEN",22.5,2025
+"13","Vancouver Mounties","4177","Mack Hollins","WR","NE",32.3,2025
+"13","Vancouver Mounties","12478","Nick Nash","WR","ATL",25.4,2025
+"13","Vancouver Mounties","12530","Travis Hunter","WR","JAX",22.6,2025
+"13","Vancouver Mounties","6271","Olamide Zaccheaus","WR","CHI",28.4,2025
+"13","Vancouver Mounties","6333","Keisean Nixon","CB","GB",28.5,2025
+"13","Vancouver Mounties","2036","Khalil Mack","LB","LAC",34.8,2025
+"13","Vancouver Mounties","10226","Andrei Iosivas","WR","CIN",26.2,2025
+"13","Vancouver Mounties","6694","D'Ernest Johnson","RB","NE",29.8,2025
+"13","Vancouver Mounties","12482","Savion Williams","WR","GB",24.1,2025
+"13","Vancouver Mounties","7083","Tyler Huntley","QB","BAL",27.9,2025
+"13","Vancouver Mounties","4063","Haason Reddick","LB","TB",31.2,2025
+"13","Vancouver Mounties","827","Tyrod Taylor","QB","NYJ",36.4,2025
+"13","Vancouver Mounties","8659","Nate Landman","LB","LAR",27.1,2025
+"13","Vancouver Mounties","7839","Evan McPherson","K","CIN",26.4,2025
+"13","Vancouver Mounties","3286","Demarcus Robinson","WR","SF",31.2,2025
+"13","Vancouver Mounties","6804","Jordan Love","QB","GB",27.1,2025
+"13","Vancouver Mounties","5844","T.J. Hockenson","TE","MIN",28.5,2025
+"13","Vancouver Mounties","11647","Kimani Vidal","RB","LAC",24.3,2025
+"13","Vancouver Mounties","5995","Justice Hill","RB","BAL",28.1,2025
+"13","Vancouver Mounties","6783","Jerry Jeudy","WR","CLE",26.7,2025
+"14","Gold Coast Sharks","7233","Andre Baccellia","WR","ARI",28.9,2025
+"14","Gold Coast Sharks","12658","Jackson Hawes","TE","BUF",25,2025
+"14","Gold Coast Sharks","5970","Greg Dortch","WR","ARI",27.6,2025
+"14","Gold Coast Sharks","8800","Malik Davis","RB","DAL",27.1,2025
+"14","Gold Coast Sharks","8122","Zonovan Knight","RB","ARI",24.7,2025
+"14","Gold Coast Sharks","5045","Courtland Sutton","WR","DEN",30.2,2025
+"14","Gold Coast Sharks","11665","Jared Verse","DL","LAR",25.1,2025
+"14","Gold Coast Sharks","8172","Greg Dulcich","TE","MIA",25.7,2025
+"14","Gold Coast Sharks","9997","Zay Flowers","WR","BAL",25.3,2025
+"14","Gold Coast Sharks","12516","Kalel Mullings","RB","TEN",23.2,2025
+"14","Gold Coast Sharks","12713","Andy Borregales","K","NE",24,2025
+"14","Gold Coast Sharks","8230","Ty Chandler","RB","MIN",27.6,2025
+"14","Gold Coast Sharks","9757","Kendre Miller","RB","NO",23.5,2025
+"14","Gold Coast Sharks","4147","Samaje Perine","RB","CIN",30.3,2025
+"14","Gold Coast Sharks","11581","MarShawn Lloyd","RB","GB",25,2025
+"14","Gold Coast Sharks","5839","Rashan Gary","LB","GB",28,2025
+"14","Gold Coast Sharks","10236","Dalton Kincaid","TE","BUF",26.2,2025
+"14","Gold Coast Sharks","5332","Foyesade Oluokun","LB","JAX",30.4,2025
+"14","Gold Coast Sharks","4179","Joshua Dobbs","QB","NE",30.9,2025
+"14","Gold Coast Sharks","12457","Jaydon Blue","RB","DAL",21.9,2025
+"14","Gold Coast Sharks","5894","Germaine Pratt","LB","IND",29.6,2025
+"14","Gold Coast Sharks","11655","Tyrone Tracy","RB","NYG",26.1,2025
+"14","Gold Coast Sharks","2617","Alex Singleton","LB","DEN",32,2025
+"14","Gold Coast Sharks","12567","Malaki Starks","DB","BAL",22.1,2025
+"14","Gold Coast Sharks","11596","Ben Sinnott","TE","WAS",23.5,2025
+"14","Gold Coast Sharks","12556","Donovan Ezeiruaku","DL","DAL",22.2,2025
+"14","Gold Coast Sharks","7136","Kam Curl","DB","LAR",26.7,2025
+"14","Gold Coast Sharks","7562","Tutu Atwell","WR","LAR",26.2,2025
+"14","Gold Coast Sharks","4040","JuJu Smith-Schuster","WR","KC",29.1,2025
+"14","Gold Coast Sharks","4663","Austin Ekeler","RB","WAS",30.6,2025
+"14","Gold Coast Sharks","5987","Alexander Mattison","RB","MIA",27.5,2025
+"14","Gold Coast Sharks","6183","Andrew Van Ginkel","LB","MIN",30.5,2025
+"14","Gold Coast Sharks","4081","Budda Baker","DB","ARI",29.9,2025
+"14","Gold Coast Sharks","8177","Grant Calcaterra","TE","PHI",27,2025
+"14","Gold Coast Sharks","6485","Azeez Al-Shaair","LB","HOU",28.4,2025
+"14","Gold Coast Sharks","6111","Jake Browning","QB","CIN",29.7,2025
+"14","Gold Coast Sharks","12529","TreVeyon Henderson","RB","NE",23.2,2025
+"14","Gold Coast Sharks","5870","Daniel Jones","QB","IND",28.6,2025
+"14","Gold Coast Sharks","12593","Jack Sawyer","DL","PIT",23.6,2025
+"14","Gold Coast Sharks","4227","Harrison Butker","K","KC",30.4,2025
+"14","Gold Coast Sharks","3294","Dak Prescott","QB","DAL",32.4,2025
+"14","Gold Coast Sharks","11579","Audric Estime","RB","NO",22.3,2025
+"14","Gold Coast Sharks","6818","Nnamdi Madubuike","DT","BAL",28.1,2025
+"14","Gold Coast Sharks","8698","Jake Tonges","TE","SF",26.4,2025
+"14","Gold Coast Sharks","11439","Jaleel McLaughlin","RB","DEN",25.3,2025
+"14","Gold Coast Sharks","9504","Kayshon Boutte","WR","NE",23.6,2025
+"14","Gold Coast Sharks","9487","Parker Washington","WR","JAX",23.7,2025

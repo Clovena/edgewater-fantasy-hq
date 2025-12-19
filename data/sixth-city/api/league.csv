@@ -1,0 +1,6 @@
+"league_id","league_name","season","league_type","franchise_count","qb_type","idp","scoring_flags","best_ball","salary_cap","player_copies","years_active","qb_count","roster_size","league_depth","prev_league_ids"
+"721099701297950720","CLE Dynasty League","2021","dynasty","14","2QB/SF","FALSE","1_ppr, 0.5TEPrem","FALSE","FALSE","1","2021-2021","1-2","30","420",NA
+"801713921697349632","Sixth City Dynasty League","2022","dynasty","14","2QB/SF","TRUE","1_ppr, 0.5TEPrem","FALSE","FALSE","1","2021-2022","1-2","34","476","721099701297950720"
+"931450431807537280","Sixth City Dynasty League","2023","dynasty","14","2QB/SF","TRUE","1_ppr, 0.5TEPrem","FALSE","FALSE","1","2021-2023","1-2","34","476","801713921697349632, 721099701297950720"
+"1054586519090008064","Sixth City Dynasty","2024","dynasty","14","2QB/SF","TRUE","1_ppr, 0.5TEPrem","FALSE","FALSE","1","2021-2024","1-2","42","588","931450431807537152, 801713921697349632, 721099701297950720"
+"1185347458376470528","Sixth City Dynasty","2025","dynasty","14","2QB/SF","TRUE","1_ppr, 0.5TEPrem","FALSE","FALSE","1","2021-2025","1-2","42","588","1054586519090008064, 931450431807537152, 801713921697349632, 721099701297950720"
