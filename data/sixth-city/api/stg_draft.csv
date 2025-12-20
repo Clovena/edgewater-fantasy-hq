@@ -1,0 +1,785 @@
+"draft_id","status","type","season","round","pick","franchise_id","franchise_name","player_id","player_name","pos","age","team"
+"721099701922897920","complete","snake","2021","1","1","10","Calgary Cocks","4046","Patrick Mahomes","QB","30.3","KC"
+"721099701922897920","complete","snake","2021","1","2","11","Montreal Generals","4984","Josh Allen","QB","29.6","BUF"
+"721099701922897920","complete","snake","2021","1","3","2","Bikini Bottom Stars","5849","Kyler Murray","QB","28.4","ARI"
+"721099701922897920","complete","snake","2021","1","4","6","Choccolocco Railfans","4034","Christian McCaffrey","RB","29.5","SF"
+"721099701922897920","complete","snake","2021","1","5","12","Mississauga Mastodons","6797","Justin Herbert","QB","27.8","LAC"
+"721099701922897920","complete","snake","2021","1","6","7","Pokémon Omega Judge Judy","4881","Lamar Jackson","QB","29","BAL"
+"721099701922897920","complete","snake","2021","1","7","3","Newfoundland Blowers","4029","Dalvin Cook","RB","30.4",NA
+"721099701922897920","complete","snake","2021","1","8","5","Winnipeg Wankers ","3198","Derrick Henry","RB","32","BAL"
+"721099701922897920","complete","snake","2021","1","9","8","Iqaluit Trout","4866","Saquon Barkley","RB","28.9","PHI"
+"721099701922897920","complete","snake","2021","1","10","1","Toronto Hogs","6813","Jonathan Taylor","RB","26.9","IND"
+"721099701922897920","complete","snake","2021","1","11","9","Saskatoon Squirrels","4988","Nick Chubb","RB","30","HOU"
+"721099701922897920","complete","snake","2021","1","12","4","Thunder Bay Mustangs ","4035","Alvin Kamara","RB","30.4","NO"
+"721099701922897920","complete","snake","2021","1","13","14","Unsolicited Dak Pics","6790","D'Andre Swift","RB","26.9","CHI"
+"721099701922897920","complete","snake","2021","1","14","13","Vancouver Mounties","4663","Austin Ekeler","RB","30.6","WAS"
+"721099701922897920","complete","snake","2021","2","14","13","Vancouver Mounties","3321","Tyreek Hill","WR","31.8","MIA"
+"721099701922897920","complete","snake","2021","2","13","14","Unsolicited Dak Pics","3294","Dak Prescott","QB","32.4","DAL"
+"721099701922897920","complete","snake","2021","2","12","4","Thunder Bay Mustangs ","7523","Trevor Lawrence","QB","26.2","JAX"
+"721099701922897920","complete","snake","2021","2","11","9","Saskatoon Squirrels","1466","Travis Kelce","TE","36.2","KC"
+"721099701922897920","complete","snake","2021","2","10","1","Toronto Hogs","7528","Najee Harris","RB","27.8","LAC"
+"721099701922897920","complete","snake","2021","2","9","8","Iqaluit Trout","6770","Joe Burrow","QB","29","CIN"
+"721099701922897920","complete","snake","2021","2","8","5","Winnipeg Wankers ","6794","Justin Jefferson","WR","26.5","MIN"
+"721099701922897920","complete","snake","2021","2","7","3","Newfoundland Blowers","5846","DK Metcalf","WR","28","PIT"
+"721099701922897920","complete","snake","2021","2","6","7","Pokémon Omega Judge Judy","1234","Russell Wilson","QB","37.1","NYG"
+"721099701922897920","complete","snake","2021","2","5","12","Mississauga Mastodons","2505","Darren Waller","TE","33.3","MIA"
+"721099701922897920","complete","snake","2021","2","4","6","Choccolocco Railfans","5859","A.J. Brown","WR","28.5","PHI"
+"721099701922897920","complete","snake","2021","2","3","2","Bikini Bottom Stars","2449","Stefon Diggs","WR","32.1","NE"
+"721099701922897920","complete","snake","2021","2","2","11","Montreal Generals","3164","Ezekiel Elliott","RB","30.4",NA
+"721099701922897920","complete","snake","2021","2","1","10","Calgary Cocks","2133","Davante Adams","WR","33","LAR"
+"721099701922897920","complete","snake","2021","3","1","10","Calgary Cocks","6820","Clyde Edwards-Helaire","RB","26.7","KC"
+"721099701922897920","complete","snake","2021","3","2","11","Montreal Generals","6806","J.K. Dobbins","RB","27","DEN"
+"721099701922897920","complete","snake","2021","3","3","2","Bikini Bottom Stars","4217","George Kittle","TE","32.2","SF"
+"721099701922897920","complete","snake","2021","3","4","6","Choccolocco Railfans","6945","Antonio Gibson","RB","27.5","NE"
+"721099701922897920","complete","snake","2021","3","5","12","Mississauga Mastodons","4199","Aaron Jones","RB","31","MIN"
+"721099701922897920","complete","snake","2021","3","6","7","Pokémon Omega Judge Judy","7553","Kyle Pitts","TE","25.2","ATL"
+"721099701922897920","complete","snake","2021","3","7","3","Newfoundland Blowers","1426","DeAndre Hopkins","WR","33.5","BAL"
+"721099701922897920","complete","snake","2021","3","8","5","Winnipeg Wankers ","7564","Ja'Marr Chase","WR","25.8","CIN"
+"721099701922897920","complete","snake","2021","3","9","8","Iqaluit Trout","4981","Calvin Ridley","WR","31","TEN"
+"721099701922897920","complete","snake","2021","3","10","1","Toronto Hogs","6786","CeeDee Lamb","WR","26.7","DAL"
+"721099701922897920","complete","snake","2021","3","11","9","Saskatoon Squirrels","5927","Terry McLaurin","WR","30.3","WAS"
+"721099701922897920","complete","snake","2021","3","12","4","Thunder Bay Mustangs ","5012","Mark Andrews","TE","30.3","BAL"
+"721099701922897920","complete","snake","2021","3","13","14","Unsolicited Dak Pics","2309","Amari Cooper","WR","31.5",NA
+"721099701922897920","complete","snake","2021","3","14","13","Vancouver Mounties","4018","Joe Mixon","RB","29.4","HOU"
+"721099701922897920","complete","snake","2021","4","14","13","Vancouver Mounties","6904","Jalen Hurts","QB","27.4","PHI"
+"721099701922897920","complete","snake","2021","4","13","14","Unsolicited Dak Pics","1992","Allen Robinson","WR","32.3",NA
+"721099701922897920","complete","snake","2021","4","12","4","Thunder Bay Mustangs ","7543","Travis Etienne","RB","26.9","JAX"
+"721099701922897920","complete","snake","2021","4","11","9","Saskatoon Squirrels","4892","Baker Mayfield","QB","30.7","TB"
+"721099701922897920","complete","snake","2021","4","10","1","Toronto Hogs","7591","Justin Fields","QB","26.8","NYJ"
+"721099701922897920","complete","snake","2021","4","9","8","Iqaluit Trout","5892","David Montgomery","RB","28.5","DET"
+"721099701922897920","complete","snake","2021","4","8","5","Winnipeg Wankers ","1479","Keenan Allen","WR","33.6","LAC"
+"721099701922897920","complete","snake","2021","4","7","6","Choccolocco Railfans","5844","T.J. Hockenson","TE","28.5","MIN"
+"721099701922897920","complete","snake","2021","4","6","7","Pokémon Omega Judge Judy","5850","Josh Jacobs","RB","27.9","GB"
+"721099701922897920","complete","snake","2021","4","5","12","Mississauga Mastodons","6151","Miles Sanders","RB","28.6","DAL"
+"721099701922897920","complete","snake","2021","4","4","6","Choccolocco Railfans","7610","Trey Lance","QB","25.6","LAC"
+"721099701922897920","complete","snake","2021","4","3","2","Bikini Bottom Stars","4037","Chris Godwin","WR","29.8","TB"
+"721099701922897920","complete","snake","2021","4","2","11","Montreal Generals","2216","Mike Evans","WR","32.3","TB"
+"721099701922897920","complete","snake","2021","4","1","10","Calgary Cocks","1825","Jarvis Landry","WR","33.1",NA
+"721099701922897920","complete","snake","2021","5","1","10","Calgary Cocks","4098","Kareem Hunt","RB","30.4","KC"
+"721099701922897920","complete","snake","2021","5","2","11","Montreal Generals","4983","DJ Moore","WR","28.7","CHI"
+"721099701922897920","complete","snake","2021","5","3","2","Bikini Bottom Stars","4273","Chris Carson","RB","31.3",NA
+"721099701922897920","complete","snake","2021","5","4","6","Choccolocco Railfans","421","Matthew Stafford","QB","37.9","LAR"
+"721099701922897920","complete","snake","2021","5","5","12","Mississauga Mastodons","6886","Chase Claypool","WR","27.5",NA
+"721099701922897920","complete","snake","2021","5","6","7","Pokémon Omega Judge Judy","6801","Tee Higgins","WR","26.9","CIN"
+"721099701922897920","complete","snake","2021","5","7","3","Newfoundland Blowers","96","Aaron Rodgers","QB","42.1","PIT"
+"721099701922897920","complete","snake","2021","5","8","5","Winnipeg Wankers ","3199","Michael Thomas","WR","32.8",NA
+"721099701922897920","complete","snake","2021","5","9","8","Iqaluit Trout","6803","Brandon Aiyuk","WR","27.8","SF"
+"721099701922897920","complete","snake","2021","5","10","1","Toronto Hogs","7588","Javonte Williams","RB","25.7","DAL"
+"721099701922897920","complete","snake","2021","5","11","9","Saskatoon Squirrels","1264","Justin Tucker","K","36.1",NA
+"721099701922897920","complete","snake","2021","5","12","4","Thunder Bay Mustangs ","4131","Kenny Golladay","WR","32.1",NA
+"721099701922897920","complete","snake","2021","5","13","14","Unsolicited Dak Pics","7525","DeVonta Smith","WR","27.1","PHI"
+"721099701922897920","complete","snake","2021","5","14","13","Vancouver Mounties","4039","Cooper Kupp","WR","32.5","SEA"
+"721099701922897920","complete","snake","2021","6","14","13","Vancouver Mounties","3161","Carson Wentz","QB","33","MIN"
+"721099701922897920","complete","snake","2021","6","13","14","Unsolicited Dak Pics","1049","Ryan Tannehill","QB","37.4",NA
+"721099701922897920","complete","snake","2021","6","12","4","Thunder Bay Mustangs ","7526","Jaylen Waddle","WR","27.1","MIA"
+"721099701922897920","complete","snake","2021","6","11","9","Saskatoon Squirrels","2374","Tyler Lockett","WR","33.2","LV"
+"721099701922897920","complete","snake","2021","6","10","1","Toronto Hogs","1352","Robert Woods","WR","33.7",NA
+"721099701922897920","complete","snake","2021","6","9","8","Iqaluit Trout","5937","Diontae Johnson","WR","29.5",NA
+"721099701922897920","complete","snake","2021","6","8","5","Winnipeg Wankers ","5980","Myles Gaskin","RB","28.8",NA
+"721099701922897920","complete","snake","2021","6","7","3","Newfoundland Blowers","5052","Ronald Jones","RB","28.4",NA
+"721099701922897920","complete","snake","2021","6","6","7","Pokémon Omega Judge Judy","6783","Jerry Jeudy","WR","26.7","CLE"
+"721099701922897920","complete","snake","2021","6","5","12","Mississauga Mastodons","5857","Noah Fant","TE","28.1","CIN"
+"721099701922897920","complete","snake","2021","6","4","3","Newfoundland Blowers","5022","Dallas Goedert","TE","31","PHI"
+"721099701922897920","complete","snake","2021","6","3","2","Bikini Bottom Stars","5000","Chase Edmonds","RB","29.7","WAS"
+"721099701922897920","complete","snake","2021","6","2","11","Montreal Generals","1689","Adam Thielen","WR","35.3","PIT"
+"721099701922897920","complete","snake","2021","6","1","10","Calgary Cocks","4993","Mike Gesicki","TE","30.2","CIN"
+"721099701922897920","complete","snake","2021","7","1","10","Calgary Cocks","6768","Tua Tagovailoa","QB","27.8","MIA"
+"721099701922897920","complete","snake","2021","7","2","11","Montreal Generals","515","Rob Gronkowski","TE","36.6",NA
+"721099701922897920","complete","snake","2021","7","3","4","Thunder Bay Mustangs ","3225","Tyler Boyd","WR","31.1",NA
+"721099701922897920","complete","snake","2021","7","4","3","Newfoundland Blowers","4951","DJ Chark","WR","29.2",NA
+"721099701922897920","complete","snake","2021","7","5","12","Mississauga Mastodons","5045","Courtland Sutton","WR","30.2","DEN"
+"721099701922897920","complete","snake","2021","7","6","7","Pokémon Omega Judge Judy","6955","James Robinson","RB","27.4",NA
+"721099701922897920","complete","snake","2021","7","7","3","Newfoundland Blowers","7593","Trey Sermon","RB","26.9","PIT"
+"721099701922897920","complete","snake","2021","7","8","5","Winnipeg Wankers ","7538","Zach Wilson","QB","26.4","MIA"
+"721099701922897920","complete","snake","2021","7","9","8","Iqaluit Trout","5870","Daniel Jones","QB","28.6","IND"
+"721099701922897920","complete","snake","2021","7","10","1","Toronto Hogs","4040","JuJu Smith-Schuster","WR","29.1","KC"
+"721099701922897920","complete","snake","2021","7","11","9","Saskatoon Squirrels","5872","Deebo Samuel","WR","29.9","WAS"
+"721099701922897920","complete","snake","2021","7","12","2","Bikini Bottom Stars","947","Julio Jones","WR","36.9",NA
+"721099701922897920","complete","snake","2021","7","13","14","Unsolicited Dak Pics","6126","Irv Smith","TE","27.4",NA
+"721099701922897920","complete","snake","2021","7","14","13","Vancouver Mounties","2251","Logan Thomas","TE","34.5",NA
+"721099701922897920","complete","snake","2021","8","14","13","Vancouver Mounties","2078","Odell Beckham","WR","33.1",NA
+"721099701922897920","complete","snake","2021","8","13","14","Unsolicited Dak Pics","5890","Damien Harris","RB","28.9",NA
+"721099701922897920","complete","snake","2021","8","12","2","Bikini Bottom Stars","167","Tom Brady","QB","48.4",NA
+"721099701922897920","complete","snake","2021","8","11","9","Saskatoon Squirrels","6828","A.J. Dillon","RB","27.6","PHI"
+"721099701922897920","complete","snake","2021","8","10","1","Toronto Hogs","3423","Robbie Chosen","WR","32.6","WAS"
+"721099701922897920","complete","snake","2021","8","9","8","Iqaluit Trout","4082","Curtis Samuel","WR","29.4","BUF"
+"721099701922897920","complete","snake","2021","8","8","5","Winnipeg Wankers ","4602","Robert Tonyan","TE","31.6","KC"
+"721099701922897920","complete","snake","2021","8","7","6","Choccolocco Railfans","6819","Michael Pittman","WR","28.2","IND"
+"721099701922897920","complete","snake","2021","8","6","7","Pokémon Omega Judge Judy","7571","Rashod Bateman","WR","26.1","BAL"
+"721099701922897920","complete","snake","2021","8","5","12","Mississauga Mastodons","6814","Laviska Shenault","WR","27.2",NA
+"721099701922897920","complete","snake","2021","8","4","6","Choccolocco Railfans","7596","Elijah Moore","WR","25.7","DEN"
+"721099701922897920","complete","snake","2021","8","3","4","Thunder Bay Mustangs ","4943","Sam Darnold","QB","28.5","SEA"
+"721099701922897920","complete","snake","2021","8","2","11","Montreal Generals","24","Matt Ryan","QB","40.6",NA
+"721099701922897920","complete","snake","2021","8","1","10","Calgary Cocks","2197","Brandin Cooks","WR","32.2","BUF"
+"721099701922897920","complete","snake","2021","9","1","10","Calgary Cocks","3214","Hunter Henry","TE","31","NE"
+"721099701922897920","complete","snake","2021","9","2","11","Montreal Generals","4068","Mike Williams","WR","31.2",NA
+"721099701922897920","complete","snake","2021","9","3","2","Bikini Bottom Stars","7607","Michael Carter","RB","26.6","ARI"
+"721099701922897920","complete","snake","2021","9","4","6","Choccolocco Railfans","6938","Cam Akers","RB","26.5","SEA"
+"721099701922897920","complete","snake","2021","9","5","12","Mississauga Mastodons","4017","Deshaun Watson","QB","30.3","CLE"
+"721099701922897920","complete","snake","2021","9","6","7","Pokémon Omega Judge Judy","5848","Marquise Brown","WR","28.5","KC"
+"721099701922897920","complete","snake","2021","9","7","3","Newfoundland Blowers","7527","Mac Jones","QB","27.3","SF"
+"721099701922897920","complete","snake","2021","9","8","5","Winnipeg Wankers ","1166","Kirk Cousins","QB","37.3","ATL"
+"721099701922897920","complete","snake","2021","9","9","8","Iqaluit Trout","3271","Tyler Higbee","TE","33","LAR"
+"721099701922897920","complete","snake","2021","9","10","1","Toronto Hogs","2431","Mike Davis","RB","32.8",NA
+"721099701922897920","complete","snake","2021","9","11","9","Saskatoon Squirrels","2028","Derek Carr","QB","34.7",NA
+"721099701922897920","complete","snake","2021","9","12","4","Thunder Bay Mustangs ","6789","Henry Ruggs","WR","26.9",NA
+"721099701922897920","complete","snake","2021","9","13","14","Unsolicited Dak Pics","6869","Adam Trautman","TE","28.9","DEN"
+"721099701922897920","complete","snake","2021","9","14","13","Vancouver Mounties","5916","Darrell Henderson","RB","28.3",NA
+"721099701922897920","complete","snake","2021","10","14","13","Vancouver Mounties","2319","DeVante Parker","WR","32.9",NA
+"721099701922897920","complete","snake","2021","10","13","14","Unsolicited Dak Pics","4227","Harrison Butker","K","30.4","KC"
+"721099701922897920","complete","snake","2021","10","12","4","Thunder Bay Mustangs ","367","Jared Cook","TE","38.7",NA
+"721099701922897920","complete","snake","2021","10","11","9","Saskatoon Squirrels","5038","Michael Gallup","WR","29.8",NA
+"721099701922897920","complete","snake","2021","10","10","1","Toronto Hogs","4089","Gerald Everett","TE","31.5",NA
+"721099701922897920","complete","snake","2021","10","9","8","Iqaluit Trout","7090","Darnell Mooney","WR","28.1","ATL"
+"721099701922897920","complete","snake","2021","10","8","5","Winnipeg Wankers ","4066","Evan Engram","TE","31.3","DEN"
+"721099701922897920","complete","snake","2021","10","7","3","Newfoundland Blowers","7600","Pat Freiermuth","TE","27.2","PIT"
+"721099701922897920","complete","snake","2021","10","6","7","Pokémon Omega Judge Judy","2749","Raheem Mostert","RB","33.7","LV"
+"721099701922897920","complete","snake","2021","10","5","12","Mississauga Mastodons","3157","William Fuller","WR","31.7",NA
+"721099701922897920","complete","snake","2021","10","4","6","Choccolocco Railfans","7601","Rondale Moore","WR","25.5","MIN"
+"721099701922897920","complete","snake","2021","10","3","2","Bikini Bottom Stars","4036","Corey Davis","WR","30.9",NA
+"721099701922897920","complete","snake","2021","10","2","11","Montreal Generals","2320","Melvin Gordon","RB","32.7",NA
+"721099701922897920","complete","snake","2021","10","1","10","Calgary Cocks","7042","Tyler Bass","K","28.8","BUF"
+"721099701922897920","complete","snake","2021","11","1","10","Calgary Cocks","3202","Austin Hooper","TE","31.1","NE"
+"721099701922897920","complete","snake","2021","11","2","11","Montreal Generals","4435","Anthony Firkser","TE","30.8","DET"
+"721099701922897920","complete","snake","2021","11","3","2","Bikini Bottom Stars","6130","Devin Singletary","RB","28.3","NYG"
+"721099701922897920","complete","snake","2021","11","4","3","Newfoundland Blowers","3969","Leonard Fournette","RB","30.9",NA
+"721099701922897920","complete","snake","2021","11","5","12","Mississauga Mastodons","5119","Jason Sanders","K","30.1","MIA"
+"721099701922897920","complete","snake","2021","11","6","7","Pokémon Omega Judge Judy","7547","Amon-Ra St. Brown","WR","26.2","DET"
+"721099701922897920","complete","snake","2021","11","7","6","Choccolocco Railfans","5917","Mecole Hardman","WR","27.8","BUF"
+"721099701922897920","complete","snake","2021","11","8","5","Winnipeg Wankers ","6845","Zack Moss","RB","28",NA
+"721099701922897920","complete","snake","2021","11","9","8","Iqaluit Trout","4666","Younghoe Koo","K","31.4",NA
+"721099701922897920","complete","snake","2021","11","10","1","Toronto Hogs","2306","Jameis Winston","QB","32","NYG"
+"721099701922897920","complete","snake","2021","11","11","9","Saskatoon Squirrels","3242","Kenyan Drake","RB","31.9",NA
+"721099701922897920","complete","snake","2021","11","12","4","Thunder Bay Mustangs ","2325","Nelson Agholor","WR","32.6",NA
+"721099701922897920","complete","snake","2021","11","13","14","Unsolicited Dak Pics","536","Antonio Brown","WR","37.4",NA
+"721099701922897920","complete","snake","2021","11","14","13","Vancouver Mounties","1110","T.Y. Hilton","WR","36.1",NA
+"721099701922897920","complete","snake","2021","12","14","13","Vancouver Mounties","6804","Jordan Love","QB","27.1","GB"
+"721099701922897920","complete","snake","2021","12","13","14","Unsolicited Dak Pics","5347","Nyheim Miller-Hines","RB","29.1","NO"
+"721099701922897920","complete","snake","2021","12","12","4","Thunder Bay Mustangs ","2391","David Johnson","RB","34",NA
+"721099701922897920","complete","snake","2021","12","11","9","Saskatoon Squirrels","4144","Jonnu Smith","TE","30.3","PIT"
+"721099701922897920","complete","snake","2021","12","10","1","Toronto Hogs","6826","Cole Kmet","TE","26.8","CHI"
+"721099701922897920","complete","snake","2021","12","9","8","Iqaluit Trout","4137","James Conner","RB","30.6","ARI"
+"721099701922897920","complete","snake","2021","12","8","5","Winnipeg Wankers ","7565","Terrace Marshall","WR","25.5","PHI"
+"721099701922897920","complete","snake","2021","12","7","3","Newfoundland Blowers","7540","Amari Rodgers","WR","26.2",NA
+"721099701922897920","complete","snake","2021","12","6","7","Pokémon Omega Judge Judy","7594","Chuba Hubbard","RB","26.5","CAR"
+"721099701922897920","complete","snake","2021","12","5","12","Mississauga Mastodons","5170","Phillip Lindsay","RB","31.4",NA
+"721099701922897920","complete","snake","2021","12","4","6","Choccolocco Railfans","4055","O.J. Howard","TE","31.1",NA
+"721099701922897920","complete","snake","2021","12","3","2","Bikini Bottom Stars","1339","Zach Ertz","TE","35.1","WAS"
+"721099701922897920","complete","snake","2021","12","2","11","Montreal Generals","391","Ryan Succop","K","39.3",NA
+"721099701922897920","complete","snake","2021","12","1","10","Calgary Cocks","3664","J.D. McKissic","RB","32.3",NA
+"721099701922897920","complete","snake","2021","13","1","10","Calgary Cocks","4950","Christian Kirk","WR","29.1","HOU"
+"721099701922897920","complete","snake","2021","13","2","11","Montreal Generals","4571","Blake Jarwin","TE","31.4",NA
+"721099701922897920","complete","snake","2021","13","3","2","Bikini Bottom Stars","6798","Jalen Reagor","WR","27",NA
+"721099701922897920","complete","snake","2021","13","4","6","Choccolocco Railfans","5967","Tony Pollard","RB","28.6","TEN"
+"721099701922897920","complete","snake","2021","13","5","12","Mississauga Mastodons","5880","Parris Campbell","WR","28.4","DAL"
+"721099701922897920","complete","snake","2021","13","6","7","Pokémon Omega Judge Judy","6849","Denzel Mims","WR","28.2",NA
+"721099701922897920","complete","snake","2021","13","7","3","Newfoundland Blowers","6943","Gabe Davis","WR","26.7","BUF"
+"721099701922897920","complete","snake","2021","13","8","5","Winnipeg Wankers ","7606","Kadarius Toney","WR","26.9",NA
+"721099701922897920","complete","snake","2021","13","9","8","Iqaluit Trout","3200","Sterling Shepard","WR","32.9","TB"
+"721099701922897920","complete","snake","2021","13","10","1","Toronto Hogs","7567","Kenneth Gainwell","RB","26.8","PIT"
+"721099701922897920","complete","snake","2021","13","11","9","Saskatoon Squirrels","4149","Jamaal Williams","RB","30.7",NA
+"721099701922897920","complete","snake","2021","13","12","4","Thunder Bay Mustangs ","1817","Sammy Watkins","WR","32.5",NA
+"721099701922897920","complete","snake","2021","13","13","14","Unsolicited Dak Pics","4973","Hayden Hurst","TE","32.3",NA
+"721099701922897920","complete","snake","2021","13","14","13","Vancouver Mounties","7563","Javian Hawkins","RB","26.1",NA
+"721099701922897920","complete","snake","2021","14","14","13","Vancouver Mounties","333","Ryan Fitzpatrick","QB","43.1",NA
+"721099701922897920","complete","snake","2021","14","13","14","Unsolicited Dak Pics","5987","Alexander Mattison","RB","27.5","MIA"
+"721099701922897920","complete","snake","2021","14","12","4","Thunder Bay Mustangs ","1067","Marvin Jones","WR","35.8",NA
+"721099701922897920","complete","snake","2021","14","11","9","Saskatoon Squirrels","6149","Darius Slayton","WR","28.9","NYG"
+"721099701922897920","complete","snake","2021","14","10","1","Toronto Hogs","1144","Cole Beasley","WR","36.7",NA
+"721099701922897920","complete","snake","2021","14","9","8","Iqaluit Trout","954","Cam Newton","QB","36.6",NA
+"721099701922897920","complete","snake","2021","14","8","5","Winnipeg Wankers ","1476","Latavius Murray","RB","35.9",NA
+"721099701922897920","complete","snake","2021","14","7","3","Newfoundland Blowers","5110","Russell Gage","WR","29.9",NA
+"721099701922897920","complete","snake","2021","14","6","7","Pokémon Omega Judge Judy","2118","Eric Ebron","TE","32.7","PIT"
+"721099701922897920","complete","snake","2021","14","5","12","Mississauga Mastodons","2410","Jamison Crowder","WR","32.5",NA
+"721099701922897920","complete","snake","2021","14","4","6","Choccolocco Railfans","3163","Jared Goff","QB","31.2","DET"
+"721099701922897920","complete","snake","2021","14","3","2","Bikini Bottom Stars","7562","Tutu Atwell","WR","26.2","LAR"
+"721099701922897920","complete","snake","2021","14","2","11","Montreal Generals","138","Ben Roethlisberger","QB","43.8","PIT"
+"721099701922897920","complete","snake","2021","14","1","10","Calgary Cocks","559","Tim Tebow","TE","38.4",NA
+"721099701922897920","complete","snake","2021","15","1","10","Calgary Cocks","7062","Rodrigo Blankenship","K","28.9",NA
+"721099701922897920","complete","snake","2021","15","2","11","Montreal Generals","1266","Greg Zuerlein","K","38",NA
+"721099701922897920","complete","snake","2021","15","3","2","Bikini Bottom Stars","5248","Gus Edwards","RB","30.7",NA
+"721099701922897920","complete","snake","2021","15","4","6","Choccolocco Railfans","2238","John Brown","WR","35.7",NA
+"721099701922897920","complete","snake","2021","15","5","12","Mississauga Mastodons","4157","Tarik Cohen","RB","30.4",NA
+"721099701922897920","complete","snake","2021","15","6","7","Pokémon Omega Judge Judy","6824","Donovan Peoples-Jones","WR","26.8",NA
+"721099701922897920","complete","snake","2021","15","7","3","Newfoundland Blowers","4985","Rashaad Penny","RB","29.9",NA
+"721099701922897920","complete","snake","2021","15","8","5","Winnipeg Wankers ","1837","Jimmy Garoppolo","QB","34.1","LAR"
+"721099701922897920","complete","snake","2021","15","9","8","Iqaluit Trout","7587","Dyami Brown","WR","26.1","JAX"
+"721099701922897920","complete","snake","2021","15","10","1","Toronto Hogs","7670","Joshua Palmer","WR","26.2","BUF"
+"721099701922897920","complete","snake","2021","15","11","9","Saskatoon Squirrels","6853","Van Jefferson","WR","29.4","TEN"
+"721099701922897920","complete","snake","2021","15","12","4","Thunder Bay Mustangs ","7569","Nico Collins","WR","26.8","HOU"
+"721099701922897920","complete","snake","2021","15","13","14","Unsolicited Dak Pics","2152","Teddy Bridgewater","QB","33.1","TB"
+"721099701922897920","complete","snake","2021","15","14","13","Vancouver Mounties","4454","Kendrick Bourne","WR","30.4","SF"
+"721099701922897920","complete","snake","2021","16","14","13","Vancouver Mounties","6850","Harrison Bryant","TE","27.7","HOU"
+"721099701922897920","complete","snake","2021","16","13","3","Newfoundland Blowers","2747","Jason Myers","K","34.6","SEA"
+"721099701922897920","complete","snake","2021","16","12","4","Thunder Bay Mustangs ","5095","Daniel Carlson","K","30.9","LV"
+"721099701922897920","complete","snake","2021","16","11","9","Saskatoon Squirrels","4152","Marlon Mack","RB","29.8",NA
+"721099701922897920","complete","snake","2021","16","10","1","Toronto Hogs","6805","KJ Hamler","WR","26.5",NA
+"721099701922897920","complete","snake","2021","16","9","8","Iqaluit Trout","5009","Chris Herndon","TE","29.8",NA
+"721099701922897920","complete","snake","2021","16","8","5","Winnipeg Wankers ","5906","Dawson Knox","TE","29.1","BUF"
+"721099701922897920","complete","snake","2021","16","7","3","Newfoundland Blowers","4381","Taysom Hill","TE","35.3","NO"
+"721099701922897920","complete","snake","2021","16","6","7","Pokémon Omega Judge Judy","830","A.J. Green","WR","37.4",NA
+"721099701922897920","complete","snake","2021","16","5","12","Mississauga Mastodons","7533","Anthony Schwartz","WR","25.3",NA
+"721099701922897920","complete","snake","2021","16","4","6","Choccolocco Railfans","6885","Ke'Shawn Vaughn","RB","28.6",NA
+"721099701922897920","complete","snake","2021","16","3","2","Bikini Bottom Stars","5947","Jakobi Meyers","WR","29.1","JAX"
+"721099701922897920","complete","snake","2021","16","2","11","Montreal Generals","5026","Tre'Quan Smith","WR","30",NA
+"721099701922897920","complete","snake","2021","16","1","10","Calgary Cocks","7568","Brevin Jordan","TE","25.4","HOU"
+"721099701922897920","complete","snake","2021","17","1","10","Calgary Cocks","6870","Bryan Edwards","WR","27.1",NA
+"721099701922897920","complete","snake","2021","17","2","11","Montreal Generals","538","Emmanuel Sanders","WR","38.8",NA
+"721099701922897920","complete","snake","2021","17","3","1","Toronto Hogs","7605","Kyle Trask","QB","27.8","ATL"
+"721099701922897920","complete","snake","2021","17","4","6","Choccolocco Railfans","2331","Breshad Perriman","WR","32.3",NA
+"721099701922897920","complete","snake","2021","17","5","12","Mississauga Mastodons","5854","Drew Lock","QB","29.1","SEA"
+"721099701922897920","complete","snake","2021","17","6","7","Pokémon Omega Judge Judy","4033","David Njoku","TE","29.4","CLE"
+"721099701922897920","complete","snake","2021","17","7","3","Newfoundland Blowers","7611","Rhamondre Stevenson","RB","27.8","NE"
+"721099701922897920","complete","snake","2021","17","8","5","Winnipeg Wankers ","2315","Todd Gurley","RB","31.4",NA
+"721099701922897920","complete","snake","2021","17","9","8","Iqaluit Trout","6895","Quintez Cephus","WR","27.7","HOU"
+"721099701922897920","complete","snake","2021","17","10","2","Bikini Bottom Stars","7581","Kellen Mond","QB","26.5",NA
+"721099701922897920","complete","snake","2021","17","11","9","Saskatoon Squirrels","7595","Tylan Wallace","WR","26.6","BAL"
+"721099701922897920","complete","snake","2021","17","12","4","Thunder Bay Mustangs ","7729","Dez Fitzpatrick","WR","28",NA
+"721099701922897920","complete","snake","2021","17","13","14","Unsolicited Dak Pics","2711","Taylor Heinicke","QB","32.8",NA
+"721099701922897920","complete","snake","2021","17","14","13","Vancouver Mounties","928","Randall Cobb","WR","35.3",NA
+"721099701922897920","complete","snake","2021","18","14","13","Vancouver Mounties","7771","Jake Funk","RB","27.9",NA
+"721099701922897920","complete","snake","2021","18","13","14","Unsolicited Dak Pics","5086","Marquez Valdes-Scantling","WR","31.2","PIT"
+"721099701922897920","complete","snake","2021","18","12","4","Thunder Bay Mustangs ","5549","Darrel Williams","RB","30.7",NA
+"721099701922897920","complete","snake","2021","18","11","9","Saskatoon Squirrels","1848","James White","RB","33.9",NA
+"721099701922897920","complete","snake","2021","18","10","2","Bikini Bottom Stars","6918","Salvon Ahmed","RB","27","IND"
+"721099701922897920","complete","snake","2021","18","9","8","Iqaluit Trout","7794","Chris Evans","RB","28.2",NA
+"721099701922897920","complete","snake","2021","18","8","5","Winnipeg Wankers ","2378","Tevin Coleman","RB","32.7",NA
+"721099701922897920","complete","snake","2021","18","7","3","Newfoundland Blowers","5878","N'Keal Harry","TE","28",NA
+"721099701922897920","complete","snake","2021","18","6","7","Pokémon Omega Judge Judy","5955","Hunter Renfrow","WR","30","CAR"
+"721099701922897920","complete","snake","2021","18","5","12","Mississauga Mastodons","4962","Sony Michel","RB","30.8",NA
+"721099701922897920","complete","snake","2021","18","4","6","Choccolocco Railfans","5185","Allen Lazard","WR","30",NA
+"721099701922897920","complete","snake","2021","18","3","1","Toronto Hogs","6909","Lynn Bowden","WR","28.2",NA
+"721099701922897920","complete","snake","2021","18","2","11","Montreal Generals","6421","Jalen Guyton","WR","28.5",NA
+"721099701922897920","complete","snake","2021","18","1","10","Calgary Cocks","6271","Olamide Zaccheaus","WR","28.4","CHI"
+"721099701922897920","complete","snake","2021","19","1","10","Calgary Cocks","5013","Anthony Miller","WR","31.2",NA
+"721099701922897920","complete","snake","2021","19","2","11","Montreal Generals","827","Tyrod Taylor","QB","36.4","NYJ"
+"721099701922897920","complete","snake","2021","19","3","2","Bikini Bottom Stars","1433","Brandon McManus","K","34.4","GB"
+"721099701922897920","complete","snake","2021","19","4","6","Choccolocco Railfans","7064","Darrynton Evans","RB","27.4",NA
+"721099701922897920","complete","snake","2021","19","5","12","Mississauga Mastodons","7828","Noah Gray","TE","26.6","KC"
+"721099701922897920","complete","snake","2021","19","6","7","Pokémon Omega Judge Judy","350","Mark Sanchez","QB","39.1",NA
+"721099701922897920","complete","snake","2021","19","7","3","Newfoundland Blowers","4171","Josh Reynolds","WR","30.8","NYJ"
+"721099701922897920","complete","snake","2021","19","8","5","Winnipeg Wankers ","110","Stephen Gostkowski","K","41.9",NA
+"721099701922897920","complete","snake","2021","19","9","8","Iqaluit Trout","829","Andy Dalton","QB","38.1","CAR"
+"721099701922897920","complete","snake","2021","19","10","1","Toronto Hogs","7612","Dee Eskridge","WR","28.7","MIA"
+"721099701922897920","complete","snake","2021","19","11","9","Saskatoon Squirrels","6823","Jacob Eason","QB","28.1",NA
+"721099701922897920","complete","snake","2021","19","12","4","Thunder Bay Mustangs ","2583","Tyrell Williams","WR","33.9",NA
+"721099701922897920","complete","snake","2021","19","13","14","Unsolicited Dak Pics","7045","Joshua Kelley","RB","28.1",NA
+"721099701922897920","complete","snake","2021","19","14","13","Vancouver Mounties","5432","Cam Sims","WR","30",NA
+"721099701922897920","complete","snake","2021","20","14","13","Vancouver Mounties","5001","Dalton Schultz","TE","29.4","HOU"
+"721099701922897920","complete","snake","2021","20","13","14","Unsolicited Dak Pics","5199","Byron Pringle","WR","32.1",NA
+"721099701922897920","complete","snake","2021","20","12","4","Thunder Bay Mustangs ","4741","Dan Arnold","TE","30.8",NA
+"721099701922897920","complete","snake","2021","20","11","9","Saskatoon Squirrels","7603","Shi Smith","WR","27.2",NA
+"721099701922897920","complete","snake","2021","20","10","1","Toronto Hogs","6059","Travis Fulgham","WR","30.3",NA
+"721099701922897920","complete","snake","2021","20","9","8","Iqaluit Trout","7539","Gerrid Doaks","RB","27.5",NA
+"721099701922897920","complete","snake","2021","20","8","5","Winnipeg Wankers ","6039","Ty Johnson","RB","28.3","BUF"
+"721099701922897920","complete","snake","2021","20","7","3","Newfoundland Blowers","7535","Hunter Long","TE","27.3","JAX"
+"721099701922897920","complete","snake","2021","20","6","7","Pokémon Omega Judge Judy","3678","Wil Lutz","K","31.5","DEN"
+"721099701922897920","complete","snake","2021","20","5","12","Mississauga Mastodons","6878","Anthony McFarland","RB","26.8",NA
+"721099701922897920","complete","snake","2021","20","4","6","Choccolocco Railfans","7561","Elijah Mitchell","RB","27.6","KC"
+"721099701922897920","complete","snake","2021","20","3","2","Bikini Bottom Stars","5122","Boston Scott","RB","30.7",NA
+"721099701922897920","complete","snake","2021","20","2","11","Montreal Generals","4622","Keelan Cole","WR","32.7",NA
+"721099701922897920","complete","snake","2021","20","1","10","Calgary Cocks","616","Jimmy Graham","TE","39.1",NA
+"721099701922897920","complete","snake","2021","21","1","10","Calgary Cocks","3328","Rashard Higgins","WR","31.2",NA
+"721099701922897920","complete","snake","2021","21","2","11","Montreal Generals","4351","Tim Patrick","WR","32.1","JAX"
+"721099701922897920","complete","snake","2021","21","3","2","Bikini Bottom Stars","7554","Tre' McKitty","TE","26.9",NA
+"721099701922897920","complete","snake","2021","21","4","6","Choccolocco Railfans","7585","Davis Mills","QB","27.2","HOU"
+"721099701922897920","complete","snake","2021","21","5","12","Mississauga Mastodons","49","Robbie Gould","K","43",NA
+"721099701922897920","complete","snake","2021","21","6","7","Pokémon Omega Judge Judy","6960","Tyler Johnson","WR","27.3","NYJ"
+"721099701922897920","complete","snake","2021","21","7","3","Newfoundland Blowers","7589","Ian Book","QB","27.7",NA
+"721099701922897920","complete","snake","2021","21","8","5","Winnipeg Wankers ","5010","Will Dissly","TE","29.5","LAC"
+"721099701922897920","complete","snake","2021","21","9","8","Iqaluit Trout","2460","C.J. Uzomah","TE","32.9",NA
+"721099701922897920","complete","snake","2021","21","10","1","Toronto Hogs","2588","Malcolm Brown","RB","32.6",NA
+"721099701922897920","complete","snake","2021","21","11","9","Saskatoon Squirrels","6908","La'Mical Perine","RB","27.9",NA
+"721099701922897920","complete","snake","2021","21","12","4","Thunder Bay Mustangs ","5845","Dwayne Haskins","QB","28.6","PIT"
+"721099701922897920","complete","snake","2021","21","13","14","Unsolicited Dak Pics","6219","Austin Seibert","K","29.1",NA
+"721099701922897920","complete","snake","2021","21","14","13","Vancouver Mounties","59","Mason Crosby","K","41.3",NA
+"721099701922897920","complete","snake","2021","22","14","13","Vancouver Mounties","4319","Zach Pascal","WR","31",NA
+"721099701922897920","complete","snake","2021","22","13","14","Unsolicited Dak Pics","4054","Mo Alie-Cox","TE","32.3","IND"
+"721099701922897920","complete","snake","2021","22","12","4","Thunder Bay Mustangs ","6973","J.J. Taylor","RB","28",NA
+"721099701922897920","complete","snake","2021","22","11","9","Saskatoon Squirrels","6290","Scotty Miller","WR","28.4","PIT"
+"721099701922897920","complete","snake","2021","22","10","1","Toronto Hogs","1099","Randy Bullock","K","36",NA
+"721099701922897920","complete","snake","2021","22","9","8","Iqaluit Trout","4038","John Ross","WR","30.1",NA
+"721099701922897920","complete","snake","2021","22","8","5","Winnipeg Wankers ","1386","Giovani Bernard","RB","34.1",NA
+"721099701922897920","complete","snake","2021","22","7","3","Newfoundland Blowers","7713","Jaelon Darden","WR","26.9",NA
+"721099701922897920","complete","snake","2021","22","6","7","Pokémon Omega Judge Judy","6528","Joey Slye","K","29.7","TEN"
+"721099701922897920","complete","snake","2021","22","5","12","Mississauga Mastodons","4147","Samaje Perine","RB","30.3","CIN"
+"721099701922897920","complete","snake","2021","22","4","6","Choccolocco Railfans","3209","Devontae Booker","RB","33.6",NA
+"721099701922897920","complete","snake","2021","22","3","2","Bikini Bottom Stars","5007","Keke Coutee","WR","28.9",NA
+"721099701922897920","complete","snake","2021","22","2","11","Montreal Generals","7599","Jermar Jefferson","RB","25.7","ARI"
+"721099701922897920","complete","snake","2021","22","1","10","Calgary Cocks","1833","Damien Williams","RB","33.7",NA
+"721099701922897920","complete","snake","2021","23","1","10","Calgary Cocks","5024","James Washington","WR","29.7",NA
+"721099701922897920","complete","snake","2021","23","2","11","Montreal Generals","7694","Tommy Tremble","TE","25.5","CAR"
+"721099701922897920","complete","snake","2021","23","3","2","Bikini Bottom Stars","147","DeSean Jackson","WR","39.1",NA
+"721099701922897920","complete","snake","2021","23","4","6","Choccolocco Railfans","6148","Preston Williams","WR","28.7",NA
+"721099701922897920","complete","snake","2021","23","5","12","Mississauga Mastodons","7609","Demetric Felton","RB","27.4",NA
+"721099701922897920","complete","snake","2021","23","6","7","Pokémon Omega Judge Judy","7608","Khalil Herbert","RB","27.7","NYJ"
+"721099701922897920","complete","snake","2021","23","7","3","Newfoundland Blowers","5068","Kerryon Johnson","RB","28.5",NA
+"721099701922897920","complete","snake","2021","23","8","5","Winnipeg Wankers ","6843","Albert Okwuegbunam","TE","27.7","LV"
+"721099701922897920","complete","snake","2021","23","9","8","Iqaluit Trout","7559","Ihmir Smith-Marsette","WR","26.3","NYG"
+"721099701922897920","complete","snake","2021","23","10","1","Toronto Hogs","6847","Devin Duvernay","WR","28.3","CHI"
+"721099701922897920","complete","snake","2021","23","11","9","Saskatoon Squirrels","7602","Kylen Granson","TE","27.7","PHI"
+"721099701922897920","complete","snake","2021","23","12","4","Thunder Bay Mustangs ","2673","Damiere Byrd","WR","32.9",NA
+"721099701922897920","complete","snake","2021","23","13","14","Unsolicited Dak Pics","7812","Simi Fehoko","WR","28.1","ARI"
+"721099701922897920","complete","snake","2021","23","14","13","Vancouver Mounties","6906","Antonio Gandy-Golden","TE","27.7",NA
+"721099701922897920","complete","snake","2021","24","14","13","Vancouver Mounties","5131","Justin Jackson","RB","29.7",NA
+"721099701922897920","complete","snake","2021","24","13","14","Unsolicited Dak Pics","7541","Cornell Powell","WR","28.1",NA
+"721099701922897920","complete","snake","2021","24","12","4","Thunder Bay Mustangs ","6002","Qadree Ollison","RB","29.3",NA
+"721099701922897920","complete","snake","2021","24","11","9","Saskatoon Squirrels","7537","Jaret Patterson","RB","26","LAC"
+"721099701922897920","complete","snake","2021","24","10","1","Toronto Hogs","1535","Cordarrelle Patterson","RB","34.8",NA
+"721099701922897920","complete","snake","2021","24","9","8","Iqaluit Trout","5130","Auden Tate","WR","28.9",NA
+"721099701922897920","complete","snake","2021","24","8","5","Winnipeg Wankers ","943","Kyle Rudolph","TE","36.1",NA
+"721099701922897920","complete","snake","2021","24","7","3","Newfoundland Blowers","4150","Wayne Gallman","RB","31.2",NA
+"721099701922897920","complete","snake","2021","24","6","7","Pokémon Omega Judge Judy","1408","Le'Veon Bell","RB","33.8","TB"
+"721099701922897920","complete","snake","2021","24","5","12","Mississauga Mastodons","7703","Jacob Harris","WR","28.7",NA
+"721099701922897920","complete","snake","2021","24","4","6","Choccolocco Railfans","2161","Jerick McKinnon","RB","33.6",NA
+"721099701922897920","complete","snake","2021","24","3","2","Bikini Bottom Stars","7088","Xavier Jones","RB","28.3",NA
+"721099701922897920","complete","snake","2021","24","2","11","Montreal Generals","7574","Larry Rountree","RB","26.9",NA
+"721099701922897920","complete","snake","2021","24","1","10","Calgary Cocks","5911","Jalen Hurd","WR","29.9",NA
+"721099701922897920","complete","snake","2021","25","1","10","Calgary Cocks","1706","Jack Doyle","TE","35.6","IND"
+"721099701922897920","complete","snake","2021","25","2","11","Montreal Generals","7944","Michael Strachan","WR","28.4",NA
+"721099701922897920","complete","snake","2021","25","3","2","Bikini Bottom Stars","6989","Marquez Callaway","WR","27.7",NA
+"721099701922897920","complete","snake","2021","25","4","6","Choccolocco Railfans","6001","Drew Sample","TE","29.7","CIN"
+"721099701922897920","complete","snake","2021","25","5","12","Mississauga Mastodons","3286","Demarcus Robinson","WR","31.2","SF"
+"721099701922897920","complete","snake","2021","25","6","7","Pokémon Omega Judge Judy","1346","Marquise Goodwin","WR","35.1",NA
+"721099701922897920","complete","snake","2021","25","7","3","Newfoundland Blowers","2346","Devin Funchess","TE","31.6",NA
+"721099701922897920","complete","snake","2021","25","8","5","Winnipeg Wankers ","6011","Gardner Minshew","QB","29.6","KC"
+"721099701922897920","complete","snake","2021","25","9","8","Iqaluit Trout","7534","Seth Williams","WR","25.7",NA
+"721099701922897920","complete","snake","2021","25","10","1","Toronto Hogs","6931","DeeJay Dallas","RB","27.3","JAX"
+"721099701922897920","complete","snake","2021","25","11","9","Saskatoon Squirrels","6074","Donald Parham","TE","28.3","PIT"
+"721099701922897920","complete","snake","2021","25","12","4","Thunder Bay Mustangs ","7560","Pooka Williams","RB","26.5",NA
+"721099701922897920","complete","snake","2021","25","13","14","Unsolicited Dak Pics","5133","Tyler Conklin","TE","30.4","LAC"
+"721099701922897920","complete","snake","2021","25","14","13","Vancouver Mounties","642","Golden Tate","WR","37.4",NA
+"721099701922897920","complete","snake","2021","26","14","13","Vancouver Mounties","8042","Chris Naggar","K","28",NA
+"721099701922897920","complete","snake","2021","26","13","14","Unsolicited Dak Pics","2307","Marcus Mariota","QB","32.1","WAS"
+"721099701922897920","complete","snake","2021","26","12","4","Thunder Bay Mustangs ","5032","Jordan Akins","TE","33.7","JAX"
+"721099701922897920","complete","snake","2021","26","11","9","Saskatoon Squirrels","7604","Tamorrion Terry","WR","27.8",NA
+"721099701922897920","complete","snake","2021","26","10","1","Toronto Hogs","2214","Cameron Brate","TE","34.5",NA
+"721099701922897920","complete","snake","2021","26","9","8","Iqaluit Trout","2257","Carlos Hyde","RB","35.2",NA
+"721099701922897920","complete","snake","2021","26","8","5","Winnipeg Wankers ","7572","Kylin Hill","RB","27.3",NA
+"721099701922897920","complete","snake","2021","26","7","14","Unsolicited Dak Pics","6919","Thaddeus Moss","TE","27.6",NA
+"721099701922897920","complete","snake","2021","26","6","7","Pokémon Omega Judge Judy","7583","Sam Ehlinger","QB","27.2","DEN"
+"721099701922897920","complete","snake","2021","26","5","12","Mississauga Mastodons","5284","Jeff Wilson","RB","30.1","MIA"
+"721099701922897920","complete","snake","2021","26","4","6","Choccolocco Railfans","4146","Dede Westbrook","WR","32.1",NA
+"721099701922897920","complete","snake","2021","26","3","2","Bikini Bottom Stars","2822","Adam Humphries","WR","32.5",NA
+"721099701922897920","complete","snake","2021","26","2","11","Montreal Generals","7529","Gary Brightwell","RB","27.8","CIN"
+"721099701922897920","complete","snake","2021","26","1","10","Calgary Cocks","6063","Tyron Billy-Johnson","WR","29.9",NA
+"721099701922897920","complete","snake","2021","27","1","10","Calgary Cocks","4274","David Moore","WR","30.9","CAR"
+"721099701922897920","complete","snake","2021","27","2","11","Montreal Generals","7597","Kenny Yeboah","TE","27.1",NA
+"721099701922897920","complete","snake","2021","27","3","2","Bikini Bottom Stars","2671","Josh Lambo","K","35.1",NA
+"721099701922897920","complete","snake","2021","27","4","6","Choccolocco Railfans","4455","Matt Breida","RB","30.8",NA
+"721099701922897920","complete","snake","2021","27","5","12","Mississauga Mastodons","4421","Jacob Hollister","TE","32.1",NA
+"721099701922897920","complete","snake","2021","27","6","7","Pokémon Omega Judge Judy","956","Mark Ingram","RB","36",NA
+"721099701922897920","complete","snake","2021","27","7","3","Newfoundland Blowers","4995","Ian Thomas","TE","29.5","LV"
+"721099701922897920","complete","snake","2021","27","8","5","Winnipeg Wankers ","7586","Dazz Newsome","WR","26.6",NA
+"721099701922897920","complete","snake","2021","27","9","8","Iqaluit Trout","6156","Benny Snell","RB","27.8",NA
+"721099701922897920","complete","snake","2021","27","10","1","Toronto Hogs","7530","Frank Darby","WR","28.3",NA
+"721099701922897920","complete","snake","2021","27","11","9","Saskatoon Squirrels","574","Dez Bryant","WR","37.1",NA
+"721099701922897920","complete","snake","2021","27","12","4","Thunder Bay Mustangs ","7576","Sage Surratt","TE","27.7",NA
+"721099701922897920","complete","snake","2021","27","13","14","Unsolicited Dak Pics","4994","Kalen Ballage","RB","30",NA
+"721099701922897920","complete","snake","2021","27","14","13","Vancouver Mounties","4949","Derrius Guice","RB","28.5",NA
+"721099701922897920","complete","snake","2021","28","14","13","Vancouver Mounties","7839","Evan McPherson","K","26.4","CIN"
+"721099701922897920","complete","snake","2021","28","13","14","Unsolicited Dak Pics","5323","Equanimeous St. Brown","WR","29.2",NA
+"721099701922897920","complete","snake","2021","28","12","4","Thunder Bay Mustangs ","6951","Eno Benjamin","RB","26.7",NA
+"721099701922897920","complete","snake","2021","28","11","9","Saskatoon Squirrels","3306","Jordan Howard","RB","31.1",NA
+"721099701922897920","complete","snake","2021","28","10","1","Toronto Hogs","5965","Miles Boykin","WR","29.2",NA
+"721099701922897920","complete","snake","2021","28","9","8","Iqaluit Trout","7556","Marquez Stevenson","WR","27.7",NA
+"721099701922897920","complete","snake","2021","28","8","5","Winnipeg Wankers ","7720","Kene Nwangwu","RB","27.9","NYJ"
+"721099701922897920","complete","snake","2021","28","7","3","Newfoundland Blowers","3342","Jakeem Grant","WR","33.1",NA
+"721099701922897920","complete","snake","2021","28","6","7","Pokémon Omega Judge Judy","5915","Andy Isabella","WR","29.1",NA
+"721099701922897920","complete","snake","2021","28","5","12","Mississauga Mastodons","7531","Feleipe Franks","TE","28","ATL"
+"721099701922897920","complete","snake","2021","28","4","6","Choccolocco Railfans","6083","Matt Gay","K","31.8",NA
+"721099701922897920","complete","snake","2021","28","3","2","Bikini Bottom Stars","7546","Tre Nixon","WR","27.9",NA
+"721099701922897920","complete","snake","2021","28","2","11","Montreal Generals","6857","Collin Johnson","WR","28.2",NA
+"721099701922897920","complete","snake","2021","28","1","10","Calgary Cocks","1388","Tyler Eifert","TE","35.3",NA
+"721099701922897920","complete","snake","2021","29","1","10","Calgary Cocks","6146","Kaden Smith","TE","28.7",NA
+"721099701922897920","complete","snake","2021","29","2","11","Montreal Generals","7066","K.J. Osborn","WR","28.5","ATL"
+"721099701922897920","complete","snake","2021","29","3","2","Bikini Bottom Stars","7741","Caleb Huntley","RB","27.3",NA
+"721099701922897920","complete","snake","2021","29","4","6","Choccolocco Railfans","2168","Devonta Freeman","RB","33.8",NA
+"721099701922897920","complete","snake","2021","29","5","12","Mississauga Mastodons","5310","Antonio Callaway","WR","28.9",NA
+"721099701922897920","complete","snake","2021","29","6","7","Pokémon Omega Judge Judy","1111","Andrew Luck","QB","36.3",NA
+"721099701922897920","complete","snake","2021","29","7","3","Newfoundland Blowers","6926","Brycen Hopkins","TE","28.7",NA
+"721099701922897920","complete","snake","2021","29","8","5","Winnipeg Wankers ","6723","Vincent Testaverde","QB","29.4",NA
+"721099701922897920","complete","snake","2021","29","9","8","Iqaluit Trout","5962","KeeSean Johnson","WR","29.2",NA
+"721099701922897920","complete","snake","2021","29","10","1","Toronto Hogs","6744","Greg Ward","WR","30.4",NA
+"721099701922897920","complete","snake","2021","29","11","9","Saskatoon Squirrels","1793","Trey Burton","TE","34.1",NA
+"721099701922897920","complete","snake","2021","29","12","4","Thunder Bay Mustangs ","5272","Greg Joseph","K","31.4",NA
+"721099701922897920","complete","snake","2021","29","13","14","Unsolicited Dak Pics","6234","Deonte Harty","WR","28",NA
+"721099701922897920","complete","snake","2021","29","14","13","Vancouver Mounties","3257","Jacoby Brissett","QB","33","ARI"
+"721099701922897920","complete","snake","2021","30","14","13","Vancouver Mounties","7549","CJ Marable","RB","28.9",NA
+"721099701922897920","complete","snake","2021","30","13","14","Unsolicited Dak Pics","5285","Ross Dwelley","TE","30.9",NA
+"721099701922897920","complete","snake","2021","30","12","4","Thunder Bay Mustangs ","5974","Trace McSorley","QB","30.3",NA
+"721099701922897920","complete","snake","2021","30","11","9","Saskatoon Squirrels","1592","Darren Fells","TE","39.7","TB"
+"721099701922897920","complete","snake","2021","30","10","1","Toronto Hogs","4651","Corey Clement","RB","31.1",NA
+"721099701922897920","complete","snake","2021","30","9","8","Iqaluit Trout","7757","Ben Skowronek","WR","28.5","PIT"
+"721099701922897920","complete","snake","2021","30","8","5","Winnipeg Wankers ","7752","Kawaan Baker","WR","27.3",NA
+"721099701922897920","complete","snake","2021","30","7","3","Newfoundland Blowers","5995","Justice Hill","RB","28.1","BAL"
+"721099701922897920","complete","snake","2021","30","6","7","Pokémon Omega Judge Judy","331","Philip Rivers","QB","44","IND"
+"721099701922897920","complete","snake","2021","30","5","12","Mississauga Mastodons","3976","Mitchell Trubisky","QB","31.3","BUF"
+"721099701922897920","complete","snake","2021","30","4","6","Choccolocco Railfans","3868","Jalen Richard","RB","32.2","LV"
+"721099701922897920","complete","snake","2021","30","3","2","Bikini Bottom Stars","5806","John Wolford","QB","30.2","MIN"
+"721099701922897920","complete","snake","2021","30","2","11","Montreal Generals","5985","Foster Moreau","TE","28.6","NO"
+"721099701922897920","complete","snake","2021","30","1","10","Calgary Cocks","1979","Blake Bortles","QB","33.6","NO"
+"721099701922897920","complete","snake","2021","31","1","10","Calgary Cocks","184","Adrian Peterson","RB","40.8",NA
+"721099701922897920","complete","snake","2021","31","2","11","Montreal Generals","7793","Racey McMath","WR","26.5",NA
+"721099701922897920","complete","snake","2021","31","3","2","Bikini Bottom Stars","5137","Richie James","WR","30.3",NA
+"721099701922897920","complete","snake","2021","31","4","6","Choccolocco Railfans","503","Graham Gano","K","38.7","NYG"
+"721099701922897920","complete","snake","2021","31","5","12","Mississauga Mastodons","7579","Austin Watkins","WR","27.8",NA
+"721099701922897920","complete","snake","2021","31","6","7","Pokémon Omega Judge Judy","1911","Willie Snead","WR","33.2",NA
+"721099701922897920","complete","snake","2021","31","7","3","Newfoundland Blowers","7086","John Hightower","WR","29.6",NA
+"721099701922897920","complete","snake","2021","31","8","5","Winnipeg Wankers ","6996","JaMycal Hasty","RB","29.3","MIA"
+"721099701922897920","complete","snake","2021","31","9","8","Iqaluit Trout","6012","Travis Homer","RB","27.4","CHI"
+"721099701922897920","complete","snake","2021","31","10","1","Toronto Hogs","7536","Quintin Morris","TE","26.9","JAX"
+"721099701922897920","complete","snake","2021","31","11","9","Saskatoon Squirrels","2382","Duke Johnson","RB","32.2",NA
+"721099701922897920","complete","snake","2021","31","12","4","Thunder Bay Mustangs ","1029","Nick Foles","QB","36.9",NA
+"721099701922897920","complete","snake","2021","31","13","14","Unsolicited Dak Pics","4187","Brian Hill","RB","30.1",NA
+"721099701922897920","complete","snake","2021","31","14","13","Vancouver Mounties","7943","Zach Davidson","TE","27.4","NYG"
+"721099701922897920","complete","snake","2021","32","14","13","Vancouver Mounties","8077","Otis Anderson","RB","27.1",NA
+"721099701922897920","complete","snake","2021","32","13","14","Unsolicited Dak Pics","2381","Chris Conley","WR","33.2",NA
+"721099701922897920","complete","snake","2021","32","12","4","Thunder Bay Mustangs ","7002","Juwan Johnson","TE","29.3","NO"
+"721099701922897920","complete","snake","2021","32","11","9","Saskatoon Squirrels","6402","Steven Sims","WR","28.7","ARI"
+"721099701922897920","complete","snake","2021","32","10","1","Toronto Hogs","17","Matt Prater","K","41.4","BUF"
+"721099701922897920","complete","snake","2021","32","9","8","Iqaluit Trout","1974","Cody Parkey","K","33.8",NA
+"721099701922897920","complete","snake","2021","32","8","5","Winnipeg Wankers ","660","Peyton Hillis","RB","39.9",NA
+"721099701922897920","complete","snake","2021","32","7","3","Newfoundland Blowers","2390","Tyler Kroft","TE","33.2",NA
+"721099701922897920","complete","snake","2021","32","6","7","Pokémon Omega Judge Judy","3594","Peyton Barber","RB","31.5",NA
+"721099701922897920","complete","snake","2021","32","5","12","Mississauga Mastodons","5773","KhaDarel Hodge","WR","31","ATL"
+"721099701922897920","complete","snake","2021","32","4","6","Choccolocco Railfans","5209","Mike Boone","RB","30.5",NA
+"721099701922897920","complete","snake","2021","32","3","2","Bikini Bottom Stars","5113","Cedrick Wilson","WR","30.1","MIA"
+"721099701922897920","complete","snake","2021","32","2","11","Montreal Generals","2463","Jesse James","TE","31.5",NA
+"721099701922897920","complete","snake","2021","32","1","10","Calgary Cocks","491","Danny Amendola","WR","40.1",NA
+"833952111766130560","complete","snake","2022","1","1","1","Toronto Hogs","8155","Breece Hall","RB","24.6","NYJ"
+"833952111766130560","complete","snake","2022","1","2","10","Calgary Cocks","8151","Kenneth Walker","RB","25.2","SEA"
+"833952111766130560","complete","snake","2022","1","3","3","Newfoundland Blowers","8135","Treylon Burks","WR","25.7","WAS"
+"833952111766130560","complete","snake","2022","1","4","12","Mississauga Mastodons","8146","Garrett Wilson","WR","25.4","NYJ"
+"833952111766130560","complete","snake","2022","1","5","14","Gold Coast Sharks","8112","Drake London","WR","24.4","ATL"
+"833952111766130560","complete","snake","2022","1","6","12","Mississauga Mastodons","8138","James Cook","RB","26.2","BUF"
+"833952111766130560","complete","snake","2022","1","7","10","Calgary Cocks","8144","Chris Olave","WR","25.5","NO"
+"833952111766130560","complete","snake","2022","1","8","11","Montreal Generals","8168","Skyy Moore","WR","25.3","SF"
+"833952111766130560","complete","snake","2022","1","9","4","Thunder Bay Mustangs","8137","George Pickens","WR","24.8","DAL"
+"833952111766130560","complete","snake","2022","1","10","4","Thunder Bay Mustangs","8119","Jahan Dotson","WR","25.7","PHI"
+"833952111766130560","complete","snake","2022","1","11","9","Saskatoon Squirrels","8129","Dameon Pierce","RB","25.8","KC"
+"833952111766130560","complete","snake","2022","1","12","3","Newfoundland Blowers","8136","Rachaad White","RB","26.9","TB"
+"833952111766130560","complete","snake","2022","1","13","13","Vancouver Mounties","8160","Kenny Pickett","QB","27.5","LV"
+"833952111766130560","complete","snake","2022","1","14","10","Calgary Cocks","8167","Christian Watson","WR","26.6","GB"
+"833952111766130560","complete","snake","2022","2","14","10","Calgary Cocks","8118","David Bell","WR","25",NA
+"833952111766130560","complete","snake","2022","2","13","8","Iqaluit Trout","8153","Isaiah Spiller","RB","24.4",NA
+"833952111766130560","complete","snake","2022","2","12","5","Winnipeg Wranglers","8289","Aidan Hutchinson","DL","25.4","DET"
+"833952111766130560","complete","snake","2022","2","11","8","Iqaluit Trout","8142","Alec Pierce","WR","25.6","IND"
+"833952111766130560","complete","snake","2022","2","10","4","Thunder Bay Mustangs","8126","Wan'Dale Robinson","WR","25","NYG"
+"833952111766130560","complete","snake","2022","2","9","11","Montreal Generals","8132","Tyler Allgeier","RB","25.7","ATL"
+"833952111766130560","complete","snake","2022","2","8","1","Toronto Hogs","8148","Jameson Williams","WR","24.7","DET"
+"833952111766130560","complete","snake","2022","2","7","6","Choccolocco Railfans","8355","Kayvon Thibodeaux","DL","25","NYG"
+"833952111766130560","complete","snake","2022","2","6","8","Iqaluit Trout","8290","Sauce Gardner","DB","25.3","IND"
+"833952111766130560","complete","snake","2022","2","5","4","Thunder Bay Mustangs","8159","Desmond Ridder","QB","26.3",NA
+"833952111766130560","complete","snake","2022","2","4","12","Mississauga Mastodons","8339","Kyle Hamilton","DB","24.8","BAL"
+"833952111766130560","complete","snake","2022","2","3","11","Montreal Generals","8130","Trey McBride","TE","26.1","ARI"
+"833952111766130560","complete","snake","2022","2","2","10","Calgary Cocks","8161","Malik Willis","QB","26.6","GB"
+"833952111766130560","complete","snake","2022","2","1","4","Thunder Bay Mustangs","8117","Jalen Tolbert","WR","26.8","DAL"
+"833952111766130560","complete","snake","2022","3","1","14","Gold Coast Sharks","8211","Tyrion Davis-Price","RB","25.2",NA
+"833952111766130560","complete","snake","2022","3","2","10","Calgary Cocks","8154","Brian Robinson","RB","26.7","SF"
+"833952111766130560","complete","snake","2022","3","3","3","Newfoundland Blowers","8308","Derek Stingley","DB","24.5","HOU"
+"833952111766130560","complete","snake","2022","3","4","14","Gold Coast Sharks","8219","Jelani Woods","TE","27.2","NYJ"
+"833952111766130560","complete","snake","2022","3","5","9","Saskatoon Squirrels","8139","Zamir White","RB","26.3","LV"
+"833952111766130560","complete","snake","2022","3","6","2","Bikini Bottom Stars","8121","Romeo Doubs","WR","25.7","GB"
+"833952111766130560","complete","snake","2022","3","7","5","Winnipeg Wranglers","8123","Hassan Haskins","RB","26.1","LAC"
+"833952111766130560","complete","snake","2022","3","8","10","Calgary Cocks","8258","Cade York","K","24.9",NA
+"833952111766130560","complete","snake","2022","3","9","11","Montreal Generals","8188","Tyquan Thornton","WR","25.4","KC"
+"833952111766130560","complete","snake","2022","3","10","7","Pokémon Omega Judge Judy","8140","Justyn Ross","WR","26",NA
+"833952111766130560","complete","snake","2022","3","11","9","Saskatoon Squirrels","8267","Nakobe Dean","LB","25","PHI"
+"833952111766130560","complete","snake","2022","3","12","8","Iqaluit Trout","8164","Matt Corral","QB","26.9",NA
+"833952111766130560","complete","snake","2022","3","13","2","Bikini Bottom Stars","8150","Kyren Williams","RB","25.3","LAR"
+"833952111766130560","complete","snake","2022","3","14","6","Choccolocco Railfans","8329","Devin Lloyd","LB","27.2","JAX"
+"833952111766130560","complete","snake","2022","4","14","1","Toronto Hogs","8205","Isiah Pacheco","RB","26.8","KC"
+"833952111766130560","complete","snake","2022","4","13","8","Iqaluit Trout","8268","Lewis Cine","DB","26.2",NA
+"833952111766130560","complete","snake","2022","4","12","8","Iqaluit Trout","8398","Jermaine Johnson","LB","27","NYJ"
+"833952111766130560","complete","snake","2022","4","11","9","Saskatoon Squirrels","8323","Jaquan Brisker","DB","26.7","CHI"
+"833952111766130560","complete","snake","2022","4","10","10","Calgary Cocks","8172","Greg Dulcich","TE","25.7","MIA"
+"833952111766130560","complete","snake","2022","4","9","11","Montreal Generals","8265","Travon Walker","LB","25","JAX"
+"833952111766130560","complete","snake","2022","4","8","1","Toronto Hogs","8221","Keaontay Ingram","RB","26.2","KC"
+"833952111766130560","complete","snake","2022","4","7","5","Winnipeg Wranglers","8147","John Metchie","WR","25.4","NYJ"
+"833952111766130560","complete","snake","2022","4","6","1","Toronto Hogs","8134","Khalil Shakir","WR","25.9","BUF"
+"833952111766130560","complete","snake","2022","4","5","1","Toronto Hogs","8162","Sam Howell","QB","25.3","PHI"
+"833952111766130560","complete","snake","2022","4","4","7","Pokémon Omega Judge Judy","8266","Quay Walker","LB","25.6","GB"
+"833952111766130560","complete","snake","2022","4","3","1","Toronto Hogs","8210","Chig Okonkwo","TE","26.3","TEN"
+"833952111766130560","complete","snake","2022","4","2","6","Choccolocco Railfans","8287","David Ojabo","DL","25.6","BAL"
+"833952111766130560","complete","snake","2022","4","1","1","Toronto Hogs","8179","Snoop Conner","RB","25.4",NA
+"801713921697349632","complete","snake","2022","1","1","10","Calgary Cocks","4070","T.J. Watt","LB","31.2","PIT"
+"801713921697349632","complete","snake","2022","1","2","11","Montreal Generals","4990","Shaquille Leonard","LB","30.4",NA
+"801713921697349632","complete","snake","2022","1","3","1","Toronto Hogs","7640","Micah Parsons","LB","26.6","GB"
+"801713921697349632","complete","snake","2022","1","4","6","Choccolocco Railfans","4960","Roquan Smith","LB","28.7","BAL"
+"801713921697349632","complete","snake","2022","1","5","12","Mississauga Mastodons","3973","Myles Garrett","DE","30","CLE"
+"801713921697349632","complete","snake","2022","1","6","7","Pokémon Omega Judge Judy","6119","Devin White","LB","27.8","LV"
+"801713921697349632","complete","snake","2022","1","7","3","Newfoundland Blowers","4971","Derwin James","DB","29.4","LAC"
+"801713921697349632","complete","snake","2022","1","8","5","Winnipeg Wranglers","5041","Fred Warner","LB","29.1","SF"
+"801713921697349632","complete","snake","2022","1","9","8","Iqaluit Trout","6949","Jordyn Brooks","LB","28.2","MIA"
+"801713921697349632","complete","snake","2022","1","10","2","Bikini Bottom Stars","5816","Nick Bosa","DE","28.2","SF"
+"801713921697349632","complete","snake","2022","1","11","9","Saskatoon Squirrels","3156","Joey Bosa","LB","30.4","BUF"
+"801713921697349632","complete","snake","2022","1","12","4","Thunder Bay Mustangs","6781","Isaiah Simmons","DB","27.4","CAR"
+"801713921697349632","complete","snake","2022","1","13","14","Gold Coast Sharks","5332","Foyesade Oluokun","LB","30.4","JAX"
+"801713921697349632","complete","snake","2022","1","14","13","Vancouver Mounties","2227","Aaron Donald","DT","34.6",NA
+"801713921697349632","complete","snake","2022","2","14","13","Vancouver Mounties","7651","Jeremiah Owusu-Koramoah","LB","26.1","CLE"
+"801713921697349632","complete","snake","2022","2","13","14","Gold Coast Sharks","4081","Budda Baker","DB","29.9","ARI"
+"801713921697349632","complete","snake","2022","2","12","4","Thunder Bay Mustangs","4963","Minkah Fitzpatrick","DB","29.1","MIA"
+"801713921697349632","complete","snake","2022","2","11","9","Saskatoon Squirrels","3291","Blake Martinez","LB","31.9",NA
+"801713921697349632","complete","snake","2022","2","10","1","Toronto Hogs","7016","Jeremy Chinn","DB","27.8","LV"
+"801713921697349632","complete","snake","2022","2","9","8","Iqaluit Trout","6888","Antoine Winfield","DB","27.3","TB"
+"801713921697349632","complete","snake","2022","2","8","5","Winnipeg Wranglers","1233","Bobby Wagner","LB","35.5","WAS"
+"801713921697349632","complete","snake","2022","2","7","3","Newfoundland Blowers","5991","Maxx Crosby","DE","28.3","LV"
+"801713921697349632","complete","snake","2022","2","6","7","Pokémon Omega Judge Judy","5862","Brian Burns","DE","27.7","NYG"
+"801713921697349632","complete","snake","2022","2","5","12","Mississauga Mastodons","4077","Jamal Adams","SS","30.2","LV"
+"801713921697349632","complete","snake","2022","2","4","6","Choccolocco Railfans","6782","Chase Young","DE","26.7","NO"
+"801713921697349632","complete","snake","2022","2","3","2","Bikini Bottom Stars","5017","Jessie Bates","DB","28.8","ATL"
+"801713921697349632","complete","snake","2022","2","2","11","Montreal Generals","6809","Trevon Diggs","CB","27.2","DAL"
+"801713921697349632","complete","snake","2022","2","1","10","Calgary Cocks","4964","Denzel Ward","CB","28.6","CLE"
+"801713921697349632","complete","snake","2022","3","1","10","Calgary Cocks","843","Cameron Heyward","DT","36.6","PIT"
+"801713921697349632","complete","snake","2022","3","2","11","Montreal Generals","3172","DeForest Buckner","DT","31.8","IND"
+"801713921697349632","complete","snake","2022","3","3","2","Bikini Bottom Stars","6807","Patrick Queen","LB","26.4","PIT"
+"801713921697349632","complete","snake","2022","3","4","6","Choccolocco Railfans","7641","Pat Surtain","CB","25.7","DEN"
+"801713921697349632","complete","snake","2022","3","5","12","Mississauga Mastodons","1875","C.J. Mosley","LB","33.5",NA
+"801713921697349632","complete","snake","2022","3","6","5","Winnipeg Wranglers","5840","Josh Hines-Allen","DE","28.4","JAX"
+"801713921697349632","complete","snake","2022","3","7","3","Newfoundland Blowers","7648","Nick Bolton","LB","25.8","KC"
+"801713921697349632","complete","snake","2022","3","8","7","Pokémon Omega Judge Judy","3222","Deion Jones","LB","31.1","TB"
+"801713921697349632","complete","snake","2022","3","9","8","Iqaluit Trout","6880","Logan Wilson","LB","29.5","DAL"
+"801713921697349632","complete","snake","2022","3","10","1","Toronto Hogs","4968","Tremaine Edmunds","LB","27.6","CHI"
+"801713921697349632","complete","snake","2022","3","11","9","Saskatoon Squirrels","3262","Justin Simmons","DB","32.1",NA
+"801713921697349632","complete","snake","2022","3","12","4","Thunder Bay Mustangs","2393","Danielle Hunter","DE","31.1","HOU"
+"801713921697349632","complete","snake","2022","3","13","14","Gold Coast Sharks","5015","Sam Hubbard","DE","30.5",NA
+"801713921697349632","complete","snake","2022","3","14","13","Vancouver Mounties","1343","Jordan Poyer","DB","34.7","BUF"
+"801713921697349632","complete","snake","2022","4","14","13","Vancouver Mounties","2036","Khalil Mack","LB","34.8","LAC"
+"801713921697349632","complete","snake","2022","4","13","14","Gold Coast Sharks","2350","Eric Kendricks","LB","33.8","SF"
+"801713921697349632","complete","snake","2022","4","12","4","Thunder Bay Mustangs","1999","Shaquil Barrett","LB","33.1",NA
+"801713921697349632","complete","snake","2022","4","11","9","Saskatoon Squirrels","3276","De'Vondre Campbell","LB","32.5",NA
+"801713921697349632","complete","snake","2022","4","10","1","Toronto Hogs","4063","Haason Reddick","LB","31.2","TB"
+"801713921697349632","complete","snake","2022","4","9","8","Iqaluit Trout","7627","Greg Rousseau","DE","25.7","BUF"
+"801713921697349632","complete","snake","2022","4","8","5","Winnipeg Wranglers","6788","Xavier McKinney","DB","27.4","GB"
+"801713921697349632","complete","snake","2022","4","7","3","Newfoundland Blowers","6220","Cole Holcomb","LB","29.4","PIT"
+"801713921697349632","complete","snake","2022","4","6","7","Pokémon Omega Judge Judy","3160","Jalen Ramsey","CB","31.2","PIT"
+"801713921697349632","complete","snake","2022","4","5","12","Mississauga Mastodons","4110","Zach Cunningham","LB","31","DET"
+"801713921697349632","complete","snake","2022","4","4","6","Choccolocco Railfans","4135","Trey Hendrickson","DE","31","CIN"
+"801713921697349632","complete","snake","2022","4","3","2","Bikini Bottom Stars","5944","Bobby Okereke","LB","29.4","NYG"
+"801713921697349632","complete","snake","2022","4","2","11","Montreal Generals","3233","Kevin Byard","DB","32.3","CHI"
+"801713921697349632","complete","snake","2022","4","1","10","Calgary Cocks","1576","Tyrann Mathieu","DB","33.6",NA
+"801713921697349632","complete","snake","2022","5","1","10","Calgary Cocks","1192","Lavonte David","LB","35.9","TB"
+"801713921697349632","complete","snake","2022","5","2","11","Montreal Generals","5030","Harold Landry","LB","29.5","NE"
+"801713921697349632","complete","snake","2022","5","3","2","Bikini Bottom Stars","4427","Kenny Moore","CB","30.3","IND"
+"801713921697349632","complete","snake","2022","5","4","6","Choccolocco Railfans","6872","Kyle Dugger","DB","29.7","PIT"
+"801713921697349632","complete","snake","2022","5","5","12","Mississauga Mastodons","3166","Myles Jack","LB","30.3",NA
+"801713921697349632","complete","snake","2022","5","6","7","Pokémon Omega Judge Judy","6124","Montez Sweat","DE","29.3","CHI"
+"801713921697349632","complete","snake","2022","5","7","3","Newfoundland Blowers","7666","Jevon Holland","DB","25.8","NYG"
+"801713921697349632","complete","snake","2022","5","8","5","Winnipeg Wranglers","4967","Bradley Chubb","LB","29.5","MIA"
+"801713921697349632","complete","snake","2022","5","9","8","Iqaluit Trout","4071","Marlon Humphrey","CB","29.5","BAL"
+"801713921697349632","complete","snake","2022","5","10","1","Toronto Hogs","957","Cameron Jordan","DE","36.4","NO"
+"801713921697349632","complete","snake","2022","5","11","9","Saskatoon Squirrels","2311","Leonard Williams","DE","31.5","SEA"
+"801713921697349632","complete","snake","2022","5","12","4","Thunder Bay Mustangs","3230","Vonn Bell","DB","31",NA
+"801713921697349632","complete","snake","2022","5","13","14","Gold Coast Sharks","6711","Jalen Thompson","DB","27.4","ARI"
+"801713921697349632","complete","snake","2022","5","14","13","Vancouver Mounties","6125","Jeffery Simmons","DT","28.4","TEN"
+"801713921697349632","complete","snake","2022","6","14","13","Vancouver Mounties","6836","A.J. Terrell","CB","27.2","ATL"
+"801713921697349632","complete","snake","2022","6","13","14","Gold Coast Sharks","3303","Matthew Judon","LB","33.3",NA
+"801713921697349632","complete","snake","2022","6","12","1","Toronto Hogs","5193","J.C. Jackson","DB","30.1",NA
+"801713921697349632","complete","snake","2022","6","11","9","Saskatoon Squirrels","5056","Jerome Baker","LB","29","CLE"
+"801713921697349632","complete","snake","2022","6","10","4","Thunder Bay Mustangs","5348","Kyzir White","LB","29.7",NA
+"801713921697349632","complete","snake","2022","6","9","8","Iqaluit Trout","7635","Jaelan Phillips","LB","26.6","PHI"
+"801713921697349632","complete","snake","2022","6","8","7","Pokémon Omega Judge Judy","5839","Rashan Gary","LB","28","GB"
+"801713921697349632","complete","snake","2022","6","7","3","Newfoundland Blowers","3238","Yannick Ngakoue","DE","30.7",NA
+"801713921697349632","complete","snake","2022","6","6","5","Winnipeg Wranglers","4133","John Johnson","DB","30",NA
+"801713921697349632","complete","snake","2022","6","5","12","Mississauga Mastodons","4059","Marshon Lattimore","CB","29.6","WAS"
+"801713921697349632","complete","snake","2022","6","4","6","Choccolocco Railfans","7633","Kwity Paye","DE","27.1","IND"
+"801713921697349632","complete","snake","2022","6","3","2","Bikini Bottom Stars","5860","Johnathan Abram","DB","29.2",NA
+"801713921697349632","complete","snake","2022","6","2","11","Montreal Generals","2064","DeMarcus Lawrence","DE","33.6","SEA"
+"801713921697349632","complete","snake","2022","6","1","10","Calgary Cocks","4965","Marcus Davenport","DE","29.3","DET"
+"801713921697349632","complete","snake","2022","7","1","10","Calgary Cocks","1947","Jadeveon Clowney","DE","32.8","DAL"
+"801713921697349632","complete","snake","2022","7","2","11","Montreal Generals","871","Von Miller","LB","36.7","WAS"
+"801713921697349632","complete","snake","2022","7","3","2","Bikini Bottom Stars","2427","Za'Darius Smith","LB","33.3",NA
+"801713921697349632","complete","snake","2022","7","4","6","Choccolocco Railfans","7626","Odafe Oweh","LB","27","LAC"
+"801713921697349632","complete","snake","2022","7","5","12","Mississauga Mastodons","3558","Chris Jones","DT","31.5","KC"
+"801713921697349632","complete","snake","2022","7","6","7","Pokémon Omega Judge Judy","7642","Jaycee Horn","CB","26.1","CAR"
+"801713921697349632","complete","snake","2022","7","7","3","Newfoundland Blowers","5882","Taylor Rapp","DB","28","BUF"
+"801713921697349632","complete","snake","2022","7","8","5","Winnipeg Wranglers","1367","Logan Ryan","DB","34.9",NA
+"801713921697349632","complete","snake","2022","7","9","8","Iqaluit Trout","6118","Quinnen Williams","DT","28","DAL"
+"801713921697349632","complete","snake","2022","7","10","4","Thunder Bay Mustangs","6214","Quincy Williams","LB","29.3","NYJ"
+"801713921697349632","complete","snake","2022","7","11","9","Saskatoon Squirrels","1213","Harrison Smith","DB","36.9","MIN"
+"801713921697349632","complete","snake","2022","7","12","4","Thunder Bay Mustangs","3174","Leonard Floyd","LB","33.3","ATL"
+"801713921697349632","complete","snake","2022","7","13","14","Gold Coast Sharks","2330","Shaq Thompson","LB","31.7","BUF"
+"801713921697349632","complete","snake","2022","7","14","13","Vancouver Mounties","7637","Zaven Collins","LB","26.6","ARI"
+"801713921697349632","complete","snake","2022","8","14","13","Vancouver Mounties","4158","Eddie Jackson","DB","32",NA
+"801713921697349632","complete","snake","2022","8","13","14","Gold Coast Sharks","7136","Kam Curl","DB","26.7","LAR"
+"801713921697349632","complete","snake","2022","8","12","4","Thunder Bay Mustangs","5843","Devin Bush","LB","27.4","CLE"
+"801713921697349632","complete","snake","2022","8","11","9","Saskatoon Squirrels","2338","Landon Collins","DB","31.9",NA
+"801713921697349632","complete","snake","2022","8","10","1","Toronto Hogs","2389","Jordan Hicks","LB","33.5",NA
+"801713921697349632","complete","snake","2022","8","9","8","Iqaluit Trout","7653","Azeez Ojulari","LB","25.5","PHI"
+"801713921697349632","complete","snake","2022","8","8","5","Winnipeg Wranglers","6968","Jordan Fuller","DB","27.8","ATL"
+"801713921697349632","complete","snake","2022","8","7","3","Newfoundland Blowers","7113","Alex Highsmith","LB","28.4","PIT"
+"801713921697349632","complete","snake","2022","8","6","7","Pokémon Omega Judge Judy","6785","Jeff Okudah","CB","26.9","MIN"
+"801713921697349632","complete","snake","2022","8","5","12","Mississauga Mastodons","6799","Grant Delpit","DB","27.2","CLE"
+"801713921697349632","complete","snake","2022","8","4","6","Choccolocco Railfans","4056","Jabrill Peppers","DB","30.2","PIT"
+"801713921697349632","complete","snake","2022","8","3","2","Bikini Bottom Stars","6120","Christian Wilkins","DT","30",NA
+"801713921697349632","complete","snake","2022","8","2","11","Montreal Generals","6152","Khari Willis","DB","29.6",NA
+"801713921697349632","complete","snake","2022","8","1","10","Calgary Cocks","2130","Kyle Van Noy","LB","34.7","BAL"
+"931450431807537280","complete","snake","2023","1","1","4","Thunder Bay Mustangs","9509","Bijan Robinson","RB","23.9","ATL"
+"931450431807537280","complete","snake","2023","1","2","8","Iqaluit Trout","9229","Anthony Richardson","QB","23.6","IND"
+"931450431807537280","complete","snake","2023","1","3","10","Calgary Cocks","9228","Bryce Young","QB","24.4","CAR"
+"931450431807537280","complete","snake","2023","1","4","5","Winnipeg Wranglers","9221","Jahmyr Gibbs","RB","23.8","DET"
+"931450431807537280","complete","snake","2023","1","5","1","Toronto Hogs","9758","C.J. Stroud","QB","24.2","HOU"
+"931450431807537280","complete","snake","2023","1","6","10","Calgary Cocks","9488","Jaxon Smith-Njigba","WR","23.8","SEA"
+"931450431807537280","complete","snake","2023","1","7","6","Choccolocco Railfans","9754","Quentin Johnston","WR","24.3","LAC"
+"931450431807537280","complete","snake","2023","1","8","9","Saskatoon Squirrels","9756","Jordan Addison","WR","23.9","MIN"
+"931450431807537280","complete","snake","2023","1","9","14","Gold Coast Sharks","9997","Zay Flowers","WR","25.3","BAL"
+"931450431807537280","complete","snake","2023","1","10","10","Calgary Cocks","10225","Jonathan Mingo","WR","24.7","DAL"
+"931450431807537280","complete","snake","2023","1","11","14","Gold Coast Sharks","10236","Dalton Kincaid","TE","26.2","BUF"
+"931450431807537280","complete","snake","2023","1","12","12","Mississauga Mastodons","9482","Michael Mayer","TE","24.5","LV"
+"931450431807537280","complete","snake","2023","1","13","7","Pokémon Omega Judge Judy","10859","Sam LaPorta","TE","24.9","DET"
+"931450431807537280","complete","snake","2023","1","14","5","Winnipeg Wranglers","10229","Rashee Rice","WR","25.7","KC"
+"931450431807537280","complete","snake","2023","2","14","5","Winnipeg Wranglers","9999","Will Levis","QB","26.5","TEN"
+"931450431807537280","complete","snake","2023","2","13","12","Mississauga Mastodons","10892","Will Anderson","DL","24.3","HOU"
+"931450431807537280","complete","snake","2023","2","12","2","Bikini Bottom Stars","9753","Zach Charbonnet","RB","24.9","SEA"
+"931450431807537280","complete","snake","2023","2","11","10","Calgary Cocks","9494","Marvin Mims","WR","23.8","DEN"
+"931450431807537280","complete","snake","2023","2","10","6","Choccolocco Railfans","9497","Jalin Hyatt","WR","24.2","NYG"
+"931450431807537280","complete","snake","2023","2","9","10","Calgary Cocks","9226","De'Von Achane","RB","24.2","MIA"
+"931450431807537280","complete","snake","2023","2","8","9","Saskatoon Squirrels","9225","Tank Bigsby","RB","23.3","PHI"
+"931450431807537280","complete","snake","2023","2","7","6","Choccolocco Railfans","9224","Chase Brown","RB","25.7","CIN"
+"931450431807537280","complete","snake","2023","2","6","8","Iqaluit Trout","9500","Josh Downs","WR","24.4","IND"
+"931450431807537280","complete","snake","2023","2","5","3","Newfoundland Blowers","10222","Jayden Reed","WR","25.6","GB"
+"931450431807537280","complete","snake","2023","2","4","12","Mississauga Mastodons","10888","Jalen Carter","DL","24.7","PHI"
+"931450431807537280","complete","snake","2023","2","3","1","Toronto Hogs","10235","Roschon Johnson","RB","24.9","CHI"
+"931450431807537280","complete","snake","2023","2","2","7","Pokémon Omega Judge Judy","9502","Tank Dell","WR","26.1","HOU"
+"931450431807537280","complete","snake","2023","2","1","11","Sarnia SeaSnakes","9222","Zach Evans","RB","24.6",NA
+"931450431807537280","complete","snake","2023","3","1","11","Sarnia SeaSnakes","10444","Cedric Tillman","WR","25.7","CLE"
+"931450431807537280","complete","snake","2023","3","2","11","Sarnia SeaSnakes","9227","Israel Abanikanda","RB","23.2","DAL"
+"931450431807537280","complete","snake","2023","3","3","10","Calgary Cocks","9757","Kendre Miller","RB","23.5","NO"
+"931450431807537280","complete","snake","2023","3","4","12","Mississauga Mastodons","9481","Luke Musgrave","TE","25.3","GB"
+"931450431807537280","complete","snake","2023","3","5","8","Iqaluit Trout","9508","Tyjae Spears","RB","24.5","TEN"
+"931450431807537280","complete","snake","2023","3","6","3","Newfoundland Blowers","9479","Darnell Washington","TE","24.3","PIT"
+"931450431807537280","complete","snake","2023","3","7","3","Newfoundland Blowers","10891","Devon Witherspoon","DB","25","SEA"
+"931450431807537280","complete","snake","2023","3","8","9","Saskatoon Squirrels","10885","Lukas Van Ness","DL","24.5","GB"
+"931450431807537280","complete","snake","2023","3","9","4","Thunder Bay Mustangs","10857","Stetson Bennett","QB","28.1","LAR"
+"931450431807537280","complete","snake","2023","3","10","2","Bikini Bottom Stars","10232","Michael Wilson","WR","25.8","ARI"
+"931450431807537280","complete","snake","2023","3","11","3","Newfoundland Blowers","10218","Xavier Hutchinson","WR","25.6","HOU"
+"931450431807537280","complete","snake","2023","3","12","6","Choccolocco Railfans","9998","Hendon Hooker","QB","27.9","NYJ"
+"931450431807537280","complete","snake","2023","3","13","14","Gold Coast Sharks","10983","Sean Clifford","QB","27.4","CIN"
+"931450431807537280","complete","snake","2023","3","14","14","Gold Coast Sharks","10863","A.T. Perry","WR","26.2","DEN"
+"931450431807537280","complete","snake","2023","4","14","10","Calgary Cocks","10880","Jack Campbell","LB","25.3","DET"
+"931450431807537280","complete","snake","2023","4","13","1","Toronto Hogs","9504","Kayshon Boutte","WR","23.6","NE"
+"931450431807537280","complete","snake","2023","4","12","13","Vancouver Mounties","9505","Deuce Vaughn","RB","24.1","DEN"
+"931450431807537280","complete","snake","2023","4","11","1","Toronto Hogs","10937","Jake Moody","K","26.1","WAS"
+"931450431807537280","complete","snake","2023","4","10","2","Bikini Bottom Stars","9493","Puka Nacua","WR","24.6","LAR"
+"931450431807537280","complete","snake","2023","4","9","7","Pokémon Omega Judge Judy","10871","Luke Schoonmaker","TE","27.2","DAL"
+"931450431807537280","complete","snake","2023","4","8","2","Bikini Bottom Stars","9220","Evan Hull","RB","25.1","NO"
+"931450431807537280","complete","snake","2023","4","7","4","Thunder Bay Mustangs","10913","Joey Porter","DB","25.4","PIT"
+"931450431807537280","complete","snake","2023","4","6","8","Iqaluit Trout","9490","Tyler Scott","WR","24.2","LAR"
+"931450431807537280","complete","snake","2023","4","5","7","Pokémon Omega Judge Judy","10216","Kenny McIntosh","RB","25.8","SEA"
+"931450431807537280","complete","snake","2023","4","4","9","Saskatoon Squirrels","10881","Christian Gonzalez","DB","23.5","NE"
+"931450431807537280","complete","snake","2023","4","3","8","Iqaluit Trout","10212","Josh Whyle","TE","26.3","GB"
+"931450431807537280","complete","snake","2023","4","2","11","Sarnia SeaSnakes","10228","Charlie Jones","WR","27.1","CIN"
+"931450431807537280","complete","snake","2023","4","1","10","Calgary Cocks","10955","Chad Ryland","K","26.2","ARI"
+"1054586519090008064","complete","snake","2024","1","1","9","New New York Benders ","11560","Caleb Williams","QB","24.1","CHI"
+"1054586519090008064","complete","snake","2024","1","2","4","Thunder Bay Mustangs","11628","Marvin Harrison","WR","23.4","ARI"
+"1054586519090008064","complete","snake","2024","1","3","12","Mississauga Mastodons","11566","Jayden Daniels","QB","25","WAS"
+"1054586519090008064","complete","snake","2024","1","4","10","Lower City Lasercats","11632","Malik Nabers","WR","22.4","NYG"
+"1054586519090008064","complete","snake","2024","1","5","4","Thunder Bay Mustangs","11564","Drake Maye","QB","23.3","NE"
+"1054586519090008064","complete","snake","2024","1","6","11","Sarnia SeaSnakes","11620","Rome Odunze","WR","23.5","CHI"
+"1054586519090008064","complete","snake","2024","1","7","9","New New York Benders ","11604","Brock Bowers","TE","23","LV"
+"1054586519090008064","complete","snake","2024","1","8","2","Bikini Bottom Stars","11631","Brian Thomas","WR","23.2","JAX"
+"1054586519090008064","complete","snake","2024","1","9","10","Lower City Lasercats","11563","Bo Nix","QB","25.8","DEN"
+"1054586519090008064","complete","snake","2024","1","10","6","Choccolocco Railfans","11624","Xavier Worthy","WR","22.7","KC"
+"1054586519090008064","complete","snake","2024","1","11","6","Choccolocco Railfans","11583","Jonathon Brooks","RB","22.4","CAR"
+"1054586519090008064","complete","snake","2024","1","12","1","Toronto Hogs","11635","Ladd McConkey","WR","24.1","LAC"
+"1054586519090008064","complete","snake","2024","1","13","8","Iqaluit Trout","11589","Trey Benson","RB","23.4","ARI"
+"1054586519090008064","complete","snake","2024","1","14","12","Mississauga Mastodons","11637","Keon Coleman","WR","22.6","BUF"
+"1054586519090008064","complete","snake","2024","2","14","6","Choccolocco Railfans","11586","Blake Corum","RB","25.1","LAR"
+"1054586519090008064","complete","snake","2024","2","13","7","Pokémon Omega Judge Judy","11625","Adonai Mitchell","WR","23.2","NYJ"
+"1054586519090008064","complete","snake","2024","2","12","4","Thunder Bay Mustangs","11627","Troy Franklin","WR","22.9","DEN"
+"1054586519090008064","complete","snake","2024","2","11","6","Choccolocco Railfans","11626","Xavier Legette","WR","24.9","CAR"
+"1054586519090008064","complete","snake","2024","2","10","10","Lower City Lasercats","11630","Roman Wilson","WR","24.5","PIT"
+"1054586519090008064","complete","snake","2024","2","9","11","Sarnia SeaSnakes","11638","Ricky Pearsall","WR","25.3","SF"
+"1054586519090008064","complete","snake","2024","2","8","13","Vancouver Mounties","11619","Ja'Lynn Polk","WR","23.7","NO"
+"1054586519090008064","complete","snake","2024","2","7","14","Gold Coast Sharks","11596","Ben Sinnott","TE","23.5","WAS"
+"1054586519090008064","complete","snake","2024","2","6","10","Lower City Lasercats","11600","Ja'Tavion Sanders","TE","22.7","CAR"
+"1054586519090008064","complete","snake","2024","2","5","3","Newfoundland Blowers","11617","Malachi Corley","WR","23.8","CLE"
+"1054586519090008064","complete","snake","2024","2","4","6","Choccolocco Railfans","11559","Michael Penix","QB","25.6","ATL"
+"1054586519090008064","complete","snake","2024","2","3","11","Sarnia SeaSnakes","11643","Jaylen Wright","RB","22.7","MIA"
+"1054586519090008064","complete","snake","2024","2","2","11","Sarnia SeaSnakes","11618","Jalen McMillan","WR","24","TB"
+"1054586519090008064","complete","snake","2024","2","1","2","Bikini Bottom Stars","11565","J.J. McCarthy","QB","22.9","MIN"
+"1054586519090008064","complete","snake","2024","3","1","14","Gold Coast Sharks","11655","Tyrone Tracy","RB","26.1","NYG"
+"1054586519090008064","complete","snake","2024","3","2","4","Thunder Bay Mustangs","11584","Bucky Irving","RB","23.3","TB"
+"1054586519090008064","complete","snake","2024","3","3","14","Gold Coast Sharks","11621","Brenden Rice","WR","23.8","LV"
+"1054586519090008064","complete","snake","2024","3","4","8","Iqaluit Trout","11640","Jermaine Burton","WR","24.5",NA
+"1054586519090008064","complete","snake","2024","3","5","10","Lower City Lasercats","11650","Luke McCaffrey","WR","24.7","WAS"
+"1054586519090008064","complete","snake","2024","3","6","8","Iqaluit Trout","11597","Theo Johnson","TE","24.8","NYG"
+"1054586519090008064","complete","snake","2024","3","7","14","Gold Coast Sharks","11665","Jared Verse","DL","25.1","LAR"
+"1054586519090008064","complete","snake","2024","3","8","13","Vancouver Mounties","11647","Kimani Vidal","RB","24.3","LAC"
+"1054586519090008064","complete","snake","2024","3","9","4","Thunder Bay Mustangs","11645","Javon Baker","WR","23.8","SF"
+"1054586519090008064","complete","snake","2024","3","10","11","Sarnia SeaSnakes","11579","Audric Estime","RB","22.3","NO"
+"1054586519090008064","complete","snake","2024","3","11","3","Newfoundland Blowers","11663","Chop Robinson","DE","23","MIA"
+"1054586519090008064","complete","snake","2024","3","12","12","Mississauga Mastodons","11610","Malik Washington","WR","25","MIA"
+"1054586519090008064","complete","snake","2024","3","13","12","Mississauga Mastodons","11667","Dallas Turner","LB","22.9","MIN"
+"1054586519090008064","complete","snake","2024","3","14","14","Gold Coast Sharks","11581","MarShawn Lloyd","RB","25","GB"
+"1054586519090008064","complete","snake","2024","4","14","5","Winnipeg Wranglers","11599","Cade Stover","TE","25.5","HOU"
+"1054586519090008064","complete","snake","2024","4","13","5","Winnipeg Wranglers","11576","Braelon Allen","RB","21.9","NYJ"
+"1054586519090008064","complete","snake","2024","4","12","5","Winnipeg Wranglers","11629","Devontez Walker","WR","24.5","BAL"
+"1054586519090008064","complete","snake","2024","4","11","2","Bikini Bottom Stars","11623","Jordan Whittington","WR","25.2","LAR"
+"1054586519090008064","complete","snake","2024","4","10","8","Iqaluit Trout","11582","Carson Steele","RB","23.2","KC"
+"1054586519090008064","complete","snake","2024","4","9","4","Thunder Bay Mustangs","11575","Ray Davis","RB","26.1","BUF"
+"1054586519090008064","complete","snake","2024","4","8","3","Newfoundland Blowers","11605","Jaheim Bell","TE","24.5",NA
+"1054586519090008064","complete","snake","2024","4","7","2","Bikini Bottom Stars","11616","Jacob Cowing","WR","24.9","SF"
+"1054586519090008064","complete","snake","2024","4","6","1","Toronto Hogs","11661","Terrion Arnold","DB","22.7","DET"
+"1054586519090008064","complete","snake","2024","4","5","10","Lower City Lasercats","11727","Payton Wilson","LB","25.7","PIT"
+"1054586519090008064","complete","snake","2024","4","4","11","Sarnia SeaSnakes","11562","Spencer Rattler","QB","25.2","NO"
+"1054586519090008064","complete","snake","2024","4","3","7","Pokémon Omega Judge Judy","11636","Johnny Wilson","WR","24.7","PHI"
+"1054586519090008064","complete","snake","2024","4","2","12","Mississauga Mastodons","11577","Will Shipley","RB","23.3","PHI"
+"1054586519090008064","complete","snake","2024","4","1","3","Newfoundland Blowers","11783","Ryan Flournoy","WR","26.1","DAL"
+"1185347458376470529","complete","snake","2025","1","1","1","Toronto Hogs","12527","Ashton Jeanty","RB","22.1","LV"
+"1185347458376470529","complete","snake","2025","1","2","13","Vancouver Mounties","12530","Travis Hunter","WR","22.6","JAX"
+"1185347458376470529","complete","snake","2025","1","3","6","Choccolocco Railfans","12507","Omarion Hampton","RB","22.8","LAC"
+"1185347458376470529","complete","snake","2025","1","4","14","Gold Coast Sharks","12529","TreVeyon Henderson","RB","23.2","NE"
+"1185347458376470529","complete","snake","2025","1","5","11","Sarnia Seasnakes","12518","Tyler Warren","TE","23.6","IND"
+"1185347458376470529","complete","snake","2025","1","6","2","Bikini Bottom Stars","12526","Tetairoa McMillan","WR","22.7","CAR"
+"1185347458376470529","complete","snake","2025","1","7","3","Newfoundland Blowers","12514","Emeka Egbuka","WR","23.2","TB"
+"1185347458376470529","complete","snake","2025","1","8","5","Winnipeg Wranglers","12522","Cam Ward","QB","23.6","TEN"
+"1185347458376470529","complete","snake","2025","1","9","11","Sarnia Seasnakes","12489","RJ Harvey","RB","24.9","DEN"
+"1185347458376470529","complete","snake","2025","1","10","2","Bikini Bottom Stars","12517","Colston Loveland","TE","21.7","CHI"
+"1185347458376470529","complete","snake","2025","1","11","3","Newfoundland Blowers","12484","Jayden Higgins","WR","23","HOU"
+"1185347458376470529","complete","snake","2025","1","12","11","Sarnia Seasnakes","12501","Matthew Golden","WR","22.4","GB"
+"1185347458376470529","complete","snake","2025","1","13","5","Winnipeg Wranglers","12508","Jaxson Dart","QB","22.6","NYG"
+"1185347458376470529","complete","snake","2025","1","14","7","Prince Edward Islanders","12504","Kaleb Johnson","RB","22.4","PIT"
+"1185347458376470529","complete","snake","2025","2","14","7","Prince Edward Islanders","12519","Luther Burden","WR","22","CHI"
+"1185347458376470529","complete","snake","2025","2","13","6","Choccolocco Railfans","12512","Quinshon Judkins","RB","22.1","CLE"
+"1185347458376470529","complete","snake","2025","2","12","4","Thunder Bay Mustangs","12547","Kyle Williams","WR","23.1","NE"
+"1185347458376470529","complete","snake","2025","2","11","8","Iqaluit Trout","12498","Mason Taylor","TE","21.6","NYJ"
+"1185347458376470529","complete","snake","2025","2","10","8","Iqaluit Trout","12509","Tre' Harris","WR","23.8","LAC"
+"1185347458376470529","complete","snake","2025","2","9","5","Winnipeg Wranglers","12506","Harold Fannin","TE","21.4","CLE"
+"1185347458376470529","complete","snake","2025","2","8","11","Sarnia Seasnakes","12481","Cam Skattebo","RB","23.9","NYG"
+"1185347458376470529","complete","snake","2025","2","7","5","Winnipeg Wranglers","12533","Jacory Croskey-Merritt","RB","24.7","WAS"
+"1185347458376470529","complete","snake","2025","2","6","3","Newfoundland Blowers","12524","Shedeur Sanders","QB","23.9","CLE"
+"1185347458376470529","complete","snake","2025","2","5","13","Vancouver Mounties","12469","Dylan Sampson","RB","21.3","CLE"
+"1185347458376470529","complete","snake","2025","2","4","7","Prince Edward Islanders","12492","Pat Bryant","WR","23","DEN"
+"1185347458376470529","complete","snake","2025","2","3","6","Choccolocco Railfans","12521","Elijah Arroyo","TE","22.7","SEA"
+"1185347458376470529","complete","snake","2025","2","2","13","Vancouver Mounties","12574","Abdul Carter","DL","22","NYG"
+"1185347458376470529","complete","snake","2025","2","1","7","Prince Edward Islanders","12495","Ollie Gordon","RB","21.9","MIA"
+"1185347458376470529","complete","snake","2025","3","1","7","Prince Edward Islanders","12534","Kyle Monangai","RB","23.5","CHI"
+"1185347458376470529","complete","snake","2025","3","2","13","Vancouver Mounties","12499","Elic Ayomanor","WR","22.5","TEN"
+"1185347458376470529","complete","snake","2025","3","3","8","Iqaluit Trout","12545","Tyler Shough","QB","26.2","NO"
+"1185347458376470529","complete","snake","2025","3","4","11","Sarnia Seasnakes","12535","Isaac TeSlaa","WR","23.8","DET"
+"1185347458376470529","complete","snake","2025","3","5","12","Mississauga Mastodons","12541","Dont'e Thornton","WR","23.1","LV"
+"1185347458376470529","complete","snake","2025","3","6","5","Winnipeg Wranglers","12487","Terrance Ferguson","TE","22.8","LAR"
+"1185347458376470529","complete","snake","2025","3","7","14","Gold Coast Sharks","12457","Jaydon Blue","RB","21.9","DAL"
+"1185347458376470529","complete","snake","2025","3","8","4","Thunder Bay Mustangs","12510","Jalen Milroe","QB","23","SEA"
+"1185347458376470529","complete","snake","2025","3","9","3","Newfoundland Blowers","12497","Tory Horton","WR","23.1","SEA"
+"1185347458376470529","complete","snake","2025","3","10","7","Prince Edward Islanders","12536","Jaylin Noel","WR","23.3","HOU"
+"1185347458376470529","complete","snake","2025","3","11","10","Lower City Lasercats","12483","Jack Bech","WR","23","LV"
+"1185347458376470529","complete","snake","2025","3","12","8","Iqaluit Trout","12543","Tahj Brooks","RB","23.6","CIN"
+"1185347458376470529","complete","snake","2025","3","13","9","New New York Benders ","12503","Isaiah Bond","WR","21.8","CLE"
+"1185347458376470529","complete","snake","2025","3","14","8","Iqaluit Trout","12490","Bhayshul Tuten","RB","23.8","JAX"
+"1185347458376470529","complete","snake","2025","4","14","7","Prince Edward Islanders","12641","Jaylin Lane","WR","23.6","WAS"
+"1185347458376470529","complete","snake","2025","4","13","5","Winnipeg Wranglers","12578","Carson Schwesinger","LB","22.8","CLE"
+"1185347458376470529","complete","snake","2025","4","12","9","New New York Benders ","12505","Jalen Royals","WR","22.8","KC"
+"1185347458376470529","complete","snake","2025","4","11","9","New New York Benders ","12502","Gunnar Helm","TE","23.3","TEN"
+"1185347458376470529","complete","snake","2025","4","10","11","Sarnia Seasnakes","12474","Woody Marks","RB","25","HOU"
+"1185347458376470529","complete","snake","2025","4","9","10","Lower City Lasercats","12476","Devin Neal","RB","22.4","NO"
+"1185347458376470529","complete","snake","2025","4","8","4","Thunder Bay Mustangs","12493","Oronde Gadsden","TE","22.5","LAC"
+"1185347458376470529","complete","snake","2025","4","7","14","Gold Coast Sharks","12567","Malaki Starks","DB","22.1","BAL"
+"1185347458376470529","complete","snake","2025","4","6","3","Newfoundland Blowers","12670","KeAndre Lambert-Smith","WR","24.2","LAC"
+"1185347458376470529","complete","snake","2025","4","5","6","Choccolocco Railfans","12711","Tyler Loop","K","24.4","BAL"
+"1185347458376470529","complete","snake","2025","4","4","13","Vancouver Mounties","12573","Mason Graham","DL","22.3","CLE"
+"1185347458376470529","complete","snake","2025","4","3","8","Iqaluit Trout","12568","Jalon Walker","DL","21.8","ATL"
+"1185347458376470529","complete","snake","2025","4","2","13","Vancouver Mounties","12471","DJ Giddens","RB","22.3","IND"
+"1185347458376470529","complete","snake","2025","4","1","10","Lower City Lasercats","12511","Will Howard","QB","24.2","PIT"
