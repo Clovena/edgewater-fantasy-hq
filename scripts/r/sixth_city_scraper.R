@@ -33,8 +33,11 @@ for (i in seq_len(nrow(league_configs))) {
   for (t in seq_along(tables)) {
     table <- tables[t]
     temp_path <- paste0(path_api, "stg_", names(table), ".csv")
-    temp_data <- get(paste0("ff_", names(table)))(con) %>%
-      mutate(season = league_configs$season[i])
+    temp_data <- get(paste0("ff_", names(table)))(con)
+    # Conditionally add season column (skip for draftpicks)
+    if (!(names(table) %in% c("draftpicks"))) {
+      temp_data <- temp_data %>% mutate(season = league_configs$season[i])
+    }
     if (names(table) %in% c("draftpicks", "rosters")) {
       write.csv(temp_data, temp_path, row.names = FALSE)
       cat(paste0("Rewritten ", temp_path, " (", nrow(temp_data), " rows)\n"))
