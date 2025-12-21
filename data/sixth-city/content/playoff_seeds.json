@@ -1,0 +1,49 @@
+{
+  "2021": [
+    { "seed": 1, "franchise_id": 2 },
+    { "seed": 2, "franchise_id": 11 },
+    { "seed": 3, "franchise_id": 13 },
+    { "seed": 4, "franchise_id": 6 },
+    { "seed": 5, "franchise_id": 5 },
+    { "seed": 6, "franchise_id": 4 },
+    { "seed": 7, "franchise_id": 9 },
+    { "seed": 8, "franchise_id": 7 }
+  ],
+  "2022": [
+    { "seed": 1, "franchise_id": 13 },
+    { "seed": 2, "franchise_id": 2 },
+    { "seed": 3, "franchise_id": 7 },
+    { "seed": 4, "franchise_id": 14 },
+    { "seed": 5, "franchise_id": 9 },
+    { "seed": 6, "franchise_id": 6 },
+    { "seed": 7, "franchise_id": 5 },
+    { "seed": 8, "franchise_id": 3 }
+  ],
+  "2023": [
+    { "seed": 1, "franchise_id": 1 },
+    { "seed": 2, "franchise_id": 6 },
+    { "seed": 3, "franchise_id": 5 },
+    { "seed": 4, "franchise_id": 4 },
+    { "seed": 5, "franchise_id": 7 },
+    { "seed": 6, "franchise_id": 13 },
+    { "seed": 7, "franchise_id": 2 }
+  ],
+  "2024": [
+    { "seed": 1, "franchise_id": 8 },
+    { "seed": 2, "franchise_id": 1 },
+    { "seed": 3, "franchise_id": 2 },
+    { "seed": 4, "franchise_id": 10 },
+    { "seed": 5, "franchise_id": 7 },
+    { "seed": 6, "franchise_id": 12 },
+    { "seed": 7, "franchise_id": 4 }
+  ],
+  "2025": [
+    { "seed": 1, "franchise_id": 4 },
+    { "seed": 2, "franchise_id": 7 },
+    { "seed": 3, "franchise_id": 11 },
+    { "seed": 4, "franchise_id": 2 },
+    { "seed": 5, "franchise_id": 10 },
+    { "seed": 6, "franchise_id": 3 },
+    { "seed": 7, "franchise_id": 5 }
+  ]
+}
