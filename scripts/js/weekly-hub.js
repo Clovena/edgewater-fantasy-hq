@@ -18,10 +18,15 @@ let teamMetadata = {};
 // Load team metadata (colors, abbrevs, etc.)
 async function loadTeamMetadata(league) {
   try {
-    const response = await fetch(`/data/${league}/content/team_metadata.json`);
+    const response = await fetch(`/data/${league}/ref/team_metadata.json`);
     if (response.ok) {
       const metadata = await response.json();
-      teamMetadata[league] = metadata;
+      // Create a name-to-metadata lookup map for easy access
+      const nameMap = {};
+      for (const [franchiseId, info] of Object.entries(metadata)) {
+        nameMap[info.franchise_name] = info;
+      }
+      teamMetadata[league] = nameMap;
     }
   } catch (error) {
     console.log(`No team metadata found for ${league}, using defaults`);
