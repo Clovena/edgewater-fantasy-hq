@@ -3,19 +3,6 @@ library(jsonlite)
 library(ffscrapr)
 library(tidyverse)
 
-load_league <- function(league_name) {
-  dir <- file.path("data", league_name, "api")
-  tbls <- list.files(dir, pattern = "*.csv", full.names = TRUE)
-  for (t in tbls) {
-    assign(
-      paste0(stringr::str_replace(league_name, "-", "_"),
-             "_",
-             substr(t, nchar(dir) + 6, nchar(t) - 4)),
-      read.csv(t)
-    )
-  }
-}
-
 upsert <- function(new_data, file_path, key_cols, write = FALSE) {
   new_data <- new_data %>%
     dplyr::mutate(dplyr::across(tidyselect::everything(), as.character))
@@ -34,3 +21,6 @@ upsert <- function(new_data, file_path, key_cols, write = FALSE) {
     final
   }
 }
+
+path_api  <- "data/sixth-city/api/"
+path_json <- "data/sixth-city/content/"

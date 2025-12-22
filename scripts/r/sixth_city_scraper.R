@@ -1,8 +1,5 @@
 source("scripts/r/utils.R")
 
-path_api  <- "data/sixth-city/api/"
-path_json <- "data/sixth-city/content/"
-
 # Initialize data tables
 tables <- list(
   "draft" = c("draft_id", "type", "season", "round", "pick"),
