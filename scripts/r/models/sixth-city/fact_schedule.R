@@ -1,6 +1,6 @@
 source("scripts/r/utils.R")
 
-playoff_json <- fromJSON(paste0(path_json, "playoff_seeds.json"))
+playoff_json <- fromJSON(paste0(sixth_city_path_json, "playoff_seeds.json"))
 playoff_seeds <- list()
 for (season in names(playoff_json)) {
   playoff_seeds[[season]] <- playoff_json[[season]] %>%
@@ -88,4 +88,4 @@ schedule <- rbind(
   arrange(season, week, -game_type, franchise_id)
 
 write.csv(schedule,
-          paste0(path_api, "fact_schedule.csv"), row.names = FALSE)
+          paste0(sixth_city_path_api, "fact_schedule.csv"), row.names = FALSE)

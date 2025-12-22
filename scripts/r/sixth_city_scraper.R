@@ -15,7 +15,7 @@ tables <- list(
 )
 
 # Read the JSON file
-league_configs <- fromJSON(paste0(path_json, "league_config.json"))
+league_configs <- fromJSON(paste0(sixth_city_path_json, "league_config.json"))
 
 # Iterate with a for loop
 for (i in seq_len(nrow(league_configs))) {
@@ -29,7 +29,7 @@ for (i in seq_len(nrow(league_configs))) {
 
   for (t in seq_along(tables)) {
     table <- tables[t]
-    temp_path <- paste0(path_api, "stg_", names(table), ".csv")
+    temp_path <- paste0(sixth_city_path_api, "stg_", names(table), ".csv")
     temp_data <- get(paste0("ff_", names(table)))(con)
     # Conditionally add season column (skip for draftpicks)
     if (!(names(table) %in% c("draftpicks"))) {
