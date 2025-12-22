@@ -23,4 +23,4 @@ upsert <- function(new_data, file_path, key_cols, write = FALSE) {
 }
 
 sixth_city_path_api  <- "data/sixth-city/api/"
-sixth_city_path_json <- "data/sixth-city/content/"
+sixth_city_path_json <- "data/sixth-city/ref/"
