@@ -22,5 +22,13 @@ upsert <- function(new_data, file_path, key_cols, write = FALSE) {
   }
 }
 
+has_historical_season <- function(list, franchise_id, season) {
+  history_df <- list[[franchise_id]]$history
+  if (!is.null(history_df)) {
+    return(any(history_df$seasons %>% unlist() == season))
+  }
+  FALSE
+}
+
 sixth_city_path_api  <- "data/sixth-city/api/"
 sixth_city_path_json <- "data/sixth-city/ref/"
