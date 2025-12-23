@@ -15,17 +15,65 @@ let teamMetadata = {};
 // INITIALIZATION
 // ========================================
 
-// Load team metadata (colors, abbrevs, etc.)
+// Parse a CSV line handling quoted values
+function parseCSVLine(line) {
+  const result = [];
+  let current = '';
+  let inQuotes = false;
+  
+  for (let i = 0; i < line.length; i++) {
+    const char = line[i];
+    
+    if (char === '"') {
+      inQuotes = !inQuotes;
+    } else if (char === ',' && !inQuotes) {
+      result.push(current.trim());
+      current = '';
+    } else {
+      current += char;
+    }
+  }
+  
+  result.push(current.trim());
+  return result;
+}
+
+// Load team metadata (colors, abbrevs, etc.) from fact_franchises.csv
 async function loadTeamMetadata(league) {
   try {
-    const response = await fetch(`/data/${league}/ref/team_metadata.json`);
+    const response = await fetch(`/data/${league}/api/fact_franchises.csv`);
     if (response.ok) {
-      const metadata = await response.json();
-      // Create a name-to-metadata lookup map for easy access
+      const csvText = await response.text();
+      
+      // Parse CSV
+      const lines = csvText.trim().split('\n');
+      const headers = parseCSVLine(lines[0]);
+      
+      const rawData = lines.slice(1).map(line => {
+        const values = parseCSVLine(line);
+        const row = {};
+        headers.forEach((header, index) => {
+          row[header] = values[index] || '';
+        });
+        return row;
+      });
+      
+      // Create name-to-metadata lookup with most recent season data
       const nameMap = {};
-      for (const [franchiseId, info] of Object.entries(metadata)) {
-        nameMap[info.franchise_name] = info;
-      }
+      rawData.forEach(row => {
+        const name = row.franchise_name;
+        const season = parseInt(row.season);
+        
+        if (!nameMap[name] || season > nameMap[name].season) {
+          nameMap[name] = {
+            primary: row.primary,
+            secondary: row.secondary,
+            tertiary: row.tertiary,
+            season: season
+          };
+        }
+      });
+      
       teamMetadata[league] = nameMap;
     }
   } catch (error) {
@@ -72,9 +120,14 @@ function createRankingSection(teamName, blurb, league) {
   const header = document.createElement('h2');
   header.textContent = teamName;
   
-  // Apply team-specific color if available
+  // Apply team-specific styling if available
   if (teamMetadata[league] && teamMetadata[league][teamName]) {
-    header.style.backgroundColor = teamMetadata[league][teamName].primary;
+    const team = teamMetadata[league][teamName];
+    
+    // Apply background color
+    if (team.primary) {
+      header.style.backgroundColor = team.primary;
+    }
   }
   
   const paragraph = document.createElement('p');
@@ -185,7 +238,7 @@ async function loadWeeklyHub(week = 1) {
   }
   
   if (sixthCityData) {
-    renderLeaguePage('sixth-city-prs', 'sixthCity', sixthCityData);
+    renderLeaguePage('sixth-city-prs', 'sixth-city', sixthCityData);
   }
   
   if (survivorData) {

@@ -15,7 +15,8 @@
         "owner_name": "Zac Ricker",
         "primary": "#7a709b",
         "secondary": "#ea332a",
-        "tertiary": "#b4b0b0"
+        "tertiary": "#b4b0b0",
+        "font": "razorback"
       }
     ]
   },
