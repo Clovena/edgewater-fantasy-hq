@@ -6,6 +6,7 @@
     "primary": "#4f4471",
     "secondary": "#ea332a",
     "tertiary": "#7a709b",
+    "font": "razorback",
     "history": [
       {
         "season": [2021, 2022],
@@ -24,7 +25,8 @@
     "owner_name": "Jacob Godwin",
     "primary": "#caff80",
     "secondary": "#b580ff",
-    "tertiary": "#ff808b"
+    "tertiary": "#ff808b",
+    "font": "spongeboy"
   },
   "3": {
     "franchise_name": "Newfoundland Blowers",
@@ -32,7 +34,8 @@
     "owner_name": "Brendan DeWees",
     "primary": "#ab3032",
     "secondary": "#192f5d",
-    "tertiary": "#ae9273"
+    "tertiary": "#ae9273",
+    "font": "spacelord"
   },
   "4": {
     "franchise_name": "Thunder Bay Mustangs",
@@ -41,6 +44,7 @@
     "primary": "#0a2351",
     "secondary": "#81c78d",
     "tertiary": "#ffffff",
+    "font": "horizon",
     "history": [
       {
         "season": [2021],
@@ -49,7 +53,8 @@
         "owner_name": "Steven Schuster",
         "primary": "#f56600",
         "secondary": "#522d80",
-        "tertiary": "#333333"
+        "tertiary": "#333333",
+        "font": ""
       }
     ]
   },
@@ -60,6 +65,7 @@
     "primary": "#1a018e",
     "secondary": "#f3d971",
     "tertiary": "#4262f9",
+    "font": "",
     "history": [
       {
         "season": [2021],
@@ -68,7 +74,8 @@
         "owner_name": "Ryan Busser",
         "primary": "#ba0c2f",
         "secondary": "#041e42",
-        "tertiary": "#d9c89d"
+        "tertiary": "#d9c89d",
+        "font": ""
       }
     ]
   },
@@ -78,7 +85,8 @@
     "owner_name": "Sean Williamson",
     "primary": "#49351a",
     "secondary": "#d5913a",
-    "tertiary": "#a58b8b"
+    "tertiary": "#a58b8b",
+    "font": "emblema"
   },
   "7": {
     "franchise_name": "Prince Edward Islanders",
@@ -87,6 +95,7 @@
     "primary": "#00d5d6",
     "secondary": "#ff6d01",
     "tertiary": "#002288",
+    "font": "",
     "history": [
       {
         "season": [2021, 2022, 2023, 2024],
@@ -95,7 +104,8 @@
         "owner_name": "Jared Chernick",
         "primary": "#9b111e",
         "secondary": "#ffa502",
-        "tertiary": "#000000"
+        "tertiary": "#000000",
+        "font": "pokemon"
       }
     ]
   },
@@ -105,7 +115,8 @@
     "owner_name": "Bret Fortner",
     "primary": "#c91b48",
     "secondary": "#002b64",
-    "tertiary": "#62b0e5"
+    "tertiary": "#62b0e5",
+    "font": "fishhook"
   },
   "9": {
     "franchise_name": "New New York Benders",
@@ -114,6 +125,7 @@
     "primary": "#a6c1d6",
     "secondary": "#fffbc7",
     "tertiary": "#000d18",
+    "font": "futurama",
     "history": [
       {
         "season": [2021, 2022, 2023],
@@ -122,7 +134,8 @@
         "owner_name": "Trey Kernan",
         "primary": "#25b273",
         "secondary": "#000000",
-        "tertiary": "#ffffff"
+        "tertiary": "#ffffff",
+        "font": "virtu"
       }
     ]
   },
@@ -133,6 +146,7 @@
     "primary": "#df7937",
     "secondary": "#de432f",
     "tertiary": "#201719",
+    "font": "mansalva",
     "history": [
       {
         "season": [2021, 2022, 2023],
@@ -141,7 +155,8 @@
         "owner_name": "Sam Nagle",
         "primary": "#fb6605",
         "secondary": "#f2cd37",
-        "tertiary": "#000000"
+        "tertiary": "#000000",
+        "font": ""
       }
     ]
   },
@@ -152,6 +167,7 @@
     "primary": "#5e905a",
     "secondary": "#ec9bbc",
     "tertiary": "#89bea4",
+    "font": "",
     "history": [
       {
         "season": [2021, 2022],
@@ -160,7 +176,8 @@
         "owner_name": "Luke Lisowski",
         "primary": "#195ba0",
         "secondary": "#f22a3f",
-        "tertiary": "#6f655c"
+        "tertiary": "#6f655c",
+        "font": "army"
       }
     ]
   },
@@ -170,7 +187,8 @@
     "owner_name": "Braydon Gibson",
     "primary": "#9f5134",
     "secondary": "#39bbf0",
-    "tertiary": "#d7e7ed"
+    "tertiary": "#d7e7ed",
+    "font": "ice_age"
   },
   "13": {
     "franchise_name": "Vancouver Mounties",
@@ -178,7 +196,8 @@
     "owner_name": "Connor Griffiths",
     "primary": "#012652",
     "secondary": "#a80012",
-    "tertiary": "#c8cac7"
+    "tertiary": "#c8cac7",
+    "font": "wonderment"
   },
   "14": {
     "franchise_name": "Gold Coast Sharks",
@@ -187,6 +206,7 @@
     "primary": "#006d75",
     "secondary": "#ef979e",
     "tertiary": "#e7cd78",
+    "font": "cursive",
     "history": [
       {
         "season": [2021],
@@ -195,7 +215,8 @@
         "owner_name": "Logan Snow",
         "primary": "#3a4283",
         "secondary": "#814a35",
-        "tertiary": "#e5e2e0"
+        "tertiary": "#e5e2e0",
+        "font": ""
       }
     ]
   }

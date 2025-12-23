@@ -50,6 +50,7 @@ yarn.lock
 secrets/
 *.key
 *.pem
+assets/fonts
 
 # ========================================
 # Build & Generated Files
