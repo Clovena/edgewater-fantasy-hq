@@ -20,8 +20,10 @@
     "primary": "#347aa0",
     "history": [
       {
-        "seasons": [2021],
-        "franchise_name": "Thunder Bay Sunshine"
+        "season": [2021],
+        "franchise_name": "Thunder Bay Sunshine",
+        "abbrev": "TBY",
+        "primary": "#TBD"
       }
     ]
   },
@@ -31,8 +33,10 @@
     "primary": "#d42f31",
     "history": [
       {
-        "seasons": [2021],
-        "franchise_name": "Winnipeg Wankers"
+        "season": [2021],
+        "franchise_name": "Winnipeg Wankers",
+        "abbrev": "WPG",
+        "primary": "#TBD"
       }
     ]
   },
@@ -47,9 +51,10 @@
     "primary": "#009ca7",
     "history": [
       {
-        "seasons": [2021, 2022, 2023, 2024],
+        "season": [2021, 2022, 2023, 2024],
         "franchise_name": "Pokemon Omega Judge Judy",
-        "abbrev": "PKO"
+        "abbrev": "PKO",
+        "primary": "#TBD"
       }
     ]
   },
@@ -64,9 +69,10 @@
     "primary": "#4a148c",
     "history": [
       {
-        "seasons": [2021, 2022, 2023],
+        "season": [2021, 2022, 2023],
         "franchise_name": "Saskatoon Squirrels",
-        "abbrev": "SSK"
+        "abbrev": "SSK",
+        "primary": "#TBD"
       }
     ]
   },
@@ -76,9 +82,10 @@
     "primary": "#ff6b35",
     "history": [
       {
-        "seasons": [2021, 2022, 2023],
+        "season": [2021, 2022, 2023],
         "franchise_name": "Calgary Cocks",
-        "abbrev": "CGY"
+        "abbrev": "CGY",
+        "primary": "#TBD"
       }
     ]
   },
@@ -88,9 +95,10 @@
     "primary": "#6c8d43",
     "history": [
       {
-        "seasons": [2021, 2022],
+        "season": [2021, 2022],
         "franchise_name": "Montreal Generals",
-        "abbrev": "MTL"
+        "abbrev": "MTL",
+        "primary": "#TBD"
       }
     ]
   },
@@ -110,9 +118,10 @@
     "primary": "#546e7a",
     "history": [
       {
-        "seasons": [2021],
+        "season": [2021],
         "franchise_name": "Unsolicited Dak Pics",
-        "abbrev": "DAK"
+        "abbrev": "DAK",
+        "primary": "#TBD"
       }
     ]
   }
