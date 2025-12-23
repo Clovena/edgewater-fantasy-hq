@@ -32,7 +32,7 @@ for (f in seq_len(length(franchises_json))) {
 
 franchises <- franchises_bind %>%
   arrange(franchise_id, season) %>%
-  relocate(franchise_id, season, user_name, user_id, franchise_name, abbrev)
+  relocate(franchise_id, season, franchise_name, abbrev)
 
 write.csv(franchises,
           paste0(sixth_city_path_api, "fact_franchises.csv"), row.names = FALSE)
