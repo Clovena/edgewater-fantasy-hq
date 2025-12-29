@@ -29,30 +29,27 @@
     
     <!-- Main content -->
     <main class="main-content weekly-hub-content">
+        <!-- League and week selectors (not part of print layout) -->
+        <div class="hub-selectors">
+            <div class="selector-group">
+                <label for="league-dropdown">League:</label>
+                <select id="league-dropdown">
+                    <option value="sixth-city">Sixth City Dynasty</option>
+                    <option value="epsilon">Epsilon Fantasy</option>
+                    <option value="survivor">Survivor</option>
+                </select>
+            </div>
+            <div class="selector-group">
+                <label for="week-dropdown">Week:</label>
+                <select id="week-dropdown">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+        </div>
+
         <!-- Page container for print layout -->
-        <div class="print-pages">
-            
-            <!-- Epsilon Fantasy Power Rankings -->
-            <article class="epsilon-page" id="epsilon-prs">
-                <div class="print-page">
-                    <!-- Content will be dynamically generated -->
-                </div>
-            </article>
-            
-            <!-- Sixth City Dynasty Power Rankings -->
-            <article class="sixth-city-page" id="sixth-city-prs">
-                <div class="print-page">
-                    <!-- Content will be dynamically generated -->
-                </div>
-            </article>
-            
-            <!-- Survivor Power Rankings -->
-            <article class="survivor-page" id="survivor-prs">
-                <div class="print-page">
-                    <!-- Content will be dynamically generated -->
-                </div>
-            </article>
-            
+        <div class="print-pages" id="print-container">
+            <!-- Content will be dynamically generated based on selected league -->
         </div>
     </main>
     

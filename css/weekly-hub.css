@@ -11,6 +11,54 @@
   padding-bottom: calc(var(--bottom-nav-height) + var(--spacing-sm));
 }
 
+/* Hub selectors (league and week dropdowns) */
+.hub-selectors {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-md);
+  margin: 0 auto var(--spacing-lg);
+  max-width: 600px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.selector-group {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.selector-group label {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--black);
+}
+
+.selector-group select {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 2px solid var(--gray-dark);
+  border-radius: 8px;
+  background-color: var(--neutral);
+  color: var(--black);
+  cursor: pointer;
+  transition: all var(--transition-speed);
+  min-width: 150px;
+}
+
+.selector-group select:hover {
+  border-color: var(--black);
+}
+
+.selector-group select:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+}
+
 /* Container for all print pages */
 .print-pages {
   display: flex;
@@ -26,7 +74,7 @@
   height: 11in;
   background-color: var(--neutral);
   margin: 20px auto;
-  padding: 0.25in;
+  padding: 0.1in;
   box-sizing: border-box;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -60,7 +108,7 @@
 .print-page-header h1 {
   margin-bottom: 10px;
   line-height: 1.1;
-  font-size: 28pt;
+  font-size: 32pt;
 }
 
 .subtitle {
@@ -107,13 +155,23 @@
   padding: 0.15in;
   position: relative;
   clip-path: polygon(
-    0.2in 0%, 
-    calc(100% - 0.2in) 0%, 
-    100% 50%, 
-    calc(100% - 0.2in) 100%, 
-    0.2in 100%, 
+    0.2in 0%,
+    calc(100% - 0.2in) 0%,
+    100% 50%,
+    calc(100% - 0.2in) 100%,
+    0.2in 100%,
     0% 50%
   );
+  text-align: center;
+}
+
+.ranking-section .team-stats {
+  font-family: 'Lato', sans-serif;
+  font-size: 16pt;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 0.1in;
+  padding: 0 0.25in;
   text-align: center;
 }
 
@@ -176,9 +234,10 @@
    PRINT STYLES
    ======================================== */
 @media print {
-  /* Hide navigation for printing */
+  /* Hide navigation and selectors for printing */
   .top-bar,
-  .bottom-nav {
+  .bottom-nav,
+  .hub-selectors {
     display: none !important;
   }
 
@@ -199,7 +258,7 @@
     width: 8.5in;
     height: 11in;
     margin: 0;
-    padding: 0.25in;
+    padding: 0.1in;
     box-shadow: none;
     page-break-after: always;
   }
@@ -281,7 +340,12 @@
     clip-path: none;
     border-radius: 8px;
   }
-  
+
+  .ranking-section .team-stats {
+    font-size: 12pt;
+    padding: var(--spacing-xs) 0;
+  }
+
   .ranking-section p {
     font-size: 14pt;
     padding: var(--spacing-sm) 0;
