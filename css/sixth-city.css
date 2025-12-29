@@ -736,3 +736,50 @@
         max-width: 180px;
     }
 }
+
+/* ========================================
+   FRANCHISE PAGE - Individual Team Details
+   ======================================== */
+
+.franchise-header {
+    text-align: center;
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.franchise-header img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: var(--spacing-lg);
+    object-fit: contain;
+}
+
+.franchise-header h1 {
+    color: var(--blue);
+    margin-bottom: var(--spacing-sm);
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.franchise-header p {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: var(--gray-dark);
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/* Responsive - Mobile */
+@media (max-width: 767px) {
+    .franchise-header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .franchise-header h1 {
+        font-size: 2rem;
+    }
+
+    .franchise-header p {
+        font-size: 1rem;
+    }
+}

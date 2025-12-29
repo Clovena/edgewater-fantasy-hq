@@ -112,9 +112,9 @@ function createFranchiseCard(franchise) {
   const card = document.createElement('div');
   card.className = 'franchise-card';
 
-  // Create link wrapper (for future franchise pages)
+  // Create link wrapper to franchise page
   const link = document.createElement('a');
-  link.href = `#`; // Placeholder for future franchise pages
+  link.href = `/pages/sixth-city/franchise.html?team=${franchise.abbrev}`;
   link.className = 'franchise-link';
 
   // Hexagon background container
