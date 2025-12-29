@@ -2,6 +2,7 @@
   "1": {
     "franchise_name": "Toronto Hogs",
     "abbrev": "TOR",
+    "conference": "SCC",
     "owner_name": "Zac Ricker",
     "primary": "#4f4471",
     "secondary": "#ea332a",
@@ -12,6 +13,7 @@
         "season": [2021, 2022],
         "franchise_name": "Toronto Hogs",
         "abbrev": "TOR",
+        "conference": "SCC",
         "owner_name": "Zac Ricker",
         "primary": "#7a709b",
         "secondary": "#ea332a",
@@ -23,6 +25,7 @@
   "2": {
     "franchise_name": "Bikini Bottom Stars",
     "abbrev": "BKB",
+    "conference": "HCC",
     "owner_name": "Jacob Godwin",
     "primary": "#caff80",
     "secondary": "#b580ff",
@@ -32,6 +35,7 @@
   "3": {
     "franchise_name": "Newfoundland Blowers",
     "abbrev": "NFD",
+    "conference": "SCC",
     "owner_name": "Brendan DeWees",
     "primary": "#ab3032",
     "secondary": "#192f5d",
@@ -41,6 +45,7 @@
   "4": {
     "franchise_name": "Thunder Bay Mustangs",
     "abbrev": "TBY",
+    "conference": "SCC",
     "owner_name": "Steven Schuster",
     "primary": "#0a2351",
     "secondary": "#81c78d",
@@ -51,6 +56,7 @@
         "season": [2021],
         "franchise_name": "Thunder Bay Sunshine",
         "abbrev": "TBY",
+        "conference": "SCC",
         "owner_name": "Steven Schuster",
         "primary": "#f56600",
         "secondary": "#522d80",
@@ -62,6 +68,7 @@
   "5": {
     "franchise_name": "Winnipeg Wranglers",
     "abbrev": "WPG",
+    "conference": "HCC",
     "owner_name": "Ryan Busser",
     "primary": "#1a018e",
     "secondary": "#f3d971",
@@ -72,6 +79,7 @@
         "season": [2021],
         "franchise_name": "Winnipeg Wankers",
         "abbrev": "WPG",
+        "conference": "HCC",
         "owner_name": "Ryan Busser",
         "primary": "#ba0c2f",
         "secondary": "#041e42",
@@ -83,6 +91,7 @@
   "6": {
     "franchise_name": "Choccolocco Railfans",
     "abbrev": "CHC",
+    "conference": "HCC",
     "owner_name": "Sean Williamson",
     "primary": "#49351a",
     "secondary": "#d5913a",
@@ -92,6 +101,7 @@
   "7": {
     "franchise_name": "Prince Edward Islanders",
     "abbrev": "PEI",
+    "conference": "HCC",
     "owner_name": "Jared Chernick",
     "primary": "#00d5d6",
     "secondary": "#ff6d01",
@@ -102,6 +112,7 @@
         "season": [2021, 2022, 2023, 2024],
         "franchise_name": "Pokemon Omega Judge Judy",
         "abbrev": "PKO",
+        "conference": "HCC",
         "owner_name": "Jared Chernick",
         "primary": "#9b111e",
         "secondary": "#ffa502",
@@ -113,6 +124,7 @@
   "8": {
     "franchise_name": "Iqaluit Trout",
     "abbrev": "IQT",
+    "conference": "HCC",
     "owner_name": "Bret Fortner",
     "primary": "#c91b48",
     "secondary": "#002b64",
@@ -122,6 +134,7 @@
   "9": {
     "franchise_name": "New New York Benders",
     "abbrev": "NNY",
+    "conference": "SCC",
     "owner_name": "Josh Barsa",
     "primary": "#a6c1d6",
     "secondary": "#fffbc7",
@@ -132,6 +145,7 @@
         "season": [2021, 2022, 2023],
         "franchise_name": "Saskatoon Squirrels",
         "abbrev": "SSK",
+        "conference": "SCC",
         "owner_name": "Trey Kernan",
         "primary": "#25b273",
         "secondary": "#000000",
@@ -143,6 +157,7 @@
   "10": {
     "franchise_name": "Lower City Lasercats",
     "abbrev": "LOW",
+    "conference": "HCC",
     "owner_name": "Nathan Lower",
     "primary": "#df7937",
     "secondary": "#de432f",
@@ -153,6 +168,7 @@
         "season": [2021, 2022, 2023],
         "franchise_name": "Calgary Cocks",
         "abbrev": "CGY",
+        "conference": "HCC",
         "owner_name": "Sam Nagle",
         "primary": "#fb6605",
         "secondary": "#f2cd37",
@@ -164,6 +180,7 @@
   "11": {
     "franchise_name": "Sarnia SeaSnakes",
     "abbrev": "SAR",
+    "conference": "SCC",
     "owner_name": "Pat Gregory",
     "primary": "#5e905a",
     "secondary": "#ec9bbc",
@@ -174,6 +191,7 @@
         "season": [2021, 2022],
         "franchise_name": "Montreal Generals",
         "abbrev": "MTL",
+        "conference": "SCC",
         "owner_name": "Luke Lisowski",
         "primary": "#195ba0",
         "secondary": "#f22a3f",
@@ -185,6 +203,7 @@
   "12": {
     "franchise_name": "Mississauga Mastodons",
     "abbrev": "MIS",
+    "conference": "HCC",
     "owner_name": "Braydon Gibson",
     "primary": "#9f5134",
     "secondary": "#39bbf0",
@@ -194,6 +213,7 @@
   "13": {
     "franchise_name": "Vancouver Mounties",
     "abbrev": "VAN",
+    "conference": "SCC",
     "owner_name": "Connor Griffiths",
     "primary": "#012652",
     "secondary": "#a80012",
@@ -203,6 +223,7 @@
   "14": {
     "franchise_name": "Gold Coast Sharks",
     "abbrev": "GLD",
+    "conference": "SCC",
     "owner_name": "Logan Snow",
     "primary": "#006d75",
     "secondary": "#ef979e",
@@ -213,6 +234,7 @@
         "season": [2021],
         "franchise_name": "Unsolicited Dak Pics",
         "abbrev": "DAK",
+        "conference": "SCC",
         "owner_name": "Logan Snow",
         "primary": "#3a4283",
         "secondary": "#814a35",
