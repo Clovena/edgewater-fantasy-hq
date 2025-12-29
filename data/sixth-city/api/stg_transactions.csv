@@ -58,7 +58,7 @@
 "2021","2021-12-19 23:42:06.347","free_agent","dropped","1","Toronto Hogs","5220","Godwin Igwebuike","RB",NA,NA,NA,NA,NA
 "2021","2021-12-19 23:41:57.136","free_agent","dropped","1","Toronto Hogs","7720","Kene Nwangwu","RB","NYJ",NA,NA,NA,NA
 "2021","2021-12-18 15:25:08.549","free_agent","dropped","6","Choccolocco Railfans","4994","Kalen Ballage","RB",NA,NA,NA,NA,NA
-"2021","2021-12-15 20:30:07.498","free_agent","added","3","Newfoundland Blowers","5046","Royce Freeman","RB",NA,NA,NA,NA,NA
+"2021","2021-12-15 20:30:07.498","free_agent","added","3","Newfoundland Blowers","5046","Royce Freeman","RB","LAC",NA,NA,NA,NA
 "2021","2021-12-15 20:30:07.498","free_agent","dropped","3","Newfoundland Blowers","6268","Matthew Wright","K",NA,NA,NA,NA,NA
 "2021","2021-12-15 20:29:21.946","free_agent","added","3","Newfoundland Blowers","3342","Jakeem Grant","WR",NA,NA,NA,NA,NA
 "2021","2021-12-15 20:29:21.946","free_agent","dropped","3","Newfoundland Blowers","2238","John Brown","WR",NA,NA,NA,NA,NA
@@ -206,12 +206,12 @@
 "2021","2021-11-16 03:15:03.885","trade","traded_for","9","Saskatoon Squirrels","3225","Tyler Boyd","WR",NA,NA,"3",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_for","3","Newfoundland Blowers","3242","Kenyan Drake","RB",NA,NA,"9",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_for","3","Newfoundland Blowers","5927","Terry McLaurin","WR","WAS",NA,"9",NA,NA
-"2021","2021-11-16 03:15:03.885","trade","traded_for","9","Saskatoon Squirrels","7561","Elijah Mitchell","RB","KC",NA,"3",NA,NA
+"2021","2021-11-16 03:15:03.885","trade","traded_for","9","Saskatoon Squirrels","7561","Elijah Mitchell","RB","NE",NA,"3",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_away","3","Newfoundland Blowers","2168","Devonta Freeman","RB",NA,NA,"9",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_away","3","Newfoundland Blowers","3225","Tyler Boyd","WR",NA,NA,"9",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_away","9","Saskatoon Squirrels","3242","Kenyan Drake","RB",NA,NA,"3",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_away","9","Saskatoon Squirrels","5927","Terry McLaurin","WR","WAS",NA,"3",NA,NA
-"2021","2021-11-16 03:15:03.885","trade","traded_away","3","Newfoundland Blowers","7561","Elijah Mitchell","RB","KC",NA,"9",NA,NA
+"2021","2021-11-16 03:15:03.885","trade","traded_away","3","Newfoundland Blowers","7561","Elijah Mitchell","RB","NE",NA,"9",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_for","9","Saskatoon Squirrels","2022_round_1_pick_from_franchise_11",NA,NA,NA,NA,"3",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_away","3","Newfoundland Blowers","2022_round_1_pick_from_franchise_11",NA,NA,NA,NA,"9",NA,NA
 "2021","2021-11-16 03:15:03.885","trade","traded_for","3","Newfoundland Blowers","2022_round_2_pick_from_franchise_9",NA,NA,NA,NA,"9",NA,NA
@@ -299,10 +299,10 @@
 "2021","2021-11-10 08:07:40.06","waiver_complete","added","1","Toronto Hogs","1338","Matt Barkley","QB",NA,"9",NA,NA,NA
 "2021","2021-11-10 08:07:40.06","waiver_complete","dropped","1","Toronto Hogs","4574","Cooper Rush","QB","BAL",NA,NA,NA,NA
 "2021","2021-11-09 23:52:45.475","trade","traded_for","3","Newfoundland Blowers","4951","DJ Chark","WR",NA,NA,"6",NA,NA
-"2021","2021-11-09 23:52:45.475","trade","traded_for","3","Newfoundland Blowers","7561","Elijah Mitchell","RB","KC",NA,"6",NA,NA
+"2021","2021-11-09 23:52:45.475","trade","traded_for","3","Newfoundland Blowers","7561","Elijah Mitchell","RB","NE",NA,"6",NA,NA
 "2021","2021-11-09 23:52:45.475","trade","traded_for","6","Choccolocco Railfans","96","Aaron Rodgers","QB","PIT",NA,"3",NA,NA
 "2021","2021-11-09 23:52:45.475","trade","traded_away","6","Choccolocco Railfans","4951","DJ Chark","WR",NA,NA,"3",NA,NA
-"2021","2021-11-09 23:52:45.475","trade","traded_away","6","Choccolocco Railfans","7561","Elijah Mitchell","RB","KC",NA,"3",NA,NA
+"2021","2021-11-09 23:52:45.475","trade","traded_away","6","Choccolocco Railfans","7561","Elijah Mitchell","RB","NE",NA,"3",NA,NA
 "2021","2021-11-09 23:52:45.475","trade","traded_away","3","Newfoundland Blowers","96","Aaron Rodgers","QB","PIT",NA,"6",NA,NA
 "2021","2021-11-09 23:52:45.475","trade","traded_for","3","Newfoundland Blowers","2023_round_1_pick_from_franchise_7",NA,NA,NA,NA,"6",NA,NA
 "2021","2021-11-09 23:52:45.475","trade","traded_away","6","Choccolocco Railfans","2023_round_1_pick_from_franchise_7",NA,NA,NA,NA,"3",NA,NA
@@ -339,7 +339,7 @@
 "2021","2021-11-05 20:44:28.212","free_agent","dropped","7","Pokémon Omega Judge Judy","3269","Chris Moore","WR","WAS",NA,NA,NA,NA
 "2021","2021-11-05 15:45:31.512","free_agent","added","1","Toronto Hogs","6451","Stephen Carlson","TE","CHI",NA,NA,NA,NA
 "2021","2021-11-05 15:17:24.027","waiver_complete","added","6","Choccolocco Railfans","4994","Kalen Ballage","RB",NA,"25",NA,NA,NA
-"2021","2021-11-05 15:17:24.027","waiver_complete","dropped","6","Choccolocco Railfans","5046","Royce Freeman","RB",NA,NA,NA,NA,NA
+"2021","2021-11-05 15:17:24.027","waiver_complete","dropped","6","Choccolocco Railfans","5046","Royce Freeman","RB","LAC",NA,NA,NA,NA
 "2021","2021-11-04 21:25:15.132","free_agent","added","14","Unsolicited Dak Pics","1387","Rex Burkhead","RB",NA,NA,NA,NA,NA
 "2021","2021-11-04 21:25:15.132","free_agent","dropped","14","Unsolicited Dak Pics","4187","Brian Hill","RB",NA,NA,NA,NA,NA
 "2021","2021-11-03 16:12:02.413","free_agent","dropped","14","Unsolicited Dak Pics","4994","Kalen Ballage","RB",NA,NA,NA,NA,NA
@@ -359,7 +359,7 @@
 "2021","2021-11-03 07:17:13.466","waiver_complete","added","6","Choccolocco Railfans","3297","Tajae Sharpe","WR",NA,"100",NA,NA,NA
 "2021","2021-11-03 07:17:13.466","waiver_complete","dropped","6","Choccolocco Railfans","4455","Matt Breida","RB",NA,NA,NA,NA,NA
 "2021","2021-11-03 07:17:13.466","waiver_failed","added","6","Choccolocco Railfans","4381","Taysom Hill","TE","NO","751",NA,NA,"This player was claimed by another owner."
-"2021","2021-11-03 07:17:13.466","waiver_failed","dropped","6","Choccolocco Railfans","5046","Royce Freeman","RB",NA,NA,NA,NA,"This player was claimed by another owner."
+"2021","2021-11-03 07:17:13.466","waiver_failed","dropped","6","Choccolocco Railfans","5046","Royce Freeman","RB","LAC",NA,NA,NA,"This player was claimed by another owner."
 "2021","2021-11-03 07:17:13.466","waiver_failed","added","5","Winnipeg Wankers ","4381","Taysom Hill","TE","NO","50",NA,NA,"This player was claimed by another owner."
 "2021","2021-11-03 07:17:13.466","waiver_failed","added","2","Bikini Bottom Stars","4381","Taysom Hill","TE","NO","950",NA,NA,"This player was claimed by another owner."
 "2021","2021-11-03 07:17:13.466","waiver_failed","dropped","2","Bikini Bottom Stars","5220","Godwin Igwebuike","RB",NA,NA,NA,NA,"This player was claimed by another owner."
@@ -495,13 +495,13 @@
 "2021","2021-10-20 07:07:28.465","waiver_complete","added","3","Newfoundland Blowers","2118","Eric Ebron","TE","PIT","10",NA,NA,NA
 "2021","2021-10-20 07:07:28.465","waiver_complete","dropped","3","Newfoundland Blowers","2390","Tyler Kroft","TE",NA,NA,NA,NA,NA
 "2021","2021-10-19 11:58:37.343","free_agent","dropped","1","Toronto Hogs","2446","MyCole Pruitt","TE",NA,NA,NA,NA,NA
-"2021","2021-10-19 11:48:02.664","trade","traded_for","3","Newfoundland Blowers","4198","Jamal Agnew","WR","ATL",NA,"1",NA,NA
+"2021","2021-10-19 11:48:02.664","trade","traded_for","3","Newfoundland Blowers","4198","Jamal Agnew","WR",NA,NA,"1",NA,NA
 "2021","2021-10-19 11:48:02.664","trade","traded_for","1","Toronto Hogs","4319","Zach Pascal","WR",NA,NA,"3",NA,NA
 "2021","2021-10-19 11:48:02.664","trade","traded_for","1","Toronto Hogs","4435","Anthony Firkser","TE","DET",NA,"3",NA,NA
 "2021","2021-10-19 11:48:02.664","trade","traded_for","3","Newfoundland Blowers","5844","T.J. Hockenson","TE","MIN",NA,"1",NA,NA
 "2021","2021-10-19 11:48:02.664","trade","traded_for","1","Toronto Hogs","5846","DK Metcalf","WR","PIT",NA,"3",NA,NA
 "2021","2021-10-19 11:48:02.664","trade","traded_for","3","Newfoundland Blowers","7601","Rondale Moore","WR","MIN",NA,"1",NA,NA
-"2021","2021-10-19 11:48:02.664","trade","traded_away","1","Toronto Hogs","4198","Jamal Agnew","WR","ATL",NA,"3",NA,NA
+"2021","2021-10-19 11:48:02.664","trade","traded_away","1","Toronto Hogs","4198","Jamal Agnew","WR",NA,NA,"3",NA,NA
 "2021","2021-10-19 11:48:02.664","trade","traded_away","3","Newfoundland Blowers","4319","Zach Pascal","WR",NA,NA,"1",NA,NA
 "2021","2021-10-19 11:48:02.664","trade","traded_away","3","Newfoundland Blowers","4435","Anthony Firkser","TE","DET",NA,"1",NA,NA
 "2021","2021-10-19 11:48:02.664","trade","traded_away","1","Toronto Hogs","5844","T.J. Hockenson","TE","MIN",NA,"3",NA,NA
@@ -537,7 +537,7 @@
 "2021","2021-10-15 15:33:21.382","trade","traded_for","3","Newfoundland Blowers","2022_round_1_pick_from_franchise_4",NA,NA,NA,NA,"4",NA,NA
 "2021","2021-10-15 15:33:21.382","trade","traded_away","4","Thunder Bay Mustangs ","2022_round_1_pick_from_franchise_4",NA,NA,NA,NA,"3",NA,NA
 "2021","2021-10-15 03:28:46.518","free_agent","dropped","7","Pokémon Omega Judge Judy","2545","Geoff Swaim","TE",NA,NA,NA,NA,NA
-"2021","2021-10-15 01:15:23.603","free_agent","added","1","Toronto Hogs","4198","Jamal Agnew","WR","ATL",NA,NA,NA,NA
+"2021","2021-10-15 01:15:23.603","free_agent","added","1","Toronto Hogs","4198","Jamal Agnew","WR",NA,NA,NA,NA,NA
 "2021","2021-10-14 04:33:46.269","free_agent","dropped","7","Pokémon Omega Judge Judy","1071","Mohamed Sanu","WR",NA,NA,NA,NA,NA
 "2021","2021-10-14 02:30:53.619","free_agent","added","2","Bikini Bottom Stars","5220","Godwin Igwebuike","RB",NA,NA,NA,NA,NA
 "2021","2021-10-14 02:28:34.074","free_agent","added","2","Bikini Bottom Stars","2750","DeAndre Carter","WR","CLE",NA,NA,NA,NA
@@ -787,7 +787,7 @@
 "2021","2021-09-03 12:57:14.316","free_agent","added","13","Vancouver Mounties","8085","Mekhi Sargent","RB",NA,NA,NA,NA,NA
 "2021","2021-09-03 12:55:00.046","free_agent","added","13","Vancouver Mounties","4150","Wayne Gallman","RB",NA,NA,NA,NA,NA
 "2021","2021-09-02 21:30:42.127","free_agent","added","1","Toronto Hogs","6137","Tommy Sweeney","TE",NA,NA,NA,NA,NA
-"2021","2021-09-02 18:01:19.194","free_agent","added","6","Choccolocco Railfans","5046","Royce Freeman","RB",NA,NA,NA,NA,NA
+"2021","2021-09-02 18:01:19.194","free_agent","added","6","Choccolocco Railfans","5046","Royce Freeman","RB","LAC",NA,NA,NA,NA
 "2021","2021-09-02 18:01:19.194","free_agent","dropped","6","Choccolocco Railfans","2168","Devonta Freeman","RB",NA,NA,NA,NA,NA
 "2021","2021-09-02 16:55:57.894","waiver_complete","added","7","Pokémon Omega Judge Judy","6984","Tony Jones","RB",NA,"130",NA,NA,NA
 "2021","2021-09-02 16:55:57.894","waiver_failed","added","2","Bikini Bottom Stars","6984","Tony Jones","RB",NA,"1",NA,NA,"This player was claimed by another owner."
@@ -918,11 +918,11 @@
 "2021","2021-08-18 23:01:53.765","trade","traded_for","6","Choccolocco Railfans","367","Jared Cook","TE",NA,NA,"4",NA,NA
 "2021","2021-08-18 23:01:53.765","trade","traded_for","4","Thunder Bay Mustangs ","4055","O.J. Howard","TE",NA,NA,"6",NA,NA
 "2021","2021-08-18 23:01:53.765","trade","traded_for","6","Choccolocco Railfans","4131","Kenny Golladay","WR",NA,NA,"4",NA,NA
-"2021","2021-08-18 23:01:53.765","trade","traded_for","4","Thunder Bay Mustangs ","5917","Mecole Hardman","WR","BUF",NA,"6",NA,NA
+"2021","2021-08-18 23:01:53.765","trade","traded_for","4","Thunder Bay Mustangs ","5917","Mecole Hardman","WR",NA,NA,"6",NA,NA
 "2021","2021-08-18 23:01:53.765","trade","traded_away","4","Thunder Bay Mustangs ","367","Jared Cook","TE",NA,NA,"6",NA,NA
 "2021","2021-08-18 23:01:53.765","trade","traded_away","6","Choccolocco Railfans","4055","O.J. Howard","TE",NA,NA,"4",NA,NA
 "2021","2021-08-18 23:01:53.765","trade","traded_away","4","Thunder Bay Mustangs ","4131","Kenny Golladay","WR",NA,NA,"6",NA,NA
-"2021","2021-08-18 23:01:53.765","trade","traded_away","6","Choccolocco Railfans","5917","Mecole Hardman","WR","BUF",NA,"4",NA,NA
+"2021","2021-08-18 23:01:53.765","trade","traded_away","6","Choccolocco Railfans","5917","Mecole Hardman","WR",NA,NA,"4",NA,NA
 "2021","2021-08-18 23:01:53.765","trade","traded_for","4","Thunder Bay Mustangs ","2022_round_4_pick_from_franchise_6",NA,NA,NA,NA,"6",NA,NA
 "2021","2021-08-18 23:01:53.765","trade","traded_away","6","Choccolocco Railfans","2022_round_4_pick_from_franchise_6",NA,NA,NA,NA,"4",NA,NA
 "2021","2021-08-17 23:44:12.503","free_agent","added","8","Iqaluit Trout","166","Josh Cribbs","WR",NA,NA,NA,NA,NA
@@ -1088,7 +1088,7 @@
 "2022","2022-12-28 08:05:23.609","waiver_complete","added","14","Gold Coast Sharks","8359","Marcus Jones","DB","NE","0",NA,NA,NA
 "2022","2022-12-28 08:05:23.609","waiver_complete","dropped","14","Gold Coast Sharks","5806","John Wolford","QB","MIN",NA,NA,NA,NA
 "2022","2022-12-28 08:05:23.609","waiver_failed","added","14","Gold Coast Sharks","6598","Trenton Irwin","WR","NYJ","0",NA,NA,"This player was claimed by another owner."
-"2022","2022-12-28 08:05:23.609","waiver_failed","dropped","14","Gold Coast Sharks","5046","Royce Freeman","RB",NA,NA,NA,NA,"This player was claimed by another owner."
+"2022","2022-12-28 08:05:23.609","waiver_failed","dropped","14","Gold Coast Sharks","5046","Royce Freeman","RB","LAC",NA,NA,NA,"This player was claimed by another owner."
 "2022","2022-12-28 08:05:23.609","waiver_complete","added","14","Gold Coast Sharks","515","Rob Gronkowski","TE",NA,"88",NA,NA,NA
 "2022","2022-12-28 08:05:23.609","waiver_complete","dropped","14","Gold Coast Sharks","4962","Sony Michel","RB",NA,NA,NA,NA,NA
 "2022","2022-12-28 08:05:23.609","waiver_failed","added","4","Thunder Bay Mustangs","515","Rob Gronkowski","TE",NA,"0",NA,NA,"This player was claimed by another owner."
@@ -1103,7 +1103,7 @@
 "2022","2022-12-22 15:38:41.541","free_agent","added","2","Bikini Bottom Stars","1029","Nick Foles","QB",NA,NA,NA,NA,NA
 "2022","2022-12-22 08:05:38.168","waiver_complete","added","6","Choccolocco Railfans","3764","Andrew Adams","DB",NA,"0",NA,NA,NA
 "2022","2022-12-22 08:05:38.168","waiver_complete","dropped","6","Choccolocco Railfans","7787","Damar Hamlin","DB","BUF",NA,NA,NA,NA
-"2022","2022-12-21 08:05:33.373","waiver_complete","added","14","Gold Coast Sharks","5046","Royce Freeman","RB",NA,"1",NA,NA,NA
+"2022","2022-12-21 08:05:33.373","waiver_complete","added","14","Gold Coast Sharks","5046","Royce Freeman","RB","LAC","1",NA,NA,NA
 "2022","2022-12-16 22:22:27.957","free_agent","added","3","Newfoundland Blowers","7698","Andre Cisco","DB","NYJ",NA,NA,NA,NA
 "2022","2022-12-16 01:40:53.053","free_agent","added","6","Choccolocco Railfans","7143","Ben DiNucci","QB",NA,NA,NA,NA,NA
 "2022","2022-12-16 01:40:53.053","free_agent","dropped","6","Choccolocco Railfans","2331","Breshad Perriman","WR",NA,NA,NA,NA,NA
@@ -1303,7 +1303,7 @@
 "2022","2022-11-06 17:44:19.083","trade","traded_away","5","Winnipeg Wranglers","4602","Robert Tonyan","TE","KC",NA,"6",NA,NA
 "2022","2022-11-05 20:39:03.069","free_agent","added","6","Choccolocco Railfans","6865","Colby Parkinson","TE","LAR",NA,NA,NA,NA
 "2022","2022-11-05 20:39:03.069","free_agent","dropped","6","Choccolocco Railfans","5374","Justin Watson","WR","HOU",NA,NA,NA,NA
-"2022","2022-11-04 17:35:33.188","free_agent","dropped","3","Newfoundland Blowers","4198","Jamal Agnew","WR","ATL",NA,NA,NA,NA
+"2022","2022-11-04 17:35:33.188","free_agent","dropped","3","Newfoundland Blowers","4198","Jamal Agnew","WR",NA,NA,NA,NA,NA
 "2022","2022-11-04 17:34:06.318","trade","traded_for","3","Newfoundland Blowers","7551","Deon Jackson","RB",NA,NA,"4",NA,NA
 "2022","2022-11-04 17:34:06.318","trade","traded_away","4","Thunder Bay Mustangs","7551","Deon Jackson","RB",NA,NA,"3",NA,NA
 "2022","2022-11-04 17:34:06.318","trade","traded_for","4","Thunder Bay Mustangs","2024_round_2_pick_from_franchise_1",NA,NA,NA,NA,"3",NA,NA
@@ -1340,9 +1340,9 @@
 "2022","2022-11-02 07:05:23.812","waiver_failed","added","6","Choccolocco Railfans","7891","Brock Wright","TE","DET","100",NA,NA,"This player was claimed by another owner."
 "2022","2022-11-02 07:05:23.812","waiver_failed","dropped","6","Choccolocco Railfans","5409","Tanner Hudson","TE","CIN",NA,NA,NA,"This player was claimed by another owner."
 "2022","2022-11-02 07:05:23.812","waiver_complete","added","2","Bikini Bottom Stars","7891","Brock Wright","TE","DET","100",NA,NA,NA
-"2022","2022-11-02 07:05:23.812","waiver_complete","dropped","2","Bikini Bottom Stars","6037","Brett Rypien","QB","IND",NA,NA,NA,NA
+"2022","2022-11-02 07:05:23.812","waiver_complete","dropped","2","Bikini Bottom Stars","6037","Brett Rypien","QB","MIN",NA,NA,NA,NA
 "2022","2022-11-02 07:05:23.812","waiver_failed","added","3","Newfoundland Blowers","7891","Brock Wright","TE","DET","20",NA,NA,"This player was claimed by another owner."
-"2022","2022-11-02 07:05:23.812","waiver_failed","dropped","3","Newfoundland Blowers","4198","Jamal Agnew","WR","ATL",NA,NA,NA,"This player was claimed by another owner."
+"2022","2022-11-02 07:05:23.812","waiver_failed","dropped","3","Newfoundland Blowers","4198","Jamal Agnew","WR",NA,NA,NA,NA,"This player was claimed by another owner."
 "2022","2022-11-02 07:05:23.812","waiver_complete","added","5","Winnipeg Wranglers","2673","Damiere Byrd","WR",NA,"14",NA,NA,NA
 "2022","2022-11-02 01:49:35.065","trade","traded_for","3","Newfoundland Blowers","6813","Jonathan Taylor","RB","IND",NA,"4",NA,NA
 "2022","2022-11-02 01:49:35.065","trade","traded_for","4","Thunder Bay Mustangs","6886","Chase Claypool","WR",NA,NA,"3",NA,NA
@@ -1436,7 +1436,7 @@
 "2022","2022-10-22 19:10:51.787","free_agent","added","13","Vancouver Mounties","4179","Joshua Dobbs","QB","NE",NA,NA,NA,NA
 "2022","2022-10-22 19:10:51.787","free_agent","dropped","13","Vancouver Mounties","4992","Dante Pettis","WR","NO",NA,NA,NA,NA
 "2022","2022-10-22 17:05:22.778","free_agent","dropped","2","Bikini Bottom Stars","5137","Richie James","WR",NA,NA,NA,NA,NA
-"2022","2022-10-22 16:40:47.429","free_agent","added","2","Bikini Bottom Stars","6037","Brett Rypien","QB","IND",NA,NA,NA,NA
+"2022","2022-10-22 16:40:47.429","free_agent","added","2","Bikini Bottom Stars","6037","Brett Rypien","QB","MIN",NA,NA,NA,NA
 "2022","2022-10-22 16:40:47.429","free_agent","dropped","2","Bikini Bottom Stars","8206","Skylar Thompson","QB","PIT",NA,NA,NA,NA
 "2022","2022-10-22 14:35:12.784","free_agent","added","2","Bikini Bottom Stars","8314","Jalen Pitre","DB","HOU",NA,NA,NA,NA
 "2022","2022-10-22 14:35:12.784","free_agent","dropped","2","Bikini Bottom Stars","6018","Zach Gentry","TE",NA,NA,NA,NA,NA
@@ -1569,7 +1569,7 @@
 "2022","2022-10-05 07:05:38.597","waiver_failed","dropped","13","Vancouver Mounties","4111","D'Onta Foreman","RB",NA,NA,NA,NA,"This player was claimed by another owner."
 "2022","2022-10-05 07:05:38.597","waiver_complete","added","13","Vancouver Mounties","5209","Mike Boone","RB",NA,"750",NA,NA,NA
 "2022","2022-10-05 07:05:38.597","waiver_complete","dropped","13","Vancouver Mounties","8230","Ty Chandler","RB","MIN",NA,NA,NA,NA
-"2022","2022-10-05 07:05:38.597","waiver_complete","added","3","Newfoundland Blowers","4198","Jamal Agnew","WR","ATL","0",NA,NA,NA
+"2022","2022-10-05 07:05:38.597","waiver_complete","added","3","Newfoundland Blowers","4198","Jamal Agnew","WR",NA,"0",NA,NA,NA
 "2022","2022-10-05 07:05:38.597","waiver_complete","dropped","3","Newfoundland Blowers","4319","Zach Pascal","WR",NA,NA,NA,NA,NA
 "2022","2022-10-05 07:05:38.597","waiver_failed","added","3","Newfoundland Blowers","2152","Teddy Bridgewater","QB","TB","175",NA,NA,"This player was claimed by another owner."
 "2022","2022-10-05 07:05:38.597","waiver_failed","dropped","3","Newfoundland Blowers","345","Brian Hoyer","QB",NA,NA,NA,NA,"This player was claimed by another owner."
@@ -1862,7 +1862,7 @@
 "2022","2022-08-16 16:19:14.873","free_agent","dropped","2","Bikini Bottom Stars","7741","Caleb Huntley","RB",NA,NA,NA,NA,NA
 "2022","2022-08-16 16:17:56.461","free_agent","dropped","2","Bikini Bottom Stars","2391","David Johnson","RB",NA,NA,NA,NA,NA
 "2022","2022-08-15 16:30:29.493","free_agent","dropped","3","Newfoundland Blowers","2588","Malcolm Brown","RB",NA,NA,NA,NA,NA
-"2022","2022-08-15 16:30:06.018","free_agent","dropped","8","Iqaluit Trout","6037","Brett Rypien","QB","IND",NA,NA,NA,NA
+"2022","2022-08-15 16:30:06.018","free_agent","dropped","8","Iqaluit Trout","6037","Brett Rypien","QB","MIN",NA,NA,NA,NA
 "2022","2022-08-15 16:29:57.147","free_agent","dropped","8","Iqaluit Trout","8115","Jalen Wydermyer","TE",NA,NA,NA,NA,NA
 "2022","2022-08-15 04:43:31.751","free_agent","added","7","Pokémon Omega Judge Judy","8187","CJ Verdell","RB",NA,NA,NA,NA,NA
 "2022","2022-08-15 04:43:31.751","free_agent","dropped","7","Pokémon Omega Judge Judy","4844","Elijah Mitchell","CB",NA,NA,NA,NA,NA
@@ -1885,7 +1885,7 @@
 "2022","2022-08-12 20:44:25.256","free_agent","added","2","Bikini Bottom Stars","5977","Terry Godwin","WR",NA,NA,NA,NA,NA
 "2022","2022-08-12 01:34:41.1","free_agent","added","3","Newfoundland Blowers","7529","Gary Brightwell","RB","CIN",NA,NA,NA,NA
 "2022","2022-08-11 15:21:53.069","free_agent","added","3","Newfoundland Blowers","8174","Kevin Harris","RB",NA,NA,NA,NA,NA
-"2022","2022-08-10 21:26:47.457","free_agent","added","8","Iqaluit Trout","6037","Brett Rypien","QB","IND",NA,NA,NA,NA
+"2022","2022-08-10 21:26:47.457","free_agent","added","8","Iqaluit Trout","6037","Brett Rypien","QB","MIN",NA,NA,NA,NA
 "2022","2022-08-10 15:34:31.121","free_agent","dropped","8","Iqaluit Trout","5009","Chris Herndon","TE",NA,NA,NA,NA,NA
 "2022","2022-08-10 15:32:22.529","free_agent","dropped","8","Iqaluit Trout","8915","Drew Plitt","QB",NA,NA,NA,NA,NA
 "2022","2022-08-10 15:31:05.905","free_agent","dropped","8","Iqaluit Trout","8441","Justin Hall","WR",NA,NA,NA,NA,NA
@@ -1964,7 +1964,7 @@
 "2022","2022-08-02 07:04:55.262","waiver_complete","added","2","Bikini Bottom Stars","8116","Pierre Strong","RB","GB","101",NA,NA,NA
 "2022","2022-08-02 07:04:55.262","waiver_complete","added","4","Thunder Bay Mustangs","8131","Isaiah Likely","TE","BAL","300",NA,NA,NA
 "2022","2022-08-02 07:04:55.262","waiver_complete","added","3","Newfoundland Blowers","8208","Tyler Badie","RB","DEN","65",NA,NA,NA
-"2022","2022-08-02 07:04:55.262","waiver_complete","dropped","3","Newfoundland Blowers","4198","Jamal Agnew","WR","ATL",NA,NA,NA,NA
+"2022","2022-08-02 07:04:55.262","waiver_complete","dropped","3","Newfoundland Blowers","4198","Jamal Agnew","WR",NA,NA,NA,NA,NA
 "2022","2022-08-02 07:04:55.262","waiver_complete","added","7","Pokémon Omega Judge Judy","8110","Jake Ferguson","TE","DAL","15",NA,NA,NA
 "2022","2022-08-02 07:04:55.262","waiver_complete","added","7","Pokémon Omega Judge Judy","8145","Jeremy Ruckert","TE","NYJ","15",NA,NA,NA
 "2022","2022-08-02 07:04:55.262","waiver_complete","added","3","Newfoundland Blowers","8362","Leo Chenal","LB","KC","75",NA,NA,NA
@@ -2129,9 +2129,9 @@
 "2022","2022-05-30 17:52:50.843","free_agent","added","1","Toronto Hogs","4219","Jeremy McNichols","RB","WAS",NA,NA,NA,NA
 "2022","2022-05-30 17:52:50.843","free_agent","dropped","1","Toronto Hogs","6063","Tyron Billy-Johnson","WR",NA,NA,NA,NA,NA
 "2022","2022-05-30 01:02:02.993","trade","traded_for","10","Calgary Cocks","5248","Gus Edwards","RB",NA,NA,"4",NA,NA
-"2022","2022-05-30 01:02:02.993","trade","traded_for","10","Calgary Cocks","5917","Mecole Hardman","WR","BUF",NA,"4",NA,NA
+"2022","2022-05-30 01:02:02.993","trade","traded_for","10","Calgary Cocks","5917","Mecole Hardman","WR",NA,NA,"4",NA,NA
 "2022","2022-05-30 01:02:02.993","trade","traded_away","4","Thunder Bay Mustangs","5248","Gus Edwards","RB",NA,NA,"10",NA,NA
-"2022","2022-05-30 01:02:02.993","trade","traded_away","4","Thunder Bay Mustangs","5917","Mecole Hardman","WR","BUF",NA,"10",NA,NA
+"2022","2022-05-30 01:02:02.993","trade","traded_away","4","Thunder Bay Mustangs","5917","Mecole Hardman","WR",NA,NA,"10",NA,NA
 "2022","2022-05-30 01:02:02.993","trade","traded_for","4","Thunder Bay Mustangs","2022_round_2_pick_from_franchise_7",NA,NA,NA,NA,"10",NA,NA
 "2022","2022-05-30 01:02:02.993","trade","traded_away","10","Calgary Cocks","2022_round_2_pick_from_franchise_7",NA,NA,NA,NA,"4",NA,NA
 "2022","2022-05-29 23:24:34.323","free_agent","dropped","10","Calgary Cocks","3328","Rashard Higgins","WR",NA,NA,NA,NA,NA
@@ -2560,7 +2560,7 @@
 "2022","2022-02-22 05:04:54.95","free_agent","dropped","2","Bikini Bottom Stars","2750","DeAndre Carter","WR","CLE",NA,NA,NA,NA
 "2022","2022-02-22 05:04:25.512","free_agent","dropped","3","Newfoundland Blowers","6002","Qadree Ollison","RB",NA,NA,NA,NA,NA
 "2022","2022-02-22 05:04:10.163","free_agent","dropped","4","Thunder Bay Mustangs","6699","Gunner Olszewski","WR","NYG",NA,NA,NA,NA
-"2022","2022-02-22 05:02:22.922","free_agent","dropped","3","Newfoundland Blowers","5046","Royce Freeman","RB",NA,NA,NA,NA,NA
+"2022","2022-02-22 05:02:22.922","free_agent","dropped","3","Newfoundland Blowers","5046","Royce Freeman","RB","LAC",NA,NA,NA,NA
 "2022","2022-02-22 05:02:01.277","free_agent","dropped","3","Newfoundland Blowers","2673","Damiere Byrd","WR",NA,NA,NA,NA,NA
 "2022","2022-02-22 05:01:22.04","free_agent","dropped","3","Newfoundland Blowers","4443","Pharaoh Brown","TE","ARI",NA,NA,NA,NA
 "2023","2023-12-31 15:32:09.961","free_agent","dropped","11","Sarnia SeaSnakes","6421","Jalen Guyton","WR",NA,NA,NA,NA,NA
@@ -2602,7 +2602,7 @@
 "2023","2023-12-14 08:06:11.142","waiver_complete","dropped","1","Toronto Hogs","6217","Blake Cashman","LB","MIN",NA,NA,NA,NA
 "2023","2023-12-13 12:19:43.248","free_agent","dropped","5","Winnipeg Wranglers","3202","Austin Hooper","TE","NE",NA,NA,NA,NA
 "2023","2023-12-13 08:06:04.546","waiver_complete","added","8","Iqaluit Trout","4464","Nick Mullens","QB","JAX","10",NA,NA,NA
-"2023","2023-12-13 08:06:04.546","waiver_complete","dropped","8","Iqaluit Trout","6037","Brett Rypien","QB","IND",NA,NA,NA,NA
+"2023","2023-12-13 08:06:04.546","waiver_complete","dropped","8","Iqaluit Trout","6037","Brett Rypien","QB","MIN",NA,NA,NA,NA
 "2023","2023-12-13 08:06:04.546","waiver_complete","added","11","Sarnia SeaSnakes","5726","Robert Spillane","LB","NE","8",NA,NA,NA
 "2023","2023-12-13 08:06:04.546","waiver_complete","dropped","11","Sarnia SeaSnakes","8265","Travon Walker","LB","JAX",NA,NA,NA,NA
 "2023","2023-12-13 08:06:04.546","waiver_complete","added","8","Iqaluit Trout","11306","Xavier Gipson","WR","NYG","0",NA,NA,NA
@@ -2611,7 +2611,7 @@
 "2023","2023-12-13 08:06:04.546","waiver_complete","dropped","8","Iqaluit Trout","4335","P.J. Walker","QB",NA,NA,NA,NA,NA
 "2023","2023-12-06 08:05:44.985","waiver_complete","added","8","Iqaluit Trout","4127","C.J. Beathard","QB","DET","2",NA,"0",NA
 "2023","2023-12-06 08:05:44.985","waiver_complete","dropped","8","Iqaluit Trout","5257","Tim Boyle","QB",NA,NA,NA,"0",NA
-"2023","2023-12-06 08:05:44.985","waiver_complete","added","8","Iqaluit Trout","6037","Brett Rypien","QB","IND","0",NA,"1",NA
+"2023","2023-12-06 08:05:44.985","waiver_complete","added","8","Iqaluit Trout","6037","Brett Rypien","QB","MIN","0",NA,"1",NA
 "2023","2023-12-06 08:05:44.985","waiver_complete","added","14","Gold Coast Sharks","6850","Harrison Bryant","TE","HOU","57",NA,NA,NA
 "2023","2023-12-06 08:05:44.985","waiver_complete","dropped","14","Gold Coast Sharks","6001","Drew Sample","TE","CIN",NA,NA,NA,NA
 "2023","2023-12-01 08:06:01.217","waiver_complete","added","11","Sarnia SeaSnakes","11292","Tommy DeVito","QB","NE","5",NA,NA,NA
@@ -2737,13 +2737,13 @@
 "2023","2023-11-01 07:05:59.69","waiver_complete","added","4","Thunder Bay Mustangs","6955","James Robinson","RB",NA,"0",NA,NA,NA
 "2023","2023-11-01 07:05:59.69","waiver_complete","dropped","4","Thunder Bay Mustangs","5549","Darrel Williams","RB",NA,NA,NA,NA,NA
 "2023","2023-10-28 22:45:32.37","free_agent","dropped","13","Vancouver Mounties","6955","James Robinson","RB",NA,NA,NA,NA,NA
-"2023","2023-10-25 07:06:19.005","waiver_failed","added","11","Sarnia SeaSnakes","5046","Royce Freeman","RB",NA,"12",NA,NA,"This player was claimed by another owner."
+"2023","2023-10-25 07:06:19.005","waiver_failed","added","11","Sarnia SeaSnakes","5046","Royce Freeman","RB","LAC","12",NA,NA,"This player was claimed by another owner."
 "2023","2023-10-25 07:06:19.005","waiver_failed","added","11","Sarnia SeaSnakes","10867","Jake Bobo","WR","SEA","49",NA,NA,"This player was claimed by another owner."
 "2023","2023-10-25 07:06:19.005","waiver_failed","added","13","Vancouver Mounties","10867","Jake Bobo","WR","SEA","10",NA,NA,"This player was claimed by another owner."
 "2023","2023-10-25 07:06:19.005","waiver_failed","dropped","13","Vancouver Mounties","3286","Demarcus Robinson","WR","SF",NA,NA,NA,"This player was claimed by another owner."
-"2023","2023-10-25 07:06:19.005","waiver_complete","added","13","Vancouver Mounties","5046","Royce Freeman","RB",NA,"20",NA,NA,NA
+"2023","2023-10-25 07:06:19.005","waiver_complete","added","13","Vancouver Mounties","5046","Royce Freeman","RB","LAC","20",NA,NA,NA
 "2023","2023-10-25 07:06:19.005","waiver_complete","dropped","13","Vancouver Mounties","7593","Trey Sermon","RB","PIT",NA,NA,NA,NA
-"2023","2023-10-25 07:06:19.005","waiver_failed","added","1","Toronto Hogs","5046","Royce Freeman","RB",NA,"5",NA,NA,"This player was claimed by another owner."
+"2023","2023-10-25 07:06:19.005","waiver_failed","added","1","Toronto Hogs","5046","Royce Freeman","RB","LAC","5",NA,NA,"This player was claimed by another owner."
 "2023","2023-10-25 07:06:19.005","waiver_failed","added","1","Toronto Hogs","10867","Jake Bobo","WR","SEA","6",NA,NA,"This player was claimed by another owner."
 "2023","2023-10-25 07:06:19.005","waiver_complete","added","5","Winnipeg Wranglers","10867","Jake Bobo","WR","SEA","275",NA,NA,NA
 "2023","2023-10-25 07:06:19.005","waiver_complete","dropped","5","Winnipeg Wranglers","7647","Pete Werner","LB","NO",NA,NA,NA,NA
@@ -2771,7 +2771,7 @@
 "2023","2023-10-21 07:06:14.367","waiver_complete","added","14","Gold Coast Sharks","6818","Nnamdi Madubuike","DT","BAL","0",NA,NA,NA
 "2023","2023-10-21 07:06:14.367","waiver_complete","dropped","14","Gold Coast Sharks","6984","Tony Jones","RB",NA,NA,NA,NA,NA
 "2023","2023-10-21 07:06:14.367","waiver_complete","added","2","Bikini Bottom Stars","5916","Darrell Henderson","RB",NA,"204",NA,NA,NA
-"2023","2023-10-20 15:56:18.209","free_agent","dropped","1","Toronto Hogs","5046","Royce Freeman","RB",NA,NA,NA,NA,NA
+"2023","2023-10-20 15:56:18.209","free_agent","dropped","1","Toronto Hogs","5046","Royce Freeman","RB","LAC",NA,NA,NA,NA
 "2023","2023-10-20 15:55:24.587","trade","traded_for","1","Toronto Hogs","8221","Keaontay Ingram","RB","KC",NA,"2",NA,NA
 "2023","2023-10-20 15:55:24.587","trade","traded_away","2","Bikini Bottom Stars","8221","Keaontay Ingram","RB","KC",NA,"1",NA,NA
 "2023","2023-10-20 15:55:24.587","trade","traded_for","2","Bikini Bottom Stars","2025_round_4_pick_from_franchise_14",NA,NA,NA,NA,"1",NA,NA
@@ -2779,7 +2779,7 @@
 "2023","2023-10-20 15:55:24.587","trade","traded_for","2","Bikini Bottom Stars","2024_round_4_pick_from_franchise_7",NA,NA,NA,NA,"1",NA,NA
 "2023","2023-10-20 15:55:24.587","trade","traded_away","1","Toronto Hogs","2024_round_4_pick_from_franchise_7",NA,NA,NA,NA,"2",NA,NA
 "2023","2023-10-20 07:06:06.406","waiver_complete","added","7","Pokémon Omega Judge Judy","350","Mark Sanchez","QB",NA,"481",NA,NA,NA
-"2023","2023-10-19 07:05:58.286","waiver_complete","added","1","Toronto Hogs","5046","Royce Freeman","RB",NA,"0",NA,NA,NA
+"2023","2023-10-19 07:05:58.286","waiver_complete","added","1","Toronto Hogs","5046","Royce Freeman","RB","LAC","0",NA,NA,NA
 "2023","2023-10-19 07:05:58.286","waiver_complete","dropped","1","Toronto Hogs","5375","Jordan Whitehead","DB",NA,NA,NA,NA,NA
 "2023","2023-10-18 18:59:48.554","free_agent","dropped","2","Bikini Bottom Stars","350","Mark Sanchez","QB",NA,NA,NA,NA,NA
 "2023","2023-10-18 18:59:42.816","trade","traded_for","2","Bikini Bottom Stars","350","Mark Sanchez","QB",NA,NA,"7",NA,NA
@@ -2934,13 +2934,13 @@
 "2023","2023-09-20 07:05:51.003","waiver_complete","added","6","Choccolocco Railfans","6659","Craig Reynolds","RB","NE","2",NA,NA,NA
 "2023","2023-09-20 07:05:51.003","waiver_complete","added","14","Gold Coast Sharks","6984","Tony Jones","RB",NA,"0",NA,NA,NA
 "2023","2023-09-20 07:05:51.003","waiver_complete","dropped","14","Gold Coast Sharks","7771","Jake Funk","RB",NA,NA,NA,NA,NA
-"2023","2023-09-20 07:05:51.003","waiver_complete","added","3","Newfoundland Blowers","8756","Brandon Johnson","WR",NA,"25",NA,NA,NA
+"2023","2023-09-20 07:05:51.003","waiver_complete","added","3","Newfoundland Blowers","8756","Brandon Johnson","WR","PIT","25",NA,NA,NA
 "2023","2023-09-20 07:05:51.003","waiver_complete","added","11","Sarnia SeaSnakes","11533","Brandon Aubrey","K","DAL","7",NA,NA,NA
 "2023","2023-09-20 07:05:51.003","waiver_complete","dropped","11","Sarnia SeaSnakes","7922","Riley Patterson","K","MIA",NA,NA,NA,NA
 "2023","2023-09-20 07:05:51.003","waiver_complete","added","1","Toronto Hogs","5726","Robert Spillane","LB","NE","1",NA,NA,NA
 "2023","2023-09-20 07:05:51.003","waiver_complete","added","1","Toronto Hogs","7819","Deommodore Lenoir","DB","SF","0",NA,NA,NA
 "2023","2023-09-20 07:05:51.003","waiver_complete","dropped","1","Toronto Hogs","6141","Drue Tranquill","LB","KC",NA,NA,NA,NA
-"2023","2023-09-20 07:05:51.003","waiver_failed","added","14","Gold Coast Sharks","8756","Brandon Johnson","WR",NA,"9",NA,NA,"This player was claimed by another owner."
+"2023","2023-09-20 07:05:51.003","waiver_failed","added","14","Gold Coast Sharks","8756","Brandon Johnson","WR","PIT","9",NA,NA,"This player was claimed by another owner."
 "2023","2023-09-20 07:05:51.003","waiver_failed","dropped","14","Gold Coast Sharks","5912","Carl Granderson","DE","NO",NA,NA,NA,"This player was claimed by another owner."
 "2023","2023-09-20 07:05:51.003","waiver_complete","added","11","Sarnia SeaSnakes","11086","Ivan Pace","LB","MIN","7",NA,NA,NA
 "2023","2023-09-20 07:05:51.003","waiver_complete","dropped","11","Sarnia SeaSnakes","4990","Shaquille Leonard","LB",NA,NA,NA,NA,NA
@@ -3395,7 +3395,7 @@
 "2023","2023-07-31 13:56:42.396","free_agent","dropped","1","Toronto Hogs","7529","Gary Brightwell","RB","CIN",NA,NA,NA,NA
 "2023","2023-07-31 13:55:58.268","free_agent","dropped","1","Toronto Hogs","6918","Salvon Ahmed","RB","IND",NA,NA,NA,NA
 "2023","2023-07-31 13:55:34.261","free_agent","dropped","1","Toronto Hogs","6822","Jake Fromm","QB",NA,NA,NA,NA,NA
-"2023","2023-07-31 13:55:27.152","free_agent","dropped","1","Toronto Hogs","3362","Jeff Driskel","QB","ARI",NA,NA,NA,NA
+"2023","2023-07-31 13:55:27.152","free_agent","dropped","1","Toronto Hogs","3362","Jeff Driskel","QB","WAS",NA,NA,NA,NA
 "2023","2023-07-30 22:01:45.029","free_agent","dropped","11","Sarnia SeaSnakes","8250","Tay Martin","WR",NA,NA,NA,NA,NA
 "2023","2023-07-30 20:02:15.126","trade","traded_for","7","Pokémon Omega Judge Judy","2024_round_2_pick_from_franchise_1",NA,NA,NA,NA,"4",NA,NA
 "2023","2023-07-30 20:02:15.126","trade","traded_away","4","Thunder Bay Mustangs","2024_round_2_pick_from_franchise_1",NA,NA,NA,NA,"7",NA,NA
@@ -3522,7 +3522,7 @@
 "2023","2023-04-22 19:33:22.23","trade","traded_away","8","Iqaluit Trout","7596","Elijah Moore","WR","DEN",NA,"1",NA,NA
 "2023","2023-04-21 15:43:31.139","free_agent","dropped","8","Iqaluit Trout","6895","Quintez Cephus","WR","HOU",NA,NA,NA,NA
 "2023","2023-04-21 15:43:19.763","free_agent","dropped","8","Iqaluit Trout","6154","David Sills","WR","ATL",NA,NA,NA,NA
-"2023","2023-04-16 07:04:45.374","waiver_complete","added","1","Toronto Hogs","3362","Jeff Driskel","QB","ARI","1",NA,NA,NA
+"2023","2023-04-16 07:04:45.374","waiver_complete","added","1","Toronto Hogs","3362","Jeff Driskel","QB","WAS","1",NA,NA,NA
 "2023","2023-04-16 07:04:45.374","waiver_complete","dropped","1","Toronto Hogs","7537","Jaret Patterson","RB","LAC",NA,NA,NA,NA
 "2023","2023-04-05 07:04:28.372","waiver_complete","added","6","Choccolocco Railfans","7050","Josiah Deguara","TE","ARI","0",NA,NA,NA
 "2023","2023-03-25 07:04:12.376","waiver_complete","added","14","Gold Coast Sharks","4319","Zach Pascal","WR",NA,"0",NA,NA,NA
@@ -3578,7 +3578,7 @@
 "2023","2023-03-03 08:04:43.856","waiver_failed","dropped","14","Gold Coast Sharks","7541","Cornell Powell","WR",NA,NA,NA,NA,"Unfortunately, your roster will have too many players after this transaction."
 "2023","2023-03-03 08:04:43.856","waiver_complete","added","14","Gold Coast Sharks","8197","Peyton Hendershot","TE",NA,"0",NA,NA,NA
 "2023","2023-03-03 08:04:43.856","waiver_complete","added","5","Winnipeg Wranglers","8255","Raheem Blackshear","RB",NA,"0",NA,NA,NA
-"2023","2023-03-03 03:12:29.591","free_agent","dropped","14","Gold Coast Sharks","5046","Royce Freeman","RB",NA,NA,NA,NA,NA
+"2023","2023-03-03 03:12:29.591","free_agent","dropped","14","Gold Coast Sharks","5046","Royce Freeman","RB","LAC",NA,NA,NA,NA
 "2023","2023-03-02 08:04:36.303","waiver_complete","added","1","Toronto Hogs","6885","Ke'Shawn Vaughn","RB",NA,"0",NA,NA,NA
 "2023","2023-03-02 08:04:36.303","waiver_complete","dropped","1","Toronto Hogs","7716","John Bates","TE","WAS",NA,NA,NA,NA
 "2023","2023-03-01 08:14:30.258","waiver_complete","added","1","Toronto Hogs","7529","Gary Brightwell","RB","CIN","0",NA,NA,NA
@@ -3598,7 +3598,7 @@
 "2024","2024-12-23 00:17:01.288","free_agent","dropped","10","Lower City Lasercats","1373","Geno Smith","QB","LV",NA,NA,NA,NA
 "2024","2024-12-20 08:07:13.167","waiver_complete","added","10","Lower City Lasercats","6659","Craig Reynolds","RB","NE","0",NA,NA,NA
 "2024","2024-12-19 08:07:05.506","waiver_complete","added","1","Toronto Hogs","5973","Josh Oliver","TE","MIN","5",NA,NA,NA
-"2024","2024-12-19 08:07:05.506","waiver_complete","added","8","Iqaluit Trout","11789","Joshua Karty","K","LAR","0",NA,NA,NA
+"2024","2024-12-19 08:07:05.506","waiver_complete","added","8","Iqaluit Trout","11789","Joshua Karty","K","ARI","0",NA,NA,NA
 "2024","2024-12-15 11:21:03.615","free_agent","added","1","Toronto Hogs","3218","A'Shawn Robinson","DT","CAR",NA,NA,NA,NA
 "2024","2024-12-14 08:07:01.437","waiver_complete","added","14","Gold Coast Sharks","8583","Stone Smartt","TE","NYJ","25",NA,NA,NA
 "2024","2024-12-14 08:07:01.437","waiver_complete","dropped","14","Gold Coast Sharks","11256","Tyson Bagent","QB","CHI",NA,NA,NA,NA
@@ -3739,12 +3739,12 @@
 "2024","2024-10-24 07:06:29.291","waiver_complete","added","10","Lower City Lasercats","10955","Chad Ryland","K","ARI","0",NA,NA,NA
 "2024","2024-10-24 07:06:29.291","waiver_complete","dropped","10","Lower City Lasercats","8809","Aaron Shampklin","RB",NA,NA,NA,NA,NA
 "2024","2024-10-23 12:48:57.727","free_agent","dropped","11","Sarnia SeaSnakes","1433","Brandon McManus","K","GB",NA,NA,NA,NA
-"2024","2024-10-23 07:07:13.414","waiver_failed","added","10","Lower City Lasercats","5917","Mecole Hardman","WR","BUF","5",NA,NA,"This player was claimed by another owner."
+"2024","2024-10-23 07:07:13.414","waiver_failed","added","10","Lower City Lasercats","5917","Mecole Hardman","WR",NA,"5",NA,NA,"This player was claimed by another owner."
 "2024","2024-10-23 07:07:13.414","waiver_failed","dropped","10","Lower City Lasercats","5086","Marquez Valdes-Scantling","WR","PIT",NA,NA,NA,"This player was claimed by another owner."
 "2024","2024-10-23 07:07:13.414","waiver_complete","added","10","Lower City Lasercats","5015","Sam Hubbard","DE",NA,"10",NA,NA,NA
 "2024","2024-10-23 07:07:13.414","waiver_complete","added","10","Lower City Lasercats","6911","Brandon Jones","DB","DEN","5",NA,NA,NA
 "2024","2024-10-23 07:07:13.414","waiver_complete","added","8","Iqaluit Trout","8249","Lucas Krull","TE","DEN","0",NA,NA,NA
-"2024","2024-10-23 07:07:13.414","waiver_complete","added","8","Iqaluit Trout","5917","Mecole Hardman","WR","BUF","5",NA,NA,NA
+"2024","2024-10-23 07:07:13.414","waiver_complete","added","8","Iqaluit Trout","5917","Mecole Hardman","WR",NA,"5",NA,NA,NA
 "2024","2024-10-23 07:07:13.414","waiver_failed","added","7","Pokémon Omega Judge Judy","6911","Brandon Jones","DB","DEN","0",NA,NA,"This player was claimed by another owner."
 "2024","2024-10-23 07:07:13.414","waiver_complete","added","9","New New York Benders ","8207","Tyler Goodson","RB","IND","0",NA,NA,NA
 "2024","2024-10-23 07:07:13.414","waiver_complete","dropped","9","New New York Benders ","1905","Christian Kirksey","LB",NA,NA,NA,NA,NA
@@ -3919,7 +3919,7 @@
 "2024","2024-09-11 07:07:03.848","waiver_complete","added","11","Sarnia SeaSnakes","6815","Zack Baun","LB","PHI","103",NA,NA,NA
 "2024","2024-09-11 07:07:03.848","waiver_complete","dropped","11","Sarnia SeaSnakes","8396","Micah McFadden","LB","NYG",NA,NA,NA,NA
 "2024","2024-09-11 07:07:03.848","waiver_complete","added","11","Sarnia SeaSnakes","10983","Sean Clifford","QB","CIN","2",NA,NA,NA
-"2024","2024-09-11 04:56:58.977","free_agent","dropped","13","Vancouver Mounties","5046","Royce Freeman","RB",NA,NA,NA,NA,NA
+"2024","2024-09-11 04:56:58.977","free_agent","dropped","13","Vancouver Mounties","5046","Royce Freeman","RB","LAC",NA,NA,NA,NA
 "2024","2024-09-08 16:12:26.026","free_agent","added","8","Iqaluit Trout","5008","Durham Smythe","TE","CHI",NA,NA,NA,NA
 "2024","2024-09-08 16:11:42.949","free_agent","added","8","Iqaluit Trout","6598","Trenton Irwin","WR","NYJ",NA,NA,NA,NA
 "2024","2024-09-07 20:36:03.269","free_agent","added","7","Pokémon Omega Judge Judy","11590","Jase McClellan","RB",NA,NA,NA,NA,NA
@@ -3972,7 +3972,7 @@
 "2024","2024-08-20 07:05:15.582","waiver_complete","added","7","Pokémon Omega Judge Judy","11573","Frank Gore","RB","BUF","0",NA,NA,NA
 "2024","2024-08-20 07:05:15.582","waiver_complete","added","5","Winnipeg Wranglers","4351","Tim Patrick","WR","JAX","100",NA,NA,NA
 "2024","2024-08-20 07:05:15.582","waiver_complete","dropped","5","Winnipeg Wranglers","10867","Jake Bobo","WR","SEA",NA,NA,NA,NA
-"2024","2024-08-20 03:33:06.572","free_agent","dropped","3","Newfoundland Blowers","8756","Brandon Johnson","WR",NA,NA,NA,NA,NA
+"2024","2024-08-20 03:33:06.572","free_agent","dropped","3","Newfoundland Blowers","8756","Brandon Johnson","WR","PIT",NA,NA,NA,NA
 "2024","2024-08-20 03:33:01.854","free_agent","dropped","3","Newfoundland Blowers","6920","Isaiah Hodgins","WR","NYG",NA,NA,NA,NA
 "2024","2024-08-19 07:05:37.221","waiver_complete","added","11","Sarnia SeaSnakes","3233","Kevin Byard","DB","CHI","2",NA,NA,NA
 "2024","2024-08-19 07:05:37.221","waiver_complete","dropped","11","Sarnia SeaSnakes","7537","Jaret Patterson","RB","LAC",NA,NA,NA,NA
@@ -4046,7 +4046,7 @@
 "2024","2024-08-18 21:05:39.851","free_agent","dropped","5","Winnipeg Wranglers","2161","Jerick McKinnon","RB",NA,NA,NA,NA,NA
 "2024","2024-08-18 21:04:56.56","free_agent","dropped","10","Lower City Lasercats","5432","Cam Sims","WR",NA,NA,NA,NA,NA
 "2024","2024-08-18 21:03:50.726","free_agent","dropped","10","Lower City Lasercats","2130","Kyle Van Noy","LB","BAL",NA,NA,NA,NA
-"2024","2024-08-18 21:03:04.82","free_agent","dropped","10","Lower City Lasercats","5917","Mecole Hardman","WR","BUF",NA,NA,NA,NA
+"2024","2024-08-18 21:03:04.82","free_agent","dropped","10","Lower City Lasercats","5917","Mecole Hardman","WR",NA,NA,NA,NA,NA
 "2024","2024-08-18 21:02:27.743","free_agent","dropped","10","Lower City Lasercats","8118","David Bell","WR",NA,NA,NA,NA,NA
 "2024","2024-08-18 21:02:13.526","free_agent","dropped","3","Newfoundland Blowers","4999","Josh Sweat","DE","ARI",NA,NA,NA,NA
 "2024","2024-08-18 21:01:33.012","free_agent","dropped","10","Lower City Lasercats","6820","Clyde Edwards-Helaire","RB","KC",NA,NA,NA,NA
@@ -4407,6 +4407,18 @@
 "2024","2024-02-15 15:12:53.918","trade","traded_for","11","Sarnia SeaSnakes","9480","Brenton Strange","TE","JAX",NA,"7",NA,NA
 "2024","2024-02-15 15:12:53.918","trade","traded_away","11","Sarnia SeaSnakes","10221","Ronnie Bell","WR","NO",NA,"7",NA,NA
 "2024","2024-02-15 15:12:53.918","trade","traded_away","7","Pokémon Omega Judge Judy","9480","Brenton Strange","TE","JAX",NA,"11",NA,NA
+"2025","2025-12-19 08:01:05.049","waiver_complete","added","8","Iqaluit Trout","4233","Zane Gonzalez","K","ATL","0",NA,NA,NA
+"2025","2025-12-19 08:01:05.049","waiver_complete","dropped","8","Iqaluit Trout","5010","Will Dissly","TE","LAC",NA,NA,NA,NA
+"2025","2025-12-18 08:02:00.517","waiver_failed","added","14","Gold Coast Sharks","12500","Quinn Ewers","QB","MIA","0",NA,NA,"This player was claimed by another owner."
+"2025","2025-12-18 08:02:00.517","waiver_failed","dropped","14","Gold Coast Sharks","12658","Jackson Hawes","TE","BUF",NA,NA,NA,"This player was claimed by another owner."
+"2025","2025-12-18 08:02:00.517","waiver_failed","added","5","Winnipeg Wranglers","12500","Quinn Ewers","QB","MIA","101",NA,NA,"This player was claimed by another owner."
+"2025","2025-12-18 08:02:00.517","waiver_failed","dropped","5","Winnipeg Wranglers","5985","Foster Moreau","TE","NO",NA,NA,NA,"This player was claimed by another owner."
+"2025","2025-12-18 08:02:00.517","waiver_complete","added","5","Winnipeg Wranglers","12500","Quinn Ewers","QB","MIA","101",NA,NA,NA
+"2025","2025-12-18 08:02:00.517","waiver_complete","dropped","5","Winnipeg Wranglers","5985","Foster Moreau","TE","NO",NA,NA,NA,NA
+"2025","2025-12-18 08:02:00.517","waiver_failed","added","1","Toronto Hogs","12500","Quinn Ewers","QB","MIA","89",NA,NA,"This player was claimed by another owner."
+"2025","2025-12-18 08:02:00.517","waiver_failed","dropped","1","Toronto Hogs","7537","Jaret Patterson","RB","LAC",NA,NA,NA,"This player was claimed by another owner."
+"2025","2025-12-18 08:02:00.517","waiver_failed","added","4","Thunder Bay Mustangs","12500","Quinn Ewers","QB","MIA","0",NA,NA,"This player was claimed by another owner."
+"2025","2025-12-18 08:02:00.517","waiver_failed","dropped","4","Thunder Bay Mustangs","12412","Terrell Jennings","RB","NE",NA,NA,NA,"This player was claimed by another owner."
 "2025","2025-12-17 08:11:41.618","waiver_complete","added","4","Thunder Bay Mustangs","10933","DeMarvion Overshown","LB","DAL","0",NA,NA,NA
 "2025","2025-12-17 08:11:41.618","waiver_complete","dropped","4","Thunder Bay Mustangs","7647","Pete Werner","LB","NO",NA,NA,NA,NA
 "2025","2025-12-17 08:11:41.618","waiver_complete","added","4","Thunder Bay Mustangs","7669","Paulson Adebo","CB","NYG","0",NA,NA,NA
@@ -4426,7 +4438,7 @@
 "2025","2025-12-13 08:01:06.65","waiver_complete","added","4","Thunder Bay Mustangs","12538","Brady Cook","QB","NYJ","0",NA,NA,NA
 "2025","2025-12-13 08:01:06.65","waiver_complete","dropped","4","Thunder Bay Mustangs","10857","Stetson Bennett","QB","LAR",NA,NA,NA,NA
 "2025","2025-12-11 08:02:05.6","waiver_complete","added","8","Iqaluit Trout","331","Philip Rivers","QB","IND","0",NA,NA,NA
-"2025","2025-12-11 08:02:05.6","waiver_complete","dropped","8","Iqaluit Trout","11789","Joshua Karty","K","LAR",NA,NA,NA,NA
+"2025","2025-12-11 08:02:05.6","waiver_complete","dropped","8","Iqaluit Trout","11789","Joshua Karty","K","ARI",NA,NA,NA,NA
 "2025","2025-12-10 10:33:24.94","free_agent","dropped","5","Winnipeg Wranglers","12500","Quinn Ewers","QB","MIA",NA,NA,NA,NA
 "2025","2025-12-10 08:12:02.151","waiver_failed","added","5","Winnipeg Wranglers","11783","Ryan Flournoy","WR","DAL","101",NA,NA,"This player was claimed by another owner."
 "2025","2025-12-10 08:12:02.151","waiver_failed","dropped","5","Winnipeg Wranglers","5985","Foster Moreau","TE","NO",NA,NA,NA,"This player was claimed by another owner."
@@ -4434,7 +4446,7 @@
 "2025","2025-12-10 08:12:02.151","waiver_failed","added","14","Gold Coast Sharks","12470","Riley Leonard","QB","IND","0",NA,NA,"This player was claimed by another owner."
 "2025","2025-12-10 08:12:02.151","waiver_failed","dropped","14","Gold Coast Sharks","8177","Grant Calcaterra","TE","PHI",NA,NA,NA,"This player was claimed by another owner."
 "2025","2025-12-10 08:12:02.151","waiver_failed","added","8","Iqaluit Trout","12470","Riley Leonard","QB","IND","0",NA,NA,"This player was claimed by another owner."
-"2025","2025-12-10 08:12:02.151","waiver_failed","dropped","8","Iqaluit Trout","11789","Joshua Karty","K","LAR",NA,NA,NA,"This player was claimed by another owner."
+"2025","2025-12-10 08:12:02.151","waiver_failed","dropped","8","Iqaluit Trout","11789","Joshua Karty","K","ARI",NA,NA,NA,"This player was claimed by another owner."
 "2025","2025-12-10 08:12:02.151","waiver_failed","added","11","Sarnia Seasnakes","11783","Ryan Flournoy","WR","DAL","15",NA,NA,"This player was claimed by another owner."
 "2025","2025-12-10 08:12:02.151","waiver_failed","dropped","11","Sarnia Seasnakes","10225","Jonathan Mingo","WR","DAL",NA,NA,NA,"This player was claimed by another owner."
 "2025","2025-12-10 08:12:02.151","waiver_complete","added","1","Toronto Hogs","11783","Ryan Flournoy","WR","DAL","489",NA,NA,NA
@@ -4455,7 +4467,7 @@
 "2025","2025-12-03 08:12:03.224","waiver_complete","added","9","New New York Benders ","11570","Rasheen Ali","RB","BAL","0",NA,NA,NA
 "2025","2025-12-03 08:12:03.224","waiver_complete","dropped","9","New New York Benders ","12015","Harrison Mevis","K","LAR",NA,NA,NA,NA
 "2025","2025-12-03 08:12:03.224","waiver_failed","added","9","New New York Benders ","8800","Malik Davis","RB","DAL","0",NA,NA,"This player was claimed by another owner."
-"2025","2025-12-03 08:12:03.224","waiver_failed","dropped","9","New New York Benders ","7561","Elijah Mitchell","RB","KC",NA,NA,NA,"This player was claimed by another owner."
+"2025","2025-12-03 08:12:03.224","waiver_failed","dropped","9","New New York Benders ","7561","Elijah Mitchell","RB","NE",NA,NA,NA,"This player was claimed by another owner."
 "2025","2025-12-03 08:12:03.224","waiver_complete","added","3","Newfoundland Blowers","4071","Marlon Humphrey","CB","BAL","0",NA,NA,NA
 "2025","2025-12-03 08:12:03.224","waiver_complete","dropped","3","Newfoundland Blowers","7667","Tyson Campbell","CB","CLE",NA,NA,NA,NA
 "2025","2025-12-03 08:12:03.224","waiver_complete","added","14","Gold Coast Sharks","8800","Malik Davis","RB","DAL","151",NA,NA,NA
@@ -5148,7 +5160,7 @@
 "2025","2025-08-23 21:25:17.024","free_agent","dropped","3","Newfoundland Blowers","5113","Cedrick Wilson","WR","MIA",NA,NA,NA,NA
 "2025","2025-08-23 21:24:48.428","free_agent","dropped","8","Iqaluit Trout","8290","Sauce Gardner","DB","IND",NA,NA,NA,NA
 "2025","2025-08-23 21:24:43.044","free_agent","dropped","4","Thunder Bay Mustangs","5928","David Long","LB",NA,NA,NA,NA,NA
-"2025","2025-08-23 21:24:13.069","free_agent","dropped","8","Iqaluit Trout","5917","Mecole Hardman","WR","BUF",NA,NA,NA,NA
+"2025","2025-08-23 21:24:13.069","free_agent","dropped","8","Iqaluit Trout","5917","Mecole Hardman","WR",NA,NA,NA,NA,NA
 "2025","2025-08-23 21:24:04.246","free_agent","dropped","5","Winnipeg Wranglers","5334","Josey Jewell","LB",NA,NA,NA,NA,NA
 "2025","2025-08-23 21:20:11.829","free_agent","dropped","14","Gold Coast Sharks","8286","Dax Hill","DB","CIN",NA,NA,NA,NA
 "2025","2025-08-23 21:18:49.393","free_agent","dropped","7","Prince Edward Islanders","11621","Brenden Rice","WR","LV",NA,NA,NA,NA
