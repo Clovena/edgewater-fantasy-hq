@@ -595,12 +595,144 @@
         flex-direction: column;
         gap: var(--spacing-md);
     }
-    
+
     .color-box {
         aspect-ratio: 3 / 1;
     }
-    
+
     .team-dropdown {
         max-width: 100%;
+    }
+}
+
+/* ========================================
+   FRANCHISES PAGE - Team Grid Display
+   ======================================== */
+
+.conference-header {
+    font-family: var(--font-sixth-city);
+    color: var(--blue);
+    font-size: 2rem;
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+}
+
+.franchise-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.franchise-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+.franchise-card {
+    flex: 0 0 auto;
+    transition: transform var(--transition-speed);
+}
+
+.franchise-card:hover {
+    transform: translateY(-4px);
+}
+
+.franchise-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
+    text-decoration: none;
+    color: inherit;
+}
+
+.franchise-hexagon {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(
+        50% 0%,
+        93.3% 25%,
+        93.3% 75%,
+        50% 100%,
+        6.7% 75%,
+        6.7% 25%
+    );
+    transform: rotate(30deg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all var(--transition-speed);
+}
+
+.franchise-card:hover .franchise-hexagon {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: rotate(30deg) scale(1.05);
+}
+
+.franchise-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transform: rotate(-30deg);
+    transition: all var(--transition-speed);
+}
+
+.franchise-name {
+    font-family: var(--font-sixth-city);
+    color: var(--blue);
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    max-width: 140px;
+    line-height: 1.2;
+    min-height: 2.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive - Mobile */
+@media (max-width: 767px) {
+    .franchise-hexagon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .franchise-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .franchise-name {
+        font-size: 0.85rem;
+        max-width: 100px;
+        min-height: 3.6em;
+    }
+
+    .franchise-row {
+        gap: var(--spacing-md);
+    }
+}
+
+/* Responsive - Tablet and Desktop */
+@media (min-width: 768px) {
+    .franchise-hexagon {
+        width: 180px;
+        height: 180px;
+    }
+
+    .franchise-logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .franchise-name {
+        font-size: 1.1rem;
+        max-width: 180px;
     }
 }
