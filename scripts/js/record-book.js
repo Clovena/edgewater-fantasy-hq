@@ -11,7 +11,7 @@ let selectedSeasons = new Set();
 
 async function loadStandingsData() {
   try {
-    const response = await fetch('/data/sixth-city/api/standings.csv');
+    const response = await fetch('/data/sixth-city/api/stg_standings.csv');
     const csvText = await response.text();
     
     // Parse CSV
