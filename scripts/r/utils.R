@@ -30,5 +30,7 @@ has_historical_season <- function(list, franchise_id, season) {
   FALSE
 }
 
-sixth_city_path_api  <- "data/sixth-city/api/"
+sixth_city_path_api <- "data/sixth-city/api/"
 sixth_city_path_json <- "data/sixth-city/ref/"
+survivor_path_api <- "data/survivor/api/"
+survivor_path_json <- "data/survivor/ref/"
