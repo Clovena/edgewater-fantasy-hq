@@ -1,71 +1,71 @@
 "franchise_id","season","franchise_name","abbrev","conference","owner_name","primary","secondary","tertiary","font","user_name","user_id"
-1,2021,"Toronto Hogs","TOR","SCC","Zac Ricker","#7a709b","#ea332a","#b4b0b0","razorback","ZJR",721099627511762944
-1,2022,"Toronto Hogs","TOR","SCC","Zac Ricker","#7a709b","#ea332a","#b4b0b0","razorback","Clovena",721099627511762944
-1,2023,"Toronto Hogs","TOR","SCC","Zac Ricker","#7a709b","#ea332a","#4f4471","razorback","Clovena",721099627511762944
-1,2024,"Toronto Hogs","TOR","SCC","Zac Ricker","#7a709b","#ea332a","#4f4471","razorback","Clovena",721099627511762944
-1,2025,"Toronto Hogs","TOR","SCC","Zac Ricker","#7a709b","#ea332a","#4f4471","razorback","Clovena",721099627511762944
-2,2021,"Bikini Bottom Stars","BKB","HCC","Jacob Godwin","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
-2,2022,"Bikini Bottom Stars","BKB","HCC","Jacob Godwin","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
-2,2023,"Bikini Bottom Stars","BKB","HCC","Jacob Godwin","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
-2,2024,"Bikini Bottom Stars","BKB","HCC","Jacob Godwin","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
-2,2025,"Bikini Bottom Stars","BKB","HCC","Jacob Godwin","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
-3,2021,"Newfoundland Blowers","NFD","SCC","Brendan DeWees","#ab3032","#192f5d","#ae9273","spacelord","bdewees",722632143850766208
-3,2022,"Newfoundland Blowers","NFD","SCC","Brendan DeWees","#ab3032","#192f5d","#ae9273","spacelord","bdewees",722632143850766208
-3,2023,"Newfoundland Blowers","NFD","SCC","Brendan DeWees","#ab3032","#192f5d","#ae9273","spacelord","bdwees",722632143850766208
-3,2024,"Newfoundland Blowers","NFD","SCC","Brendan DeWees","#ab3032","#192f5d","#ae9273","spacelord","bdwees",722632143850766208
-3,2025,"Newfoundland Blowers","NFD","SCC","Brendan DeWees","#ab3032","#192f5d","#ae9273","spacelord","bdwees",722632143850766208
-4,2021,"Thunder Bay Sunshine","TBY","SCC","Steven Schuster","#f56600","#522d80","#333333","","SchueyG",724320234672025600
-4,2022,"Thunder Bay Mustangs","TBY","SCC","Steven Schuster","#0a2351","#81c78d","#ffffff","horizon","SchueyG",724320234672025600
-4,2023,"Thunder Bay Mustangs","TBY","SCC","Steven Schuster","#0a2351","#81c78d","#ffffff","horizon","SchueyG",724320234672025600
-4,2024,"Thunder Bay Mustangs","TBY","SCC","Steven Schuster","#0a2351","#81c78d","#ffffff","horizon","SchueyG",724320234672025600
-4,2025,"Thunder Bay Mustangs","TBY","SCC","Steven Schuster","#0a2351","#81c78d","#ffffff","horizon","SchueyG",724320234672025600
-5,2021,"Winnipeg Wankers","WPG","HCC","Ryan Busser","#ba0c2f","#041e42","#d9c89d","","RyanBusser",724320706204078080
-5,2022,"Winnipeg Wranglers","WPG","HCC","Ryan Busser","#4262f9","#f3d971","#1a018e","","RyanBusser",724320706204078080
-5,2023,"Winnipeg Wranglers","WPG","HCC","Ryan Busser","#4262f9","#f3d971","#1a018e","","RBusser51",724320706204078080
-5,2024,"Winnipeg Wranglers","WPG","HCC","Ryan Busser","#4262f9","#f3d971","#1a018e","","RBusser51",724320706204078080
-5,2025,"Winnipeg Wranglers","WPG","HCC","Ryan Busser","#4262f9","#f3d971","#1a018e","","RBusser51",724320706204078080
-6,2021,"Choccolocco Railfans","CHC","HCC","Sean Williamson","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
-6,2022,"Choccolocco Railfans","CHC","HCC","Sean Williamson","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
-6,2023,"Choccolocco Railfans","CHC","HCC","Sean Williamson","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
-6,2024,"Choccolocco Railfans","CHC","HCC","Sean Williamson","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
-6,2025,"Choccolocco Railfans","CHC","HCC","Sean Williamson","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
-7,2021,"Pokemon Omega Judge Judy","PKO","HCC","Jared Chernick","#9b111e","#ffa502","#000000","pokemon","jche",724398438275444608
-7,2022,"Pokemon Omega Judge Judy","PKO","HCC","Jared Chernick","#9b111e","#ffa502","#000000","pokemon","jche",724398438275444608
-7,2023,"Pokemon Omega Judge Judy","PKO","HCC","Jared Chernick","#9b111e","#ffa502","#000000","pokemon","jche",724398438275444608
-7,2024,"Pokemon Omega Judge Judy","PKO","HCC","Jared Chernick","#9b111e","#ffa502","#000000","pokemon","jche",724398438275444608
-7,2025,"Prince Edward Islanders","PEI","HCC","Jared Chernick","#00d5d6","#ff6d01","#002288","","jche",724398438275444608
-8,2021,"Iqaluit Trout","IQT","HCC","Bret Fortner","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
-8,2022,"Iqaluit Trout","IQT","HCC","Bret Fortner","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
-8,2023,"Iqaluit Trout","IQT","HCC","Bret Fortner","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
-8,2024,"Iqaluit Trout","IQT","HCC","Bret Fortner","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
-8,2025,"Iqaluit Trout","IQT","HCC","Bret Fortner","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
-9,2021,"Saskatoon Squirrels","SSK","SCC","Trey Kernan","#25b273","#000000","#ffffff","virtu","tkern1221",724464913615015808
-9,2022,"Saskatoon Squirrels","SSK","SCC","Trey Kernan","#25b273","#000000","#ffffff","virtu","tkern1221",724464913615015808
-9,2023,"Saskatoon Squirrels","SSK","SCC","Trey Kernan","#25b273","#000000","#ffffff","virtu","tkern1221",724464913615015808
-9,2024,"New New York Benders","NNY","SCC","Josh Barsa","#a6c1d6","#fffbc7","#000d18","futurama","jbarsa13",467050157607743360
-9,2025,"New New York Benders","NNY","SCC","Josh Barsa","#a6c1d6","#fffbc7","#000d18","futurama","jbarsa13",467050157607743424
-10,2021,"Calgary Cocks","CGY","HCC","Sam Nagle","#fb6605","#f2cd37","#000000","","unknownSN16",724693368768159744
-10,2022,"Calgary Cocks","CGY","HCC","Sam Nagle","#fb6605","#f2cd37","#000000","","unknownSN16",724693368768159744
-10,2023,"Calgary Cocks","CGY","HCC","Sam Nagle","#fb6605","#f2cd37","#000000","","unknownSN16",724693368768159744
-10,2024,"Lower City Lasercats","LOW","HCC","Nathan Lower","#df7937","#de432f","#201719","mansalva","lowerthanaverage",986824474450288640
-10,2025,"Lower City Lasercats","LOW","HCC","Nathan Lower","#df7937","#de432f","#201719","mansalva","lowerthanaverage",986824474450288640
-11,2021,"Montreal Generals","MTL","SCC","Luke Lisowski","#195ba0","#f22a3f","#6f655c","army","LukeLis3335",724694216185335808
-11,2022,"Montreal Generals","MTL","SCC","Luke Lisowski","#195ba0","#f22a3f","#6f655c","army","LukeLis3335",724694216185335808
-11,2023,"Sarnia SeaSnakes","SAR","SCC","Pat Gregory","#89bea4","#ec9bbc","#5e905a","","patgregory53",735268218012368896
-11,2024,"Sarnia SeaSnakes","SAR","SCC","Pat Gregory","#89bea4","#ec9bbc","#5e905a","","patgregory53",735268218012368896
-11,2025,"Sarnia SeaSnakes","SAR","SCC","Pat Gregory","#89bea4","#ec9bbc","#5e905a","","patgregory53",735268218012368896
-12,2021,"Mississauga Mastodons","MIS","HCC","Braydon Gibson","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
-12,2022,"Mississauga Mastodons","MIS","HCC","Braydon Gibson","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
-12,2023,"Mississauga Mastodons","MIS","HCC","Braydon Gibson","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
-12,2024,"Mississauga Mastodons","MIS","HCC","Braydon Gibson","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
-12,2025,"Mississauga Mastodons","MIS","HCC","Braydon Gibson","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
-13,2021,"Vancouver Mounties","VAN","SCC","Connor Griffiths","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
-13,2022,"Vancouver Mounties","VAN","SCC","Connor Griffiths","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
-13,2023,"Vancouver Mounties","VAN","SCC","Connor Griffiths","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
-13,2024,"Vancouver Mounties","VAN","SCC","Connor Griffiths","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
-13,2025,"Vancouver Mounties","VAN","SCC","Connor Griffiths","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
-14,2021,"Unsolicited Dak Pics","DAK","SCC","Logan Snow","#3a4283","#814a35","#e5e2e0","","LuluMcSnu",725076157854244864
-14,2022,"Gold Coast Sharks","GLD","SCC","Logan Snow","#ef979e","#006d75","#e7cd78","cursive","LuluMcSnu",725076157854244864
-14,2023,"Gold Coast Sharks","GLD","SCC","Logan Snow","#ef979e","#006d75","#e7cd78","cursive","LuluMcSnu",725076157854244864
-14,2024,"Gold Coast Sharks","GLD","SCC","Logan Snow","#ef979e","#006d75","#e7cd78","cursive","LuluMcSnu",725076157854244864
-14,2025,"Gold Coast Sharks","GLD","SCC","Logan Snow","#ef979e","#006d75","#e7cd78","cursive","LuluMcSnu",725076157854244864
+1,2021,"Toronto Hogs","TOR","SCC","Zac","#7a709b","#ea332a","#b4b0b0","razorback","ZJR",721099627511762944
+1,2022,"Toronto Hogs","TOR","SCC","Zac","#7a709b","#ea332a","#b4b0b0","razorback","Clovena",721099627511762944
+1,2023,"Toronto Hogs","TOR","SCC","Zac","#7a709b","#ea332a","#4f4471","razorback","Clovena",721099627511762944
+1,2024,"Toronto Hogs","TOR","SCC","Zac","#7a709b","#ea332a","#4f4471","razorback","Clovena",721099627511762944
+1,2025,"Toronto Hogs","TOR","SCC","Zac","#7a709b","#ea332a","#4f4471","razorback","Clovena",721099627511762944
+2,2021,"Bikini Bottom Stars","BKB","HCC","Jacob","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
+2,2022,"Bikini Bottom Stars","BKB","HCC","Jacob","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
+2,2023,"Bikini Bottom Stars","BKB","HCC","Jacob","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
+2,2024,"Bikini Bottom Stars","BKB","HCC","Jacob","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
+2,2025,"Bikini Bottom Stars","BKB","HCC","Jacob","#b580ff","#ff808b","#caff80","spongeboy","JGBillions",722626997460733952
+3,2021,"Newfoundland Blowers","NFD","SCC","Brendan","#ab3032","#192f5d","#ae9273","spacelord","bdewees",722632143850766208
+3,2022,"Newfoundland Blowers","NFD","SCC","Brendan","#ab3032","#192f5d","#ae9273","spacelord","bdewees",722632143850766208
+3,2023,"Newfoundland Blowers","NFD","SCC","Brendan","#ab3032","#192f5d","#ae9273","spacelord","bdwees",722632143850766208
+3,2024,"Newfoundland Blowers","NFD","SCC","Brendan","#ab3032","#192f5d","#ae9273","spacelord","bdwees",722632143850766208
+3,2025,"Newfoundland Blowers","NFD","SCC","Brendan","#ab3032","#192f5d","#ae9273","spacelord","bdwees",722632143850766208
+4,2021,"Thunder Bay Sunshine","TBY","SCC","Steven","#f56600","#522d80","#333333","","SchueyG",724320234672025600
+4,2022,"Thunder Bay Mustangs","TBY","SCC","Steven","#0a2351","#81c78d","#ffffff","horizon","SchueyG",724320234672025600
+4,2023,"Thunder Bay Mustangs","TBY","SCC","Steven","#0a2351","#81c78d","#ffffff","horizon","SchueyG",724320234672025600
+4,2024,"Thunder Bay Mustangs","TBY","SCC","Steven","#0a2351","#81c78d","#ffffff","horizon","SchueyG",724320234672025600
+4,2025,"Thunder Bay Mustangs","TBY","SCC","Steven","#0a2351","#81c78d","#ffffff","horizon","SchueyG",724320234672025600
+5,2021,"Winnipeg Wankers","WPG","HCC","Ryan","#ba0c2f","#041e42","#d9c89d","","RyanBusser",724320706204078080
+5,2022,"Winnipeg Wranglers","WPG","HCC","Ryan","#4262f9","#f3d971","#1a018e","","RyanBusser",724320706204078080
+5,2023,"Winnipeg Wranglers","WPG","HCC","Ryan","#4262f9","#f3d971","#1a018e","","RBusser51",724320706204078080
+5,2024,"Winnipeg Wranglers","WPG","HCC","Ryan","#4262f9","#f3d971","#1a018e","","RBusser51",724320706204078080
+5,2025,"Winnipeg Wranglers","WPG","HCC","Ryan","#4262f9","#f3d971","#1a018e","","RBusser51",724320706204078080
+6,2021,"Choccolocco Railfans","CHC","HCC","Sean","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
+6,2022,"Choccolocco Railfans","CHC","HCC","Sean","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
+6,2023,"Choccolocco Railfans","CHC","HCC","Sean","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
+6,2024,"Choccolocco Railfans","CHC","HCC","Sean","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
+6,2025,"Choccolocco Railfans","CHC","HCC","Sean","#49351a","#d5913a","#a58b8b","emblema","Srw74",720358712962772992
+7,2021,"Pokemon Omega Judge Judy","PKO","HCC","Jared","#9b111e","#ffa502","#000000","pokemon","jche",724398438275444608
+7,2022,"Pokemon Omega Judge Judy","PKO","HCC","Jared","#9b111e","#ffa502","#000000","pokemon","jche",724398438275444608
+7,2023,"Pokemon Omega Judge Judy","PKO","HCC","Jared","#9b111e","#ffa502","#000000","pokemon","jche",724398438275444608
+7,2024,"Pokemon Omega Judge Judy","PKO","HCC","Jared","#9b111e","#ffa502","#000000","pokemon","jche",724398438275444608
+7,2025,"Prince Edward Islanders","PEI","HCC","Jared","#00d5d6","#ff6d01","#002288","","jche",724398438275444608
+8,2021,"Iqaluit Trout","IQT","HCC","Bret","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
+8,2022,"Iqaluit Trout","IQT","HCC","Bret","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
+8,2023,"Iqaluit Trout","IQT","HCC","Bret","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
+8,2024,"Iqaluit Trout","IQT","HCC","Bret","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
+8,2025,"Iqaluit Trout","IQT","HCC","Bret","#62b0e5","#c91b48","#002b64","fishhook","fretbortner",724464389268324352
+9,2021,"Saskatoon Squirrels","SSK","SCC","Trey","#25b273","#000000","#ffffff","virtu","tkern1221",724464913615015808
+9,2022,"Saskatoon Squirrels","SSK","SCC","Trey","#25b273","#000000","#ffffff","virtu","tkern1221",724464913615015808
+9,2023,"Saskatoon Squirrels","SSK","SCC","Trey","#25b273","#000000","#ffffff","virtu","tkern1221",724464913615015808
+9,2024,"New New York Benders","NNY","SCC","Josh","#a6c1d6","#fffbc7","#000d18","futurama","jbarsa13",467050157607743360
+9,2025,"New New York Benders","NNY","SCC","Josh","#a6c1d6","#fffbc7","#000d18","futurama","jbarsa13",467050157607743424
+10,2021,"Calgary Cocks","CGY","HCC","Sam","#fb6605","#f2cd37","#000000","","unknownSN16",724693368768159744
+10,2022,"Calgary Cocks","CGY","HCC","Sam","#fb6605","#f2cd37","#000000","","unknownSN16",724693368768159744
+10,2023,"Calgary Cocks","CGY","HCC","Sam","#fb6605","#f2cd37","#000000","","unknownSN16",724693368768159744
+10,2024,"Lower City Lasercats","LOW","HCC","Nathan","#df7937","#de432f","#201719","mansalva","lowerthanaverage",986824474450288640
+10,2025,"Lower City Lasercats","LOW","HCC","Nathan","#df7937","#de432f","#201719","mansalva","lowerthanaverage",986824474450288640
+11,2021,"Montreal Generals","MTL","SCC","Luke","#195ba0","#f22a3f","#6f655c","army","LukeLis3335",724694216185335808
+11,2022,"Montreal Generals","MTL","SCC","Luke","#195ba0","#f22a3f","#6f655c","army","LukeLis3335",724694216185335808
+11,2023,"Sarnia SeaSnakes","SAR","SCC","Pat","#89bea4","#ec9bbc","#5e905a","","patgregory53",735268218012368896
+11,2024,"Sarnia SeaSnakes","SAR","SCC","Pat","#89bea4","#ec9bbc","#5e905a","","patgregory53",735268218012368896
+11,2025,"Sarnia SeaSnakes","SAR","SCC","Pat","#89bea4","#ec9bbc","#5e905a","","patgregory53",735268218012368896
+12,2021,"Mississauga Mastodons","MIS","HCC","Braydon","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
+12,2022,"Mississauga Mastodons","MIS","HCC","Braydon","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
+12,2023,"Mississauga Mastodons","MIS","HCC","Braydon","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
+12,2024,"Mississauga Mastodons","MIS","HCC","Braydon","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
+12,2025,"Mississauga Mastodons","MIS","HCC","Braydon","#39bbf0","#9f5134","#d7e7ed","ice_age","Gibby2224",725029254722572160
+13,2021,"Vancouver Mounties","VAN","SCC","Connor","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
+13,2022,"Vancouver Mounties","VAN","SCC","Connor","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
+13,2023,"Vancouver Mounties","VAN","SCC","Connor","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
+13,2024,"Vancouver Mounties","VAN","SCC","Connor","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
+13,2025,"Vancouver Mounties","VAN","SCC","Connor","#012652","#a80012","#c8cac7","wonderment","connorgriffiths",725034040587026432
+14,2021,"Unsolicited Dak Pics","DAK","SCC","Logan","#3a4283","#814a35","#e5e2e0","","LuluMcSnu",725076157854244864
+14,2022,"Gold Coast Sharks","GLD","SCC","Logan","#ef979e","#006d75","#e7cd78","cursive","LuluMcSnu",725076157854244864
+14,2023,"Gold Coast Sharks","GLD","SCC","Logan","#ef979e","#006d75","#e7cd78","cursive","LuluMcSnu",725076157854244864
+14,2024,"Gold Coast Sharks","GLD","SCC","Logan","#ef979e","#006d75","#e7cd78","cursive","LuluMcSnu",725076157854244864
+14,2025,"Gold Coast Sharks","GLD","SCC","Logan","#ef979e","#006d75","#e7cd78","cursive","LuluMcSnu",725076157854244864

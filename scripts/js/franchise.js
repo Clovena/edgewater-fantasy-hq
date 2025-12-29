@@ -204,7 +204,7 @@ function renderFranchiseHeader(franchise) {
       ${franchise.franchise_name}
     </h1>
     <p>
-      ${franchise.owner_name}
+      Franchise owner: ${franchise.owner_name}
     </p>
   `;
 }
