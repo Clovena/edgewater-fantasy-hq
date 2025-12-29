@@ -301,44 +301,55 @@
     margin: 0;
     page-break-after: auto;
   }
-  
+
   /* Hide the decorative border on mobile for cleaner look */
   .page-inner {
     border: none;
     border-radius: 0;
     padding: 0;
   }
-  
+
   /* Adjust header for mobile */
   .print-page-header {
     margin-bottom: var(--spacing-md);
     padding-bottom: var(--spacing-md);
     text-align: left;
   }
-  
+
   .print-page-header h1 {
     font-size: 24pt;
+    text-align: center;
   }
-  
+
   .subtitle {
     font-size: 12pt;
+    text-align: center;
   }
-  
+
   .intro-text {
     font-size: 11pt;
     max-width: 100%;
+    text-align: justify;
   }
-  
+
   /* Adjust ranking sections for mobile */
   .ranking-section {
     padding: var(--spacing-sm) 0;
   }
-  
+
   .ranking-section h2 {
     font-size: 20pt;
     padding: var(--spacing-sm);
     clip-path: none;
     border-radius: 8px;
+    clip-path: polygon(
+      0.2in 0%,
+      calc(100% - 0.2in) 0%,
+      100% 50%,
+      calc(100% - 0.2in) 100%,
+      0.2in 100%,
+      0% 50%
+    );
   }
 
   .ranking-section .team-stats {
@@ -350,7 +361,7 @@
     font-size: 14pt;
     padding: var(--spacing-sm) 0;
   }
-  
+
   /* League separation - visible break between leagues */
   .epsilon-page,
   .sixth-city-page,
@@ -359,11 +370,11 @@
     padding-bottom: var(--spacing-xl);
     border-bottom: 3px solid var(--gray-dark);
   }
-  
+
   .survivor-page {
     border-bottom: none;
   }
-  
+
   /* Condense spacing between print pages within same league */
   .print-pages {
     gap: 0;
