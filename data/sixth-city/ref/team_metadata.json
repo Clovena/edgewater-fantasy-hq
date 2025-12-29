@@ -4,9 +4,9 @@
     "abbrev": "TOR",
     "conference": "SCC",
     "owner_name": "Zac Ricker",
-    "primary": "#4f4471",
+    "primary": "#7a709b",
     "secondary": "#ea332a",
-    "tertiary": "#7a709b",
+    "tertiary": "#4f4471",
     "font": "razorback",
     "history": [
       {
@@ -27,9 +27,9 @@
     "abbrev": "BKB",
     "conference": "HCC",
     "owner_name": "Jacob Godwin",
-    "primary": "#caff80",
-    "secondary": "#b580ff",
-    "tertiary": "#ff808b",
+    "primary": "#b580ff",
+    "secondary": "#ff808b",
+    "tertiary": "#caff80",
     "font": "spongeboy"
   },
   "3": {
@@ -70,9 +70,9 @@
     "abbrev": "WPG",
     "conference": "HCC",
     "owner_name": "Ryan Busser",
-    "primary": "#1a018e",
+    "primary": "#4262f9",
     "secondary": "#f3d971",
-    "tertiary": "#4262f9",
+    "tertiary": "#1a018e",
     "font": "",
     "history": [
       {
@@ -126,9 +126,9 @@
     "abbrev": "IQT",
     "conference": "HCC",
     "owner_name": "Bret Fortner",
-    "primary": "#c91b48",
-    "secondary": "#002b64",
-    "tertiary": "#62b0e5",
+    "primary": "#62b0e5",
+    "secondary": "#c91b48",
+    "tertiary": "#002b64",
     "font": "fishhook"
   },
   "9": {
@@ -182,9 +182,9 @@
     "abbrev": "SAR",
     "conference": "SCC",
     "owner_name": "Pat Gregory",
-    "primary": "#5e905a",
+    "primary": "#89bea4",
     "secondary": "#ec9bbc",
-    "tertiary": "#89bea4",
+    "tertiary": "#5e905a",
     "font": "",
     "history": [
       {
@@ -205,8 +205,8 @@
     "abbrev": "MIS",
     "conference": "HCC",
     "owner_name": "Braydon Gibson",
-    "primary": "#9f5134",
-    "secondary": "#39bbf0",
+    "primary": "#39bbf0",
+    "secondary": "#9f5134",
     "tertiary": "#d7e7ed",
     "font": "ice_age"
   },
@@ -225,8 +225,8 @@
     "abbrev": "GLD",
     "conference": "SCC",
     "owner_name": "Logan Snow",
-    "primary": "#006d75",
-    "secondary": "#ef979e",
+    "primary": "#ef979e",
+    "secondary": "#006d75",
     "tertiary": "#e7cd78",
     "font": "cursive",
     "history": [
