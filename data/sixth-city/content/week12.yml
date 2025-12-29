@@ -1,22 +1,24 @@
 intro:
-  title: "Sixth City Week 1 Power Rankings"
-  subtitle: "Week 1 • 2025 Season"
+  season: 2025
+  week: 12
+  title: "Sixth City Power Rankings"
+  subtitle: "Week 12 | 2025 Season"
   description: "Welcome to another season of Sixth City Dynasty. After an exciting offseason of trades and rookie drafts, we're ready to see which franchises can compete for the championship."
   
 ranks:
-  - "Bikini Bottom Stars"
   - "Thunder Bay Mustangs"
+  - "Bikini Bottom Stars"
   - "Sarnia SeaSnakes"
-  - "Toronto Hogs"
   - "Prince Edward Islanders"
   - "Winnipeg Wranglers"
-  - "Mississauga Mastodons"
   - "Lower City Lasercats"
   - "Newfoundland Blowers"
-  - "Gold Coast Sharks"
+  - "Toronto Hogs"
+  - "Mississauga Mastodons"
   - "Iqaluit Trout"
-  - "Choccolocco Railfans"
+  - "Gold Coast Sharks"
   - "Vancouver Mounties"
+  - "Choccolocco Railfans"
   - "New New York Benders"
   
 blurbs:

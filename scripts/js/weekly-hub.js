@@ -10,6 +10,8 @@ let weeklyData = {
 };
 
 let teamMetadata = {};
+let scheduleData = {}; // Store schedule data per league
+let previousWeekData = {}; // Store previous week's rankings per league
 
 // ========================================
 // STATE MANAGEMENT
@@ -52,11 +54,11 @@ async function loadTeamMetadata(league) {
     const response = await fetch(`/data/${league}/api/fact_franchises.csv`);
     if (response.ok) {
       const csvText = await response.text();
-      
+
       // Parse CSV
       const lines = csvText.trim().split('\n');
       const headers = parseCSVLine(lines[0]);
-      
+
       const rawData = lines.slice(1).map(line => {
         const values = parseCSVLine(line);
         const row = {};
@@ -65,27 +67,56 @@ async function loadTeamMetadata(league) {
         });
         return row;
       });
-      
+
       // Create name-to-metadata lookup with most recent season data
       const nameMap = {};
       rawData.forEach(row => {
         const name = row.franchise_name;
         const season = parseInt(row.season);
-        
+
         if (!nameMap[name] || season > nameMap[name].season) {
           nameMap[name] = {
             primary: row.primary,
             secondary: row.secondary,
             tertiary: row.tertiary,
-            season: season
+            season: season,
+            franchise_id: row.franchise_id,
+            abbrev: row.abbrev
           };
         }
       });
-      
+
       teamMetadata[league] = nameMap;
     }
   } catch (error) {
     console.log(`No team metadata found for ${league}, using defaults`);
+  }
+}
+
+// Load schedule data from fact_schedule.csv
+async function loadScheduleData(league) {
+  try {
+    const response = await fetch(`/data/${league}/api/fact_schedule.csv`);
+    if (response.ok) {
+      const csvText = await response.text();
+
+      // Parse CSV
+      const lines = csvText.trim().split('\n');
+      const headers = parseCSVLine(lines[0]);
+
+      const data = lines.slice(1).map(line => {
+        const values = parseCSVLine(line);
+        const row = {};
+        headers.forEach((header, index) => {
+          row[header] = values[index] || '';
+        });
+        return row;
+      });
+
+      scheduleData[league] = data;
+    }
+  } catch (error) {
+    console.log(`No schedule data found for ${league}`);
   }
 }
 
@@ -96,22 +127,57 @@ async function loadYAML(league, week) {
     'sixthCity': 'sixth-city',
     'survivor': 'survivor'
   };
-  
+
   const leaguePath = leagueMap[league];
-  
+
   try {
     const response = await fetch(`/data/${leaguePath}/content/week${week.toString().padStart(2, '0')}.yml`);
     if (!response.ok) {
       throw new Error(`Week ${week} data not found`);
     }
-    
+
     const yamlText = await response.text();
     const data = jsyaml.load(yamlText);
     weeklyData[league] = data;
-    
+
     return data;
   } catch (error) {
     console.error(`Error loading YAML for ${league} week ${week}:`, error);
+    return null;
+  }
+}
+
+// Load previous week's YAML data for ranking comparison
+async function loadPreviousWeekYAML(league, week) {
+  const leagueMap = {
+    'epsilon': 'epsilon',
+    'sixthCity': 'sixth-city',
+    'survivor': 'survivor'
+  };
+
+  const leaguePath = leagueMap[league];
+  const previousWeek = week - 1;
+
+  // If week is 1 or less, there's no previous week
+  if (previousWeek < 1) {
+    previousWeekData[league] = null;
+    return null;
+  }
+
+  try {
+    const response = await fetch(`/data/${leaguePath}/content/week${previousWeek.toString().padStart(2, '0')}.yml`);
+    if (!response.ok) {
+      throw new Error(`Week ${previousWeek} data not found`);
+    }
+
+    const yamlText = await response.text();
+    const data = jsyaml.load(yamlText);
+    previousWeekData[league] = data;
+
+    return data;
+  } catch (error) {
+    console.log(`No previous week data found for ${league} week ${previousWeek}`);
+    previousWeekData[league] = null;
     return null;
   }
 }
@@ -120,8 +186,129 @@ async function loadYAML(league, week) {
 // RENDERING FUNCTIONS
 // ========================================
 
+// Calculate team record based on schedule data
+function calculateRecord(teamName, league, season, week) {
+  const leagueKey = currentLeague === 'sixth-city' ? 'sixth-city' : currentLeague;
+  const schedule = scheduleData[leagueKey];
+
+  if (!schedule || !teamMetadata[league] || !teamMetadata[league][teamName]) {
+    return '0-0';
+  }
+
+  const franchiseId = teamMetadata[league][teamName].franchise_id;
+
+  // Filter schedule for this team, season, and up to current week
+  const teamGames = schedule.filter(game => {
+    return game.franchise_id === franchiseId &&
+           parseInt(game.season) === season &&
+           parseInt(game.week) <= week;
+  });
+
+  // Calculate wins and losses
+  const wins = teamGames.filter(game => parseInt(game.result) === 1).length;
+  const losses = teamGames.length - wins;
+
+  return `${wins}-${losses}`;
+}
+
+// Calculate ranking movement from previous week
+function calculateMovement(teamName, league) {
+  const leagueKey = currentLeague === 'sixth-city' ? 'sixthCity' : currentLeague;
+  const currentData = weeklyData[leagueKey];
+  const previousData = previousWeekData[leagueKey];
+
+  // If no previous week data exists, return empty string
+  if (!previousData || !previousData.ranks) {
+    return '';
+  }
+
+  // If no current data, can't calculate movement
+  if (!currentData || !currentData.ranks) {
+    return '';
+  }
+
+  // Find current rank (index in ranks array)
+  const currentRank = currentData.ranks.indexOf(teamName);
+  if (currentRank === -1) {
+    return '';
+  }
+
+  // Find previous rank
+  const previousRank = previousData.ranks.indexOf(teamName);
+  if (previousRank === -1) {
+    return '';
+  }
+
+  // Calculate movement (previousRank - currentRank because lower index = better rank)
+  // e.g., moved from index 7 (8th place) to index 5 (6th place) = movement of +2
+  const movement = previousRank - currentRank;
+
+  // Format with sign
+  if (movement > 0) {
+    return `+${movement}`;
+  } else if (movement < 0) {
+    return `${movement}`; // Negative sign is already included
+  } else {
+    return '±0';
+  }
+}
+
+// Get last week's matchup result
+function getLastWeekResult(teamName, league, season, week) {
+  const leagueKey = currentLeague === 'sixth-city' ? 'sixth-city' : currentLeague;
+  const schedule = scheduleData[leagueKey];
+
+  if (!schedule || !teamMetadata[league] || !teamMetadata[league][teamName]) {
+    return 'N/A';
+  }
+
+  const franchiseId = teamMetadata[league][teamName].franchise_id;
+
+  // Find the game for this team, season, and exact week
+  const game = schedule.find(g => {
+    return g.franchise_id === franchiseId &&
+           parseInt(g.season) === season &&
+           parseInt(g.week) === week;
+  });
+
+  if (!game) {
+    return 'N/A';
+  }
+
+  // Get opponent abbreviation from metadata
+  const opponentId = game.opponent_id;
+  let opponentAbbrev = 'UNK';
+
+  // Find opponent in team metadata for this season
+  const metadata = teamMetadata[league];
+  if (metadata) {
+    for (const [name, data] of Object.entries(metadata)) {
+      if (data.franchise_id === opponentId && data.season === season) {
+        opponentAbbrev = data.abbrev || 'UNK';
+        break;
+      }
+    }
+  }
+
+  // Convert result character to string
+  const resultChar = game.result_char;
+  let resultStr;
+
+  if (resultChar === 'W') {
+    resultStr = 'defeated';
+  } else if (resultChar === 'L') {
+    resultStr = 'lost to';
+  } else if (resultChar === 'T') {
+    resultStr = 'tied with';
+  } else {
+    return 'N/A';
+  }
+
+  return `| Last week: ${resultStr} ${opponentAbbrev}`;
+}
+
 // Create a ranking section element
-function createRankingSection(teamName, blurb, league) {
+function createRankingSection(teamName, blurb, league, season, week) {
   const section = document.createElement('section');
   section.className = 'ranking-section';
 
@@ -138,10 +325,18 @@ function createRankingSection(teamName, blurb, league) {
     }
   }
 
-  // Create subheader with team stats (dummy data for now)
+  // Create subheader with team stats
   const subheader = document.createElement('div');
   subheader.className = 'team-stats';
-  subheader.textContent = '7-7 • +1 • TW: vs MIS';
+
+  // Calculate record, movement, and last week's result
+  const record = calculateRecord(teamName, league, season, week);
+  const movement = calculateMovement(teamName, league);
+  const lastWeekResult = getLastWeekResult(teamName, league, season, week);
+
+  // Build subheader text with dynamic components
+  const movementText = movement ? ` | ${movement}` : '';
+  subheader.textContent = `${record}${movementText} ${lastWeekResult}`;
 
   const paragraph = document.createElement('p');
   paragraph.textContent = blurb;
@@ -231,7 +426,9 @@ function renderCurrentLeague() {
       const section = createRankingSection(
         data.ranks[currentIndex],
         data.blurbs[currentIndex],
-        currentLeague
+        currentLeague,
+        data.intro?.season || new Date().getFullYear(),
+        data.intro?.week || currentWeek
       );
       mainContent.appendChild(section);
       currentIndex++;
@@ -307,9 +504,9 @@ async function handleLeagueChange(event) {
   const weeks = availableWeeks[currentLeague];
   if (weeks && weeks.length > 0) {
     populateWeekDropdown(weeks);
-    // Keep current week if available, otherwise use first available week
+    // Keep current week if available, otherwise use latest available week
     if (!weeks.includes(currentWeek)) {
-      currentWeek = weeks[0];
+      currentWeek = Math.max(...weeks);
     }
     await loadWeekData(currentWeek);
   }
@@ -327,7 +524,10 @@ async function handleWeekChange(event) {
 // Load week data for current league
 async function loadWeekData(week) {
   const leagueKey = currentLeague === 'sixth-city' ? 'sixthCity' : currentLeague;
-  await loadYAML(leagueKey, week);
+  await Promise.all([
+    loadYAML(leagueKey, week),
+    loadPreviousWeekYAML(leagueKey, week)
+  ]);
 }
 
 // Setup dropdown event listeners
@@ -350,14 +550,15 @@ function setupDropdowns() {
 // ========================================
 
 // Load and render all weekly data
-async function loadWeeklyHub(week = 1) {
-  currentWeek = week;
-
-  // Load team metadata for all leagues
+async function loadWeeklyHub(week = null) {
+  // Load team metadata and schedule data for all leagues
   await Promise.all([
     loadTeamMetadata('epsilon'),
     loadTeamMetadata('sixth-city'),
-    loadTeamMetadata('survivor')
+    loadTeamMetadata('survivor'),
+    loadScheduleData('epsilon'),
+    loadScheduleData('sixth-city'),
+    loadScheduleData('survivor')
   ]);
 
   // Discover available weeks for all leagues
@@ -373,17 +574,26 @@ async function loadWeeklyHub(week = 1) {
     'survivor': survivorWeeks
   };
 
-  // Set initial week to first available week for default league if specified week not available
+  // Set initial week to latest available week for default league
   const defaultLeagueWeeks = availableWeeks[currentLeague];
   if (defaultLeagueWeeks && defaultLeagueWeeks.length > 0) {
-    if (!defaultLeagueWeeks.includes(currentWeek)) {
-      currentWeek = defaultLeagueWeeks[0];
+    // If no week specified, use the latest (maximum) week
+    if (week === null) {
+      currentWeek = Math.max(...defaultLeagueWeeks);
+    } else if (defaultLeagueWeeks.includes(week)) {
+      currentWeek = week;
+    } else {
+      // Fallback to latest week if specified week not available
+      currentWeek = Math.max(...defaultLeagueWeeks);
     }
   }
 
-  // Load YAML data for current week
+  // Load YAML data for current week and previous week
   const leagueKey = currentLeague === 'sixth-city' ? 'sixthCity' : currentLeague;
-  await loadYAML(leagueKey, currentWeek);
+  await Promise.all([
+    loadYAML(leagueKey, currentWeek),
+    loadPreviousWeekYAML(leagueKey, currentWeek)
+  ]);
 
   // Populate week dropdown with available weeks for current league
   populateWeekDropdown(defaultLeagueWeeks);
@@ -397,7 +607,7 @@ async function loadWeeklyHub(week = 1) {
 
 // Initialize on page load
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => loadWeeklyHub(1));
+  document.addEventListener('DOMContentLoaded', () => loadWeeklyHub());
 } else {
-  loadWeeklyHub(1);
+  loadWeeklyHub();
 }
