@@ -1,0 +1,37 @@
+{
+  "2021": [],
+  "2022": [],
+  "2023": [
+    { "week": 1, "highlight": "Dynasty Bowl II" },
+    { "week": 1, "highlight": "Dynasty Bowl I" }
+  ],
+  "2024": [
+    { "week": 1, "highlight": "Dynasty Bowl III" },
+    { "week": 1, "highlight": "Dynasty Bowl II" },
+    { "week": 1, "highlight": "Dynasty Bowl I" },
+    { "week": 2, "highlight": "Highland Classic" },
+    { "week": 4, "highlight": "Voyageur Cup" },
+    { "week": 6, "highlight": "Atlantic Bowl" },
+    { "week": 8, "highlight": "Horseshoe Cup" },
+    { "week": 10, "highlight": "Reservoir Cup" },
+    { "week": 12, "highlight": "Pacific Bowl" },
+    { "week": 14, "highlight": "Blue-Collar Classic" },
+    { "week": 14, "highlight": "Rivalry Week" }
+  ],
+  "2025": [
+    { "week": 1, "highlight": "Dynasty Bowl IV" },
+    { "week": 2, "highlight": "Dynasty Bowl III" },
+    { "week": 3, "highlight": "Dynasty Bowl II" },
+    { "week": 4, "highlight": "Tag Team Title" },
+    { "week": 5, "highlight": "Horseshoe Cup" },
+    { "week": 6, "highlight": "Blue-Collar Classic" },
+    { "week": 7, "highlight": "Pacific Bowl" },
+    { "week": 8, "highlight": "Highland Classic" },
+    { "week": 9, "highlight": "Reservoir Cup" },
+    { "week": 10, "highlight": "Voyageur Cup" },
+    { "week": 11, "highlight": "Atlantic Bowl" },
+    { "week": 13, "highlight": "PEI vs the World" },
+    { "week": 14, "highlight": "Dynasty Bowl I" },
+    { "week": 14, "highlight": "Rivalry Week" }
+  ]
+}
