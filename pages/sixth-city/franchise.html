@@ -32,6 +32,44 @@
             <p>Loading franchise data...</p>
         </div>
 
+        <!-- Stats aggregation toggle -->
+        <div class="stats-toggle-container">
+            <div class="toggle-group">
+                <button id="owner-toggle" class="toggle-button active" data-mode="owner">
+                    Owner Stats
+                </button>
+                <button id="franchise-toggle" class="toggle-button" data-mode="franchise">
+                    Franchise Stats
+                </button>
+            </div>
+        </div>
+
+        <!-- Game type filter -->
+        <div class="game-type-filter-container">
+            <div class="filter-checkboxes">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="regular-season-checkbox" value="0" checked>
+                    <span>Regular Season</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="playoffs-checkbox" value="1">
+                    <span>Playoffs</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="consolation-checkbox" value="-1,-2">
+                    <span>Consolation</span>
+                </label>
+                <button id="select-all-games" class="select-all-button">
+                    Select All
+                </button>
+            </div>
+        </div>
+
+        <!-- Franchise statistics grid -->
+        <div id="franchise-stats" class="franchise-stats">
+            <!-- Stats will be populated dynamically -->
+        </div>
+
         <!-- Additional franchise content will go here -->
     </main>
 

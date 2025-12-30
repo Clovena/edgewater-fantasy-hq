@@ -9,6 +9,7 @@
 // ========================================
 
 const FRANCHISE_DATA_URL = '/data/sixth-city/api/fact_franchises.csv';
+const SCHEDULE_DATA_URL = '/data/sixth-city/api/v_fact_schedule.csv';
 const FONTS_PATH = '/assets/fonts';
 const FONT_EXTENSIONS = ['ttf', 'otf', 'woff', 'woff2'];
 
@@ -17,7 +18,11 @@ const FONT_EXTENSIONS = ['ttf', 'otf', 'woff', 'woff2'];
 // ========================================
 
 let franchiseData = null;
+let scheduleData = null;
+let currentFranchise = null;
 const loadedFonts = new Set();
+let statsAggregationMode = 'owner_name'; // 'franchise_id' or 'owner_name'
+let selectedGameTypes = new Set([0]); // Start with regular season (game_type = 0) selected
 
 // ========================================
 // UTILITY FUNCTIONS
@@ -122,6 +127,88 @@ function findFranchise(abbrev) {
 }
 
 /**
+ * Load schedule data from CSV (with caching)
+ */
+async function loadScheduleData() {
+  // Return cached data if already loaded
+  if (scheduleData) {
+    return scheduleData;
+  }
+
+  try {
+    const response = await fetch(SCHEDULE_DATA_URL);
+    if (!response.ok) {
+      throw new Error('Failed to load schedule data');
+    }
+
+    const csvText = await response.text();
+    const lines = csvText.trim().split('\n');
+    const headers = parseCSVLine(lines[0]);
+
+    const data = lines.slice(1).map(line => {
+      const values = parseCSVLine(line);
+      const row = {};
+      headers.forEach((header, index) => {
+        row[header] = values[index] || '';
+      });
+      return row;
+    });
+
+    scheduleData = data;
+    return data;
+  } catch (error) {
+    console.error('Error loading schedule data:', error);
+    return null;
+  }
+}
+
+/**
+ * Calculate franchise statistics based on aggregation mode
+ */
+function calculateFranchiseStats(franchise, scheduleData, aggregationMode, gameTypesSet) {
+  if (!franchise || !scheduleData) return null;
+
+  // Filter schedule data based on aggregation mode
+  const filterValue = franchise[aggregationMode];
+  let filteredGames = scheduleData.filter(game => game[aggregationMode] === filterValue);
+
+  // Apply game type filter based on selected game types
+  if (gameTypesSet && gameTypesSet.size > 0) {
+    filteredGames = filteredGames.filter(game => gameTypesSet.has(parseInt(game.game_type)));
+  }
+
+  if (filteredGames.length === 0) return null;
+
+  // Conference games only
+  const confGames = filteredGames.filter(game => parseInt(game.is_intra_conf) === 1);
+
+  // Calculate stats
+  const totalGames = filteredGames.length;
+  const totalWins = filteredGames.reduce((sum, game) => sum + parseInt(game.result || 0), 0);
+  const totalLosses = totalGames - totalWins;
+
+  const confWins = confGames.reduce((sum, game) => sum + parseInt(game.result || 0), 0);
+  const confLosses = confGames.length - confWins;
+
+  const avgScore = filteredGames.reduce((sum, game) => sum + parseFloat(game.franchise_score || 0), 0) / totalGames;
+  const avgScoreAgainst = filteredGames.reduce((sum, game) => sum + parseFloat(game.opponent_score || 0), 0) / totalGames;
+
+  const highestScore = Math.max(...filteredGames.map(game => parseFloat(game.franchise_score || 0)));
+  const lowestScore = Math.min(...filteredGames.map(game => parseFloat(game.franchise_score || 0)));
+
+  return {
+    record: `${totalWins}-${totalLosses}`,
+    winPct: (totalWins / totalGames).toFixed(3),
+    confRecord: `${confWins}-${confLosses}`,
+    confWinPct: confGames.length > 0 ? (confWins / confGames.length).toFixed(3) : 'N/A',
+    avgScore: avgScore.toFixed(2),
+    avgScoreAgainst: avgScoreAgainst.toFixed(2),
+    highestScore: highestScore.toFixed(2),
+    lowestScore: lowestScore.toFixed(2)
+  };
+}
+
+/**
  * Load custom font for the team
  */
 async function loadTeamFont(fontName) {
@@ -209,6 +296,128 @@ function renderFranchiseHeader(franchise) {
   `;
 }
 
+/**
+ * Render franchise statistics grid
+ */
+async function renderFranchiseStats(franchise) {
+  if (!franchise) return;
+
+  const statsContainer = document.getElementById('franchise-stats');
+  const teamFont = franchise.font || 'Bungee';
+
+  // Load schedule data and calculate stats
+  const schedule = await loadScheduleData();
+  const calculatedStats = calculateFranchiseStats(franchise, schedule, statsAggregationMode, selectedGameTypes);
+
+  if (!calculatedStats) {
+    statsContainer.innerHTML = '<p>No stats available</p>';
+    return;
+  }
+
+  const stats = [
+    { value: calculatedStats.record, label: 'All-time record' },
+    { value: calculatedStats.winPct, label: 'All-time win percent' },
+    { value: calculatedStats.confRecord, label: 'Conference record' },
+    { value: calculatedStats.confWinPct, label: 'Conference win percent' },
+    { value: calculatedStats.avgScore, label: 'Average score' },
+    { value: calculatedStats.avgScoreAgainst, label: 'Average score against' },
+    { value: calculatedStats.highestScore, label: 'Highest all-time score' },
+    { value: calculatedStats.lowestScore, label: 'Lowest all-time score' }
+  ];
+
+  statsContainer.innerHTML = stats.map(stat => `
+    <div class="stat-item">
+      <div class="stat-value" style="font-family: 'Bungee', sans-serif;">
+        ${stat.value}
+      </div>
+      <div class="stat-label">
+        ${stat.label}
+      </div>
+    </div>
+  `).join('');
+}
+
+// ========================================
+// EVENT HANDLERS
+// ========================================
+
+/**
+ * Initialize toggle button and checkbox event listeners
+ */
+function initializeToggleButtons() {
+  const franchiseToggle = document.getElementById('franchise-toggle');
+  const ownerToggle = document.getElementById('owner-toggle');
+
+  // Aggregation mode toggles
+  if (franchiseToggle && ownerToggle) {
+    franchiseToggle.addEventListener('click', async () => {
+      statsAggregationMode = 'franchise_id';
+      franchiseToggle.classList.add('active');
+      ownerToggle.classList.remove('active');
+
+      // Re-render stats with franchise aggregation
+      if (currentFranchise) {
+        await renderFranchiseStats(currentFranchise);
+      }
+    });
+
+    ownerToggle.addEventListener('click', async () => {
+      statsAggregationMode = 'owner_name';
+      ownerToggle.classList.add('active');
+      franchiseToggle.classList.remove('active');
+
+      // Re-render stats with owner aggregation
+      if (currentFranchise) {
+        await renderFranchiseStats(currentFranchise);
+      }
+    });
+  }
+
+  // Game type filter checkboxes
+  const regularCheckbox = document.getElementById('regular-season-checkbox');
+  const playoffsCheckbox = document.getElementById('playoffs-checkbox');
+  const consolationCheckbox = document.getElementById('consolation-checkbox');
+  const selectAllButton = document.getElementById('select-all-games');
+
+  const checkboxes = [regularCheckbox, playoffsCheckbox, consolationCheckbox].filter(cb => cb);
+
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', async () => {
+      // Handle comma-separated values (e.g., "-1,-2" for consolation)
+      const gameTypes = checkbox.value.split(',').map(v => parseInt(v.trim()));
+
+      if (checkbox.checked) {
+        gameTypes.forEach(gt => selectedGameTypes.add(gt));
+      } else {
+        gameTypes.forEach(gt => selectedGameTypes.delete(gt));
+      }
+
+      // Re-render stats with updated game type filter
+      if (currentFranchise) {
+        await renderFranchiseStats(currentFranchise);
+      }
+    });
+  });
+
+  // Select all button
+  if (selectAllButton) {
+    selectAllButton.addEventListener('click', async () => {
+      // Check all checkboxes and add all their game types
+      checkboxes.forEach(checkbox => {
+        checkbox.checked = true;
+        // Handle comma-separated values
+        const gameTypes = checkbox.value.split(',').map(v => parseInt(v.trim()));
+        gameTypes.forEach(gt => selectedGameTypes.add(gt));
+      });
+
+      // Re-render stats
+      if (currentFranchise) {
+        await renderFranchiseStats(currentFranchise);
+      }
+    });
+  }
+}
+
 // ========================================
 // INITIALIZATION
 // ========================================
@@ -228,13 +437,20 @@ async function initializeFranchisePage() {
   await loadFranchiseData();
   const franchise = findFranchise(teamAbbrev);
 
+  // Store current franchise for toggle functionality
+  currentFranchise = franchise;
+
   // Load custom font if available
   if (franchise?.font) {
     await loadTeamFont(franchise.font);
   }
 
-  // Render header
+  // Render header and stats
   renderFranchiseHeader(franchise);
+  await renderFranchiseStats(franchise);
+
+  // Initialize toggle buttons
+  initializeToggleButtons();
 }
 
 // Initialize when DOM is ready
