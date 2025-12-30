@@ -50,6 +50,7 @@ edgewater-fantasy-hq/
 - Individual team pages with dynamic content
 - Custom team fonts loaded from assets
 - Team logos and owner information
+- All-time statistics with dynamic filtering
 - League-specific theming
 
 ### Data-Driven Design
