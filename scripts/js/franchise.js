@@ -67,6 +67,36 @@ function getURLParameter(name) {
   return urlParams.get(name);
 }
 
+/**
+ * Calculate relative luminance of a color (WCAG formula)
+ */
+function getRelativeLuminance(hexColor) {
+  // Remove # if present
+  const hex = hexColor.replace('#', '');
+
+  // Parse RGB values
+  const r = parseInt(hex.substring(0, 2), 16) / 255;
+  const g = parseInt(hex.substring(2, 4), 16) / 255;
+  const b = parseInt(hex.substring(4, 6), 16) / 255;
+
+  // Apply gamma correction
+  const rLinear = r <= 0.03928 ? r / 12.92 : Math.pow((r + 0.055) / 1.055, 2.4);
+  const gLinear = g <= 0.03928 ? g / 12.92 : Math.pow((g + 0.055) / 1.055, 2.4);
+  const bLinear = b <= 0.03928 ? b / 12.92 : Math.pow((b + 0.055) / 1.055, 2.4);
+
+  // Calculate luminance
+  return 0.2126 * rLinear + 0.7152 * gLinear + 0.0722 * bLinear;
+}
+
+/**
+ * Determine whether to use white or dark text based on background color
+ */
+function getContrastTextColor(hexColor) {
+  const luminance = getRelativeLuminance(hexColor);
+  // Use white text for dark backgrounds, dark text for light backgrounds
+  return luminance > 0.5 ? '#22283A' : '#ffffff';
+}
+
 // ========================================
 // DATA LOADING
 // ========================================
@@ -325,12 +355,16 @@ async function renderFranchiseStats(franchise) {
     { value: calculatedStats.lowestScore, label: 'Lowest all-time score' }
   ];
 
+  const secondaryColor = franchise.secondary || '#ffffff'; // Default to white if no color
+  const textColor = getContrastTextColor(secondaryColor);
+  const labelOpacity = textColor === '#ffffff' ? '0.9' : '0.7';
+
   statsContainer.innerHTML = stats.map(stat => `
-    <div class="stat-item">
-      <div class="stat-value" style="font-family: 'Bungee', sans-serif;">
+    <div class="stat-item" style="background-color: ${secondaryColor};">
+      <div class="stat-value" style="font-family: 'Bungee', sans-serif; color: ${textColor};">
         ${stat.value}
       </div>
-      <div class="stat-label">
+      <div class="stat-label" style="color: ${textColor}; opacity: ${labelOpacity};">
         ${stat.label}
       </div>
     </div>
