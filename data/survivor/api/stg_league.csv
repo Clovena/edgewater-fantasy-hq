@@ -1,4 +1,4 @@
-season,league_id,league_name,league_type,franchise_count,qb_type,idp,scoring_flags,best_ball,salary_cap,player_copies,years_active,qb_count,roster_size,league_depth,prev_league_ids
-2023,983486075022778368,Survivor League,redraft,16,1QB,FALSE,1_ppr,TRUE,FALSE,1,2023-2023,1,27,432,NA
-2024,1124833778267590528,Survivor League,redraft,14,1QB,FALSE,0.5_ppr,TRUE,FALSE,1,2023-2024,1,26,364,983486075022778368
-2025,1243202553743691776,Sixth City Survivor,redraft,18,1QB,FALSE,0.5_ppr,TRUE,FALSE,1,2023-2025,1,28,504,"1124833778267590656, 983486075022778368"
+"season","league_id","league_name","league_type","franchise_count","qb_type","idp","scoring_flags","best_ball","salary_cap","player_copies","years_active","qb_count","roster_size","league_depth","prev_league_ids"
+"2023","983486075022778368","Survivor League","redraft","16","1QB","FALSE","1_ppr","TRUE","FALSE","1","2023-2023","1","27","432",NA
+"2024","1124833778267590528","Survivor League","redraft","14","1QB","FALSE","0.5_ppr","TRUE","FALSE","1","2023-2024","1","26","364","983486075022778368"
+"2025","1243202553743691776","Sixth City Survivor","redraft","18","1QB","FALSE","0.5_ppr","TRUE","FALSE","1","2023-2025","1","28","504","1124833778267590656, 983486075022778368"
