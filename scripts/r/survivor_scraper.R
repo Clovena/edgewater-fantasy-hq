@@ -5,6 +5,7 @@ tables <- list(
   "draft" = c("draft_id", "type", "season", "round", "pick"),
   "franchises" = c("franchise_id", "season"),
   "league" = c("league_id"),
+  "schedule" = c("week", "franchise_id", "season"),
   "starters" = c("franchise_id", "franchise_name", "week", "season"),
   "transactions" = c("timestamp"),
   # below tables are full, not incremental, load
