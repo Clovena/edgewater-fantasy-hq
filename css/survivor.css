@@ -284,3 +284,147 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* ========================================
+   ELIMINATION ARCHIVES PAGE COMPONENTS
+   ======================================== */
+
+/* Season Selector */
+.survivor-theme .season-selector-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xl);
+    justify-content: center;
+}
+
+.survivor-theme .season-selector-container label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--blue);
+    font-family: var(--font-survivor);
+}
+
+.survivor-theme .season-dropdown {
+    font-size: 1rem;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border: 2px solid var(--gold);
+    border-radius: 8px;
+    background-color: var(--white);
+    color: var(--blue);
+    font-family: var(--font-survivor);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.survivor-theme .season-dropdown:hover {
+    border-color: #d9a028;
+    box-shadow: 0 2px 8px rgba(242, 178, 46, 0.2);
+}
+
+.survivor-theme .season-dropdown:focus {
+    outline: none;
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(242, 178, 46, 0.1);
+}
+
+/* Standings Table Container */
+.survivor-theme .standings-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+/* Standings Table */
+.survivor-theme .standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.survivor-theme .standings-table thead {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.survivor-theme .standings-table th {
+    padding: var(--spacing-md);
+    text-align: left;
+    font-family: var(--font-survivor);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.survivor-theme .standings-table tbody tr {
+    border-bottom: 1px solid var(--neutral);
+    transition: background-color var(--transition-fast);
+}
+
+.survivor-theme .standings-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.survivor-theme .standings-table tbody tr:hover {
+    background-color: rgba(242, 178, 46, 0.05);
+}
+
+.survivor-theme .standings-table td {
+    padding: var(--spacing-md);
+    font-size: 1rem;
+}
+
+.survivor-theme .place-cell {
+    font-weight: 700;
+    text-align: center;
+    width: 80px;
+}
+
+.survivor-theme .owner-cell {
+    font-weight: 600;
+}
+
+.survivor-theme .weeks-cell {
+    text-align: center;
+    width: 120px;
+    font-weight: 600;
+}
+
+/* Top 3 Finisher Styling */
+.survivor-theme .place-first td {
+    color: var(--gold);
+    font-size: 1.3rem;
+}
+
+.survivor-theme .place-second td {
+    color: #a8a8a8; /* Dark silver */
+    font-size: 1.15rem;
+}
+
+.survivor-theme .place-third td {
+    color: #8b6914; /* Dark bronze */
+    font-size: 1.05rem;
+}
+
+/* Responsive - Mobile */
+@media (max-width: 767px) {
+    .survivor-theme .standings-table th,
+    .survivor-theme .standings-table td {
+        padding: var(--spacing-sm);
+        font-size: 0.9rem;
+    }
+
+    .survivor-theme .place-first td {
+        font-size: 1.1rem;
+    }
+
+    .survivor-theme .place-second td {
+        font-size: 1rem;
+    }
+
+    .survivor-theme .place-third td {
+        font-size: 0.95rem;
+    }
+}
