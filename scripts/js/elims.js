@@ -96,14 +96,14 @@ async function loadStandingsData() {
 }
 
 /**
- * Get standings for a specific season, sorted by weeks_alive descending
+ * Get standings for a specific season, sorted by weeks_survived descending
  */
 function getSeasonStandings(season) {
   if (!standingsData) return [];
 
   return standingsData
     .filter(row => parseInt(row.season) === parseInt(season))
-    .sort((a, b) => parseInt(b.weeks_alive) - parseInt(a.weeks_alive));
+    .sort((a, b) => parseInt(b.weeks_survived) - parseInt(a.weeks_survived));
 }
 
 // ========================================
@@ -165,7 +165,8 @@ function renderStandingsTable(season) {
         <tr class="${placeClass}">
           <td class="place-cell">${placeText}</td>
           <td class="owner-cell">${row.owner_name}</td>
-          <td class="weeks-cell">${row.weeks_alive}</td>
+          <td class="weeks-cell">${row.weeks_survived}</td>
+          <td class="weeks-cell">\$${row.faab_spent}</td>
         </tr>
       `;
     })
