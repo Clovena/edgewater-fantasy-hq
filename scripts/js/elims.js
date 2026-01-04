@@ -1,5 +1,5 @@
 /**
- * ELIMS.JS - Survivor Elimination Archives Handler
+ * ELIMS.JS - Survivor Results History Handler
  *
  * Displays season-by-season final standings with highlighted top 3 finishers
  */
@@ -194,7 +194,7 @@ function initializeSeasonSelector() {
 // ========================================
 
 /**
- * Initialize elimination archives page
+ * Initialize results history page
  */
 async function initializeElimsPage() {
   // Load data
