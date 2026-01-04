@@ -1,122 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sixth City Dynasty Record Book - Franchise standings and historical records">
-
-    <!-- Base URL for GitHub Pages deployment -->
-    <base href="/edgewater-fantasy-hq/">
+  <head>
+    <script src="/scripts/js/config.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sixth City Dynasty Record Book - Franchise standings and historical records" />
 
     <title>Record Book | Sixth City Dynasty</title>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Bungee&family=Knewave&family=Rubik+Dirt&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Bungee&family=Knewave&family=Rubik+Dirt&display=swap"
+      rel="stylesheet" />
+
     <!-- Material Symbols -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet" />
+
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/sixth-city.css">
-</head>
-<body class="sixth-city-theme">
-    
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/sixth-city.css" />
+  </head>
+  <body class="sixth-city-theme">
     <!-- Top bar with hamburger -->
     <div id="top-bar"></div>
-    
+
     <!-- Main content -->
     <main class="main-content">
-        <!-- Page Header -->
-        <header class="page-header">
-            <h1>Record Book</h1>
-            <p class="page-description">Complete franchise standings and historical records across all seasons of Sixth City Dynasty.</p>
-        </header>
-        
-        <section class="content-section">
-            <!-- Filters -->
-            <div class="data-filters">
-                <div class="filter-group">
-                    <label for="season-filter">Season(s):</label>
-                    <div class="multi-select-dropdown">
-                        <button type="button" class="dropdown-toggle" id="season-toggle">
-                            <span id="season-label">All Seasons</span>
-                            <span class="material-symbols-outlined">arrow_drop_down</span>
-                        </button>
-                        <div class="dropdown-menu" id="season-menu">
-                            <div class="dropdown-item">
-                                <label>
-                                    <input type="checkbox" value="all" id="select-all-seasons" checked>
-                                    <span>All Seasons</span>
-                                </label>
-                            </div>
-                            <div class="dropdown-divider"></div>
-                            <!-- Season checkboxes will be populated dynamically -->
-                            <div id="season-checkboxes"></div>
-                        </div>
-                    </div>
+      <!-- Page Header -->
+      <header class="page-header">
+        <h1>Record Book</h1>
+        <p class="page-description">
+          Complete franchise standings and historical records across all seasons
+          of Sixth City Dynasty.
+        </p>
+      </header>
+
+      <section class="content-section">
+        <!-- Filters -->
+        <div class="data-filters">
+          <div class="filter-group">
+            <label for="season-filter">Season(s):</label>
+            <div class="multi-select-dropdown">
+              <button type="button" class="dropdown-toggle" id="season-toggle">
+                <span id="season-label">All Seasons</span>
+                <span class="material-symbols-outlined">arrow_drop_down</span>
+              </button>
+              <div class="dropdown-menu" id="season-menu">
+                <div class="dropdown-item">
+                  <label>
+                    <input
+                      type="checkbox"
+                      value="all"
+                      id="select-all-seasons"
+                      checked />
+                    <span>All Seasons</span>
+                  </label>
                 </div>
+                <div class="dropdown-divider"></div>
+                <!-- Season checkboxes will be populated dynamically -->
+                <div id="season-checkboxes"></div>
+              </div>
             </div>
-            
-            <!-- Data Table -->
-            <div class="data-table-container">
-                <table class="data-table" id="standings-table">
-                    <thead>
-                        <tr>
-                            <th>Rank</th>
-                            <th data-sort="franchise_name" class="sortable">
-                                Franchise
-                                <span class="material-symbols-outlined sort-icon">unfold_more</span>
-                            </th>
-                            <th data-sort="h2h_wins" class="sortable">
-                                Wins
-                                <span class="material-symbols-outlined sort-icon">unfold_more</span>
-                            </th>
-                            <th data-sort="h2h_losses" class="sortable">
-                                Losses
-                                <span class="material-symbols-outlined sort-icon">unfold_more</span>
-                            </th>
-                            <th data-sort="h2h_winpct" class="sortable sorted">
-                                Win %
-                                <span class="material-symbols-outlined sort-icon">arrow_downward</span>
-                            </th>
-                            <th data-sort="points_for" class="sortable">
-                                Points For
-                                <span class="material-symbols-outlined sort-icon">unfold_more</span>
-                            </th>
-                            <th data-sort="max_points_for" class="sortable">
-                                Max Points For
-                                <span class="material-symbols-outlined sort-icon">unfold_more</span>
-                            </th>
-                            <th data-sort="accuracy" class="sortable">
-                                Roster Accuracy
-                                <span class="material-symbols-outlined sort-icon">unfold_more</span>
-                            </th>
-                            <th data-sort="points_against" class="sortable">
-                                Points Against
-                                <span class="material-symbols-outlined sort-icon">unfold_more</span>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody id="standings-body">
-                        <!-- Data will be populated dynamically -->
-                        <tr>
-                            <td colspan="8" class="loading-message">Loading standings data...</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+          </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="data-table-container">
+          <table class="data-table" id="standings-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th data-sort="franchise_name" class="sortable">
+                  Franchise
+                  <span class="material-symbols-outlined sort-icon"
+                    >unfold_more</span
+                  >
+                </th>
+                <th data-sort="h2h_wins" class="sortable">
+                  Wins
+                  <span class="material-symbols-outlined sort-icon"
+                    >unfold_more</span
+                  >
+                </th>
+                <th data-sort="h2h_losses" class="sortable">
+                  Losses
+                  <span class="material-symbols-outlined sort-icon"
+                    >unfold_more</span
+                  >
+                </th>
+                <th data-sort="h2h_winpct" class="sortable sorted">
+                  Win %
+                  <span class="material-symbols-outlined sort-icon"
+                    >arrow_downward</span
+                  >
+                </th>
+                <th data-sort="points_for" class="sortable">
+                  Points For
+                  <span class="material-symbols-outlined sort-icon"
+                    >unfold_more</span
+                  >
+                </th>
+                <th data-sort="max_points_for" class="sortable">
+                  Max Points For
+                  <span class="material-symbols-outlined sort-icon"
+                    >unfold_more</span
+                  >
+                </th>
+                <th data-sort="accuracy" class="sortable">
+                  Roster Accuracy
+                  <span class="material-symbols-outlined sort-icon"
+                    >unfold_more</span
+                  >
+                </th>
+                <th data-sort="points_against" class="sortable">
+                  Points Against
+                  <span class="material-symbols-outlined sort-icon"
+                    >unfold_more</span
+                  >
+                </th>
+              </tr>
+            </thead>
+            <tbody id="standings-body">
+              <!-- Data will be populated dynamically -->
+              <tr>
+                <td colspan="8" class="loading-message">
+                  Loading standings data...
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </main>
-    
+
     <!-- Bottom navigation -->
     <div id="bottom-nav"></div>
-    
+
     <!-- Scripts -->
-    <script src="/scripts/js/config.js"></script>
     <script src="/scripts/js/navigation.js"></script>
     <script src="/scripts/js/record-book.js"></script>
-</body>
+  </body>
 </html>
