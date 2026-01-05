@@ -314,6 +314,23 @@ function renderFranchiseHeader(franchise) {
   const teamFont = franchise.font || 'Bungee';
   const description = franchise.description || '';
 
+  // Check for former franchise iterations (different owner on same franchise_id)
+  const sameFranchiseId = franchiseData.filter(f => f.franchise_id === franchise.franchise_id);
+  const uniqueOwners = [...new Set(sameFranchiseId.map(f => f.owner_name))];
+
+  let formerFranchiseLink = '';
+  if (uniqueOwners.length > 1) {
+    // Find a franchise iteration with a different owner
+    const formerIteration = sameFranchiseId.find(f =>
+      f.owner_name !== franchise.owner_name &&
+      f.franchise_name !== franchise.franchise_name
+    );
+
+    if (formerIteration) {
+      formerFranchiseLink = `<p class="franchise-former-link">See also the <a href="/pages/sixth-city/franchise.html?team=${formerIteration.abbrev}">${formerIteration.franchise_name}</a>...</p>`;
+    }
+  }
+
   headerContainer.innerHTML = `
     <img src="${logoPath}"
          alt="${franchise.franchise_name}"
@@ -325,6 +342,34 @@ function renderFranchiseHeader(franchise) {
       Franchise owner: ${franchise.owner_name}
     </p>
     ${description ? `<p class="franchise-description">${description}</p>` : ''}
+    ${formerFranchiseLink}
+  `;
+}
+
+/**
+ * Render franchise summary statistics (non-interactive)
+ */
+function renderFranchiseSummaryStats(franchise) {
+  if (!franchise) return;
+
+  const summaryStatsContainer = document.getElementById('franchise-summary-stats');
+
+  // Calculate number of seasons for this owner
+  const ownerSeasons = franchiseData.filter(f => f.owner_name === franchise.owner_name);
+  const numberOfSeasons = ownerSeasons.length;
+
+  // Placeholder for best finish (will be populated from ref data later)
+  const bestFinish = '3rd';
+
+  summaryStatsContainer.innerHTML = `
+    <div class="stat-item">
+      <div class="stat-value">${numberOfSeasons}</div>
+      <div class="stat-label">Number of Seasons</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">${bestFinish}</div>
+      <div class="stat-label">Best Finish</div>
+    </div>
   `;
 }
 
@@ -481,12 +526,26 @@ async function initializeFranchisePage() {
     await loadTeamFont(franchise.font);
   }
 
-  // Render header and stats
+  // Check if toggle should be shown (only if multiple owners for this franchise_id)
+  const sameFranchiseId = franchiseData.filter(f => f.franchise_id === franchise.franchise_id);
+  const uniqueOwners = [...new Set(sameFranchiseId.map(f => f.owner_name))];
+  const showToggle = uniqueOwners.length > 1;
+
+  // Show/hide toggle container
+  const toggleContainer = document.querySelector('.stats-toggle-container');
+  if (toggleContainer) {
+    toggleContainer.style.display = showToggle ? 'flex' : 'none';
+  }
+
+  // Render header, summary stats, and detailed stats
   renderFranchiseHeader(franchise);
+  renderFranchiseSummaryStats(franchise);
   await renderFranchiseStats(franchise);
 
-  // Initialize toggle buttons
-  initializeToggleButtons();
+  // Initialize toggle buttons only if shown
+  if (showToggle) {
+    initializeToggleButtons();
+  }
 }
 
 // Initialize when DOM is ready

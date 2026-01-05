@@ -743,7 +743,7 @@
 
 .franchise-header {
   text-align: center;
-  padding: var(--spacing-xl) var(--spacing-md);
+  padding: var(--spacing-md);
 }
 
 .franchise-header img {
@@ -782,6 +782,29 @@
   padding: 0 var(--spacing-md);
 }
 
+.franchise-header .franchise-former-link {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--gray-dark);
+  max-width: 800px;
+  margin: var(--spacing-md) auto 0;
+  text-align: center;
+  padding: 0 var(--spacing-md);
+}
+
+.franchise-header .franchise-former-link a {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color var(--transition-speed);
+}
+
+.franchise-header .franchise-former-link a:hover {
+  color: var(--gold);
+  text-decoration: underline;
+}
+
 /* Responsive - Mobile */
 @media (max-width: 767px) {
   .franchise-header img {
@@ -800,6 +823,60 @@
   .franchise-header .franchise-description {
     font-size: 0.9rem;
     line-height: 1.5;
+  }
+}
+
+/* ========================================
+   FRANCHISE SUMMARY STATISTICS
+   ======================================== */
+
+.franchise-summary-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-md);
+  max-width: 1200px;
+  margin: var(--spacing-xl) auto;
+  padding: 0 var(--spacing-md);
+}
+
+.franchise-summary-stats .stat-item {
+  background-color: var(--white);
+  border: 2px solid var(--neutral);
+  border-radius: 12px;
+  padding: var(--spacing-lg);
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.franchise-summary-stats .stat-value {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--blue);
+  margin-bottom: var(--spacing-xs);
+}
+
+.franchise-summary-stats .stat-label {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: var(--gray-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+/* Responsive - Mobile */
+@media (max-width: 767px) {
+  .franchise-summary-stats {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .franchise-summary-stats .stat-value {
+    font-size: 2rem;
+  }
+
+  .franchise-summary-stats .stat-label {
+    font-size: 0.9rem;
   }
 }
 
