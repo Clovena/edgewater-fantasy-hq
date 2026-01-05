@@ -424,34 +424,37 @@ async function renderFranchiseStats(franchise) {
 
 /**
  * Initialize toggle button and checkbox event listeners
+ * @param {boolean} initializeToggle - Whether to initialize the aggregation mode toggle buttons
  */
-function initializeToggleButtons() {
-  const franchiseToggle = document.getElementById('franchise-toggle');
-  const ownerToggle = document.getElementById('owner-toggle');
+function initializeToggleButtons(initializeToggle = true) {
+  // Aggregation mode toggles (only if toggle should be shown)
+  if (initializeToggle) {
+    const franchiseToggle = document.getElementById('franchise-toggle');
+    const ownerToggle = document.getElementById('owner-toggle');
 
-  // Aggregation mode toggles
-  if (franchiseToggle && ownerToggle) {
-    franchiseToggle.addEventListener('click', async () => {
-      statsAggregationMode = 'franchise_id';
-      franchiseToggle.classList.add('active');
-      ownerToggle.classList.remove('active');
+    if (franchiseToggle && ownerToggle) {
+      franchiseToggle.addEventListener('click', async () => {
+        statsAggregationMode = 'franchise_id';
+        franchiseToggle.classList.add('active');
+        ownerToggle.classList.remove('active');
 
-      // Re-render stats with franchise aggregation
-      if (currentFranchise) {
-        await renderFranchiseStats(currentFranchise);
-      }
-    });
+        // Re-render stats with franchise aggregation
+        if (currentFranchise) {
+          await renderFranchiseStats(currentFranchise);
+        }
+      });
 
-    ownerToggle.addEventListener('click', async () => {
-      statsAggregationMode = 'owner_name';
-      ownerToggle.classList.add('active');
-      franchiseToggle.classList.remove('active');
+      ownerToggle.addEventListener('click', async () => {
+        statsAggregationMode = 'owner_name';
+        ownerToggle.classList.add('active');
+        franchiseToggle.classList.remove('active');
 
-      // Re-render stats with owner aggregation
-      if (currentFranchise) {
-        await renderFranchiseStats(currentFranchise);
-      }
-    });
+        // Re-render stats with owner aggregation
+        if (currentFranchise) {
+          await renderFranchiseStats(currentFranchise);
+        }
+      });
+    }
   }
 
   // Game type filter checkboxes
@@ -542,10 +545,8 @@ async function initializeFranchisePage() {
   renderFranchiseSummaryStats(franchise);
   await renderFranchiseStats(franchise);
 
-  // Initialize toggle buttons only if shown
-  if (showToggle) {
-    initializeToggleButtons();
-  }
+  // Initialize toggle buttons and filters
+  initializeToggleButtons(showToggle);
 }
 
 // Initialize when DOM is ready
