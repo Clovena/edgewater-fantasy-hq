@@ -8,17 +8,19 @@
     "secondary": "#ea332a",
     "tertiary": "#4f4471",
     "font": "razorback",
+    "description": "The Toronto Hogs have been a member of Sixth City since the inaugural season in 2021. The team name pays homage to Toronto's 19th-century meatpacking industry, capturing the gritty, blue-collar identity that defines this franchise. The Hogs embrace a ground-and-pound philosophy built around elite running back play, with Jonathan Taylor, Breece Hall, and Ashton Jeanty all taking snaps in Toronto during their careers. The front office operates with an analytical yet impulsive style that keeps things interesting on the trade block. Toronto's aggressive roster construction and commitment to elite playmakers have established them as a perennial threat, though not always a force, in the Senatorial Canadian Conference.",
     "history": [
       {
         "season": [2021, 2022],
         "franchise_name": "Toronto Hogs",
-        "abbrev": "TOR",
+        "abbrev": "TOH",
         "conference": "SCC",
         "owner_name": "Zac",
         "primary": "#7a709b",
-        "secondary": "#ea332a",
+        "secondary": "#4f4471",
         "tertiary": "#b4b0b0",
-        "font": "razorback"
+        "font": "razorback",
+        "description": "The Toronto Hogs have been a member of Sixth City since the inaugural season in 2021. The team name pays homage to Toronto's 19th-century meatpacking industry, capturing the gritty, blue-collar identity that defines this franchise. The Hogs embrace a ground-and-pound philosophy built around elite running back play, with Jonathan Taylor, Breece Hall, and Ashton Jeanty all taking snaps in Toronto during their careers. The front office operates with an analytical yet impulsive style that keeps things interesting on the trade block. Toronto's aggressive roster construction and commitment to elite playmakers have established them as a perennial threat, though not always a force, in the Senatorial Canadian Conference."
       }
     ]
   },
@@ -30,7 +32,8 @@
     "primary": "#b580ff",
     "secondary": "#ff808b",
     "tertiary": "#caff80",
-    "font": "spongeboy"
+    "font": "spongeboy",
+    "description": "The Bikini Bottom Stars have been a member of Sixth City since the inaugural season in 2021. The franchise is inspired by the fictional underwater world of Spongebob Squarepants, with the \"Stars\" nickname honoring Patrick Star himself. Bikini Bottom has established itself as the league's most aggressive buyer, consistently trading draft capital for established talent and building perennial strength at wide receiver. The front office operates with a level-headed approach that capitalizes on opportunity, going all-in when championship windows open. This calculated aggression has made the Stars the most decorated franchise in Sixth City history, setting the standard for sustained excellence in the House of Commons Conference."
   },
   "3": {
     "franchise_name": "Newfoundland Blowers",
@@ -40,7 +43,8 @@
     "primary": "#ab3032",
     "secondary": "#192f5d",
     "tertiary": "#ae9273",
-    "font": "spacelord"
+    "font": "spacelord",
+    "description": "The Newfoundland Blowers have been a member of Sixth City since the inaugural season in 2021. The franchise draws its identity from the province's notoriously harsh Atlantic winds that batter the eastern coast, while the caribou logo honors Newfoundland and Labrador's iconic woodland caribou. The Blowers operate with a frenetic energy on the trade block, constantly wheeling and dealing in pursuit of the next big thing. While the front office demonstrates a keen eye for talent, their approach lacks long-term vision, occasionally resulting in moves that hinder rather than help. Newfoundland embraces an all-action philosophy, injecting themselves into every opportunity regardless of competitive timeline. This spirited, somewhat chaotic identity has made the Blowers one of the most entertaining franchises to follow in the House of Commons Conference."
   },
   "4": {
     "franchise_name": "Thunder Bay Mustangs",
@@ -51,17 +55,19 @@
     "secondary": "#81c78d",
     "tertiary": "#ffffff",
     "font": "horizon",
+    "description": "The Thunder Bay Mustangs have been a member of Sixth City since the inaugural season in 2021, originally established as the Thunder Bay Sunshine before rebranding ahead of the 2022 campaign. The franchise maintains a luminous identity through its iconography, embodying a sense of brightness and clarity. Thunder Bay takes an analytical and calculated approach to roster construction, making quiet moves in the off-season that work toward a clear long-term vision. The Mustangs rarely make win-now pushes, instead preferring to preserve core talent and roster flexibility for sustained competitiveness. This patient, methodical philosophy has positioned Thunder Bay as a consistently dangerous opponent in the Senatorial Canadian Conference, capable of striking when conditions align perfectly.",
     "history": [
       {
         "season": [2021],
         "franchise_name": "Thunder Bay Sunshine",
-        "abbrev": "TBY",
+        "abbrev": "TBS",
         "conference": "SCC",
         "owner_name": "Steven",
         "primary": "#f56600",
         "secondary": "#522d80",
         "tertiary": "#333333",
-        "font": ""
+        "font": "clemson",
+        "description": "The Thunder Bay Sunshine have been a member of Sixth City since the inaugural season in 2021, drawing inspiration from the dominant Clemson Tigers teams of 2018-2020. This connection culminates in the franchise's selection of Trevor Lawrence in the startup draft, which anchored the team's identity around the generational QB prospect. Thunder Bay, now operating as the Mustangs, takes an analytical and calculated approach to roster construction, making quiet moves in the off-season that work toward a clear long-term vision. They rarely make win-now pushes, instead preferring to preserve core talent and roster flexibility for sustained competitiveness. This patient, methodical philosophy has positioned Thunder Bay as a consistently dangerous opponent in the Senatorial Canadian Conference, capable of striking when conditions align perfectly."
       }
     ]
   },
@@ -74,17 +80,19 @@
     "secondary": "#f3d971",
     "tertiary": "#1a018e",
     "font": "",
+    "description": "The Winnipeg Wranglers have been a member of Sixth City since the inaugural season in 2021, originally established as the Winnipeg Wankers before rebranding ahead of the 2022 campaign. The franchise draws from the grit and resilience of prairie culture, where survival demands toughness and self-reliance in the face of harsh, unforgiving conditions. Winnipeg operates with a stars-and-scrubs philosophy, building around elite playmakers like Ja'Marr Chase, Justin Jefferson, and Jahmyr Gibbs while filling out the roster with depth pieces. The front office sends out plenty of trade offers but rarely finds a way to close deals. This, combined with a love-hate relationship with the game itself, has created a franchise defined by flashes of brilliance tempered by missed opportunities in the House of Commons Conference.",
     "history": [
       {
         "season": [2021],
         "franchise_name": "Winnipeg Wankers",
-        "abbrev": "WPG",
+        "abbrev": "WNK",
         "conference": "HCC",
         "owner_name": "Ryan",
-        "primary": "#ba0c2f",
-        "secondary": "#041e42",
+        "primary": "#041e42",
+        "secondary": "#ba0c2f",
         "tertiary": "#d9c89d",
-        "font": ""
+        "font": "",
+        "description": "The Winnipeg Wankers have been a member of Sixth City since the inaugural season in 2021. The franchise rebranded to the Wranglers ahead of the 2022 season. Winnipeg operates with a stars-and-scrubs philosophy, building around elite playmakers like Ja'Marr Chase, Justin Jefferson, and Jahmyr Gibbs while filling out the roster with depth pieces. The front office sends out plenty of trade offers but rarely finds a way to close deals. This, combined with a love-hate relationship with the game itself, has created a franchise defined by flashes of brilliance tempered by missed opportunities in the House of Commons Conference."
       }
     ]
   },
@@ -96,7 +104,8 @@
     "primary": "#49351a",
     "secondary": "#d5913a",
     "tertiary": "#a58b8b",
-    "font": "emblema"
+    "font": "emblema",
+    "description": ""
   },
   "7": {
     "franchise_name": "Prince Edward Islanders",
@@ -107,6 +116,7 @@
     "secondary": "#ff6d01",
     "tertiary": "#002288",
     "font": "",
+    "description": "",
     "history": [
       {
         "season": [2021, 2022, 2023, 2024],
@@ -117,7 +127,8 @@
         "primary": "#9b111e",
         "secondary": "#ffa502",
         "tertiary": "#000000",
-        "font": "pokemon"
+        "font": "pokemon",
+        "description": ""
       }
     ]
   },
@@ -129,7 +140,8 @@
     "primary": "#62b0e5",
     "secondary": "#c91b48",
     "tertiary": "#002b64",
-    "font": "fishhook"
+    "font": "fishhook",
+    "description": ""
   },
   "9": {
     "franchise_name": "New New York Benders",
@@ -140,6 +152,7 @@
     "secondary": "#fffbc7",
     "tertiary": "#000d18",
     "font": "futurama",
+    "description": "",
     "history": [
       {
         "season": [2021, 2022, 2023],
@@ -150,7 +163,8 @@
         "primary": "#25b273",
         "secondary": "#000000",
         "tertiary": "#ffffff",
-        "font": "virtu"
+        "font": "virtu",
+        "description": ""
       }
     ]
   },
@@ -163,6 +177,7 @@
     "secondary": "#de432f",
     "tertiary": "#201719",
     "font": "mansalva",
+    "description": "",
     "history": [
       {
         "season": [2021, 2022, 2023],
@@ -173,7 +188,8 @@
         "primary": "#fb6605",
         "secondary": "#f2cd37",
         "tertiary": "#000000",
-        "font": ""
+        "font": "",
+        "description": ""
       }
     ]
   },
@@ -186,6 +202,7 @@
     "secondary": "#ec9bbc",
     "tertiary": "#5e905a",
     "font": "",
+    "description": "",
     "history": [
       {
         "season": [2021, 2022],
@@ -196,7 +213,8 @@
         "primary": "#195ba0",
         "secondary": "#f22a3f",
         "tertiary": "#6f655c",
-        "font": "army"
+        "font": "army",
+        "description": ""
       }
     ]
   },
@@ -208,7 +226,8 @@
     "primary": "#39bbf0",
     "secondary": "#9f5134",
     "tertiary": "#d7e7ed",
-    "font": "ice_age"
+    "font": "ice_age",
+    "description": ""
   },
   "13": {
     "franchise_name": "Vancouver Mounties",
@@ -218,7 +237,8 @@
     "primary": "#012652",
     "secondary": "#a80012",
     "tertiary": "#c8cac7",
-    "font": "wonderment"
+    "font": "wonderment",
+    "description": ""
   },
   "14": {
     "franchise_name": "Gold Coast Sharks",
@@ -229,6 +249,7 @@
     "secondary": "#006d75",
     "tertiary": "#e7cd78",
     "font": "cursive",
+    "description": "",
     "history": [
       {
         "season": [2021],
@@ -239,7 +260,8 @@
         "primary": "#3a4283",
         "secondary": "#814a35",
         "tertiary": "#e5e2e0",
-        "font": ""
+        "font": "",
+        "description": ""
       }
     ]
   }

@@ -312,6 +312,7 @@ function renderFranchiseHeader(franchise) {
   const headerContainer = document.getElementById('franchise-header');
   const logoPath = `/assets/logos/${franchise.abbrev}.png`;
   const teamFont = franchise.font || 'Bungee';
+  const description = franchise.description || '';
 
   headerContainer.innerHTML = `
     <img src="${logoPath}"
@@ -320,9 +321,10 @@ function renderFranchiseHeader(franchise) {
     <h1 style="font-family: '${teamFont}', 'Bungee', sans-serif;">
       ${franchise.franchise_name}
     </h1>
-    <p>
+    <p class="franchise-owner">
       Franchise owner: ${franchise.owner_name}
     </p>
+    ${description ? `<p class="franchise-description">${description}</p>` : ''}
   `;
 }
 
