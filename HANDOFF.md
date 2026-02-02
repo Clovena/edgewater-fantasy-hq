@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Edgewater Fantasy HQ** is a multi-league fantasy football management system supporting three leagues:
+**Edgewater Fantasy Network** is a multi-league fantasy football management system supporting three leagues:
 - **Epsilon Fantasy** - Standard league
 - **Sixth City Dynasty** - Dynasty league (primary development focus)
 - **Survivor** - Survivor-style league

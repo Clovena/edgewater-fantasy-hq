@@ -102,7 +102,7 @@ function updateTopBarTitle(context) {
   if (!titleElement) return;
 
   const titles = {
-    home: 'Fantasy HQ',
+    home: 'Edgewater Fantasy',
     epsilon: 'Epsilon Fantasy',
     'sixth-city': 'Sixth City Dynasty',
     survivor: 'Survivor',
@@ -110,7 +110,7 @@ function updateTopBarTitle(context) {
     global: 'Manager Directory',
   };
 
-  titleElement.textContent = titles[context] || 'Fantasy HQ';
+  titleElement.textContent = titles[context] || 'Edgewater Fantasy';
 }
 
 /**

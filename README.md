@@ -1,10 +1,10 @@
-# Edgewater Fantasy HQ
+# Edgewater Fantasy Network
 
 A comprehensive fantasy football league management website featuring power rankings, franchise details, and weekly content for multiple leagues.
 
 ## Overview
 
-Edgewater Fantasy HQ serves as the central hub for three fantasy football leagues:
+Edgewater Fantasy Network serves as the central hub for three fantasy football leagues:
 - **Epsilon Fantasy** - Redraft league
 - **Sixth City Dynasty** - Dynasty league
 - **Survivor** - Survivor best-ball league
