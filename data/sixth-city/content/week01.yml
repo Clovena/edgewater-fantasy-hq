@@ -12,14 +12,30 @@ ranks:
   - "#4. TOR Hogs"
   - "#5. PEI Islanders"
   - "#6. WPG Wranglers"
-  - "#7. MIS Mastodons"
-  - "#8. LOW Lasercats"
+  - "#7. LOW Lasercats"
+  - "#8. MIS Mastodons"
   - "#9. NFD Blowers"
-  - "#10. GLD Sharks"
-  - "#11. IQT Trout"
-  - "#12. CHC Railfans"
+  - "#10. IQT Trout"
+  - "#11. CHC Railfans"
+  - "#12. GLD Sharks"
   - "#13. VAN Mounties"
   - "#14. NNY Benders"
+
+subheaders:
+  - "Defending champions for a second time" # BKB
+  - "Reeling from another postseason disappointment" # TBY
+  - "Looking to continue their incremental improvements" # SAR
+  - "Hoping to rebound for one more win-now year" # TOR
+  - "Reigning HCC regular-season champions" # PEI
+  - "Too much talent for another lackluster season" # WPG
+  - "Bound for another whirlwind season on the trade block" # LOW
+  - "Will look to rekindle some magic from 2024" # MIS
+  - "Cinderella story last year, but uncertain future ahead" # NFD
+  - "May return to the top of the league once healthy again" # IQT
+  - "The rebuild continues with a clear vision" # CHC
+  - "Needs to commit fully in one direction or the other" # GLD
+  - "Ownership bought themselves another year... for now" # VAN
+  - "Making themselves comfortable at the bottom of the barrel" # NNY
   
 blurbs:
   - "The two-time defending champions return with a loaded roster. Can anyone stop them from a three-peat?"
@@ -28,11 +44,11 @@ blurbs:
   - "The Hogs need to bounce back after missing the playoffs. The talent is there."
   - "Prince Edward has been knocking on the door for years. Is this finally their time?"
   - "Too much star power to keep underperforming. Winnipeg needs to figure it out."
-  - "The Mastodons have potential but need more activity from ownership to compete."
   - "Lower City has been dominant since joining the league. They're a perennial contender."
+  - "The Mastodons have potential but need more activity from ownership to compete."
   - "Key decisions loom about aging veterans. How aggressive will Newfoundland be?"
-  - "A full rebuild is needed. Gold Coast should embrace the tank and build for the future."
   - "After an injury-plagued season, the Trout hope to return to their winning ways."
   - "Young talent abounds, but patience is required. The Railfans are building something."
+  - "A full rebuild is needed. Gold Coast should embrace the tank and build for the future."
   - "Ownership questions continue to plague Vancouver. When will things turn around?"
   - "Trading away the 1.01 pick again has fans questioning the direction. Long road ahead."

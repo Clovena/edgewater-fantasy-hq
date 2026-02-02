@@ -282,7 +282,7 @@ function getLastWeekResult(teamName, league, season, week) {
 
   const teamMatch = findTeamMetadata(teamName, league);
   if (!schedule || !teamMatch) {
-    return 'N/A';
+    return '';
   }
 
   const franchiseId = teamMatch.metadata.franchise_id;
@@ -295,7 +295,7 @@ function getLastWeekResult(teamName, league, season, week) {
   });
 
   if (!game) {
-    return 'N/A';
+    return '';
   }
 
   // Get opponent abbreviation from metadata
@@ -331,7 +331,7 @@ function getLastWeekResult(teamName, league, season, week) {
 }
 
 // Create a ranking section element
-function createRankingSection(teamName, blurb, league, season, week) {
+function createRankingSection(teamName, blurb, league, season, week, customSubheader) {
   const section = document.createElement('section');
   section.className = 'ranking-section';
 
@@ -367,14 +367,16 @@ function createRankingSection(teamName, blurb, league, season, week) {
   const subheader = document.createElement('div');
   subheader.className = 'team-stats';
 
-  // Calculate record, movement, and last week's result
-  const record = calculateRecord(teamName, league, season, week);
-  const movement = calculateMovement(teamName, league);
-  const lastWeekResult = getLastWeekResult(teamName, league, season, week);
-
-  // Build subheader text with dynamic components
-  const movementText = movement ? ` | ${movement}` : '';
-  subheader.textContent = `${record}${movementText} ${lastWeekResult}`;
+  // Use custom subheader if provided, otherwise calculate dynamically
+  if (customSubheader) {
+    subheader.textContent = customSubheader;
+  } else {
+    const record = calculateRecord(teamName, league, season, week);
+    const movement = calculateMovement(teamName, league);
+    const lastWeekResult = getLastWeekResult(teamName, league, season, week);
+    const movementText = movement ? ` | ${movement}` : '';
+    subheader.textContent = `${record}${movementText} ${lastWeekResult}`;
+  }
 
   const paragraph = document.createElement('p');
   paragraph.textContent = blurb;
@@ -466,7 +468,8 @@ function renderCurrentLeague() {
         data.blurbs[currentIndex],
         currentLeague,
         data.intro?.season || new Date().getFullYear(),
-        data.intro?.week || currentWeek
+        data.intro?.week || currentWeek,
+        data.subheaders?.[currentIndex]
       );
       mainContent.appendChild(section);
       currentIndex++;
