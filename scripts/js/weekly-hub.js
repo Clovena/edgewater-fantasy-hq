@@ -428,9 +428,15 @@ function renderCurrentLeague() {
     const printPage = document.createElement('div');
     printPage.className = 'print-page';
 
-    // Create page inner container
-    const pageInner = document.createElement('div');
-    pageInner.className = 'page-inner';
+    // Create nested border containers (outer red, middle gold, inner blue)
+    const borderOuter = document.createElement('div');
+    borderOuter.className = 'border-outer';
+
+    const borderMiddle = document.createElement('div');
+    borderMiddle.className = 'border-middle';
+
+    const borderInner = document.createElement('div');
+    borderInner.className = 'border-inner';
 
     // First page: Add header with intro
     if (pageNum === 0 && data.intro) {
@@ -451,7 +457,7 @@ function renderCurrentLeague() {
       header.appendChild(title);
       header.appendChild(subtitle);
       header.appendChild(intro);
-      pageInner.appendChild(header);
+      borderInner.appendChild(header);
     }
 
     // Main content area
@@ -475,8 +481,10 @@ function renderCurrentLeague() {
       currentIndex++;
     }
 
-    pageInner.appendChild(mainContent);
-    printPage.appendChild(pageInner);
+    borderInner.appendChild(mainContent);
+    borderMiddle.appendChild(borderInner);
+    borderOuter.appendChild(borderMiddle);
+    printPage.appendChild(borderOuter);
     container.appendChild(printPage);
   }
 }
