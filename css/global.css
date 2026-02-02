@@ -1,6 +1,17 @@
+/* ====================================================
+   GLOBAL.CSS - Foundation styles for Edgewater Fantasy
+   ==================================================== */
+
 /* ========================================
-   GLOBAL.CSS - Foundation styles for Fantasy HQ
+   CUSTOM FONTS
    ======================================== */
+@font-face {
+  font-family: 'Retrofunk';
+  src: url('/assets/fonts/retrofunk.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* ========================================
    CSS VARIABLES
@@ -21,6 +32,7 @@
 
   /* Typography */
   --font-body: 'Lato', sans-serif;
+  --font-global: 'Retrofunk', 'Bungee', sans-serif;
   --font-epsilon: 'Knewave', cursive;
   --font-sixth-city: 'Bungee', display;
   --font-survivor: 'Rubik Dirt', display;
@@ -125,6 +137,12 @@ a {
 
 .page-header h1 {
   margin-bottom: var(--spacing-xs);
+}
+
+/* Global page headers use Retrofunk font */
+.home-theme .page-header h1,
+.weekly-hub-theme .page-header h1 {
+  font-family: var(--font-global);
 }
 
 .page-description {
