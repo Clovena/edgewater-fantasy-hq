@@ -1,25 +1,25 @@
 intro:
-  season: 2025
-  week: 12
+  season: 2026
+  week: 1
   title: "Sixth City Power Rankings"
-  subtitle: "Week 12 | 2025 Season"
-  description: "Welcome to another season of Sixth City Dynasty. After an exciting offseason of trades and rookie drafts, we're ready to see which franchises can compete for the championship."
+  subtitle: "2026 Offseason Opening"
+  description: "The sixth season of Sixth City Dynasty is officially open. It's a long offseason ahead, sure to be full of trade rumors, pre-draft drama, and plenty of anticipation for the season ahead."
   
 ranks:
-  - "Thunder Bay Mustangs"
-  - "Bikini Bottom Stars"
-  - "Sarnia SeaSnakes"
-  - "Prince Edward Islanders"
-  - "Winnipeg Wranglers"
-  - "Lower City Lasercats"
-  - "Newfoundland Blowers"
-  - "Toronto Hogs"
-  - "Mississauga Mastodons"
-  - "Iqaluit Trout"
-  - "Gold Coast Sharks"
-  - "Vancouver Mounties"
-  - "Choccolocco Railfans"
-  - "New New York Benders"
+  - "#1. BKB Stars"
+  - "#2. TBY Mustangs"
+  - "#3. SAR SeaSnakes"
+  - "#4. TOR Hogs"
+  - "#5. PEI Islanders"
+  - "#6. WPG Wranglers"
+  - "#7. MIS Mastodons"
+  - "#8. LOW Lasercats"
+  - "#9. NFD Blowers"
+  - "#10. GLD Sharks"
+  - "#11. IQT Trout"
+  - "#12. CHC Railfans"
+  - "#13. VAN Mounties"
+  - "#14. NNY Benders"
   
 blurbs:
   - "The two-time defending champions return with a loaded roster. Can anyone stop them from a three-peat?"

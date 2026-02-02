@@ -13,6 +13,21 @@ let teamMetadata = {};
 let scheduleData = {}; // Store schedule data per league
 let previousWeekData = {}; // Store previous week's rankings per league
 
+// Helper function to find team metadata by nickname match (last word of team name)
+// Returns { fullName: string, metadata: object } or null if not found
+function findTeamMetadata(teamName, league) {
+  if (!teamMetadata[league]) return null;
+
+  const nickname = teamName.split(' ').pop();
+  for (const [fullName, metadata] of Object.entries(teamMetadata[league])) {
+    if (fullName.endsWith(nickname)) {
+      return { fullName, metadata };
+    }
+  }
+
+  return null;
+}
+
 // ========================================
 // STATE MANAGEMENT
 // ========================================
@@ -191,11 +206,12 @@ function calculateRecord(teamName, league, season, week) {
   const leagueKey = currentLeague === 'sixth-city' ? 'sixth-city' : currentLeague;
   const schedule = scheduleData[leagueKey];
 
-  if (!schedule || !teamMetadata[league] || !teamMetadata[league][teamName]) {
+  const teamMatch = findTeamMetadata(teamName, league);
+  if (!schedule || !teamMatch) {
     return '0-0';
   }
 
-  const franchiseId = teamMetadata[league][teamName].franchise_id;
+  const franchiseId = teamMatch.metadata.franchise_id;
 
   // Filter schedule for this team, season, and up to current week
   const teamGames = schedule.filter(game => {
@@ -227,14 +243,20 @@ function calculateMovement(teamName, league) {
     return '';
   }
 
+  // Helper to find rank by nickname matching
+  const findRankByNickname = (ranks, name) => {
+    const nickname = name.split(' ').pop();
+    return ranks.findIndex(rankName => rankName.endsWith(nickname));
+  };
+
   // Find current rank (index in ranks array)
-  const currentRank = currentData.ranks.indexOf(teamName);
+  const currentRank = findRankByNickname(currentData.ranks, teamName);
   if (currentRank === -1) {
     return '';
   }
 
-  // Find previous rank
-  const previousRank = previousData.ranks.indexOf(teamName);
+  // Find previous rank using the current team name's nickname
+  const previousRank = findRankByNickname(previousData.ranks, teamName);
   if (previousRank === -1) {
     return '';
   }
@@ -258,11 +280,12 @@ function getLastWeekResult(teamName, league, season, week) {
   const leagueKey = currentLeague === 'sixth-city' ? 'sixth-city' : currentLeague;
   const schedule = scheduleData[leagueKey];
 
-  if (!schedule || !teamMetadata[league] || !teamMetadata[league][teamName]) {
+  const teamMatch = findTeamMetadata(teamName, league);
+  if (!schedule || !teamMatch) {
     return 'N/A';
   }
 
-  const franchiseId = teamMetadata[league][teamName].franchise_id;
+  const franchiseId = teamMatch.metadata.franchise_id;
 
   // Find the game for this team, season, and exact week
   const game = schedule.find(g => {
@@ -313,17 +336,32 @@ function createRankingSection(teamName, blurb, league, season, week) {
   section.className = 'ranking-section';
 
   const header = document.createElement('h2');
-  header.textContent = teamName;
 
-  // Apply team-specific styling if available
-  if (teamMetadata[league] && teamMetadata[league][teamName]) {
-    const team = teamMetadata[league][teamName];
+  // Apply team-specific styling and logo if available
+  const teamMatch = findTeamMetadata(teamName, league);
+  if (teamMatch) {
+    const team = teamMatch.metadata;
 
     // Apply background color
     if (team.primary) {
       header.style.backgroundColor = team.primary;
     }
+
+    // Add team logo
+    if (team.abbrev) {
+      const logo = document.createElement('img');
+      logo.src = `/assets/logos/${team.abbrev}.png`;
+      logo.alt = teamName;
+      logo.className = 'team-logo';
+      logo.onerror = function() { this.style.display = 'none'; };
+      header.appendChild(logo);
+    }
   }
+
+  // Add team name text
+  const nameSpan = document.createElement('span');
+  nameSpan.textContent = teamName;
+  header.appendChild(nameSpan);
 
   // Create subheader with team stats
   const subheader = document.createElement('div');
