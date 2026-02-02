@@ -9,7 +9,36 @@ for (season in names(playoff_json)) {
 playoff_seeds_df <- dplyr::bind_rows(playoff_seeds) %>%
   mutate(season = as.numeric(season))
 
-stg_schedule <- read.csv("data/sixth-city/api/stg_schedule.csv")
+stg_schedule_raw <- read.csv("data/sixth-city/api/stg_schedule.csv")
+
+###
+# Overwrite Manual Matchups
+###
+
+stg_schedule <- stg_schedule_raw %>%
+  mutate(
+    franchise_score = case_when(
+      season == 2022 & week == 17 & franchise_id == 5 ~ 198,
+      season == 2022 & week == 17 & franchise_id == 14 ~ 179,
+      TRUE ~ franchise_score
+    ),
+    opponent_score = case_when(
+      season == 2022 & week == 17 & franchise_id == 5 ~ 179,
+      season == 2022 & week == 17 & franchise_id == 14 ~ 198,
+      TRUE ~ opponent_score
+    ),
+    result = case_when(
+      season == 2022 & week == 17 & franchise_id == 5 ~ "W",
+      season == 2022 & week == 17 & franchise_id == 14 ~ "L",
+      TRUE ~ result
+    )
+  )
+
+
+###
+# Parse Segments
+###
+
 stg_regular_season <- stg_schedule %>%
   filter(week <= 14)
 stg_postseason_rd1 <- stg_schedule %>%
