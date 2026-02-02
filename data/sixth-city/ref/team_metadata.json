@@ -177,7 +177,7 @@
     "secondary": "#de432f",
     "tertiary": "#201719",
     "font": "mansalva",
-    "description": "The Lower City Lasercats have been a member of Sixth City since 2024, adopting the former Calgary Cocks franchise under new ownership. The franchise operates with unconventional roster building strategies and head-turning trades that keep the rest of the league guessing. Lower City doesn't take anything overly seriously, approaching the game with a refreshing lightheartedness that makes them easy to work with and entertaining to watch. Always up for a good time on the gridiron and in conference with other ownership, the Lasercats have quickly established themselves as one of the league's most entertaining franchises. This fun-first philosophy, combined with creative roster construction, has made Lower City a breath of fresh air in the HCC",
+    "description": "The Lower City Lasercats have been a member of Sixth City since 2024, adopting the former Calgary Cocks franchise under new ownership. The franchise operates with unconventional roster building strategies and head-turning trades that keep the rest of the league guessing. Lower City doesn't take anything overly seriously, approaching the game with a refreshing lightheartedness that makes them easy to work with and entertaining to watch. Always up for a good time on the gridiron and in conference with other ownership, the Lasercats have quickly established themselves as one of the league's most entertaining franchises. This fun-first philosophy, combined with creative roster construction, has made Lower City a breath of fresh air in the HCC.",
     "history": [
       {
         "season": [2021, 2022, 2023],
@@ -238,7 +238,7 @@
     "secondary": "#a80012",
     "tertiary": "#c8cac7",
     "font": "wonderment",
-    "description": ""
+    "description": "The Vancouver Mounties have been a member of Sixth City since the inaugural season in 2021. Drawing from the legacy of the Royal Canadian Mounted Police, the franchise operates with a combative, almost militant style. The front office becomes outspoken and visible when the team performs well, but falls completely silent during down periods. Vancouver is generally difficult to reach for trade discussions, preferring to operate on their own terms and timeline. This uncompromising approach makes them one of the most unpredictable presences in the SCC."
   },
   "14": {
     "franchise_name": "Gold Coast Sharks",
@@ -249,7 +249,7 @@
     "secondary": "#006d75",
     "tertiary": "#e7cd78",
     "font": "cursive",
-    "description": "",
+    "description": "The Gold Coast Sharks have been a member of Sixth City since the inaugural season in 2021. Based along Queensland's sun-soaked coast, the franchise operates with an extremely reserved and sometimes self-deprecating approach. The front office loves the game deeply and operates as an accessible presence rather than as some untouchable entity. This hands-on, humble style has made Gold Coast one of the league's most approachable franchises.",
     "history": [
       {
         "season": [2021],
@@ -261,7 +261,7 @@
         "secondary": "#814a35",
         "tertiary": "#e5e2e0",
         "font": "",
-        "description": ""
+        "description": "The Unsolicited Dak Pics have been a member of Sixth City since the inaugural season in 2021. The franchise rebranded to the Gold Coast Sharks ahead of the 2022 campaign. They operate with an extremely reserved and sometimes self-deprecating approach. The front office loves the game deeply and operates as an accessible presence rather than as some untouchable entity. This hands-on, humble style has made them one of the league's most approachable franchises."
       }
     ]
   }
